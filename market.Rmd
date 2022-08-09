@@ -1,0 +1,135 @@
+---
+title: "Job Market Hub"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(lubridate)
+library(googlesheets4)
+library(kableExtra)
+library(fontawesome)
+
+## package global options
+# skip googlesheets login
+gs4_deauth()
+
+## Set date threshold to display jobs
+t = "2022-09-05"
+```
+
+## Welcome!
+
+This page is for internal use only. If you are not a letter writer, I encourage you to use the navigation tab on top to learn more about me and my work.
+
+## Upcoming Deadlines
+
+```{r, message = FALSE}
+jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282")
+
+# some manipulation to show only what is useful
+jobs = jobs %>% 
+# don't show if already applied
+  filter(is.na(applied)) %>% 
+# filter deadlines within treshold
+filter(as_date(deadline) <= as_date(t)) %>% 
+  mutate(
+  # url = paste0('<a href="', url,'"target="_blank"></a>'),
+  deadline = format(deadline, "%B %d, %Y")
+)
+```
+
+**Last update:** `r format(Sys.Date(), "%B %d, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
+
+**Number of letters to write:**
+
+```{r}
+jobs %>% 
+  summarize(across(Avital:Michelle, ~ sum(.x, na.rm = TRUE))) %>% 
+  select_if(~sum(.) > 0) %>% 
+  kbl() %>% 
+  kable_paper(full_width = FALSE, position = "left")
+```
+
+&nbsp;
+
+```{r, results = "asis"}
+refs = jobs %>% select(Avital:Michelle)
+
+# try a loop now
+for(i in 1:nrow(jobs)){
+  cat("[**",
+      jobs$position[i], " - ",
+      jobs$department[i], " - ",
+      jobs$place[i],
+      paste0('**](', jobs$url[i],')'),
+      "<br/>",
+      sep = "")
+  
+  cat("**Letters:**",
+      paste(colnames(refs)[which(refs[i,] == 1)], collapse = ", "),
+      "<br/>",
+      "**Deadline:**", jobs$deadline[i],
+      "<br/>",
+      "**Delivery:**", jobs$letters[i],
+      "<br/>",
+      "**Notes:**", jobs$notes[i],
+      "<br/>")
+  
+  cat(rep("&nbsp;  ", 2), sep="\n")
+}
+```
+
+
+## Materials
+
+- Cover letter [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf) [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf)
+
+- Research statement [`[Comparative]`](job_market/statements/research_statement_cp.pdf) [`[Methods]`](job_market/statements/research_statement_methods.pdf)
+
+- Teaching statement [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) [`[Methods]`](job_market/statements/teaching_statement_methods.pdf)
+
+## Writing Samples
+
+Mix and match depending on application. See the [research](/research.html) tab for more.
+
+### Comparative
+
+1. ["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](files/research/nearby_corruption.pdf)
+
+    - CP Job talk
+    - New version going for review soon!
+  
+2. ["Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil"](files/research/audit_spending.pdf)
+
+    - Invited to present in political economy of development workshop organized by the *Journal of Public Policy*
+  
+3. ["Light in the Midst of Chaos: COVID-19 and Female Political Representation."](https://doi.org/10.1016/j.worlddev.2020.105125) *World Development* 136: 105125 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
+
+4. *Include paper with Virginia, Rebecca, and Matt here when available*
+
+
+### Methods
+
+1. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](files/research/dle_test.pdf)
+
+    - **R&R** in *Journal of Experimental Political Science*
+    - Methods job talk
+  
+2. ["Balancing Precision and Retention in Experimental Design"](files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/))
+
+    - Public version coming in August
+  
+3. ["A Model Selection Approach to Geographic Spillovers."](files/research/model_spillovers.pdf)
+
+    - Best poster award. 2019 Latin American Political Methodology Meeting
+    - Rewriting as a research note!
+
+
+
+## Teaching
+
+- [Syllabi](/teaching.html)
+
+- [Teaching evaluations](/job_market/statements/diaz_teaching_evals.pdf)

@@ -1,0 +1,81 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin=1in
+header-includes:
+  - \pagenumbering{gobble}
+
+author: Gustavo Diaz
+address: |
+    | Kenneth Taylor Hall 527
+    | 1280 Main Street West
+    | Hamilton, ON Canada
+email: "g.diazdr@gmail.com"
+url: "gustavodiaz.org"
+phone: +1 217 904 0581
+fontsize: 12pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+greetings: "Dear Members of the Search Committee,"
+---
+
+```{r setup, include=F}
+
+jobtitle = "an Assistant Professor in International/Comparative Politics"
+# specialty does not appear in methods letter
+specialty = "comparative politics and quantitative methods" 
+place = "Western"
+area = "political economy and political behavior"
+region = "the Global South"
+tools = "design-based causal inference and computational social science"
+courses = "comparative politics, the politics of the Global South, quantitative methods, and research design"
+```
+
+<!-- Think about adding a sentence of work with Michelle -->
+I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in the Department of Political Science at McMaster University. I specialize in `r specialty`. I work with Dr. Michelle Dion as the methods editorial assistant for the *American Political Science Review* conducting research on social inequities in academia. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
+
+<!-- Edit this paragraph depending on the search focus -->
+<!-- Update as reviews progress -->
+Substantively, I research `r area` with a focus on the challenges to accountability and representation in `r region`. Methodologically, I use tools from `r tools` to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. 
+
+My work is published in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*. I have one solo-authored manuscript under revise and resubmit in an experiments journal, two forthcoming chapters in edited volumes, and four working papers going under review soon.
+
+<!-- RESEARCH -->
+<!-- Remember to update the status of stuff sent for review -->
+<!-- Nearby corruption -->
+My primary substantive research agenda relies on an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. I study the unintended electoral consequences of corruption that stem from politicians' strategic behavior. I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. 
+
+<!-- Gender corruption -->
+I  also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents' incentives to counter the rise of female politicians. In another forthcoming chapter, we discuss the challenges and opportunities of different data sources to study gender and corruption.
+
+This program extends toward the gendered evaluations of officeholders' performance in general. In a piece in *World Development*, we discuss how the COVID-19 pandemic has the potential to promote female political representation through increased discontent with the performance of male-led executives and by priming a health policy issue commonly associated with women. In work in progress with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to show gendered differential reactions to policy implementation.
+
+<!-- Modeling spillovers -->
+My methodological research agenda uses the lessons from my substantive work to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. In a working paper, I extend my work on exposure to nearby corruption in Brazil to geographic spillovers in general. In these settings, theory suggests multiple plausible pathways for spillovers, but current methods require researchers to assume a single one is the correct. This implies a tradeoff between narrow operationalizations that risk false positives and broad operationalizations that can introduce bias, and the discipline currently lacks a standard to guide this choice. I propose a model selection protocol that overcomes this difficulty by using a distance metric to identify alternative model specifications, and then choosing among them using a model selection technique of choice. I illustrate the usefulness of this approach by revisiting the findings of an experiment on the spillover effects of election observers on voter registration irregularities in Ghana.
+
+<!-- Survey experiments and block rand -->
+I also maintain an agenda on navigating research design tradeoffs in survey and field experiments, focusing on practices to improve statistical precision before data collection. In a *SAGE Handbook* chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a solo-authored piece under **R&R**, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization, covariance adjustment, and M-estimation. In another working paper with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental design, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.
+
+<!-- TEACHING -->
+My experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. In the spring, I will teach an applied research design course on public policy and public opinion at McMaster. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the APSR also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.
+
+My time at Illinois also gave me extensive teaching experience. I taught an online course on the politics of developing countries as an independent instructor and served as a teaching assistant for its in-person version. I also served as a teaching assistant for quantitative research methods courses at the undergraduate and PhD levels using a flipped classroom approach. These experiences have prepared me to teach to a diverse student body and to adapt to both online and in-person platforms.
+
+<!-- Teaching plans -->
+<!-- Remember to switch from teaching portfolio/website accordingly -->
+<!-- Also tweak depending on job -->
+I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my website. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.
+
+<!-- CLOSING -->
+I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
+
+
+Sincerely,
+
+<!-- Remember double spaces to lineskip -->
+Gustavo Diaz  
+Postdoctoral Fellow  
+Department of Political Science  
+McMaster University
