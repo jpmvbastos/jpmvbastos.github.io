@@ -36,11 +36,11 @@ jobs = jobs %>%
 filter(as_date(deadline) <= as_date(t)) %>% 
   mutate(
   # url = paste0('<a href="', url,'"target="_blank"></a>'),
-  deadline = format(deadline, "%B %d, %Y")
+  deadline = format(deadline, "%B %e, %Y")
 )
 ```
 
-**Last update:** `r format(Sys.Date(), "%B %d, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
+**Last update:** `r format(Sys.Date(), "%B %e, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
 
 **Number of letters to write:**
 
