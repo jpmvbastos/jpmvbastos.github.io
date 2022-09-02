@@ -17,12 +17,16 @@ Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms
 ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](files/research/dle_test.pdf)  **R&R**
 <!-- [`[Appendix]`](files/research/dle_test_appendix.pdf) -->
 
-["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](files/research/nearby_corruption.pdf)<br/>
-[`[Appendix]`](files/research/nearby_corruption_appendix.pdf)
+["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](files/research/nearby_corruption.pdf)
+
+<!-- <br/> -->
+<!-- [`[Appendix]`](files/research/nearby_corruption_appendix.pdf) -->
 
 ["A Model Selection Approach to Geographic Spillovers."](files/research/model_spillovers.pdf)<br/>
 [`[Appendix]`](files/research/model_spillovers_appendix.pdf) [`[Data]`](https://github.com/gustavo-diaz/model_interference_rep)  
 *Best poster award. 2019 Latin American Political Methodology Meeting*
+
+["Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil"](files/research/audit_spending.pdf)
 
 
 

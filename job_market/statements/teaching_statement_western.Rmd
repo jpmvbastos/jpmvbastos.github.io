@@ -18,9 +18,9 @@ fontsize: 11pt
 ```{r setup, include=F}
 field = "political science and researh methods"
 comparative = "comparative politics"
-cp_offer = "comparative politics and the politics of the Global South"
+cp_offer = "democracy and representation, the politics of the Global South, and evidence-informed policy making"
 methods_short = "research design and quantitative methods"
-methods_offer = "research design, causal inference, data science, and computational social science"
+methods_offer = "across the core quantitative methods sequences, research design, causal inference, data science, and computational social science"
 source = "website"
 ```
 
@@ -49,4 +49,4 @@ Teaching to these diverse audiences made me aware of the importance of promoting
 
 # Teaching interests
 
-I am prepared to teach courses on `r cp_offer`. I can also teach methodological courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`.
+I am prepared to teach courses on `r cp_offer`. I can also teach methodological courses `r methods_offer`. You can find copies of current and sample syllabi in my `r source`.

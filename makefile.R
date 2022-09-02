@@ -15,3 +15,9 @@ rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd")
 rmarkdown::render("job_market/statements/teaching_statement_methods.Rmd")
 rmarkdown::render("job_market/statements/diversity_statement.Rmd")
 rmarkdown::render("job_market/statements/diaz_teaching_evals.Rmd")
+
+## JOB SPECIFIC MATERIALS
+# Western
+rmarkdown::render("job_market/cover_letter/cover_letter_western.Rmd")
+rmarkdown::render("job_market/statements/research_statement_western.Rmd")
+rmarkdown::render("job_market/statements/teaching_statement_western.Rmd")
