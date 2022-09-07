@@ -7,7 +7,7 @@ geometry: margin=1in
 title: "Research Statement"
 author: Gustavo Diaz
 affiliation: Department of Political Science, McMaster University
-email: "g.diazdr@gmail.com"
+email: "diazg2@mcmaster.ca"
 
 fontfamily: cochineal
 fontsize: 11pt

@@ -8,7 +8,7 @@ author: Gustavo Diaz
 jobtitle: "Department of Political Science, McMaster University"
 address: "Kenneth Taylor Hall 527, 1280 Main Street West, Hamilton, Ontario, Canada"
 fontawesome: yes
-email: g.diazdr@gmail.com
+email: diazg2@mcmaster.ca
 github: gustavo-diaz
 twitter: gusvalo
 #osf: "Enter 5 digit osf string here"

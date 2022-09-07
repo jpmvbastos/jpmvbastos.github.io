@@ -9,7 +9,7 @@ address: |
     | Kenneth Taylor Hall 527
     | 1280 Main Street West
     | Hamilton, ON Canada
-email: "g.diazdr@gmail.com"
+email: "diazg2@mcmaster.ca"
 url: "gustavodiaz.org"
 phone: +1 217 904 0581
 fontsize: 12pt
