@@ -26,7 +26,7 @@ greetings: "Dear Members of the Search Committee,"
 jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "Yale"
+place = "American University"
 area = "political economy and political behavior"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"

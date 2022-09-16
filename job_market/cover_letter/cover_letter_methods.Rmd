@@ -17,21 +17,21 @@ mainfont: cochineal
 monofont: Fira Code
 
 fontawesome: TRUE
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
+date: '`r format(Sys.Date(), "%B %e, %Y")`'
 greetings: "Dear Members of the Search Committee,"
 ---
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Methods"
-place = "Michigan"
+jobtitle = "an Assistant Professor in Quantitative Political Methodology"
+place = "Ohio State"
 area = "political economy and political behavior"
 region = "developing countries"
 tools = "design-based causal inference and computational social science"
 courses = "causal inference, computational social science, evidence-informed policy making, and the politics of developing countries"
 ```
 
-I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I work with Dr. Michelle Dion as the methods editorial assistant for the *American Political Science Review* conducting research on social inequities in academia. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
+I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I work with Dr. Michelle Dion as the methods editorial assistant for the *American Political Science Review* and conducting research on social inequities in academia. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
 My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. My contributions are informed by my substantive work on the challenges to accountability and representation in `r region`.
 

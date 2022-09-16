@@ -1,0 +1,424 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    smaller: true
+---
+
+
+::: {style="text-align: center"}
+## When Should We Use Biased Estimators of the Average Treatment Effect?{.center background-color="#7A003C"}
+
+&nbsp;
+
+
+::: columns
+
+::: {.column width="33%"}
+**Jake Bowers**  
+University of Illinois at Urbana-Champaign 
+[jakebowers.org](https://www.jakebowers.org/)
+:::
+
+::: {.column width="33%"}
+**Gustavo Diaz**  
+McMaster University  
+[gustavodiaz.org](https://gustavodiaz.org/)
+:::
+
+::: {.column width="33%"}
+**Christopher Grady**  
+USAID  
+[usaid.gov](https://www.usaid.gov/)
+:::
+
+:::
+
+:::
+
+```{r include=FALSE}
+library(knitr)
+
+opts_chunk$set(fig.width=9, fig.height=5, 
+               fig.retina = 3, collapse = TRUE)
+```
+
+```{r setup}
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+# Data
+load("block_dd_sims.rda")
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+
+### RECODING ###
+# Make better labels for parameters
+sims$nb <- gsub("c(", "(`", sims$nb, fixed = TRUE)
+sims$pb <- gsub("c(", "(`", sims$pb, fixed = TRUE)
+sims$taub <- gsub("c(", "(`", sims$taub, fixed = TRUE)
+sims$pb <- gsub("0.", ".", sims$pb, fixed = TRUE)
+sims$taub <- gsub("0.", ".", sims$taub, fixed = TRUE)
+sims$nb <- gsub(")", "`)", sims$nb, fixed = TRUE)
+sims$pb <- gsub(")", "`)", sims$pb, fixed = TRUE)
+sims$taub <- gsub(")", "`)", sims$taub, fixed = TRUE)
+
+sims <- sims %>%
+  mutate(nb = paste("bold(n[b]) == ", nb, sep = ""),
+         pb = paste("bold(p[b]) == ", pb, sep = ""),
+         taub = paste("bold(tau[b]) == ", taub, sep = ""),
+         title = paste(nb, pb, taub, sep = "~~"))
+
+# convert estimand into mean estimand
+sims <- sims %>%
+  group_by(nb, pb, taub) %>%
+  mutate(estimand0=estimand,
+      estimand = mean(estimand,na.rm=TRUE)) %>% ungroup()
+```
+
+
+## Bias-variance tradeoff as darts
+
+![This shows up in causal inference, machine learning, measurement, and many more!](figs/darts.png){fig-align="center"}
+
+## But the game of darts is more complicated
+
+::: columns
+::: {.column width="50%"}
+![](figs/darts_board.png)
+:::
+
+::: {.column width="50%"}
+![](figs/darts_scoring.png){fig-align="center" width="72%" height="72%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center"}
+Different players {{< fa arrow-right >}} different winning strategies
+:::
+
+## Argument: The same is true for experiments
+
+::: incremental
+
+- Credibility revolution {{< fa arrow-right >}} Emphasis on unbiasedness
+
+- But in practice we use biased estimators routinely `(e.g. regression with controls)`
+
+- Which implies sacrificing unbiasedness to gain precision
+:::
+
+&nbsp;
+
+. . .
+
+::: {style="text-align: center"}
+**When should we prefer biased yet more precise estimators of the ATE?**
+:::
+
+. . .
+
+::: {style="text-align: center"}
+**Short answer:** When bias is small enough
+:::
+
+<!-- There is probably a way to make this slide in one step -->
+## Long answer: This paper
+
+- Use simulations to navigate this tradeoff in each context before conducting an experiment
+
+## Long answer: This paper {visibility="uncounted"}
+
+- Use simulations to navigate this tradeoff in each context before conducting an experiment
+
+- Focus on:
+
+1. Block randomization 
+
+2. M-Estimation
+
+3. *Application:* GSA Auctions Experiment
+
+## Long answer: This paper {visibility="uncounted"}
+
+- Use simulations to navigate this tradeoff in each context before conducting an experiment
+
+- Focus on:
+
+1. **Block randomization** 
+
+2. [M-Estimation]{style="color: gray;"}
+
+3. [*Application:* GSA Auctions Experiment]{style="color: gray;"}
+
+## Block randomization setup
+
+::: incremental
+- $n$ units grouped in $B$ blocks, $n_b$
+
+- Assign $m_b$ to treatment and $(n_b - m_b)$ to control
+:::
+
+. . .
+
+- Block-level ATE estimator:
+
+$$
+\hat{\tau}_b = \frac{\sum_{i \in t} Y_{ib}}{m_b}  - \frac{\sum_{i \in c} Y_{ib}}{(n_b - m_b)}
+$$
+
+. . .
+
+How to aggregate set of $\hat{\tau}_b$ for $b = 1, ..., B$ to estimate overall ATE?
+
+## Two approaches
+
+- Weighted average across blocks:
+
+$$
+\hat{\tau}_{wt} = \frac{1}{B} \sum_{b=1}^B w_b \hat{\tau}_b
+$$
+
+## Two approaches {visibility="uncounted"}
+
+- Weighted average across blocks: 
+
+$$
+\hat{\tau}_{wt} = \frac{1}{B} \sum_{b=1}^B \boldsymbol{\color{#ac1455}{w_b}} \hat{\tau}_b
+$$
+
+
+## Two approaches {visibility="uncounted"}
+
+- Weighted average across blocks: 
+
+$$
+\hat{\tau}_{wt} = \frac{1}{B} \sum_{b=1}^B \boldsymbol{\color{#ac1455}{w_b}} \hat{\tau}_b
+$$
+
+::: columns
+::: {.column width="50%"}
+
+### Block-size weights
+
+::: {.fragment fragment-index=1}
+
+::: {style="text-align: center"}
+$w_b = \frac{n_b}{n}$
+:::
+
+- Unbiased even in wild cases
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### Precision weights
+
+::: {.fragment fragment-index=2}
+
+::: {style="text-align: center"}
+$w_b = \frac{1}{n_b p_b (1-p_b)}$
+:::
+
+- $p_b$: proportion of treated units per block
+
+- Equivalent to OLS with fixed effects
+
+- Biased but (sometimes) more precise
+
+:::
+
+:::
+:::
+
+## Simulation setup
+
+::: incremental
+- Three blocks
+
+- Fix block size $n_b = (100, 100, 100)$^[Takeaway is the same when block sizes differ.]
+
+- Homogeneous and varied $p_b$
+
+- Small and large treatment effects $\tau_b$ `(standard deviations of outcome)`
+
+- Simulate 1,000 experiments for each parameter combination
+:::
+
+## Equal $\boldsymbol{p_b}$
+
+```{r}
+equal_pb = sims %>% ungroup() %>%
+  filter(estimator %in% c("Precision","Block-size") &
+           nb == "bold(n[b]) == (`100, 100, 100`)") %>%
+  filter(pb=="bold(p[b]) == (`.5, .5, .5`)" &
+           taub=="bold(tau[b]) == (`0, 2, 4`)")
+
+ggplot(equal_pb) +
+  aes(x = estimate, color = estimator, linetype = estimator) +
+  geom_vline(aes(xintercept = estimand), linetype = "dotted", alpha = 0) +
+  geom_line(size = 2, stat = "density", alpha = 0) +
+  theme(legend.position = "bottom") +
+   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, 
+              show.legend = FALSE, color = "black", alpha = 0) +
+  geom_text(aes(x = estimand, y = 0, label = "True ATE"),
+  nudge_y = -.2, show.legend = FALSE, color = "black", alpha = 0) +
+  facet_wrap(~ title, scales = "free_x", label = label_parsed) +
+  scale_color_viridis_d(begin = 0.9, end = 0) +
+  labs(x = "Estimated ATE", y = "Density", 
+       linetype = "Weights", color = "Weights")
+```
+
+## Equal $\boldsymbol{p_b}$ {visibility="uncounted"}
+
+```{r}
+ggplot(equal_pb) +
+  aes(x = estimate, color = estimator, linetype = estimator) +
+  geom_vline(aes(xintercept = estimand), linetype = "dotted") +
+  geom_line(size = 2, stat = "density", alpha = 0) +
+  theme(legend.position = "bottom") +
+   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, 
+              show.legend = FALSE, color = "black") +
+  geom_text(aes(x = estimand, y = 0, label = "True ATE"),
+  nudge_y = -.2, show.legend = FALSE, color = "black") +
+  facet_wrap(~ title, scales = "free_x", label = label_parsed) +
+  scale_color_viridis_d(begin = 0.9, end = 0) +
+  labs(x = "Estimated ATE", y = "Density", 
+       linetype = "Weights", color = "Weights")
+```
+
+
+## Equal $\boldsymbol{p_b}$ {visibility="uncounted"}
+
+```{r}
+ggplot(equal_pb) +
+  aes(x = estimate, color = estimator, linetype = estimator) +
+  geom_vline(aes(xintercept = estimand), linetype = "dotted") +
+  geom_line(size = 2, stat = "density") +
+  theme(legend.position = "bottom") +
+   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, 
+              show.legend = FALSE, color = "black") +
+  geom_text(aes(x = estimand, y = 0, label = "True ATE"),
+  nudge_y = -.2, show.legend = FALSE, color = "black") +
+  facet_wrap(~ title, scales = "free_x", label = label_parsed) +
+  scale_color_viridis_d(begin = 0.9, end = 0) +
+  labs(x = "Estimated ATE", y = "Density", 
+       linetype = "Weights", color = "Weights")
+```
+
+::: footer
+Similar results under nearly equal $\boldsymbol{p_b}$
+:::
+
+## Different $\boldsymbol{p_b}$, constant $\boldsymbol{\tau_b}$
+
+```{r}
+constant = sims %>% ungroup() %>%
+  filter(estimator %in% c("Precision","Block-size") &
+           nb == "bold(n[b]) == (`100, 100, 100`)") %>%
+  filter(pb=="bold(p[b]) == (`.05, .3, .4`)" &
+           taub=="bold(tau[b]) == (`0, 0, 0`)")
+
+ggplot(constant) +
+  aes(x = estimate, color = estimator, linetype = estimator) +
+  geom_vline(aes(xintercept = estimand), linetype = "dotted") +
+  geom_line(size = 2, stat = "density") +
+  theme(legend.position = "bottom") +
+   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, 
+              show.legend = FALSE, color = "black") +
+  geom_text(aes(x = estimand, y = 0, label = "True ATE"),
+  nudge_y = -.2, show.legend = FALSE, color = "black") +
+  facet_wrap(~ title, scales = "free_x", label = label_parsed) +
+  scale_color_viridis_d(begin = 0.9, end = 0) +
+  labs(x = "Estimated ATE", y = "Density", 
+       linetype = "Weights", color = "Weights")
+```
+
+
+::: footer
+Similar results under different $\boldsymbol{p_b}$, homogeneous $\boldsymbol{\tau_b}$
+:::
+
+## Different $\boldsymbol{p_b}$,  heterogeneous $\boldsymbol{\tau_b}$
+
+```{r}
+het = sims %>% ungroup() %>%
+  filter(estimator %in% c("Precision","Block-size") &
+           nb == "bold(n[b]) == (`100, 100, 100`)") %>%
+  filter(pb=="bold(p[b]) == (`.05, .3, .4`)" &
+           taub=="bold(tau[b]) == (`4, 2, 0`)")
+
+ggplot(het) +
+  aes(x = estimate, color = estimator, linetype = estimator) +
+  geom_vline(aes(xintercept = estimand), linetype = "dotted") +
+  geom_line(size = 2, stat = "density") +
+  theme(legend.position = "bottom") +
+   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, 
+              show.legend = FALSE, color = "black") +
+  geom_text(aes(x = estimand, y = 0, label = "True ATE"),
+  nudge_y = -.2, show.legend = FALSE, color = "black") +
+  facet_wrap(~ title, scales = "free_x", label = label_parsed) +
+  scale_color_viridis_d(begin = 0.9, end = 0) +
+  labs(x = "Estimated ATE", y = "Density", 
+       linetype = "Weights", color = "Weights")
+```
+
+::: footer
+Bias of precision weights increases with $\boldsymbol{\tau_b}$ heterogeneity
+:::
+
+## Blocking takeaways
+
+
+```{r}
+b_take = data.frame(
+pb = c("Same/similar", rep("Different", 2)),
+tb = c("Any", "Same/similar", "Heterogeneous"),
+wt = c("Either", "Precision", "Block-size")
+)
+
+colnames(b_take) = c("\\(\\boldsymbol{p_b}\\)", 
+                     "\\(\\boldsymbol{\\tau_b}\\)",
+                     "Best weighting scheme")
+
+b_take %>% 
+  kbl(escape = FALSE)
+```
+
+. . .
+
+- Lessons:
+
+    1. Aim for equal proportion treated across blocks if possible
+
+    2. Otherwise, pre-specify adaptive rules
+
+
+## Conclusion
+
+- Decide whether sacrificing unbiasedness is worth the precision gain **before** conducting an experiment
+
+- Incorporate knowledge of context and research design
+
+- Specify adaptive rules for elements beyond control
+
+. . .
+
+### Next steps:
+
+- Formalize bias expressions for weighted estimators
+
+- Apply to GSA experiment with many blocks, skewed distribution of outcomes
+
+:::footer
+**Feedback:** <jwbowers@illinois.edu>, <diazg2@mcmaster.ca>, <cgrady@usaid.gov>
+:::

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.8)  6 SEP 2022 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  13 SEP 2022 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **diaz_cv.tex
 (./diaz_cv.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-08-05> (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2022-08-30> (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -644,7 +644,7 @@ File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 \@curXheight=\skip66
 ) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count346
 \l__pdf_internal_box=\box110
 ) (./diaz_cv.aux)
@@ -779,10 +779,10 @@ Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: 51B5E1C638F108ADBFBB9E0F440264D3;1751.
  ) 
 Here is how much of TeX's memory you used:
- 24551 strings out of 479638
- 456351 string characters out of 5877193
- 734885 words of memory out of 5000000
- 42604 multiletter control sequences out of 15000+600000
+ 24555 strings out of 477035
+ 456542 string characters out of 5826235
+ 775178 words of memory out of 5000000
+ 45206 multiletter control sequences out of 15000+600000
  512509 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  115i,11n,118p,1196b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
