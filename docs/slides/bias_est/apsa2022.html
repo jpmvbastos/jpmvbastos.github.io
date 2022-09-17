@@ -392,7 +392,7 @@ USAID<br>
 <section id="long-answer-this-paper" class="slide level2">
 <h2>Long answer: This paper</h2>
 <ul>
-<li>Use simulations to navigate this tradeoff in each context before conducting an experiment</li>
+<li>Use simulations to navigate this tradeoff before conducting an experiment</li>
 </ul>
 </section>
 <section id="long-answer-this-paper-1" class="slide level2" data-visibility="uncounted">
@@ -423,7 +423,7 @@ USAID<br>
 <h2>Block randomization setup</h2>
 <div>
 <ul>
-<li class="fragment"><p><span class="math inline">\(n\)</span> units grouped in <span class="math inline">\(B\)</span> blocks, <span class="math inline">\(n_b\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(n\)</span> units grouped in <span class="math inline">\(B\)</span> blocks, <span class="math inline">\(n_b\)</span> units per block</p></li>
 <li class="fragment"><p>Assign <span class="math inline">\(m_b\)</span> to treatment and <span class="math inline">\((n_b - m_b)\)</span> to control</p></li>
 </ul>
 </div>
@@ -439,8 +439,8 @@ USAID<br>
 <p>How to aggregate set of <span class="math inline">\(\hat{\tau}_b\)</span> for <span class="math inline">\(b = 1, ..., B\)</span> to estimate overall ATE?</p>
 </div>
 </section>
-<section id="two-approaches" class="slide level2">
-<h2>Two approaches</h2>
+<section id="choosing-weights" class="slide level2">
+<h2>Choosing weights</h2>
 <ul>
 <li>Weighted average across blocks:</li>
 </ul>
@@ -448,7 +448,7 @@ USAID<br>
 \hat{\tau}_{wt} = \frac{1}{B} \sum_{b=1}^B w_b \hat{\tau}_b
 \]</span></p>
 </section>
-<section id="two-approaches-1" class="slide level2" data-visibility="uncounted">
+<section id="two-approaches" class="slide level2" data-visibility="uncounted">
 <h2>Two approaches</h2>
 <ul>
 <li>Weighted average across blocks:</li>
@@ -457,7 +457,7 @@ USAID<br>
 \hat{\tau}_{wt} = \frac{1}{B} \sum_{b=1}^B \boldsymbol{\color{#ac1455}{w_b}} \hat{\tau}_b
 \]</span></p>
 </section>
-<section id="two-approaches-2" class="slide level2" data-visibility="uncounted">
+<section id="two-approaches-1" class="slide level2" data-visibility="uncounted">
 <h2>Two approaches</h2>
 <ul>
 <li>Weighted average across blocks:</li>
@@ -473,7 +473,8 @@ USAID<br>
 <p><span class="math inline">\(w_b = \frac{n_b}{n}\)</span></p>
 </div>
 <ul>
-<li>Unbiased even in wild cases</li>
+<li><p>Unbiased even in wild cases</p></li>
+<li><p>Sometimes imprecise</p></li>
 </ul>
 </div>
 </div><div class="column" style="width:50%;">
@@ -485,7 +486,7 @@ USAID<br>
 <ul>
 <li><p><span class="math inline">\(p_b\)</span>: proportion of treated units per block</p></li>
 <li><p>Equivalent to OLS with fixed effects</p></li>
-<li><p>Biased but (sometimes) more precise</p></li>
+<li><p>Usually Biased but sometimes more precise</p></li>
 </ul>
 </div>
 </div>
@@ -497,8 +498,8 @@ USAID<br>
 <ul>
 <li class="fragment"><p>Three blocks</p></li>
 <li class="fragment"><p>Fix block size <span class="math inline">\(n_b = (100, 100, 100)\)</span><sup>1</sup></p></li>
-<li class="fragment"><p>Homogeneous and varied <span class="math inline">\(p_b\)</span></p></li>
-<li class="fragment"><p>Small and large treatment effects <span class="math inline">\(\tau_b\)</span> <code>(standard deviations of outcome)</code></p></li>
+<li class="fragment"><p>Constant and varied <span class="math inline">\(p_b\)</span></p></li>
+<li class="fragment"><p>Constant and varied <em>true</em> effects <span class="math inline">\(\tau_b\)</span> <code>(standard deviations of outcome)</code></p></li>
 <li class="fragment"><p>Simulate 1,000 experiments for each parameter combination</p></li>
 </ul>
 </div>
@@ -547,13 +548,13 @@ USAID<br>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Same/similar </td>
+   <td style="text-align:left;"> Constant/similar </td>
    <td style="text-align:left;"> Any </td>
    <td style="text-align:left;"> Either </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Different </td>
-   <td style="text-align:left;"> Same/similar </td>
+   <td style="text-align:left;"> Constant/similar </td>
    <td style="text-align:left;"> Precision </td>
   </tr>
   <tr>
@@ -584,7 +585,7 @@ USAID<br>
 <li><p>Specify adaptive rules for elements beyond control</p></li>
 </ul>
 <div class="fragment">
-<h3 id="next-steps">Next steps:</h3>
+<h3 id="next-steps">Next steps</h3>
 <ul>
 <li><p>Formalize bias expressions for weighted estimators</p></li>
 <li><p>Apply to GSA experiment with many blocks, skewed distribution of outcomes</p></li>

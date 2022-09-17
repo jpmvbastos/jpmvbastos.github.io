@@ -291,7 +291,7 @@
     "href": "slides/bias_est/apsa2022.html#long-answer-this-paper",
     "title": "Gustavo Diaz",
     "section": "Long answer: This paper",
-    "text": "Long answer: This paper\n\nUse simulations to navigate this tradeoff in each context before conducting an experiment"
+    "text": "Long answer: This paper\n\nUse simulations to navigate this tradeoff before conducting an experiment"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#long-answer-this-paper-1",
@@ -312,21 +312,21 @@
     "href": "slides/bias_est/apsa2022.html#block-randomization-setup",
     "title": "Gustavo Diaz",
     "section": "Block randomization setup",
-    "text": "Block randomization setup\n\n\n\\(n\\) units grouped in \\(B\\) blocks, \\(n_b\\)\nAssign \\(m_b\\) to treatment and \\((n_b - m_b)\\) to control\n\n\n\n\nBlock-level ATE estimator:\n\n\\[\n\\hat{\\tau}_b = \\frac{\\sum_{i \\in t} Y_{ib}}{m_b}  - \\frac{\\sum_{i \\in c} Y_{ib}}{(n_b - m_b)}\n\\]\n\n\nHow to aggregate set of \\(\\hat{\\tau}_b\\) for \\(b = 1, ..., B\\) to estimate overall ATE?"
+    "text": "Block randomization setup\n\n\n\\(n\\) units grouped in \\(B\\) blocks, \\(n_b\\) units per block\nAssign \\(m_b\\) to treatment and \\((n_b - m_b)\\) to control\n\n\n\n\nBlock-level ATE estimator:\n\n\\[\n\\hat{\\tau}_b = \\frac{\\sum_{i \\in t} Y_{ib}}{m_b}  - \\frac{\\sum_{i \\in c} Y_{ib}}{(n_b - m_b)}\n\\]\n\n\nHow to aggregate set of \\(\\hat{\\tau}_b\\) for \\(b = 1, ..., B\\) to estimate overall ATE?"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#two-approaches",
     "href": "slides/bias_est/apsa2022.html#two-approaches",
     "title": "Gustavo Diaz",
     "section": "Two approaches",
-    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B w_b \\hat{\\tau}_b\n\\]"
+    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B \\boldsymbol{\\color{#ac1455}{w_b}} \\hat{\\tau}_b\n\\]"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#two-approaches-1",
     "href": "slides/bias_est/apsa2022.html#two-approaches-1",
     "title": "Gustavo Diaz",
     "section": "Two approaches",
-    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B \\boldsymbol{\\color{#ac1455}{w_b}} \\hat{\\tau}_b\n\\]"
+    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B \\boldsymbol{\\color{#ac1455}{w_b}} \\hat{\\tau}_b\n\\]\n\n\nBlock-size weights\n\n\n\\(w_b = \\frac{n_b}{n}\\)\n\n\nUnbiased even in wild cases\nSometimes imprecise\n\n\n\nPrecision weights\n\n\n\\(w_b = \\frac{1}{n_b p_b (1-p_b)}\\)\n\n\n\\(p_b\\): proportion of treated units per block\nEquivalent to OLS with fixed effects\nUsually Biased but sometimes more precise"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#two-approaches-2",
@@ -340,7 +340,7 @@
     "href": "slides/bias_est/apsa2022.html#simulation-setup",
     "title": "Gustavo Diaz",
     "section": "Simulation setup",
-    "text": "Simulation setup\n\n\nThree blocks\nFix block size \\(n_b = (100, 100, 100)\\)1\nHomogeneous and varied \\(p_b\\)\nSmall and large treatment effects \\(\\tau_b\\) (standard deviations of outcome)\nSimulate 1,000 experiments for each parameter combination\n\n\nTakeaway is the same when block sizes differ."
+    "text": "Simulation setup\n\n\nThree blocks\nFix block size \\(n_b = (100, 100, 100)\\)1\nConstant and varied \\(p_b\\)\nConstant and varied true effects \\(\\tau_b\\) (standard deviations of outcome)\nSimulate 1,000 experiments for each parameter combination\n\n\nTakeaway is the same when block sizes differ."
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b",
@@ -382,14 +382,14 @@
     "href": "slides/bias_est/apsa2022.html#blocking-takeaways",
     "title": "Gustavo Diaz",
     "section": "Blocking takeaways",
-    "text": "Blocking takeaways\n\n\n\n\n \n  \n    \\(\\boldsymbol{p_b}\\) \n    \\(\\boldsymbol{\\tau_b}\\) \n    Best weighting scheme \n  \n \n\n  \n    Same/similar \n    Any \n    Either \n  \n  \n    Different \n    Same/similar \n    Precision \n  \n  \n    Different \n    Heterogeneous \n    Block-size \n  \n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
+    "text": "Blocking takeaways\n\n\n\n\n \n  \n    \\(\\boldsymbol{p_b}\\) \n    \\(\\boldsymbol{\\tau_b}\\) \n    Best weighting scheme \n  \n \n\n  \n    Constant/similar \n    Any \n    Either \n  \n  \n    Different \n    Constant/similar \n    Precision \n  \n  \n    Different \n    Heterogeneous \n    Block-size \n  \n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#conclusion",
     "href": "slides/bias_est/apsa2022.html#conclusion",
     "title": "Gustavo Diaz",
     "section": "Conclusion",
-    "text": "Conclusion\n\nDecide whether sacrificing unbiasedness is worth the precision gain before conducting an experiment\nIncorporate knowledge of context and research design\nSpecify adaptive rules for elements beyond control\n\n\nNext steps:\n\nFormalize bias expressions for weighted estimators\nApply to GSA experiment with many blocks, skewed distribution of outcomes\n\n\nFeedback: jwbowers@illinois.edu, diazg2@mcmaster.ca, cgrady@usaid.gov"
+    "text": "Conclusion\n\nDecide whether sacrificing unbiasedness is worth the precision gain before conducting an experiment\nIncorporate knowledge of context and research design\nSpecify adaptive rules for elements beyond control\n\n\nNext steps\n\nFormalize bias expressions for weighted estimators\nApply to GSA experiment with many blocks, skewed distribution of outcomes\n\n\nFeedback: jwbowers@illinois.edu, diazg2@mcmaster.ca, cgrady@usaid.gov"
   },
   {
     "objectID": "teaching.html",
@@ -411,5 +411,12 @@
     "title": "Teaching",
     "section": "Teaching Assistant",
     "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
+  },
+  {
+    "objectID": "slides/bias_est/apsa2022.html#choosing-weights",
+    "href": "slides/bias_est/apsa2022.html#choosing-weights",
+    "title": "Gustavo Diaz",
+    "section": "Choosing weights",
+    "text": "Choosing weights\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B w_b \\hat{\\tau}_b\n\\]"
   }
 ]

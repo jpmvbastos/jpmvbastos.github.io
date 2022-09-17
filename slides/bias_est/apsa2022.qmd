@@ -131,7 +131,7 @@ Different players {{< fa arrow-right >}} different winning strategies
 <!-- There is probably a way to make this slide in one step -->
 ## Long answer: This paper
 
-- Use simulations to navigate this tradeoff in each context before conducting an experiment
+- Use simulations to navigate this tradeoff before conducting an experiment
 
 ## Long answer: This paper {visibility="uncounted"}
 
@@ -160,7 +160,7 @@ Different players {{< fa arrow-right >}} different winning strategies
 ## Block randomization setup
 
 ::: incremental
-- $n$ units grouped in $B$ blocks, $n_b$
+- $n$ units grouped in $B$ blocks, $n_b$ units per block
 
 - Assign $m_b$ to treatment and $(n_b - m_b)$ to control
 :::
@@ -177,7 +177,7 @@ $$
 
 How to aggregate set of $\hat{\tau}_b$ for $b = 1, ..., B$ to estimate overall ATE?
 
-## Two approaches
+## Choosing weights
 
 - Weighted average across blocks:
 
@@ -215,6 +215,8 @@ $w_b = \frac{n_b}{n}$
 
 - Unbiased even in wild cases
 
+- Sometimes imprecise
+
 :::
 
 :::
@@ -233,7 +235,7 @@ $w_b = \frac{1}{n_b p_b (1-p_b)}$
 
 - Equivalent to OLS with fixed effects
 
-- Biased but (sometimes) more precise
+- Usually Biased but sometimes more precise
 
 :::
 
@@ -247,9 +249,9 @@ $w_b = \frac{1}{n_b p_b (1-p_b)}$
 
 - Fix block size $n_b = (100, 100, 100)$^[Takeaway is the same when block sizes differ.]
 
-- Homogeneous and varied $p_b$
+- Constant and varied $p_b$
 
-- Small and large treatment effects $\tau_b$ `(standard deviations of outcome)`
+- Constant and varied *true* effects $\tau_b$ `(standard deviations of outcome)`
 
 - Simulate 1,000 experiments for each parameter combination
 :::
@@ -381,8 +383,8 @@ Bias of precision weights increases with $\boldsymbol{\tau_b}$ heterogeneity
 
 ```{r}
 b_take = data.frame(
-pb = c("Same/similar", rep("Different", 2)),
-tb = c("Any", "Same/similar", "Heterogeneous"),
+pb = c("Constant/similar", rep("Different", 2)),
+tb = c("Any", "Constant/similar", "Heterogeneous"),
 wt = c("Either", "Precision", "Block-size")
 )
 
@@ -413,7 +415,7 @@ b_take %>%
 
 . . .
 
-### Next steps:
+### Next steps
 
 - Formalize bias expressions for weighted estimators
 
