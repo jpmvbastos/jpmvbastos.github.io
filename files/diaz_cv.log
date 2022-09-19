@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  13 SEP 2022 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  18 SEP 2022 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,7 +787,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  115i,11n,118p,1196b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc} <c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (3 pages, 127872 bytes).
+Output written on diaz_cv.pdf (3 pages, 127871 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams

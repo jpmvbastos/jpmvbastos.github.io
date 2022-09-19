@@ -14,7 +14,7 @@ fontsize: 11pt
 ---
 
 ```{r setup, include=F}
-place = "UC Merced"
+place = "Rochester"
 ```
 
 
