@@ -23,8 +23,8 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Political Methodology or Comparative Politics"
-place = "Rochester"
+jobtitle = "an Assistant Professor Methodology"
+place = "UCSD"
 area = "political economy and political behavior"
 region = "developing countries"
 tools = "design-based causal inference and computational social science"
