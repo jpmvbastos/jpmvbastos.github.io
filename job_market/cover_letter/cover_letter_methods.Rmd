@@ -23,10 +23,10 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor Methodology"
-place = "UCSD"
+jobtitle = "an Assistant Professor in Political Methodology"
+place = "UT Austin"
 area = "political economy and political behavior"
-region = "developing countries"
+region = "the Global South"
 tools = "design-based causal inference and computational social science"
 courses = "causal inference, computational social science, evidence-informed policy making, and the politics of developing countries"
 ```

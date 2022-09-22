@@ -14,7 +14,7 @@ fontsize: 11pt
 ---
 
 ```{r setup, include=F}
-region = "developing countries"
+region = "developing democracies"
 fields = "design-based causal inference and computational social science"
 ```
 

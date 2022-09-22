@@ -13,10 +13,6 @@ fontfamily: cochineal
 fontsize: 11pt
 ---
 
-```{r setup, include=F}
-place = "Rochester"
-```
-
 
 I grew up in a low income family in Chile, being part of the first generation to obtain a college degree, and the only person pursuing an academic career. Moving to the United States to begin my PhD was the first time I moved abroad on a long-term basis. The main challenge during my first years of graduate school was to simultaneously learn to communicate effectively as an academic, a social scientist, and a non-native English speaker.
 

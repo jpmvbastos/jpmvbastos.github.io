@@ -26,11 +26,11 @@ greetings: "Dear Members of the Search Committee,"
 jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "American University"
+place = "the University of Delaware"
 area = "political economy and political behavior"
-region = "the Global South"
+region = "developing democracies"
 tools = "design-based causal inference and computational social science"
-courses = "comparative politics, the politics of the Global South, quantitative methods, and research design"
+courses = "comparative politics, the politics of developing democracies, quantitative methods, and research design"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
@@ -40,7 +40,7 @@ I write to express my interest in your call for `r jobtitle`. I am a postdoctora
 <!-- Update as reviews progress -->
 Substantively, I research `r area` with a focus on the challenges to accountability and representation in `r region`. Methodologically, I use tools from `r tools` to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. 
 
-My work is published in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*. I have one solo-authored manuscript under revise and resubmit in an experiments journal, two forthcoming chapters in edited volumes, and four working papers going under review soon.
+My work is published in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*. I have one solo-authored manuscript under revise and resubmit at the *Journal of Experimental Political Science*, two forthcoming chapters in edited volumes, and four working papers going under review soon.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->

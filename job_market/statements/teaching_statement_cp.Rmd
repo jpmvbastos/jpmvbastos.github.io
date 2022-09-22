@@ -18,7 +18,7 @@ fontsize: 11pt
 ```{r setup, include=F}
 field = "political science and researh methods"
 comparative = "comparative politics"
-cp_offer = "comparative politics and the politics of the Global South"
+cp_offer = "comparative politics and the politics of developing democracies"
 methods_short = "research design and quantitative methods"
 methods_offer = "research design, causal inference, data science, and computational social science"
 source = "website"
