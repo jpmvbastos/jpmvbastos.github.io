@@ -24,7 +24,7 @@ greetings: "Dear Members of the Search Committee,"
 ```{r setup, include=F}
 
 jobtitle = "an Assistant Professor in Political Methodology"
-place = "UT Austin"
+place = "UC Davis"
 area = "political economy and political behavior"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"
