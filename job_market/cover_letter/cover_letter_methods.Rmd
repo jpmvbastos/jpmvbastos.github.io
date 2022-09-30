@@ -23,8 +23,8 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Data Analyitics"
-place = "Denison"
+jobtitle = "an Assistant Professor"
+place = "Texas A&M"
 area = "political economy and political behavior"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"
