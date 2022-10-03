@@ -23,12 +23,12 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor"
-place = "Texas A&M"
+jobtitle = "an Assistant Professor of Quantitative Social Science"
+place = "Dartmouth"
 area = "political economy and political behavior"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"
-courses = "causal inference, computational social science, evidence-informed policy making, and the politics of developing countries"
+courses = "causal inference, computational social science, evidence-informed policy making, and the politics of the Global South"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I work with Dr. Michelle Dion as the methods editorial assistant for the *American Political Science Review* and conducting research on social inequities in academia. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
