@@ -1,0 +1,43 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+---
+
+
+::: {style="text-align: center"}
+## Improving the Measurement of Sensitive Survey Questions with Double List Experiments{.center background-color="#7A003C"}
+
+&nbsp;
+
+
+**Gustavo Diaz**   
+Postdoctoral Fellow  
+Department of Political Science  
+McMaster University  
+[gustavodiaz.org](https://gustavodiaz.org/)
+:::
+
+```{r include=FALSE}
+library(knitr)
+
+opts_chunk$set(fig.width=9, fig.height=5, 
+               fig.retina = 3, collapse = TRUE)
+```
+
+```{r setup}
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+# Data
+
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+
+## Canada lifting
