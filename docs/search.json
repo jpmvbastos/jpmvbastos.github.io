@@ -425,5 +425,68 @@
     "title": "Gustavo Diaz",
     "section": "Improving the Measurement of Sensitive Survey Questions with Double List Experiments",
     "text": "Improving the Measurement of Sensitive Survey Questions with Double List Experiments\n \nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University\ngustavodiaz.org"
+  },
+  {
+    "objectID": "slides/dle/spark.html#motivation-header",
+    "href": "slides/dle/spark.html#motivation-header",
+    "title": "Gustavo Diaz",
+    "section": "Motivation header",
+    "text": "Motivation header"
+  },
+  {
+    "objectID": "slides/dle/spark.html#motivation-header-ii",
+    "href": "slides/dle/spark.html#motivation-header-ii",
+    "title": "Gustavo Diaz",
+    "section": "Motivation header II",
+    "text": "Motivation header II"
+  },
+  {
+    "objectID": "slides/dle/spark.html#arrivecan",
+    "href": "slides/dle/spark.html#arrivecan",
+    "title": "Gustavo Diaz",
+    "section": "ArriveCAN",
+    "text": "ArriveCAN"
+  },
+  {
+    "objectID": "slides/dle/spark.html#covid-screening-questions",
+    "href": "slides/dle/spark.html#covid-screening-questions",
+    "title": "Gustavo Diaz",
+    "section": "COVID screening questions",
+    "text": "COVID screening questions"
+  },
+  {
+    "objectID": "slides/dle/spark.html#question",
+    "href": "slides/dle/spark.html#question",
+    "title": "Gustavo Diaz",
+    "section": "Question",
+    "text": "Question\nWhat proportion of app users answered “yes” to having any COVID symptoms?"
+  },
+  {
+    "objectID": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-any-covid-symptoms",
+    "href": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-any-covid-symptoms",
+    "title": "Gustavo Diaz",
+    "section": "What proportion of app users answered “yes” to having any COVID symptoms?",
+    "text": "What proportion of app users answered “yes” to having any COVID symptoms?"
+  },
+  {
+    "objectID": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-covid-symptoms",
+    "href": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-covid-symptoms",
+    "title": "Gustavo Diaz",
+    "section": "What proportion of app users answered “yes” to having COVID symptoms?",
+    "text": "What proportion of app users answered “yes” to having COVID symptoms?"
+  },
+  {
+    "objectID": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-symptoms",
+    "href": "slides/dle/spark.html#what-proportion-of-app-users-answered-yes-to-having-symptoms",
+    "title": "Gustavo Diaz",
+    "section": "What proportion of app users answered “yes” to having symptoms?",
+    "text": "What proportion of app users answered “yes” to having symptoms?\n\n\nIf you are not sick, you answer no\n\n\n\n\nIf you are sick…\n\n\n\n\nYou don’t travel and don’t use the app\n\n\n\nOR\n\n\n\nYou lie about having symptoms and travel anyway"
+  },
+  {
+    "objectID": "slides/dle/spark.html#from-a-social-science-perspective",
+    "href": "slides/dle/spark.html#from-a-social-science-perspective",
+    "title": "Gustavo Diaz",
+    "section": "From a social science perspective",
+    "text": "From a social science perspective\n\n\nWe use surveys a lot\nMany questions are too sensitive to ask directly\nBut these are things we care about!\nExamples: Racial prejudice, support for rebel groups, sexual and reproductive behavior\nMany techniques use indirect questions to elicit honest answers while protecting anonymity"
   }
 ]

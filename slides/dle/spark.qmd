@@ -40,4 +40,49 @@ theme_set(theme_bw(base_size = 20))
 ```
 
 
-## Canada lifting
+## ArriveCAN
+
+![](figs/canada_covid.png){fig-align="center"}
+
+## COVID screening questions
+
+![](figs/arrivecan.png){fig-align="center"}
+
+## What proportion of app users answered "yes" to having symptoms?
+
+. . .
+
+- If you are **not** sick, you answer **no**
+
+. . .
+
+- If you are sick...
+
+. . .
+
+- You don't travel and don't use the app 
+
+. . .
+
+**OR**
+    
+. . .
+
+- You lie about having symptoms and travel anyway
+
+## From a social science perspective
+
+::: incremental
+
+- We use surveys a lot
+
+- Many questions are **too sensitive** to ask directly
+
+- But these are things we care about!
+
+- **Examples:** Racial prejudice, support for rebel groups, sexual and reproductive behavior
+
+- Many techniques use **indirect** questions to elicit **honest answers** while **protecting anonymity**
+
+:::
+
