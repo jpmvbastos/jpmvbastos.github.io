@@ -22,6 +22,7 @@ McMaster University
 ```{r include=FALSE}
 library(knitr)
 
+
 opts_chunk$set(fig.width=9, fig.height=5, 
                fig.retina = 3, collapse = TRUE)
 ```
@@ -86,3 +87,119 @@ theme_set(theme_bw(base_size = 20))
 
 :::
 
+## List experiments
+
+Here is a list of things that some people have
+done. Tell me HOW MANY of them you
+have done in the past two years. Do not tell me
+which ones. Just tell me
+how many:
+
+. . .
+
+- Discussed politics with family or friends
+- Cast a ballot for Governor Phil Bryant
+- Paid dues to a union
+- Given money to a Tea Party candidate or organization
+
+::: footer
+Rosenfeld, Bryn, Kosuke Imai, and Jacob Shapiro. 2016. "An Empirical Validation Study of Popular Survey Methodologies for Sensitive Questions." *American Journal of Political Science* 60 (3): 783-802 [{{< fa arrow-up-right-from-square >}}](https://doi.org/10.1111/ajps.12205)
+:::
+
+## List experiments {visibility="uncounted"}
+
+Here is a list of things that some people have
+done. Tell me HOW MANY of them you
+have done in the past two years. Do not tell me
+which ones. Just tell me
+how many:
+
+- Discussed politics with family or friends
+- Cast a ballot for Governor Phil Bryant
+- Paid dues to a union
+- Given money to a Tea Party candidate or organization
+- **Voted 'YES' on the 'Personhood' Initiative on the November 2011 Mississippi General Election ballot**
+
+::: footer
+Rosenfeld, Bryn, Kosuke Imai, and Jacob Shapiro. 2016. "An Empirical Validation Study of Popular Survey Methodologies for Sensitive Questions." *American Journal of Political Science* 60 (3): 783-802 [{{< fa arrow-up-right-from-square >}}](https://doi.org/10.1111/ajps.12205)
+:::
+
+
+## Prevalence estimate
+
+$$
+\text{Prevalence(X)} = \text{Mean(List with X)} - \text{Mean(List without X)}
+$$
+
+. . .
+
+- Proportion of individuals in the target population who hold the sensitive attitude or behavior
+
+- We obtain an estimate while keeping individual responses anonymous 
+
+## This reduces sensitivity bias
+
+![](figs/validation.png){fig-align="center" width="50%" height="50%"}
+
+::: footer
+Rosenfeld, Bryn, Kosuke Imai, and Jacob Shapiro. 2016. "An Empirical Validation Study of Popular Survey Methodologies for Sensitive Questions." *American Journal of Political Science* 60 (3): 783-802 [{{< fa arrow-up-right-from-square >}}](https://doi.org/10.1111/ajps.12205)
+:::
+
+## But increases variance {visibility="uncounted"}
+
+![](figs/validation.png){fig-align="center" width="50%" height="50%"}
+
+::: footer
+Rosenfeld, Bryn, Kosuke Imai, and Jacob Shapiro. 2016. "An Empirical Validation Study of Popular Survey Methodologies for Sensitive Questions." *American Journal of Political Science* 60 (3): 783-802 [{{< fa arrow-up-right-from-square >}}](https://doi.org/10.1111/ajps.12205)
+:::
+
+## Bias-variance tradeoff vs. direct questions
+
+![](figs/tradeoff.png){fig-align="center"}
+
+. . .
+
+{{< fa arrow-right >}} Need a lot of participants to be confident on the results of a list experiment
+
+::: footer
+Blair, Graeme, Alexander Coppock, and Margaret Moor. 2020. "When to Worry about Sensitivity Bias: A Social Reference Theory and Evidence from 30 Years of List Experiments." *American Political Science Review* 114 (4): 1297-1315 [{{< fa arrow-up-right-from-square >}}](https://doi.org/10.1111/ajps.12205)
+:::
+
+## To make matters worse
+
+::: incremental
+- More sensitive attitudes {{< fa arrow-right >}} more interesting {{< fa arrow-right >}} more uncommon {{< fa arrow-right >}} harder to detect
+
+- Some sensitive attitudes are more prevalent among hard-to-reach populations `(e.g. interactions with criminal organizations)`
+
+- Multiple sensitive attitudes increase sample size requirements
+
+- Same when comparing subgroup effects
+
+- **Very hard to make list experiments work**
+
+:::
+
+::: {style="text-align: center"}
+## What to do? {.center background-color="#FDBF57"}
+:::
+
+## Double list experiments
+
+```{r}
+A00 = c("Californians for Disability (organization advocating for people with disabilities)",
+       "California National Organization for Women (organization advocating for women's equality and empowerment)",
+       "American Family Association (organization advocating for pro-family values)",
+       "American Red Cross (humanitarian organization)")
+
+B00 = c("American Legion (veterans service organization)",
+       "Equality California (gay and lesbian advocacy organization)",
+       "Tea Party Patriots (conservative group supporting lower taxes and limited government)",
+       "Salvation Army (charitable organization)")
+
+tab_00 = data.frame(A00, B00)
+
+colnames(tab_00) = c("List A", "List B")
+
+kbl(tab_00, format = "markdown")
+```
