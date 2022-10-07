@@ -434,11 +434,11 @@
     "text": "List experiments\nHere is a list of things that some people have done. Tell me HOW MANY of them you have done in the past two years. Do not tell me which ones. Just tell me how many:\n\nDiscussed politics with family or friends\nCast a ballot for Governor Phil Bryant\nPaid dues to a union\nGiven money to a Tea Party candidate or organization\nVoted ‘YES’ on the ‘Personhood’ Initiative on the November 2011 Mississippi General Election ballot\n\n\nRosenfeld, Imai, and Shapiro. 2016. “An Empirical Validation Study of Popular Survey Methodologies for Sensitive Questions.” American Journal of Political Science"
   },
   {
-    "objectID": "slides/dle/spark.html#prevalence-estimate",
-    "href": "slides/dle/spark.html#prevalence-estimate",
+    "objectID": "slides/dle/spark.html#prevalence-rate",
+    "href": "slides/dle/spark.html#prevalence-rate",
     "title": "Gustavo Diaz",
-    "section": "Prevalence estimate",
-    "text": "Prevalence estimate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nProportion of individuals in the target population who hold the sensitive attitude or behavior\nWe obtain an estimate while keeping individual responses anonymous"
+    "section": "Prevalence rate",
+    "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nProportion of individuals in the target population who hold the sensitive attitude or behavior\nWe obtain an estimate while keeping individual responses anonymous"
   },
   {
     "objectID": "slides/dle/spark.html#this-reduces-sensitivity-bias",
@@ -592,7 +592,7 @@
     "href": "slides/dle/spark.html#additional-considerations",
     "title": "Gustavo Diaz",
     "section": "Additional considerations",
-    "text": "Additional considerations\n\nSimulations: Diff-in-diff performs worse as the correlation between baseline lists increases\nThis is a problem because standard advice is to make correlated baseline lists (Glynn 2013)\n\n\n\nAlternative: Signed rank test\nBut signed rank has high false positive rate to detect response inflation\n\n\n\n\nSuggestion: Prefer sensitive items that are frowned upon\nExample: “I did not vote” over “I voted”"
+    "text": "Additional considerations\n\nSimulations: Diff-in-diff performs worse as the correlation between baseline lists increases\nThis is a problem because standard advice is to make correlated baseline lists (Glynn 2013)\n\n\n\nAlternative: Signed rank test\nBut signed rank has high false positive rate to detect response inflation\n\n\n\n\nSuggestion: Prefer sensitive items that are frowned upon\nExample: Voted “No” over voted “Yes”"
   },
   {
     "objectID": "slides/dle/spark.html#conclusion",

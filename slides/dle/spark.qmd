@@ -159,7 +159,7 @@ Rosenfeld, Imai, and Shapiro. 2016. "An Empirical Validation Study of Popular Su
 :::
 
 
-## Prevalence estimate
+## Prevalence rate
 
 $$
 \text{Prevalence(X)} = \text{Mean(List with X)} - \text{Mean(List without X)}
@@ -482,7 +482,7 @@ dd %>%
 
 - **Suggestion:** Prefer sensitive items that are frowned upon
 
-- **Example:** "I did not vote" over "I voted"
+- **Example:** Voted "No" over voted "Yes"
 
 ## Conclusion
 
