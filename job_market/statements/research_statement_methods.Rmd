@@ -15,13 +15,14 @@ fontsize: 11pt
 
 
 ```{r setup, include=F}
+discipline = "Social scientists"
 region = "the Global South"
 fields = "design-based causal inference and computational social science"
 ```
 
 <!-- One short paragraph or sentence to situate the importance of my work-->
 
-Political scientists often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in research design, as researchers must try to anticipate the challenges to inference even before conducting data analysis.
+`r discipline` often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in research design, as researchers must try to anticipate the challenges to inference even before conducting data analysis.
 
 My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve experiments and quasi-experiments at the pre-analysis stage. My current agenda focuses on the design of field and survey experiments, as well as the analysis of geographic spillovers.
 

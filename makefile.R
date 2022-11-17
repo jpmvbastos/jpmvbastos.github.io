@@ -30,7 +30,11 @@ rmarkdown::render("job_market/statements/diaz_teaching_evals.Rmd")
 
 ## JOB SPECIFIC MATERIALS
 # Here if needed
-rmarkdown::render("job_market/cover_letter/cover_letter_kdi.Rmd",
+rmarkdown::render("job_market/cover_letter/cover_letter_ucsd.Rmd",
                   output_file = "diaz_cover_letter.pdf")
+rmarkdown::render("job_market/statements/teaching_statement_ucsd.Rmd",
+                  output_file = "diaz_teaching_statement.pdf")
+rmarkdown::render("job_market/statements/research_statement_ucsd.Rmd",
+                  output_file = "diaz_research_statement.pdf")
 
 
