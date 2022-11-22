@@ -16,7 +16,7 @@ fontsize: 11pt
 # Teaching philosophy
 
 ```{r setup, include=F}
-field = "political science and statistics"
+field = "political science and research methods"
 comparative = "political science"
 cp_offer = "evidence-informed public policy and the politics of the Global South"
 methods_short = "research design and quantitative methods"
