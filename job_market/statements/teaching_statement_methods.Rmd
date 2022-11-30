@@ -20,7 +20,7 @@ field = "political science and research methods"
 comparative = "political science"
 cp_offer = "evidence-informed public policy and the politics of the Global South"
 methods_short = "research design and quantitative methods"
-methods_offer = "research design, causal inference, statistics for public policy, and computational social science"
+methods_offer = "causal inference, data science, statistics for public policy, and computational social science"
 source = "website"
 ```
 
