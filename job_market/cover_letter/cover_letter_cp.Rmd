@@ -23,14 +23,14 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Comparative or International Politics"
+jobtitle = "an Assistant Professor in Global Studies"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "USC"
-area = "political economy and political behavior"
+place = "ASU"
+area = "the political economy of development"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"
-courses = "comparative politics, the politics of the Global South, quantitative methods, experiments, and research design"
+courses = "comparative politics, the politics of the Global South, quantitative methods, and research design"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
