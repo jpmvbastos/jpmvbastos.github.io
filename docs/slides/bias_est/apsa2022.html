@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.38">
+  <meta name="generator" content="quarto-1.2.269">
 
   <title>Gustavo Diaz – apsa2022</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,10 +20,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -503,33 +508,33 @@ USAID<br>
 <li class="fragment"><p>Simulate 1,000 experiments for each parameter combination</p></li>
 </ul>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn1" role="doc-endnote"><p>Takeaway is the same when block sizes differ.</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Takeaway is the same when block sizes differ.</p></li></ol></aside></section>
 <section id="equal-boldsymbolp_b" class="slide level2">
 <h2>Equal <span class="math inline">\(\boldsymbol{p_b}\)</span></h2>
 
-<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-2-1.png" width="864" class="r-stretch"></section>
+<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-4-1.png" width="864" class="r-stretch"></section>
 <section id="equal-boldsymbolp_b-1" class="slide level2" data-visibility="uncounted">
 <h2>Equal <span class="math inline">\(\boldsymbol{p_b}\)</span></h2>
 
-<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-3-1.png" width="864" class="r-stretch"></section>
+<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-6-1.png" width="864" class="r-stretch"></section>
 <section id="equal-boldsymbolp_b-2" class="slide level2" data-visibility="uncounted">
 <h2>Equal <span class="math inline">\(\boldsymbol{p_b}\)</span></h2>
 
-<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-4-1.png" width="864" class="r-stretch"><div class="footer">
+<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-8-1.png" width="864" class="r-stretch"><div class="footer">
 <p>Similar results under nearly equal <span class="math inline">\(\boldsymbol{p_b}\)</span></p>
 </div>
 </section>
 <section id="different-boldsymbolp_b-constant-boldsymboltau_b" class="slide level2">
 <h2>Different <span class="math inline">\(\boldsymbol{p_b}\)</span>, constant <span class="math inline">\(\boldsymbol{\tau_b}\)</span></h2>
 
-<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-5-1.png" width="864" class="r-stretch"><div class="footer">
+<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-10-1.png" width="864" class="r-stretch"><div class="footer">
 <p>Similar results under different <span class="math inline">\(\boldsymbol{p_b}\)</span>, homogeneous <span class="math inline">\(\boldsymbol{\tau_b}\)</span></p>
 </div>
 </section>
 <section id="different-boldsymbolp_b-heterogeneous-boldsymboltau_b" class="slide level2">
 <h2>Different <span class="math inline">\(\boldsymbol{p_b}\)</span>, heterogeneous <span class="math inline">\(\boldsymbol{\tau_b}\)</span></h2>
 
-<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-6-1.png" width="864" class="r-stretch"><div class="footer">
+<img data-src="apsa2022_files/figure-revealjs/unnamed-chunk-12-1.png" width="864" class="r-stretch"><div class="footer">
 <p>Bias of precision weights increases with <span class="math inline">\(\boldsymbol{\tau_b}\)</span> heterogeneity</p>
 </div>
 </section>
@@ -891,7 +896,24 @@ USAID<br>
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -921,31 +943,50 @@ USAID<br>
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>
