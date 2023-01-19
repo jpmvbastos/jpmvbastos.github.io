@@ -16,11 +16,11 @@ fontsize: 11pt
 # Teaching philosophy
 
 ```{r setup, include=F}
-field = "political science and research methods"
-comparative = "political science"
+field = "comparative politics and research methods"
+comparative = "comparative politics"
 cp_offer = "evidence-informed public policy and the politics of the Global South"
 methods_short = "research design and quantitative methods"
-methods_offer = "causal inference, data science, statistics for public policy, and computational social science"
+methods_offer = "causal inference, experiments, research design, and computational social science"
 source = "website"
 ```
 
