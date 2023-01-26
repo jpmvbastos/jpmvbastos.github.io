@@ -3,6 +3,7 @@
 
 # cv
 rmarkdown::render("files/diaz_cv.Rmd")
+rmarkdown::render("files/diaz_cv_teaching.Rmd")
 
 # methods
 rmarkdown::render("job_market/cover_letter/cover_letter_methods.Rmd",
@@ -16,6 +17,14 @@ rmarkdown::render("job_market/statements/teaching_statement_methods.Rmd",
 
 # comparative
 rmarkdown::render("job_market/cover_letter/cover_letter_cp.Rmd",
+                  output_file = "diaz_cover_letter.pdf")
+rmarkdown::render("job_market/statements/research_statement_cp.Rmd",
+                  output_file = "diaz_research_statement.pdf")
+rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",
+                  output_file = "diaz_teaching_statement.pdf")
+
+# comparative teaching
+rmarkdown::render("job_market/cover_letter/cover_letter_cp_teaching.Rmd",
                   output_file = "diaz_cover_letter.pdf")
 rmarkdown::render("job_market/statements/research_statement_cp.Rmd",
                   output_file = "diaz_research_statement.pdf")

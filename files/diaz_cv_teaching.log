@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.25)  26 JAN 2023 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.25)  26 JAN 2023 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**diaz_cv.tex
-(./diaz_cv.tex
+**diaz_cv_teaching.tex
+(./diaz_cv_teaching.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-05-04> (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -638,8 +638,8 @@ File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count346
 \l__pdf_internal_box=\box109
-) (./diaz_cv.aux)
-\openout1 = `diaz_cv.aux'.
+) (./diaz_cv_teaching.aux)
+\openout1 = `diaz_cv_teaching.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
 LaTeX Font Info:    ... okay on input line 116.
@@ -694,9 +694,9 @@ LaTeX Font Info:    ... okay on input line 116.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 116.
-(./diaz_cv.out) (./diaz_cv.out)
+(./diaz_cv_teaching.out) (./diaz_cv_teaching.out)
 \@outlinefile=\write4
-\openout4 = `diaz_cv.out'.
+\openout4 = `diaz_cv_teaching.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
@@ -752,33 +752,33 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on input line 131.
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
-) [1
-
-{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 242.
+(hyperref)                be the same. Added a new anchor on input line 168.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 261.
+(hyperref)                be the same. Added a new anchor on input line 187.
 
-[2] 
+[1
+
+{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
 AED: lastpage setting LastPage
-[3] (./diaz_cv.aux)
-Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 51B5E1C638F108ADBFBB9E0F440264D3;1751.
+[3] (./diaz_cv_teaching.aux)
+Package rerunfilecheck Info: File `diaz_cv_teaching.out' has not changed.
+(rerunfilecheck)             Checksum: 7C7ED3DB922EACE4E6043102C2E1EFD8;1754.
  ) 
 Here is how much of TeX's memory you used:
  24508 strings out of 480260
- 456566 string characters out of 5892602
- 725092 words of memory out of 5000000
+ 456719 string characters out of 5892602
+ 724149 words of memory out of 5000000
  41942 multiletter control sequences out of 15000+600000
  512509 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 115i,12n,118p,1196b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,118p,1205b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc} <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (3 pages, 128589 bytes).
+Output written on diaz_cv_teaching.pdf (3 pages, 128546 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  148 compressed objects within 2 object streams
