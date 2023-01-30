@@ -16,7 +16,7 @@ library(fontawesome)
 gs4_deauth()
 
 ## Set date threshold to display jobs
-t = "2023-02-14"
+t = "2023-02-28"
 ```
 
 ## Welcome!
