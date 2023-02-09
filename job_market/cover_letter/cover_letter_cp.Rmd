@@ -23,14 +23,14 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Comparative Politics with a specialism in Public Policy"
+jobtitle = "an Assistant Professor in Comparative Politics with a focus on the developing world"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "Durham"
-area = "political economy and public policy"
-region = "the Global South"
+place = "Mississippi State"
+area = "political economy and political behavior"
+region = "the developing world"
 tools = "design-based causal inference and computational social science"
-courses = "comparative politics, the politics of the Global South, research design, and evidence-informed policy"
+courses = "comparative politics, the politics of development, evidence-informed policy, research design, computational social science, and quantitative methods"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
@@ -45,7 +45,7 @@ My work is published in *World Development* and *The SAGE Handbook of Research M
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
 <!-- Nearby corruption -->
-My primary substantive research agenda examines the challenges to accountability and representation in the Global South.  The core of this agenda is an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. This dataset informs several of my ongoing research projects. For example, in a solo-authored working paper, I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing.
+My primary substantive research agenda examines the challenges to accountability and representation in `r region`.  The core of this agenda is an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. This dataset informs several of my ongoing research projects. For example, in a solo-authored working paper, I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing.
 
 <!-- Gender corruption -->
 I  also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents' incentives to counter the rise of female politicians. In another forthcoming chapter, we discuss the challenges and opportunities of different data sources to study gender and corruption.
