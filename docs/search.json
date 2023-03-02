@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "diaz_cv.html",
+    "href": "diaz_cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
+  },
+  {
+    "objectID": "diaz_cv.html#mcmaster-university",
+    "href": "diaz_cv.html#mcmaster-university",
+    "title": "CV",
+    "section": "McMaster University",
+    "text": "McMaster University\nResearch Design for Public Opinion and Public Policy. Spring 2023"
+  },
+  {
+    "objectID": "diaz_cv.html#tulane-university",
+    "href": "diaz_cv.html#tulane-university",
+    "title": "CV",
+    "section": "Tulane University",
+    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
+  },
+  {
+    "objectID": "diaz_cv.html#university-of-illinois-at-urbana-champaign",
+    "href": "diaz_cv.html#university-of-illinois-at-urbana-champaign",
+    "title": "CV",
+    "section": "University of Illinois at Urbana-Champaign",
+    "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
+  },
+  {
     "objectID": "files/diaz_cv.html",
     "href": "files/diaz_cv.html",
     "title": "CV",
@@ -56,6 +84,34 @@
     "text": "PhD Institution\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Spring 2021\nQuantitative Methods II (Graduate). Spring 2021\nQuantitative Methods I (Graduate). Fall 2020\nQuantitative Methods III (Graduate). Fall 2020\nIntroduction to Quantitative Political Research. Fall 2017\nComparative Politics in Developing Nations. Fall 2016"
   },
   {
+    "objectID": "files/diaz_cv_teaching.html",
+    "href": "files/diaz_cv_teaching.html",
+    "title": "CV",
+    "section": "",
+    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
+  },
+  {
+    "objectID": "files/diaz_cv_teaching.html#mcmaster-university",
+    "href": "files/diaz_cv_teaching.html#mcmaster-university",
+    "title": "CV",
+    "section": "McMaster University",
+    "text": "McMaster University\nResearch Design for Public Opinion and Public Policy. Spring 2023"
+  },
+  {
+    "objectID": "files/diaz_cv_teaching.html#tulane-university",
+    "href": "files/diaz_cv_teaching.html#tulane-university",
+    "title": "CV",
+    "section": "Tulane University",
+    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
+  },
+  {
+    "objectID": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
+    "href": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
+    "title": "CV",
+    "section": "University of Illinois at Urbana-Champaign",
+    "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
@@ -68,6 +124,13 @@
     "title": "Gustavo Diaz",
     "section": "",
     "text": "I write to express my interest in your call for an Assistant Professor in Comparative Politics. I am a postdoctoral fellow in the Department of Political Science at McMaster University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.\n\n\nSubstantively, I research political economy and political behavior with a focus on the challenges to accountability and representation in the Global South. Methodologically, I use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in experiments and quasi-experiments.\nMy work is published in World Development and The SAGE Handbook of Research Methods in Political Science and International Relations, and is forthcoming at the Journal of Experimental Political Science along with two chapters in edited volumes.\n\n\n\nMy primary substantive research agenda examines the challenges to accountability and representation in the Global South. The core of this agenda is an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. This dataset informs several of my ongoing research projects. For example, in a solo-authored working paper, I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents. While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing.\n\nI also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents’ incentives to counter the rise of female politicians. In another forthcoming chapter, we discuss the challenges and opportunities of different data sources to study gender and corruption.\nThis program extends toward the gendered evaluations of officeholders’ performance in general. In a piece in World Development, we discuss how the COVID-19 pandemic has the potential to promote female political representation through increased discontent with the performance of male-led executives and by priming a health policy issue commonly associated with women. In work under review with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to show gendered differential reactions to policy implementation.\n\n\n\n\nMy methodological research agenda uses the lessons from my substantive work to develop standards to navigate research design tradeoffs in experiments and quasi-experiments, focusing on practices to improve statistical precision before data collection. In a SAGE Handbook chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a piece conditionally accepted at the Journal of Experimental Political Science, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a manuscript under review with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental design, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.\n\nMy experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. At McMaster, I teach an applied research design course that emphasizes causal inference for public opinion and public policy. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the American Political Science Review also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.\nMy time at Illinois also gave me extensive teaching experience. I taught an online course on the politics of developing countries as an independent instructor and served as a teaching assistant for its in-person version. I also served as a teaching assistant for quantitative research methods courses at the undergraduate and PhD levels using a flipped classroom approach. These experiences have prepared me to teach to a diverse student body and to adapt to both online and in-person platforms.\n\n\n\nI am prepared to teach courses on comparative politics, the politics of the Global South, research design, computational social science, causal inference, experiments, and quantitative methods. You can find copies of current and sample syllabi in my website. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.\n\nI believe my expertise makes me an excellent fit at LSU. If you have any questions, you can contact me via email or phone.\nSincerely,\n\nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University"
+  },
+  {
+    "objectID": "job_market/cover_letter/cover_letter_cp_teaching.html",
+    "href": "job_market/cover_letter/cover_letter_cp_teaching.html",
+    "title": "Gustavo Diaz",
+    "section": "",
+    "text": "I write to express my interest in your call for a Teaching Stream Assistant Professor in Public Policy and International Development in the Global South. I am a postdoctoral fellow in the Department of Political Science at McMaster University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.\n\n\nSubstantively, I study the political economy of development with a focus on the challenges to accountability and representation in the Global South. Methodologically, I specialize in design-based causal inference and computational social science.\n\nMy experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. At McMaster, I teach research design for public opinion and policy evaluation. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the American Political Science Review also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.\nMy time at Illinois also gave me extensive teaching experience. I taught an online course on the politics of developing countries as an independent instructor and served as a teaching assistant for its in-person version. I also served as a teaching assistant for quantitative research methods courses at the undergraduate and PhD levels using a flipped classroom approach. These experiences have prepared me to teach to a diverse student body and to adapt to both online and in-person platforms. I am prepared to teach courses on program evaluation, the politics of development in the Global South, quantitative methods, research design, and data visualization.\n\n\n\nAs a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals. I emphasize developing the skill to think and communicate in the language of the social sciences and translate it to different situations. This gives students the flexibility to engage with the course material on their own terms and apply it to their interests. This approach also creates a set of communication rules that everyone is accountable to, which allows individual students to stay on task no matter how much their interests differ from the course content and provides the group with tools to manage instances of discrimination in the classroom and beyond.\n\n\n\nMy primary substantive research agenda relies on an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. I study the unintended electoral consequences of corruption that stem from politicians’ strategic behavior. I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents. While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. This program has extended toward understanding the gendered consequences of corruption and other aspect of citizen’s evaluation of elected officials’ performance.\n\nI also maintain a methodological agenda on navigating research design tradeoffs in survey and field experiments, focusing on practices to improve statistical precision before data collection. In a SAGE Handbook chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a solo-authored piece under R&R, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In another paper under review with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental designs, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.\n\nI believe my expertise makes me an excellent fit at UTSC. If you have any questions, you can contact me via email or phone.\nSincerely,\n\nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University"
   },
   {
     "objectID": "job_market/cover_letter/cover_letter_georgetown.html",
@@ -410,7 +473,7 @@
     "href": "slides/bias_est/apsa2022.html#bias-variance-tradeoff-as-darts",
     "title": "Gustavo Diaz",
     "section": "Bias-variance tradeoff as darts",
-    "text": "Bias-variance tradeoff as darts\n\n\n\nThis shows up in causal inference, machine learning, measurement, and many more!"
+    "text": "Bias-variance tradeoff as darts\n\nThis shows up in causal inference, machine learning, measurement, and many more!"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#but-the-game-of-darts-is-more-complicated",
@@ -473,14 +536,14 @@
     "href": "slides/bias_est/apsa2022.html#two-approaches-1",
     "title": "Gustavo Diaz",
     "section": "Two approaches",
-    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B \\boldsymbol{\\color{#ac1455}{w_b}} \\hat{\\tau}_b\n\\]\n\n\n\nBlock-size weights\n\n\n\\(w_b = \\frac{n_b}{n}\\)\n\n\nUnbiased even in wild cases\nSometimes imprecise\n\n\n\n\n\nPrecision weights\n\n\n\\(w_b = \\frac{1}{n_b p_b (1-p_b)}\\)\n\n\n\\(p_b\\): proportion of treated units per block\nEquivalent to OLS with fixed effects\nUsually Biased but sometimes more precise"
+    "text": "Two approaches\n\nWeighted average across blocks:\n\n\\[\n\\hat{\\tau}_{wt} = \\frac{1}{B} \\sum_{b=1}^B \\boldsymbol{\\color{#ac1455}{w_b}} \\hat{\\tau}_b\n\\]\n\n\nBlock-size weights\n\n\n\\(w_b = \\frac{n_b}{n}\\)\n\n\nUnbiased even in wild cases\nSometimes imprecise\n\n\n\nPrecision weights\n\n\n\\(w_b = \\frac{1}{n_b p_b (1-p_b)}\\)\n\n\n\\(p_b\\): proportion of treated units per block\nEquivalent to OLS with fixed effects\nUsually Biased but sometimes more precise"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#simulation-setup",
     "href": "slides/bias_est/apsa2022.html#simulation-setup",
     "title": "Gustavo Diaz",
     "section": "Simulation setup",
-    "text": "Simulation setup\n\n\nThree blocks\nFix block size \\(n_b = (100, 100, 100)\\)1\nConstant and varied \\(p_b\\)\nConstant and varied true effects \\(\\tau_b\\) (standard deviations of outcome)\nSimulate 1,000 experiments for each parameter combination"
+    "text": "Simulation setup\n\n\nThree blocks\nFix block size \\(n_b = (100, 100, 100)\\)1\nConstant and varied \\(p_b\\)\nConstant and varied true effects \\(\\tau_b\\) (standard deviations of outcome)\nSimulate 1,000 experiments for each parameter combination\n\n\nTakeaway is the same when block sizes differ."
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b",
@@ -501,21 +564,21 @@
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-2",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\nconstant = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`0, 0, 0`)\")\n\nggplot(constant) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
+    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\nconstant = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`0, 0, 0`)\")\n\nggplot(constant) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\nhet = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`4, 2, 0`)\")\n\nggplot(het) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
+    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\nhet = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`4, 2, 0`)\")\n\nggplot(het) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#blocking-takeaways",
@@ -529,7 +592,7 @@
     "href": "slides/bias_est/apsa2022.html#conclusion",
     "title": "Gustavo Diaz",
     "section": "Conclusion",
-    "text": "Conclusion\n\nDecide whether sacrificing unbiasedness is worth the precision gain before conducting an experiment\nIncorporate knowledge of context and research design\nSpecify adaptive rules for elements beyond control\n\n\n\nNext steps\n\nFormalize bias expressions for weighted estimators\nApply to GSA experiment with many blocks, skewed distribution of outcomes\n\n\nFeedback: jwbowers@illinois.edu, diazg2@mcmaster.ca, cgrady@usaid.gov"
+    "text": "Conclusion\n\nDecide whether sacrificing unbiasedness is worth the precision gain before conducting an experiment\nIncorporate knowledge of context and research design\nSpecify adaptive rules for elements beyond control\n\n\nNext steps\n\nFormalize bias expressions for weighted estimators\nApply to GSA experiment with many blocks, skewed distribution of outcomes\n\n\nFeedback: jwbowers@illinois.edu, diazg2@mcmaster.ca, cgrady@usaid.gov"
   },
   {
     "objectID": "slides/dle/spark.html#improving-the-measurement-of-sensitive-survey-questions-with-double-list-experiments",
@@ -613,7 +676,7 @@
     "href": "slides/dle/spark.html#bias-variance-tradeoff",
     "title": "Gustavo Diaz",
     "section": "Bias-variance tradeoff",
-    "text": "Bias-variance tradeoff\n\n\n\n\n\n\n List experiments need large samples!\n\nBlair, Coppock, and Moor. 2020. “When to Worry about Sensitivity Bias: A Social Reference Theory and Evidence from 30 Years of List Experiments.” American Political Science Review"
+    "text": "Bias-variance tradeoff\n\n\n List experiments need large samples!\n\nBlair, Coppock, and Moor. 2020. “When to Worry about Sensitivity Bias: A Social Reference Theory and Evidence from 30 Years of List Experiments.” American Political Science Review"
   },
   {
     "objectID": "slides/dle/spark.html#to-make-matters-worse",
@@ -775,82 +838,5 @@
     "title": "Teaching",
     "section": "Teaching Assistant",
     "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html",
-    "href": "files/diaz_cv_teaching.html",
-    "title": "CV",
-    "section": "",
-    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#mcmaster-university",
-    "href": "files/diaz_cv_teaching.html#mcmaster-university",
-    "title": "CV",
-    "section": "McMaster University",
-    "text": "McMaster University\nResearch Design for Public Opinion and Public Policy. Spring 2023"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#tulane-university",
-    "href": "files/diaz_cv_teaching.html#tulane-university",
-    "title": "CV",
-    "section": "Tulane University",
-    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
-    "href": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
-    "title": "CV",
-    "section": "University of Illinois at Urbana-Champaign",
-    "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
-  },
-  {
-    "objectID": "job_market/cover_letter/cover_letter_cp_teaching.html",
-    "href": "job_market/cover_letter/cover_letter_cp_teaching.html",
-    "title": "Gustavo Diaz",
-    "section": "",
-    "text": "I write to express my interest in your call for a Teaching Stream Assistant Professor in Public Policy and International Development in the Global South. I am a postdoctoral fellow in the Department of Political Science at McMaster University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.\n\n\nSubstantively, I study the political economy of development with a focus on the challenges to accountability and representation in the Global South. Methodologically, I specialize in design-based causal inference and computational social science.\n\nMy experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. At McMaster, I teach research design for public opinion and policy evaluation. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the American Political Science Review also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.\nMy time at Illinois also gave me extensive teaching experience. I taught an online course on the politics of developing countries as an independent instructor and served as a teaching assistant for its in-person version. I also served as a teaching assistant for quantitative research methods courses at the undergraduate and PhD levels using a flipped classroom approach. These experiences have prepared me to teach to a diverse student body and to adapt to both online and in-person platforms. I am prepared to teach courses on program evaluation, the politics of development in the Global South, quantitative methods, research design, and data visualization.\n\n\n\nAs a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals. I emphasize developing the skill to think and communicate in the language of the social sciences and translate it to different situations. This gives students the flexibility to engage with the course material on their own terms and apply it to their interests. This approach also creates a set of communication rules that everyone is accountable to, which allows individual students to stay on task no matter how much their interests differ from the course content and provides the group with tools to manage instances of discrimination in the classroom and beyond.\n\n\n\nMy primary substantive research agenda relies on an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. I study the unintended electoral consequences of corruption that stem from politicians’ strategic behavior. I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents. While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. This program has extended toward understanding the gendered consequences of corruption and other aspect of citizen’s evaluation of elected officials’ performance.\n\nI also maintain a methodological agenda on navigating research design tradeoffs in survey and field experiments, focusing on practices to improve statistical precision before data collection. In a SAGE Handbook chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a solo-authored piece under R&R, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In another paper under review with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental designs, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.\n\nI believe my expertise makes me an excellent fit at UTSC. If you have any questions, you can contact me via email or phone.\nSincerely,\n\nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University"
-  },
-  {
-    "objectID": "slides/bias_est/apsa2022.html",
-    "href": "slides/bias_est/apsa2022.html",
-    "title": "Gustavo Diaz",
-    "section": "",
-    "text": "Jake Bowers\nUniversity of Illinois at Urbana-Champaign jakebowers.org\n\nGustavo Diaz\nMcMaster University\ngustavodiaz.org\n\nChristopher Grady\nUSAID\nusaid.gov"
-  },
-  {
-    "objectID": "slides/dle/spark.html",
-    "href": "slides/dle/spark.html",
-    "title": "Gustavo Diaz",
-    "section": "",
-    "text": "Gustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University\ngustavodiaz.org"
-  },
-  {
-    "objectID": "diaz_cv.html",
-    "href": "diaz_cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
-  },
-  {
-    "objectID": "diaz_cv.html#mcmaster-university",
-    "href": "diaz_cv.html#mcmaster-university",
-    "title": "CV",
-    "section": "McMaster University",
-    "text": "McMaster University\nResearch Design for Public Opinion and Public Policy. Spring 2023"
-  },
-  {
-    "objectID": "diaz_cv.html#tulane-university",
-    "href": "diaz_cv.html#tulane-university",
-    "title": "CV",
-    "section": "Tulane University",
-    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
-  },
-  {
-    "objectID": "diaz_cv.html#university-of-illinois-at-urbana-champaign",
-    "href": "diaz_cv.html#university-of-illinois-at-urbana-champaign",
-    "title": "CV",
-    "section": "University of Illinois at Urbana-Champaign",
-    "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
   }
 ]
