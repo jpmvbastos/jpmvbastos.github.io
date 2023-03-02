@@ -23,14 +23,14 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Comparative Politics with a focus on the developing world"
+jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "Mississippi State"
+place = "LSU"
 area = "political economy and political behavior"
-region = "the developing world"
+region = "the Global South"
 tools = "design-based causal inference and computational social science"
-courses = "comparative politics, the politics of development, evidence-informed policy, research design, computational social science, and quantitative methods"
+courses = "comparative politics, the politics of the Global South, research design, computational social science, causal inference, experiments, and quantitative methods"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
@@ -40,7 +40,7 @@ I write to express my interest in your call for `r jobtitle`. I am a postdoctora
 <!-- Update as reviews progress -->
 Substantively, I research `r area` with a focus on the challenges to accountability and representation in `r region`. Methodologically, I use tools from `r tools` to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. 
 
-My work is published in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*. I have one solo-authored manuscript under revise and resubmit at the *Journal of Experimental Political Science*, and two forthcoming chapters in edited volumes.
+My work is published in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*, and is forthcoming at the *Journal of Experimental Political Science* along with two chapters in edited volumes.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
@@ -57,7 +57,7 @@ This program extends toward the gendered evaluations of officeholders' performan
 <!-- My methodological research agenda uses the lessons from my substantive work to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. In a working paper, I extend my work on exposure to nearby corruption in Brazil to geographic spillovers in general. In these settings, theory suggests multiple plausible pathways for spillovers, but current methods require researchers to assume a single one is the correct. This implies a tradeoff between narrow operationalizations that risk false positives and broad operationalizations that can introduce bias, and the discipline currently lacks a standard to guide this choice. I propose a model selection protocol that overcomes this difficulty by using a distance metric to identify alternative model specifications, and then choosing among them using a model selection technique of choice. I illustrate the usefulness of this approach by revisiting the findings of an experiment on the spillover effects of election observers on voter registration irregularities in Ghana. -->
 
 <!-- Survey experiments and block rand -->
-My methodological research agenda uses the lessons from my substantive work to develop standards to navigate research design tradeoffs in experiments and quasi-experiments, focusing on practices to improve statistical precision before data collection. In a *SAGE Handbook* chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a solo-authored piece under **R&R**, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a manuscript under review with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental design, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.
+My methodological research agenda uses the lessons from my substantive work to develop standards to navigate research design tradeoffs in experiments and quasi-experiments, focusing on practices to improve statistical precision before data collection. In a *SAGE Handbook* chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the expense of ecological validity. In a piece conditionally accepted at the *Journal of Experimental Political Science*, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a manuscript under review with Erin Rossiter (Notre Dame), we argue how the gains in precision from adopting good practices in experimental design, such as block randomization or repeated measurement of outcomes, can be offset by explicit or implicit sample loss.
 
 <!-- TEACHING -->
 My experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. At McMaster, I teach an applied research design course that emphasizes causal inference for public opinion and public policy. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the *American Political Science Review* also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.
