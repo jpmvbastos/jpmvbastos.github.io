@@ -1,0 +1,44 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+---
+
+
+::: {style="text-align: center"}
+## Revisiting Double List Experiments {.center background-color="#1d428a"}
+
+&nbsp;
+
+
+**Gustavo Diaz**   
+Postdoctoral Fellow  
+Department of Political Science  
+McMaster University  
+[gustavodiaz.org](https://gustavodiaz.org/){style="color: #00b176;"}
+:::
+
+```{r include=FALSE}
+library(knitr)
+
+
+opts_chunk$set(fig.width=9, fig.height=5, 
+               fig.retina = 3, collapse = TRUE)
+```
+
+```{r setup}
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+## Whaddup
+
+Testing [link color](link)
+
+## Appendix {visibility="uncounted"}
