@@ -7,7 +7,7 @@ format:
 
 
 ::: {style="text-align: center"}
-## Revisiting Double List Experiments {.center background-color="#1d428a"}
+## Sensitive Questions in Surveys {.center background-color="#1d428a"}
 
 &nbsp;
 
@@ -40,5 +40,3 @@ theme_set(theme_bw(base_size = 20))
 ## Whaddup
 
 Testing [link color](link)
-
-## Appendix {visibility="uncounted"}
