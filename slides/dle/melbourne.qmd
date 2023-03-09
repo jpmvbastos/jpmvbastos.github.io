@@ -1,0 +1,210 @@
+---
+format:
+  revealjs:
+    theme: [default, melbourne.scss]
+    slide-number: true
+---
+
+
+::: {style="text-align: center"}
+## Sensitive Questions in Surveys {.center background-color="#1d428a"}
+
+&nbsp;
+
+
+**Gustavo Diaz**   
+Postdoctoral Fellow  
+Department of Political Science  
+McMaster University  
+[gustavodiaz.org](https://gustavodiaz.org/){style="color: #00b176;"}
+:::
+
+```{r include=FALSE}
+library(knitr)
+```
+
+```{r setup}
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+## Sensitive questions
+
+::: incremental
+
+- Have you lied about having COVID symptoms?
+
+- Would you bribe a police officer to avoid a traffic ticket?
+
+- Have you had sex with someone who gave you money?
+
+- Have you stolen from a previous employer?
+
+- Do you know someone with links to a militant organization?
+
+- Would you vote for a corrupt politician?
+
+- Have you been offered goods or favors for your vote?
+
+- Would you oppose a black family moving next door?
+
+- Would you allow Muslim immigrants to become citizens?
+
+:::
+
+## Why do people lie in surveys?
+
+::: incremental
+
+
+1. Inattention
+
+2. Satisficing
+
+3. Limited options
+
+4. Demand effects
+
+5. Sensitivity bias 
+:::
+
+## Why do people lie in surveys? {visibility="uncounted"}
+
+1. [Inattention]{style="color: gray;"} 
+
+2. [Satisficing]{style="color: gray;"} 
+
+3. [Limited options]{style="color: gray;"} 
+
+4. [Demand effects]{style="color: gray;"} 
+
+5. [**Sensitivity bias**]{style="color: #1d428a;"} 
+
+## Techniques to reduce sensitivity bias
+
+::: incremental
+
+- Communicating confidentiality protocols
+
+- Honesty appeals
+
+- Randomized response
+
+- Crosswise model
+
+- Network scale-up method
+
+- Endorsement experiments
+
+- Conjoint experiments
+
+- List experiments
+
+:::
+
+## Techniques to reduce sensitivity bias {visibility="uncounted"}
+
+- [Communicating confidentiality protocols]{style="color: gray;"} 
+
+- [Honesty appeals]{style="color: gray;"} 
+
+- [Randomized response]{style="color: gray;"} 
+
+- [Crosswise model]{style="color: gray;"} 
+
+- [Network scale-up method]{style="color: gray;"} 
+
+- [Endorsement experiments]{style="color: gray;"} 
+
+- [Conjoint experiments]{style="color: gray;"} 
+
+- [**List experiments**]{style="color: #1d428a;"} 
+
+## Example: Personhood
+
+![](figs/personhood_0.png){.absolute top=60 left=0 height="80%"}
+
+. . .
+
+![](figs/personhood_1.png){.absolute top=150 left=200}
+
+::: aside
+Source: [NPR](https://www.npr.org/sections/itsallpolitics/2011/11/08/142159280/mississippi-voters-reject-personhood-amendment)
+:::
+
+## List experiment
+
+Here is a list of things that some people have done. 
+
+::: aside
+Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+## List experiment {visibility="uncounted"}
+
+Please listen to them and then tell me HOW MANY of them you have done in the past two years. 
+
+::: aside
+Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+## List experiment {visibility="uncounted"}
+
+Do not tell me which ones. Just tell me HOW MANY:
+
+::: aside
+Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+. . .
+
+&nbsp;
+
+### Control group
+
+1. Discussed politics with family or friends
+2. Cast a ballot for governor Phil Bryant
+3. Paid dues to a union
+4. Given money to a Tea Party candidate
+
+
+## List experiment {visibility="uncounted"}
+
+Do not tell me which ones. Just tell me HOW MANY:
+
+::: aside
+Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+&nbsp;
+
+### Treatment group
+
+1. Discussed politics with family or friends
+2. Cast a ballot for governor Phil Bryant
+3. Paid dues to a union
+4. Given money to a Tea Party candidate
+5. **Voted "YES" on the Personhood Initiative**
+
+## Prevalence rate
+
+$$
+\text{Prevalence(X)} = \text{Mean(List with X)} - \text{Mean(List without X)}
+$$
+
+. . .
+
+- Proportion of individuals in the target population who hold the sensitive attitude or behavior
+
+- But we **do not know** who they are in our survey!
+
+## Validation
+
+[Here wrestle with Imai's data]
+
+## Bias-variance tradeoff
