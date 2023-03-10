@@ -1,0 +1,10 @@
+---
+format:
+  revealjs:
+    theme: [default, melbourne.scss]
+    slide-number: true
+---
+
+## Types of DLE
+
+[Here fixed-fixed, fixed-randomized, etc]

@@ -970,7 +970,7 @@
     "href": "slides/dle/melbourne.html#sensitive-questions",
     "title": "Gustavo Diaz",
     "section": "Sensitive questions",
-    "text": "Sensitive questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex with someone who gave you money?\nHave you stolen from a previous employer?\nDo you know someone with links to a militant organization?\nWould you vote for a corrupt politician?\nHave you been offered goods or favors for your vote?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
+    "text": "Sensitive questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
   },
   {
     "objectID": "slides/dle/melbourne.html#challenge",
@@ -1012,7 +1012,7 @@
     "href": "slides/dle/melbourne.html#techniques-to-reduce-sensitivity-bias",
     "title": "Gustavo Diaz",
     "section": "Techniques to reduce sensitivity bias",
-    "text": "Techniques to reduce sensitivity bias\n\n\nCommunicating confidentiality protocols\nHonesty appeals\nRandomized response\nCrosswise model\nNetwork scale-up method\nEndorsement experiments\nConjoint experiments\nList experiments"
+    "text": "Techniques to reduce sensitivity bias\n\nHonesty appeals\nCommunicating confidentiality protocols\nRandomized response\nNetwork scale-up\nEndorsement experiments\nList experiments"
   },
   {
     "objectID": "slides/dle/melbourne.html#why-do-people-lie-in-surveys",
@@ -1026,7 +1026,7 @@
     "href": "slides/dle/melbourne.html#techniques-to-reduce-sensitivity-bias-1",
     "title": "Gustavo Diaz",
     "section": "Techniques to reduce sensitivity bias",
-    "text": "Techniques to reduce sensitivity bias\n\nCommunicating confidentiality protocols\nHonesty appeals\nRandomized response\nCrosswise model\nNetwork scale-up method\nEndorsement experiments\nConjoint experiments\nList experiments"
+    "text": "Techniques to reduce sensitivity bias\n\nHonesty appeals\nCommunicating confidentiality protocols\nRandomized response\nNetwork scale-up\nEndorsement experiments\nList experiments"
   },
   {
     "objectID": "slides/dle/melbourne.html#why-do-people-lie-in-surveys-1",
@@ -1083,5 +1083,180 @@
     "title": "Gustavo Diaz",
     "section": "Prevalence rate",
     "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nProportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know who they are in our survey!"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
+    "href": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
+    "title": "Gustavo Diaz",
+    "section": "Methods for Sensitive Questions in Surveys",
+    "text": "Methods for Sensitive Questions in Surveys\n \nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University\ngustavodiaz.org"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#validation",
+    "href": "slides/dle/melbourne.html#validation",
+    "title": "Gustavo Diaz",
+    "section": "Validation",
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#bias-variance-tradeoff",
+    "href": "slides/dle/melbourne.html#bias-variance-tradeoff",
+    "title": "Gustavo Diaz",
+    "section": "Bias-variance tradeoff",
+    "text": "Bias-variance tradeoff"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#validation-1",
+    "href": "slides/dle/melbourne.html#validation-1",
+    "title": "Gustavo Diaz",
+    "section": "Validation",
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#validation-2",
+    "href": "slides/dle/melbourne.html#validation-2",
+    "title": "Gustavo Diaz",
+    "section": "Validation",
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#validation-3",
+    "href": "slides/dle/melbourne.html#validation-3",
+    "title": "Gustavo Diaz",
+    "section": "Validation",
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#example",
+    "href": "slides/dle/melbourne.html#example",
+    "title": "Gustavo Diaz",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\n\nSource: NPR"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#lesson",
+    "href": "slides/dle/melbourne.html#lesson",
+    "title": "Gustavo Diaz",
+    "section": "Lesson",
+    "text": "Lesson\n\nList experiments are not always an improvement"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#can-we-do-better",
+    "href": "slides/dle/melbourne.html#can-we-do-better",
+    "title": "Gustavo Diaz",
+    "section": "Can we do better?",
+    "text": "Can we do better?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#list-experiments-are-not-always-an-improvement",
+    "href": "slides/dle/melbourne.html#list-experiments-are-not-always-an-improvement",
+    "title": "Gustavo Diaz",
+    "section": "List experiments are not always an improvement",
+    "text": "List experiments are not always an improvement"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#double-list-experiments",
+    "href": "slides/dle/melbourne.html#double-list-experiments",
+    "title": "Gustavo Diaz",
+    "section": "Double list experiments",
+    "text": "Double list experiments\nList A\n\nCalifornians for Disability (advocating for people with disabilities)\nCalifornia National Organization for Women (advocating for women’s equality and empowerment)\nAmerican Family Association (advocating for pro-family values)\nAmerican Red Cross (humanitarian organization)\n\nList B\n\nAmerican Legion (veterans service organization)\nEquality California (gay and lesbian advocacy organization)\nTea Party Patriots (conservative group supporting lower taxes and limited government)\nSalvation Army (charitable organization)\n\n\n\n\n\n\n\nSource: Alvarez et al (2019)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#double-list-experiment",
+    "href": "slides/dle/melbourne.html#double-list-experiment",
+    "title": "Gustavo Diaz",
+    "section": "Double list experiment",
+    "text": "Double list experiment\nList A\n\nCalifornians for Disability (advocating for people with disabilities)\nCalifornia National Organization for Women (advocating for women’s equality and empowerment)\nAmerican Family Association (advocating for pro-family values)\nAmerican Red Cross (humanitarian organization)\n\nList B\n\nAmerican Legion (veterans service organization)\nEquality California (gay and lesbian advocacy organization)\nTea Party Patriots (conservative group supporting lower taxes and limited government)\nSalvation Army (charitable organization)\n\n\n\nSource: Alvarez et al (2019)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#sensitive-item",
+    "href": "slides/dle/melbourne.html#sensitive-item",
+    "title": "Gustavo Diaz",
+    "section": "Sensitive item",
+    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nEquivalent to making two parallel list experiments\nCalculate prevalence by averaging the two single-list estimates"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates",
+    "href": "slides/dle/melbourne.html#yields-more-precise-estimates",
+    "title": "Gustavo Diaz",
+    "section": "Yields more precise estimates",
+    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
+    "href": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
+    "title": "Gustavo Diaz",
+    "section": "Yields more precise estimates",
+    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#but-this-is-not-for-free",
+    "href": "slides/dle/melbourne.html#but-this-is-not-for-free",
+    "title": "Gustavo Diaz",
+    "section": "But this is not for free",
+    "text": "But this is not for free\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#validating-two-lists-is-more-costly-fa-laptop-code",
+    "href": "slides/dle/melbourne.html#validating-two-lists-is-more-costly-fa-laptop-code",
+    "title": "Gustavo Diaz",
+    "section": "Validating two lists is more costly ",
+    "text": "Validating two lists is more costly \n[Here simulations]"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#dles-need-more-piloting-fa-laptop-code",
+    "href": "slides/dle/melbourne.html#dles-need-more-piloting-fa-laptop-code",
+    "title": "Gustavo Diaz",
+    "section": "DLEs need more piloting ",
+    "text": "DLEs need more piloting"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#dles-need-more-piloting-fa-laptop-code-1",
+    "href": "slides/dle/melbourne.html#dles-need-more-piloting-fa-laptop-code-1",
+    "title": "Gustavo Diaz",
+    "section": "DLEs need more piloting ",
+    "text": "DLEs need more piloting"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#presentation-topic",
+    "href": "slides/dle/melbourne.html#presentation-topic",
+    "title": "Gustavo Diaz",
+    "section": "Presentation topic",
+    "text": "Presentation topic\nGive a presentation that showcases how you would teach an important concept in research methods related to your research to advanced undergraduate students in political science. Reflect on why you have chosen this concept for students and explain why you are going about teaching it this way.\nInclude within this presentation brief instructions to students for a class activity designed to support student learning about this concept (you do not need to implement this activity during your presentation).\nFollow this presentation with an outline of how your current and future research will complement and enhance research in the School of Social and Political Sciences at the University of Melbourne.\nTotal time for presentation: 25 minutes (approximately 20 minutes for the teaching presentation, and 5 minutes for the research overview). Audience members will include the selection panel, and current staff and PhD students in the School. There will be 10 minutes for questions from the audience."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#but-this-is-not-for-free-fa-laptop-code",
+    "href": "slides/dle/melbourne.html#but-this-is-not-for-free-fa-laptop-code",
+    "title": "Gustavo Diaz",
+    "section": "But this is not for free ",
+    "text": "But this is not for free \n\n\nSimulate a survey of \\(N = 1000\\) that asks a sensitive question\nPick a true prevalence rate\nIs the sensitivity bias reduction worth the precision loss?\nWould a DLE perform better?\nWhat if the extra piloting of the DLE means you only have a budget for \\(N/2\\)?\nDo your conclusions change if you modify \\(N\\) or the prevalence rate?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#bias-variance-tradeoff-as-darts",
+    "href": "slides/dle/melbourne.html#bias-variance-tradeoff-as-darts",
+    "title": "Gustavo Diaz",
+    "section": "Bias-variance tradeoff as darts",
+    "text": "Bias-variance tradeoff as darts\n\nThis shows up in causal inference, machine learning, measurement, and many more!"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#but-the-game-of-darts-is-more-complicated",
+    "href": "slides/dle/melbourne.html#but-the-game-of-darts-is-more-complicated",
+    "title": "Gustavo Diaz",
+    "section": "But the game of darts is more complicated",
+    "text": "But the game of darts is more complicated\n\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent players  different winning strategies"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#navigating-research-design-tradeoffs",
+    "href": "slides/dle/melbourne.html#navigating-research-design-tradeoffs",
+    "title": "Gustavo Diaz",
+    "section": "Navigating research design tradeoffs",
+    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments\n\nPreferring precision over unbiasedness\n\nBlock randomization"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#challenges-to-accountability-and-representation-in-the-global-south",
+    "href": "slides/dle/melbourne.html#challenges-to-accountability-and-representation-in-the-global-south",
+    "title": "Gustavo Diaz",
+    "section": "Challenges to accountability and representation in the Global South",
+    "text": "Challenges to accountability and representation in the Global South\n\nPoliticians anticipate accountability for corruption\n\nReducing spending when investigated\n\nGendered evaluations of performance in office\n\nIn reaction to COVID-19"
   }
 ]

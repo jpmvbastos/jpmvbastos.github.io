@@ -258,6 +258,8 @@ Alvarez, Atkeson, Levin, and Li. 2019. "Paying Attention to Inattentive Survey R
 - Calculate prevalence by averaging the two single-list estimates
 :::
 
+
+
 ## Variance reduced by half
 
 ```{r}

@@ -7,7 +7,7 @@ format:
 
 
 ::: {style="text-align: center"}
-## Sensitive Questions in Surveys {.center background-color="#1d428a"}
+## Methods for Sensitive Questions in Surveys {.center background-color="#1d428a"}
 
 &nbsp;
 
@@ -21,6 +21,8 @@ McMaster University
 
 ```{r include=FALSE}
 library(knitr)
+
+opts_chunk$set(fig.pos = "center")
 ```
 
 ```{r setup}
@@ -29,9 +31,59 @@ library(tidyverse)
 library(DeclareDesign)
 library(kableExtra)
 
+
 # ggplot global options
 theme_set(theme_bw(base_size = 20))
 ```
+
+
+```{r}
+# Data prep
+load("attn_rep.RData")
+
+cali = dle
+
+remove(dle)
+
+# Analysis
+a = cali %>% 
+  split(.$experiment) %>% 
+  map(~difference_in_means(listA ~ trt_A, data = .)) %>% 
+  map(tidy) %>% 
+  bind_rows(.id = "experiment")
+
+b = cali %>% 
+  split(.$experiment) %>% 
+  map(~difference_in_means(listB ~ trt_B, data = .)) %>% 
+  map(tidy) %>% 
+  bind_rows(.id = "experiment")
+
+pool = cali %>% 
+  mutate(id = row_number()) %>% 
+  pivot_longer(cols = c(listA, listB)) %>% 
+  rename(list = name, count = value) %>% 
+  mutate(Z = ifelse(trt_A == 1 & list == "listA" | trt_B == 1 & list == "listB",
+                    1, 0)) %>% 
+  split(.$experiment) %>% 
+  map(~ lm_robust(count ~ Z + list, clusters = id, se_type = "stata", data = .)) %>% 
+  map(tidy) %>% 
+  bind_rows(.id = "experiment") %>% 
+  filter(term == "Z")
+  
+est_df = rbind(a, b, pool)
+
+est_df$term = fct_relevel(est_df$term, "trt_A", "trt_B", "Z")
+```
+
+## Presentation topic {.smaller}
+
+Give a presentation that showcases how you would teach an important concept in research methods related to your research to advanced undergraduate students in political science. Reflect on why you have chosen this concept for students and explain why you are going about teaching it this way. 
+
+Include within this presentation brief instructions to students for a class activity designed to support student learning about this concept (you do not need to implement this activity during your presentation). 
+
+Follow this presentation with an outline of how your current and future research will complement and enhance research in the School of Social and Political Sciences at the University of Melbourne. 
+
+Total time for presentation: 25 minutes (approximately 20 minutes for the teaching presentation, and 5 minutes for the research overview). Audience members will include the selection panel, and current staff and PhD students in the School. There will be 10 minutes for questions from the audience.
 
 ## Sensitive questions
 
@@ -41,13 +93,7 @@ theme_set(theme_bw(base_size = 20))
 
 - Would you bribe a police officer to avoid a traffic ticket?
 
-- Have you had sex with someone who gave you money?
-
-- Have you stolen from a previous employer?
-
-- Do you know someone with links to a militant organization?
-
-- Would you vote for a corrupt politician?
+- Have you had sex after drinking alcohol?
 
 - Have you been offered goods or favors for your vote?
 
@@ -57,75 +103,36 @@ theme_set(theme_bw(base_size = 20))
 
 :::
 
-## Why do people lie in surveys?
-
-::: incremental
-
-
-1. Inattention
-
-2. Satisficing
-
-3. Limited options
-
-4. Demand effects
-
-5. Sensitivity bias 
-:::
-
-## Why do people lie in surveys? {visibility="uncounted"}
-
-1. [Inattention]{style="color: gray;"} 
-
-2. [Satisficing]{style="color: gray;"} 
-
-3. [Limited options]{style="color: gray;"} 
-
-4. [Demand effects]{style="color: gray;"} 
-
-5. [**Sensitivity bias**]{style="color: #1d428a;"} 
-
 ## Techniques to reduce sensitivity bias
-
-::: incremental
-
-- Communicating confidentiality protocols
 
 - Honesty appeals
 
+- Communicating confidentiality protocols
+
 - Randomized response
 
-- Crosswise model
-
-- Network scale-up method
+- Network scale-up
 
 - Endorsement experiments
 
-- Conjoint experiments
-
 - List experiments
 
-:::
 
 ## Techniques to reduce sensitivity bias {visibility="uncounted"}
 
-- [Communicating confidentiality protocols]{style="color: gray;"} 
-
 - [Honesty appeals]{style="color: gray;"} 
+
+- [Communicating confidentiality protocols]{style="color: gray;"} 
 
 - [Randomized response]{style="color: gray;"} 
 
-- [Crosswise model]{style="color: gray;"} 
-
-- [Network scale-up method]{style="color: gray;"} 
+- [Network scale-up]{style="color: gray;"} 
 
 - [Endorsement experiments]{style="color: gray;"} 
 
-- [Conjoint experiments]{style="color: gray;"} 
-
 - [**List experiments**]{style="color: #1d428a;"} 
 
-## Example: Personhood
+## Example
 
 ![](figs/personhood_0.png){.absolute top=60 left=0 height="80%"}
 
@@ -205,6 +212,228 @@ $$
 
 ## Validation
 
-[Here wrestle with Imai's data]
+```{r}
+# got this through
+# https://automeris.io/WebPlotDigitizer/
+# And by reverse engineering table 1
+# Because replication data was not available
+# So this has some human error
+validation = data.frame(
+  technique = c("Direct question", "List experiment"),
+  estimate = c(0.396, 0.487),
+  upper = c(0.419, 0.562),
+  lower = c(0.376, 0.417)
+)
 
-## Bias-variance tradeoff
+actual_vote = 0.65
+
+ggplot(validation) +
+  aes(x = technique, y = estimate) +
+  geom_point(size = 4, alpha = 0) + 
+  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),
+                 linewidth = 1, alpha = 0) +
+  ylim(0.2, 0.8) +
+  labs(x = "Technique", 
+       y = "Estimated proportion of 'No' votes")
+```
+
+::: aside
+Adapted from [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+## Validation {visibility="uncounted"}
+
+```{r}
+ggplot(validation) +
+  aes(x = technique, y = estimate) +
+  geom_hline(yintercept = actual_vote, 
+             linetype = "dashed",
+             linewidth = 1) +
+  geom_point(size = 4, alpha = 0) + 
+  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),
+                 linewidth = 1, alpha = 0) +
+  annotate("text", x = 0.7, y = 0.7, size = 5, 
+           label = "Actual vote share") +
+  ylim(0.2, 0.8) +
+  labs(x = "Technique", 
+       y = "Estimated proportion of 'No' votes")
+```
+
+::: aside
+Adapted from [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+
+## Validation {visibility="uncounted"}
+
+```{r}
+ggplot(validation) +
+  aes(x = technique, y = estimate) +
+  geom_hline(yintercept = actual_vote, 
+             linetype = "dashed",
+             linewidth = 1) +
+  geom_point(size = 4) + 
+  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),
+                 linewidth = 1) +
+  annotate("text", x = 0.7, y = 0.7, size = 5, 
+           label = "Actual vote share") +
+  ylim(0.2, 0.8) +
+  labs(x = "Technique", 
+       y = "Estimated proportion of 'No' votes")
+```
+
+::: aside
+Adapted from [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+::: {style="text-align: center"}
+## List experiments are not always an improvement {.center background-color="#00b176"}
+:::
+
+::: {style="text-align: center"}
+## Can we do better? {.center background-color="#00b176"}
+:::
+
+## Double list experiment {.smaller}
+
+**List A**
+
+- Californians for Disability (advocating for people with disabilities)
+- California National Organization for Women (advocating for women's equality and empowerment)
+- American Family Association (advocating for pro-family values)
+- American Red Cross (humanitarian organization)
+
+**List B**
+
+- American Legion (veterans service organization)
+- Equality California (gay and lesbian advocacy organization)
+- Tea Party Patriots (conservative group supporting lower taxes and limited government)
+- Salvation Army (charitable organization)
+
+::: aside
+Source: [Alvarez et al (2019)](https://doi.org/10.1017/pan.2018.57)
+:::
+
+## Sensitive item
+
+**Organization X (advocating for immigration reduction and measures against undocumented immigration)**
+
+::: incremental
+- Randomly appears in list A or B
+
+- Equivalent to making two parallel list experiments
+
+- Calculate prevalence by averaging the two single-list estimates
+:::
+
+## Yields more precise estimates
+
+```{r}
+ggplot(est_df %>% filter(experiment == "X")) +
+  aes(x = term, y = estimate, shape = term) +
+  geom_hline(yintercept = 0, linetype = "dashed") + 
+  geom_point(size = 4, position = position_dodge(width = 0.5), alpha = 0) +
+  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), 
+                 size = 1, position = position_dodge(width = 0.5), alpha = 0) +
+  theme(legend.position = "none") +
+  labs(subtitle = "Organization X (immigration reduction)",
+       x = "Estimator", 
+       y = "Proportion support") +
+  scale_x_discrete(labels = c("List A", "List B", "Pooled"))
+```
+
+::: aside
+Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
+:::
+
+## Yields more precise estimates {visibility="uncounted"}
+
+```{r}
+ggplot(est_df %>% filter(experiment == "X")) +
+  aes(x = term, y = estimate, shape = term) +
+  geom_hline(yintercept = 0, linetype = "dashed") + 
+  geom_point(size = 4, position = position_dodge(width = 0.5)) +
+  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), 
+                 size = 1, position = position_dodge(width = 0.5)) +
+  theme(legend.position = "none") +
+  labs(subtitle = "Organization X (immigration reduction)", 
+       x = "Estimator", 
+       y = "Proportion support") +
+  scale_x_discrete(labels = c("List A", "List B", "Pooled"))
+```
+
+::: aside
+Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
+:::
+
+
+## But this is not for free {{< fa laptop-code >}}
+
+::: incremental
+1. Simulate a survey of $N = 1000$ that asks a sensitive question
+
+2. Pick a *true* prevalence rate
+
+3. Is the sensitivity bias reduction worth the precision loss?
+
+4. Would a DLE perform better?
+
+5. What if the extra piloting of the DLE means you only have a budget for $N/2$?
+
+6. Do your conclusions change if you modify $N$ or the prevalence rate?
+:::
+
+::: {style="text-align: center"}
+# Research overview {background-color="#1d428a"}
+:::
+
+## Bias-variance tradeoff as darts
+
+![This shows up in causal inference, machine learning, measurement, and many more!](figs/darts.png){fig-align="center"}
+
+## But the game of darts is more complicated
+
+::: columns
+::: {.column width="50%"}
+![](figs/darts_board.png)
+:::
+
+::: {.column width="50%"}
+![](figs/darts_scoring.png){fig-align="center" width="72%" height="72%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center"}
+Different players {{< fa arrow-right >}} different winning strategies
+:::
+
+## Navigating research design tradeoffs
+
+
+1. Improving precision without sacrificing unbiasedness
+
+    - [Double list experiments](https://gustavodiaz.org/files/research/dle_test.pdf)
+    
+
+2. Preferring precision over unbiasedness
+
+    - [Block randomization](https://egap.org/resource/sd-block-rand/)
+  
+## Challenges to accountability and representation in the Global South
+
+1. Politicians anticipate accountability for corruption
+
+    - [Reducing spending when investigated](https://gustavodiaz.org/files/research/audit_spending.pdf)
+
+
+2. Gendered evaluations of performance in office
+
+    - [In reaction to COVID-19](https://doi.org/10.1016/j.worlddev.2020.105125)
+    
+
+    
+
+
+
