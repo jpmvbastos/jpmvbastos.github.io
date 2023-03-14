@@ -417,7 +417,7 @@
     "href": "market.html#upcoming-deadlines",
     "title": "Job Market Hub",
     "section": "Upcoming Deadlines",
-    "text": "Upcoming Deadlines\n\n\n\nLast update: February 14, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n\n  \n\n  \n\n\n\n\n\n \nNA - NA - NALetters:  Deadline: NA  Delivery: NA  Notes: NA  \n \n** - - **Letters:  Deadline:  Delivery:  Notes:"
+    "text": "Upcoming Deadlines\n\n\n\nLast update: March 14, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n \n  \n    Jake \n    Matt \n    Michelle \n  \n \n\n  \n    1 \n    1 \n    1 \n  \n\n\n\n\n\n \nAssistant Professor in Comparative Political Behavior - Department of Political Science - University of AmsterdamLetters: Jake, Matt, Michelle  Deadline: March 28, 2023  Delivery: After shortlist?  Notes: NA"
   },
   {
     "objectID": "market.html#materials",
@@ -676,7 +676,7 @@
     "href": "slides/dle/spark.html#bias-variance-tradeoff",
     "title": "Gustavo Diaz",
     "section": "Bias-variance tradeoff",
-    "text": "Bias-variance tradeoff\n\n\n List experiments need large samples!\n\nBlair, Coppock, and Moor. 2020. “When to Worry about Sensitivity Bias: A Social Reference Theory and Evidence from 30 Years of List Experiments.” American Political Science Review"
+    "text": "Bias-variance tradeoff\n\n\n\n\n\n\n List experiments need large samples!\n\nBlair, Coppock, and Moor. 2020. “When to Worry about Sensitivity Bias: A Social Reference Theory and Evidence from 30 Years of List Experiments.” American Political Science Review"
   },
   {
     "objectID": "slides/dle/spark.html#to-make-matters-worse",
@@ -914,28 +914,28 @@
     "href": "slides/dle/lunchlab.html#list-experiment-2",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\n\nControl group\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment"
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\n\n\nControl group\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment"
   },
   {
     "objectID": "slides/dle/lunchlab.html#list-experiment-3",
     "href": "slides/dle/lunchlab.html#list-experiment-3",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\nTreatment group\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment\nA black family moving next door"
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\n\nTreatment group\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment\nA black family moving next door"
   },
   {
     "objectID": "slides/dle/lunchlab.html#double-list-experiment",
     "href": "slides/dle/lunchlab.html#double-list-experiment",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\nWe want DLEs to look like this"
+    "text": "Double list experiment\n\nggplot(est_df %>% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\n## ℹ Please use `linewidth` instead.\n\n\n\n\n\n\nWe want DLEs to look like this"
   },
   {
     "objectID": "slides/dle/lunchlab.html#double-list-experiment-1",
     "href": "slides/dle/lunchlab.html#double-list-experiment-1",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
+    "text": "Double list experiment\n\nggplot(est_df %>% filter(experiment == \"Y\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization Y\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
   },
   {
     "objectID": "slides/dle/lunchlab.html#we-need-standards-to-justify-choice-of-dle",
@@ -1265,5 +1265,19 @@
     "title": "Gustavo Diaz",
     "section": "Types of DLE",
     "text": "Types of DLE\n\n\n\n\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
+  },
+  {
+    "objectID": "slides/dle/lunchlab.html",
+    "href": "slides/dle/lunchlab.html",
+    "title": "Gustavo Diaz",
+    "section": "",
+    "text": "# Packages\nlibrary(tidyverse)\n## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n## ✔ ggplot2 3.4.0      ✔ purrr   0.3.4 \n## ✔ tibble  3.1.8      ✔ dplyr   1.0.10\n## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n## ✔ readr   2.1.3      ✔ forcats 0.5.2\n## Warning: package 'ggplot2' was built under R version 4.2.2\n## Warning: package 'readr' was built under R version 4.2.2\n## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n## ✖ dplyr::filter() masks stats::filter()\n## ✖ dplyr::lag()    masks stats::lag()\nlibrary(DeclareDesign)\n## Loading required package: randomizr\n## Loading required package: fabricatr\n## Loading required package: estimatr\n## \n## Attaching package: 'DeclareDesign'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     vars\n## \n## The following object is masked from 'package:ggplot2':\n## \n##     vars\nlibrary(kableExtra)\n## \n## Attaching package: 'kableExtra'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\n# Data prep\nload(\"attn_rep.RData\")\n\ncali = dle\n\nremove(dle)\n\n# Analysis\na = cali %>% \n  split(.$experiment) %>% \n  map(~difference_in_means(listA ~ trt_A, data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\")\n\nb = cali %>% \n  split(.$experiment) %>% \n  map(~difference_in_means(listB ~ trt_B, data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\")\n\npool = cali %>% \n  mutate(id = row_number()) %>% \n  pivot_longer(cols = c(listA, listB)) %>% \n  rename(list = name, count = value) %>% \n  mutate(Z = ifelse(trt_A == 1 & list == \"listA\" | trt_B == 1 & list == \"listB\",\n                    1, 0)) %>% \n  split(.$experiment) %>% \n  map(~ lm_robust(count ~ Z + list, clusters = id, se_type = \"stata\", data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\") %>% \n  filter(term == \"Z\")\n  \nest_df = rbind(a, b, pool)\n\nest_df$term = fct_relevel(est_df$term, \"trt_A\", \"trt_B\", \"Z\")\n\nNow I am going to read you three things that make people angry or upset."
+  },
+  {
+    "objectID": "slides/dle/spark.html",
+    "href": "slides/dle/spark.html",
+    "title": "Gustavo Diaz",
+    "section": "",
+    "text": "Gustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University\ngustavodiaz.org"
   }
 ]
