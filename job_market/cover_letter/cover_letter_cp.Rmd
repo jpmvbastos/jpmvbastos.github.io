@@ -23,10 +23,10 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Comparative Politics"
+jobtitle = "an Assistant Professor in Political Science with a Specialization in Comparative Political Behavior"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-place = "LSU"
+place = "UvA"
 area = "political economy and political behavior"
 region = "the Global South"
 tools = "design-based causal inference and computational social science"
