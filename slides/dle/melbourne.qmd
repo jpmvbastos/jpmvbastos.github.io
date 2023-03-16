@@ -7,7 +7,7 @@ format:
 
 
 ::: {style="text-align: center"}
-## Methods for Sensitive Questions in Surveys {.center background-color="#1d428a"}
+## Methods for Sensitive Questions<br>in Surveys {.center background-color="#1d428a"}
 
 &nbsp;
 
