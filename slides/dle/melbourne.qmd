@@ -75,17 +75,21 @@ est_df = rbind(a, b, pool)
 est_df$term = fct_relevel(est_df$term, "trt_A", "trt_B", "Z")
 ```
 
-## Presentation topic {.smaller}
+## Learning goals
 
-Give a presentation that showcases how you would teach an important concept in research methods related to your research to advanced undergraduate students in political science. Reflect on why you have chosen this concept for students and explain why you are going about teaching it this way. 
+::: incremental
 
-Include within this presentation brief instructions to students for a class activity designed to support student learning about this concept (you do not need to implement this activity during your presentation). 
+- **Specific:** Different versions of the same survey question change the answers we get
 
-Follow this presentation with an outline of how your current and future research will complement and enhance research in the School of Social and Political Sciences at the University of Melbourne. 
+- **General:** Illustrate bias-variance tradeoff in statistics
 
-Total time for presentation: 25 minutes (approximately 20 minutes for the teaching presentation, and 5 minutes for the research overview). Audience members will include the selection panel, and current staff and PhD students in the School. There will be 10 minutes for questions from the audience.
+:::
 
-## Sensitive questions
+## Bias-variance tradeoff as darts
+
+![This shows up in causal inference, machine learning, measurement, and many more!](figs/darts.png){fig-align="center"}
+
+## Questions
 
 ::: incremental
 
@@ -101,6 +105,18 @@ Total time for presentation: 25 minutes (approximately 20 minutes for the teachi
 
 - Would you allow Muslim immigrants to become citizens?
 
+:::
+
+## What do these have in common?
+
+::: incremental
+- They are **sensitive questions**
+
+- We can only learn about them using surveys 
+
+- **But** asking about them directly leads to **misreporting**
+
+- This form of measurement error is called **sensitivity bias**
 :::
 
 ## Techniques to reduce sensitivity bias
@@ -387,11 +403,7 @@ Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 # Research overview {background-color="#1d428a"}
 :::
 
-## Bias-variance tradeoff as darts
-
-![This shows up in causal inference, machine learning, measurement, and many more!](figs/darts.png){fig-align="center"}
-
-## But the game of darts is more complicated
+## Bias-variance as darts revisited
 
 ::: columns
 ::: {.column width="50%"}

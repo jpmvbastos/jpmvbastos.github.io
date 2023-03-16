@@ -1068,14 +1068,14 @@
     "href": "slides/dle/melbourne.html#list-experiment-2",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\nDo not tell me which ones. Just tell me HOW MANY:\n\n\nSource: Rosenfeld et al (2016)\n\n \n\nControl group\n\nDiscussed politics with family or friends\nCast a ballot for governor Phil Bryant\nPaid dues to a union\nGiven money to a Tea Party candidate"
+    "text": "List experiment\nDo not tell me which ones. Just tell me HOW MANY:\n\n\n \nControl group\n\nDiscussed politics with family or friends\nCast a ballot for governor Phil Bryant\nPaid dues to a union\nGiven money to a Tea Party candidate\n\n\n\nSource: Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#list-experiment-3",
     "href": "slides/dle/melbourne.html#list-experiment-3",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\nDo not tell me which ones. Just tell me HOW MANY:\n\n\nSource: Rosenfeld et al (2016)\n \n\nTreatment group\n\nDiscussed politics with family or friends\nCast a ballot for governor Phil Bryant\nPaid dues to a union\nGiven money to a Tea Party candidate\nVoted “YES” on the Personhood Initiative"
+    "text": "List experiment\nDo not tell me which ones. Just tell me HOW MANY:\n\n \nTreatment group\n\nDiscussed politics with family or friends\nCast a ballot for governor Phil Bryant\nPaid dues to a union\nGiven money to a Tea Party candidate\nVoted “YES” on the Personhood Initiative\n\n\nSource: Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#prevalence-rate",
@@ -1096,7 +1096,7 @@
     "href": "slides/dle/melbourne.html#validation",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\n# got this through\n# https://automeris.io/WebPlotDigitizer/\n# And by reverse engineering table 1\n# Because replication data was not available\n# So this has some human error\nvalidation = data.frame(\n  technique = c(\"Direct question\", \"List experiment\"),\n  estimate = c(0.396, 0.487),\n  upper = c(0.419, 0.562),\n  lower = c(0.376, 0.417)\n)\n\nactual_vote = 0.65\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_point(size = 4, alpha = 0) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1, alpha = 0) +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#bias-variance-tradeoff",
@@ -1110,14 +1110,14 @@
     "href": "slides/dle/melbourne.html#validation-1",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_hline(yintercept = actual_vote, \n             linetype = \"dashed\",\n             linewidth = 1) +\n  geom_point(size = 4, alpha = 0) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1, alpha = 0) +\n  annotate(\"text\", x = 0.7, y = 0.7, size = 5, \n           label = \"Actual vote share\") +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation-2",
     "href": "slides/dle/melbourne.html#validation-2",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_hline(yintercept = actual_vote, \n             linetype = \"dashed\",\n             linewidth = 1) +\n  geom_point(size = 4) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1) +\n  annotate(\"text\", x = 0.7, y = 0.7, size = 5, \n           label = \"Actual vote share\") +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation-3",
@@ -1131,7 +1131,7 @@
     "href": "slides/dle/melbourne.html#example",
     "title": "Gustavo Diaz",
     "section": "Example",
-    "text": "Example\n\n\n\n\n\nSource: NPR"
+    "text": "Example\n\n\n\n\n\n\nSource: NPR"
   },
   {
     "objectID": "slides/dle/melbourne.html#lesson",
@@ -1180,14 +1180,14 @@
     "href": "slides/dle/melbourne.html#yields-more-precise-estimates",
     "title": "Gustavo Diaz",
     "section": "Yields more precise estimates",
-    "text": "Yields more precise estimates\n\nggplot(est_df %>% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5), alpha = 0) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5), alpha = 0) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X (immigration reduction)\",\n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
     "href": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
     "title": "Gustavo Diaz",
     "section": "Yields more precise estimates",
-    "text": "Yields more precise estimates\n\nggplot(est_df %>% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X (immigration reduction)\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#but-this-is-not-for-free",
@@ -1236,7 +1236,7 @@
     "href": "slides/dle/melbourne.html#bias-variance-tradeoff-as-darts",
     "title": "Gustavo Diaz",
     "section": "Bias-variance tradeoff as darts",
-    "text": "Bias-variance tradeoff as darts\n\n\n\nThis shows up in causal inference, machine learning, measurement, and many more!"
+    "text": "Bias-variance tradeoff as darts\n\nThis shows up in causal inference, machine learning, measurement, and many more!"
   },
   {
     "objectID": "slides/dle/melbourne.html#but-the-game-of-darts-is-more-complicated",
@@ -1321,5 +1321,33 @@
     "title": "Gustavo Diaz",
     "section": "",
     "text": "# Packages\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.3.0      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 1.0.0 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(DeclareDesign)\n\nLoading required package: randomizr\nLoading required package: fabricatr\nLoading required package: estimatr\n\nAttaching package: 'DeclareDesign'\n\nThe following object is masked from 'package:dplyr':\n\n    vars\n\nThe following object is masked from 'package:ggplot2':\n\n    vars\n\nlibrary(kableExtra)\n\n\nAttaching package: 'kableExtra'\n\nThe following object is masked from 'package:dplyr':\n\n    group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\ndesigns = data.frame(\n  expand.grid(\n    Lists = c(\"Fixed\", \"Randomized\"),\n    Sensitive_item = c(\"Fixed\", \"Randomized\")\n  )\n)\n\ncolnames(designs) = c(\"List order\", \"Sensitive item location\")\n\ndesigns %>% \n  kbl(format = \"markdown\",\n      escape = FALSE,\n      align = \"cc\")\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#learning-goals",
+    "href": "slides/dle/melbourne.html#learning-goals",
+    "title": "Gustavo Diaz",
+    "section": "Learning goals",
+    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#questions",
+    "href": "slides/dle/melbourne.html#questions",
+    "title": "Gustavo Diaz",
+    "section": "Questions",
+    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#bias-variance-as-darts-revisited",
+    "href": "slides/dle/melbourne.html#bias-variance-as-darts-revisited",
+    "title": "Gustavo Diaz",
+    "section": "Bias-variance as darts revisited",
+    "text": "Bias-variance as darts revisited\n\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent players  different winning strategies"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#what-do-these-have-in-common",
+    "href": "slides/dle/melbourne.html#what-do-these-have-in-common",
+    "title": "Gustavo Diaz",
+    "section": "What do these have in common?",
+    "text": "What do these have in common?\n\n\nThey are sensitive questions\nWe can only learn about them using surveys\nBut asking about them directly leads to misreporting\nThis form of measurement error is called sensitivity bias"
   }
 ]
