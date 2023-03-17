@@ -463,7 +463,7 @@ McMaster University<br>
 \]</span></p>
 <div class="fragment">
 <ul>
-<li><p>Proportion of individuals in the target population who hold the sensitive attitude or behavior</p></li>
+<li><p><strong>Estimate:</strong> Proportion of individuals in the target population who hold the sensitive attitude or behavior</p></li>
 <li><p>But we <strong>do not know</strong> who they are in our survey!</p></li>
 </ul>
 </div>
@@ -505,6 +505,21 @@ McMaster University<br>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Adapted from <a href="https://doi.org/10.1111/ajps.12205">Rosenfeld et al (2016)</a></p>
+</div></aside></section>
+<section id="validation-3" class="slide level2" data-visibility="uncounted">
+<h2>Validation</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -556,7 +571,7 @@ McMaster University<br>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -571,7 +586,7 @@ McMaster University<br>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -580,19 +595,80 @@ McMaster University<br>
 <aside><div>
 <p>Adapted from <a href="https://gustavodiaz.org/files/research/dle_test.pdf">Diaz (2023)</a></p>
 </div></aside></section>
-<section id="but-this-is-not-for-free-fa-laptop-code" class="slide level2">
-<h2>But this is not for free <i class="fa-solid fa-laptop-code" aria-hidden="true"></i></h2>
+<section id="but-this-is-not-for-free" class="slide level2">
+<h2>But this is not for free</h2>
 <div>
-<ol type="1">
-<li class="fragment"><p>Simulate a survey of <span class="math inline">\(N = 1000\)</span> that asks a sensitive question</p></li>
-<li class="fragment"><p>Pick a <em>true</em> prevalence rate</p></li>
-<li class="fragment"><p>Is the sensitivity bias reduction worth the precision loss?</p></li>
-<li class="fragment"><p>Would a DLE perform better?</p></li>
-<li class="fragment"><p>What if the extra piloting of the DLE means you only have a budget for <span class="math inline">\(N/2\)</span>?</p></li>
-<li class="fragment"><p>Do your conclusions change if you modify <span class="math inline">\(N\)</span> or the prevalence rate?</p></li>
-</ol>
+<ul>
+<li class="fragment"><p>Need the two questions to measure the same thing</p></li>
+<li class="fragment"><p><strong>Advice:</strong> Pick baseline lists that are as similar as possible</p></li>
+<li class="fragment"><p><strong>BUT</strong> that makes it easier to spot the <em>sensitive item</em></p></li>
+</ul>
 </div>
 </section>
+<section id="this-can-happen" class="slide level2">
+<h2>This can happen</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-9-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Adapted from <a href="https://gustavodiaz.org/files/research/dle_test.pdf">Diaz (2023)</a></p>
+</div></aside></section>
+<section id="this-can-happen-1" class="slide level2" data-visibility="uncounted">
+<h2>This can happen</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-10-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Adapted from <a href="https://gustavodiaz.org/files/research/dle_test.pdf">Diaz (2023)</a></p>
+</div></aside></section>
+<section id="summary" class="slide level2" data-background-color="#00b176">
+<h2>Summary</h2>
+<ul>
+<li>Three approaches to sensitive questions</li>
+</ul>
+<div class="fragment">
+<ol type="1">
+<li><p><strong>Direct question:</strong> High bias, low variance</p></li>
+<li><p><strong>List experiment:</strong> Low bias, high variance</p></li>
+<li><p><strong>Double list experiment:</strong> Low bias, low variance, easier to break</p></li>
+</ol>
+</div>
+<div class="fragment">
+<ul>
+<li>Need extensive piloting to choose well</li>
+</ul>
+</div>
+</section>
+<section id="activity" class="slide level2">
+<h2>Activity</h2>
+<ul>
+<li><p>Imagine something people tend to hide</p></li>
+<li><p>How common do you think it is among your friends/peers/community?</p></li>
+<li><p>Design a list experiment to learn about it</p></li>
+<li><p>How many people would you ask?</p></li>
+<li><p>How many lists?</p></li>
+<li><p>How many and which baseline items?</p></li>
+<li><p>Would it be any different from asking directly?</p></li>
+</ul>
+</section>
+<section id="end-product-fa-laptop-code" class="slide level2">
+<h2>End product <i class="fa-solid fa-laptop-code" aria-hidden="true"></i></h2>
+
+<img data-src="figs/code.png" class="r-stretch quarto-figure-center"></section>
 <section id="research-overview" class="title-slide slide level1 center" data-background-color="#1d428a" style="text-align: center">
 <h1>Research overview</h1>
 
@@ -629,19 +705,17 @@ McMaster University<br>
 <li><a href="https://egap.org/resource/sd-block-rand/">Block randomization</a></li>
 </ul></li>
 </ol>
+<div class="fragment">
+<ul>
+<li><p><strong>Applications:</strong> Accountability, governance, and representation in low/medium income countries</p>
+<ul>
+<li>Blocking + DLE to estimate prevalence of criminal governance strategies in Uruguay</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="challenges-to-accountability-and-representation-in-the-global-south" class="slide level2">
-<h2>Challenges to accountability and representation in the Global South</h2>
-<ol type="1">
-<li><p>Politicians anticipate accountability for corruption</p>
-<ul>
-<li><a href="https://gustavodiaz.org/files/research/audit_spending.pdf">Reducing spending when investigated</a></li>
-</ul></li>
-<li><p>Gendered evaluations of performance in office</p>
-<ul>
-<li><a href="https://doi.org/10.1016/j.worlddev.2020.105125">In reaction to COVID-19</a></li>
-</ul></li>
-</ol>
+<section id="appendix" class="slide level2" data-background-color="#1d428a" data-visibility="uncounted">
+<h2>Appendix</h2>
 
 <div class="footer footer-default">
 

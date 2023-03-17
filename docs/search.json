@@ -1082,7 +1082,7 @@
     "href": "slides/dle/melbourne.html#prevalence-rate",
     "title": "Gustavo Diaz",
     "section": "Prevalence rate",
-    "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nProportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know who they are in our survey!"
+    "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know who they are in our survey!"
   },
   {
     "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
@@ -1194,7 +1194,7 @@
     "href": "slides/dle/melbourne.html#but-this-is-not-for-free",
     "title": "Gustavo Diaz",
     "section": "But this is not for free",
-    "text": "But this is not for free\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "But this is not for free\n\n\nNeed the two questions to measure the same thing\nAdvice: Pick baseline lists that are as similar as possible\nBUT that makes it easier to spot the sensitive item"
   },
   {
     "objectID": "slides/dle/melbourne.html#validating-two-lists-is-more-costly-fa-laptop-code",
@@ -1250,7 +1250,7 @@
     "href": "slides/dle/melbourne.html#navigating-research-design-tradeoffs",
     "title": "Gustavo Diaz",
     "section": "Navigating research design tradeoffs",
-    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments\n\nPreferring precision over unbiasedness\n\nBlock randomization"
+    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments\n\nPreferring precision over unbiasedness\n\nBlock randomization\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
   },
   {
     "objectID": "slides/dle/melbourne.html#challenges-to-accountability-and-representation-in-the-global-south",
@@ -1349,5 +1349,54 @@
     "title": "Gustavo Diaz",
     "section": "What do these have in common?",
     "text": "What do these have in common?\n\n\nThey are sensitive questions\nWe can only learn about them using surveys\nBut asking about them directly leads to misreporting\nThis form of measurement error is called sensitivity bias"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates-2",
+    "href": "slides/dle/melbourne.html#yields-more-precise-estimates-2",
+    "title": "Gustavo Diaz",
+    "section": "Yields more precise estimates",
+    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#this-can-happen",
+    "href": "slides/dle/melbourne.html#this-can-happen",
+    "title": "Gustavo Diaz",
+    "section": "This can happen",
+    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#this-can-happen-1",
+    "href": "slides/dle/melbourne.html#this-can-happen-1",
+    "title": "Gustavo Diaz",
+    "section": "This can happen",
+    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#summary",
+    "href": "slides/dle/melbourne.html#summary",
+    "title": "Gustavo Diaz",
+    "section": "Summary",
+    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, low variance\nList experiment: Low bias, high variance\nDouble list experiment: Low bias, low variance, easier to break\n\n\n\n\nNeed extensive piloting to choose well"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#activity",
+    "href": "slides/dle/melbourne.html#activity",
+    "title": "Gustavo Diaz",
+    "section": "Activity",
+    "text": "Activity\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#end-product-fa-laptop-code",
+    "href": "slides/dle/melbourne.html#end-product-fa-laptop-code",
+    "title": "Gustavo Diaz",
+    "section": "End product ",
+    "text": "End product"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#appendix",
+    "href": "slides/dle/melbourne.html#appendix",
+    "title": "Gustavo Diaz",
+    "section": "Appendix",
+    "text": "Appendix"
   }
 ]

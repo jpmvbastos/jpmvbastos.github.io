@@ -222,7 +222,7 @@ $$
 
 . . .
 
-- Proportion of individuals in the target population who hold the sensitive attitude or behavior
+- **Estimate:** Proportion of individuals in the target population who hold the sensitive attitude or behavior
 
 - But we **do not know** who they are in our survey!
 
@@ -266,6 +266,29 @@ ggplot(validation) +
              linetype = "dashed",
              linewidth = 1) +
   geom_point(size = 4, alpha = 0) + 
+  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),
+                 linewidth = 1, alpha = 0) +
+  annotate("text", x = 0.7, y = 0.7, size = 5, 
+           label = "Actual vote share") +
+  ylim(0.2, 0.8) +
+  labs(x = "Technique", 
+       y = "Estimated proportion of 'No' votes")
+```
+
+::: aside
+Adapted from [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
+
+## Validation {visibility="uncounted"}
+
+```{r}
+ggplot(validation) +
+  aes(x = technique, y = estimate) +
+  geom_hline(yintercept = actual_vote, 
+             linetype = "dashed",
+             linewidth = 1) +
+  geom_point(size = 4) + 
   geom_linerange(aes(x = technique, ymin = lower, ymax = upper),
                  linewidth = 1, alpha = 0) +
   annotate("text", x = 0.7, y = 0.7, size = 5, 
@@ -362,6 +385,8 @@ ggplot(est_df %>% filter(experiment == "X")) +
 Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 :::
 
+
+
 ## Yields more precise estimates {visibility="uncounted"}
 
 ```{r}
@@ -383,21 +408,92 @@ Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 :::
 
 
-## But this is not for free {{< fa laptop-code >}}
+## But this is not for free
 
 ::: incremental
-1. Simulate a survey of $N = 1000$ that asks a sensitive question
+- Need the two questions to measure the same thing
 
-2. Pick a *true* prevalence rate
+- **Advice:** Pick baseline lists that are as similar as possible
 
-3. Is the sensitivity bias reduction worth the precision loss?
-
-4. Would a DLE perform better?
-
-5. What if the extra piloting of the DLE means you only have a budget for $N/2$?
-
-6. Do your conclusions change if you modify $N$ or the prevalence rate?
+- **BUT** that makes it easier to spot the *sensitive item*
 :::
+
+## This can happen
+
+```{r}
+ggplot(est_df %>% filter(experiment == "Y")) +
+  aes(x = term, y = estimate, shape = term) +
+  geom_hline(yintercept = 0, linetype = "dashed") + 
+  geom_point(size = 4, position = position_dodge(width = 0.5), alpha = 0) +
+  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), 
+                 size = 1, position = position_dodge(width = 0.5), alpha = 0) +
+  theme(legend.position = "none") +
+  labs(subtitle = "Organization Y (citizen border patrol)", 
+       x = "Estimator", 
+       y = "Proportion support") +
+  scale_x_discrete(labels = c("List A", "List B", "Pooled"))
+```
+
+::: aside
+Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
+:::
+
+
+## This can happen {visibility="uncounted"}
+
+```{r}
+ggplot(est_df %>% filter(experiment == "Y")) +
+  aes(x = term, y = estimate, shape = term) +
+  geom_hline(yintercept = 0, linetype = "dashed") + 
+  geom_point(size = 4, position = position_dodge(width = 0.5)) +
+  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), 
+                 size = 1, position = position_dodge(width = 0.5)) +
+  theme(legend.position = "none") +
+  labs(subtitle = "Organization Y (citizen border patrol)", 
+       x = "Estimator", 
+       y = "Proportion support") +
+  scale_x_discrete(labels = c("List A", "List B", "Pooled"))
+```
+
+::: aside
+Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
+:::
+
+## Summary {background-color="#00b176"}
+
+- Three approaches to sensitive questions
+
+. . .
+
+1. **Direct question:** High bias, low variance
+
+2. **List experiment:** Low bias, high variance
+
+3. **Double list experiment:** Low bias, low variance, easier to break
+
+. . .
+
+- Need extensive piloting to choose well
+
+## Activity
+
+- Imagine something people tend to hide
+
+- How common do you think it is among your friends/peers/community?
+
+- Design a list experiment to learn about it
+
+- How many people would you ask?
+
+- How many lists?
+
+- How many and which baseline items?
+
+- Would it be any different from asking directly?
+
+## End product {{< fa laptop-code >}}
+
+![](figs/code.png){fig-align="center"}
 
 ::: {style="text-align: center"}
 # Research overview {background-color="#1d428a"}
@@ -432,20 +528,14 @@ Different players {{< fa arrow-right >}} different winning strategies
 2. Preferring precision over unbiasedness
 
     - [Block randomization](https://egap.org/resource/sd-block-rand/)
-  
-## Challenges to accountability and representation in the Global South
-
-1. Politicians anticipate accountability for corruption
-
-    - [Reducing spending when investigated](https://gustavodiaz.org/files/research/audit_spending.pdf)
-
-
-2. Gendered evaluations of performance in office
-
-    - [In reaction to COVID-19](https://doi.org/10.1016/j.worlddev.2020.105125)
     
+. . .
 
+- **Applications:** Accountability, governance, and representation in low/medium income countries
+
+    - Blocking + DLE to estimate prevalence of criminal governance strategies in Uruguay
     
+## Appendix {#appendix background-color="#1d428a" visibility="uncounted"}
 
 
 
