@@ -431,7 +431,7 @@
     "href": "market.html#upcoming-deadlines",
     "title": "Job Market Hub",
     "section": "Upcoming Deadlines",
-    "text": "Upcoming Deadlines\n\n\n\nLast update: March 15, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n \n  \n    Jake \n    Matt \n    Michelle \n  \n \n\n  \n    1 \n    1 \n    1 \n  \n\n\n\n\n\n \nAssistant Professor in Comparative Political Behavior - Department of Political Science - University of AmsterdamLetters: Jake, Matt, Michelle  Deadline: March 28, 2023  Delivery: After shortlist?  Notes: NA"
+    "text": "Upcoming Deadlines\n\n\n\nLast update: March 14, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n \n  \n    Jake \n    Matt \n    Michelle \n  \n \n\n  \n    1 \n    1 \n    1 \n  \n\n\n\n\n\n \nAssistant Professor in Comparative Political Behavior - Department of Political Science - University of AmsterdamLetters: Jake, Matt, Michelle  Deadline: March 28, 2023  Delivery: After shortlist?  Notes: NA"
   },
   {
     "objectID": "market.html#materials",
@@ -564,42 +564,42 @@
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nequal_pb = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.5, .5, .5`)\" &\n           taub==\"bold(tau[b]) == (`0, 2, 4`)\")\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\", alpha = 0) +\n  geom_line(size = 2, stat = \"density\", alpha = 0) +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\", alpha = 0) +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\", alpha = 0) +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\n## ℹ Please use `linewidth` instead."
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-1",
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-1",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\", alpha = 0) +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-2",
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-2",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
+    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\nconstant = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`0, 0, 0`)\")\n\nggplot(constant) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
+    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\nhet = sims %>% ungroup() %>%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %>%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`4, 2, 0`)\")\n\nggplot(het) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#blocking-takeaways",
     "href": "slides/bias_est/apsa2022.html#blocking-takeaways",
     "title": "Gustavo Diaz",
     "section": "Blocking takeaways",
-    "text": "Blocking takeaways\n\n\n\n\n \n  \n    \\(\\boldsymbol{p_b}\\) \n    \\(\\boldsymbol{\\tau_b}\\) \n    Best weighting scheme \n  \n \n\n  \n    Constant/similar \n    Any \n    Either \n  \n  \n    Different \n    Constant/similar \n    Precision \n  \n  \n    Different \n    Heterogeneous \n    Block-size \n  \n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
+    "text": "Blocking takeaways\n\nb_take = data.frame(\npb = c(\"Constant/similar\", rep(\"Different\", 2)),\ntb = c(\"Any\", \"Constant/similar\", \"Heterogeneous\"),\nwt = c(\"Either\", \"Precision\", \"Block-size\")\n)\n\ncolnames(b_take) = c(\"\\\\(\\\\boldsymbol{p_b}\\\\)\", \n                     \"\\\\(\\\\boldsymbol{\\\\tau_b}\\\\)\",\n                     \"Best weighting scheme\")\n\nb_take %>% \n  kbl(escape = FALSE)\n\n\n\n \n  \n    \\(\\boldsymbol{p_b}\\) \n    \\(\\boldsymbol{\\tau_b}\\) \n    Best weighting scheme \n  \n \n\n  \n    Constant/similar \n    Any \n    Either \n  \n  \n    Different \n    Constant/similar \n    Precision \n  \n  \n    Different \n    Heterogeneous \n    Block-size \n  \n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#conclusion",
@@ -613,7 +613,7 @@
     "href": "slides/dle/lunchlab.html#list-experiment",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\n\n\n\n\n\n\nNow I am going to read you three things that make people angry or upset."
+    "text": "List experiment\n\n# Packages\nlibrary(tidyverse)\n## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n## ✔ ggplot2 3.4.0      ✔ purrr   0.3.4 \n## ✔ tibble  3.1.8      ✔ dplyr   1.0.10\n## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n## ✔ readr   2.1.3      ✔ forcats 0.5.2\n## Warning: package 'ggplot2' was built under R version 4.2.2\n## Warning: package 'readr' was built under R version 4.2.2\n## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n## ✖ dplyr::filter() masks stats::filter()\n## ✖ dplyr::lag()    masks stats::lag()\nlibrary(DeclareDesign)\n## Loading required package: randomizr\n## Loading required package: fabricatr\n## Loading required package: estimatr\n## \n## Attaching package: 'DeclareDesign'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     vars\n## \n## The following object is masked from 'package:ggplot2':\n## \n##     vars\nlibrary(kableExtra)\n## \n## Attaching package: 'kableExtra'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\n# Data prep\nload(\"attn_rep.RData\")\n\ncali = dle\n\nremove(dle)\n\n# Analysis\na = cali %>% \n  split(.$experiment) %>% \n  map(~difference_in_means(listA ~ trt_A, data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\")\n\nb = cali %>% \n  split(.$experiment) %>% \n  map(~difference_in_means(listB ~ trt_B, data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\")\n\npool = cali %>% \n  mutate(id = row_number()) %>% \n  pivot_longer(cols = c(listA, listB)) %>% \n  rename(list = name, count = value) %>% \n  mutate(Z = ifelse(trt_A == 1 & list == \"listA\" | trt_B == 1 & list == \"listB\",\n                    1, 0)) %>% \n  split(.$experiment) %>% \n  map(~ lm_robust(count ~ Z + list, clusters = id, se_type = \"stata\", data = .)) %>% \n  map(tidy) %>% \n  bind_rows(.id = \"experiment\") %>% \n  filter(term == \"Z\")\n  \nest_df = rbind(a, b, pool)\n\nest_df$term = fct_relevel(est_df$term, \"trt_A\", \"trt_B\", \"Z\")\n\nNow I am going to read you three things that make people angry or upset."
   },
   {
     "objectID": "slides/dle/lunchlab.html#list-experiment-1",
@@ -641,14 +641,14 @@
     "href": "slides/dle/lunchlab.html#double-list-experiment",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\nWe want DLEs to look like this"
+    "text": "Double list experiment\n\nggplot(est_df %>% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\n## ℹ Please use `linewidth` instead.\n\n\n\n\n\n\nWe want DLEs to look like this"
   },
   {
     "objectID": "slides/dle/lunchlab.html#double-list-experiment-1",
     "href": "slides/dle/lunchlab.html#double-list-experiment-1",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
+    "text": "Double list experiment\n\nggplot(est_df %>% filter(experiment == \"Y\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization Y\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
   },
   {
     "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
@@ -662,7 +662,7 @@
     "href": "slides/dle/melbourne.html#learning-goals",
     "title": "Gustavo Diaz",
     "section": "Learning goals",
-    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics"
+    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics\nContext: List experiments"
   },
   {
     "objectID": "slides/dle/melbourne.html#bias-variance-tradeoff-as-darts",
@@ -676,7 +676,7 @@
     "href": "slides/dle/melbourne.html#questions",
     "title": "Gustavo Diaz",
     "section": "Questions",
-    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
+    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nDo you know anyone with links to a militant organization?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
   },
   {
     "objectID": "slides/dle/melbourne.html#what-do-these-have-in-common",
@@ -739,7 +739,14 @@
     "href": "slides/dle/melbourne.html#prevalence-rate",
     "title": "Gustavo Diaz",
     "section": "Prevalence rate",
-    "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know who they are in our survey!"
+    "text": "Prevalence rate\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(List with sensitive item)} -\\\\ \\text{Mean(List without sensitive item)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know how individual respondents voted!"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#compare-with-direct-question",
+    "href": "slides/dle/melbourne.html#compare-with-direct-question",
+    "title": "Gustavo Diaz",
+    "section": "Compare with direct question",
+    "text": "Compare with direct question\nDid you vote YES or NO on the Personhood Initiative, which appeared on the November 2011 Mississippi General Election Ballot?\n\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(Voted yes)}\n\\]\n\n\n\nSource: Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation",
@@ -795,21 +802,28 @@
     "href": "slides/dle/melbourne.html#sensitive-item",
     "title": "Gustavo Diaz",
     "section": "Sensitive item",
-    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nEquivalent to making two parallel list experiments\nCalculate prevalence by averaging the two single-list estimates"
+    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nSingle list: Half of the respondents see sensitive item\nDouble list: Everyone sees it\nEquivalent to making two parallel list experiments"
   },
   {
-    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates",
-    "href": "slides/dle/melbourne.html#yields-more-precise-estimates",
+    "objectID": "slides/dle/melbourne.html#three-prevalence-estimators",
+    "href": "slides/dle/melbourne.html#three-prevalence-estimators",
     "title": "Gustavo Diaz",
-    "section": "Yields more precise estimates",
-    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "section": "Three prevalence estimators",
+    "text": "Three prevalence estimators\n\\[\n\\text{Prevalence}_A = \\text{Mean}(A_t) - \\text{Mean}(A_c)\n\\]\n\n\\[\n\\text{Prevalence}_B = \\text{Mean}(B_t) - \\text{Mean}(B_c)\n\\]\n\n\n\\[\n\\text{Prevalence}_{Pooled} = (\\text{Prevalence}_A + \\text{Prevalence}_B)/2\n\\]"
   },
   {
-    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
-    "href": "slides/dle/melbourne.html#yields-more-precise-estimates-1",
+    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
+    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
     "title": "Gustavo Diaz",
-    "section": "Yields more precise estimates",
-    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "section": "DLE yields more precise estimates",
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
+    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
+    "title": "Gustavo Diaz",
+    "section": "DLE yields more precise estimates",
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#but-this-is-not-for-free",
@@ -837,14 +851,14 @@
     "href": "slides/dle/melbourne.html#summary",
     "title": "Gustavo Diaz",
     "section": "Summary",
-    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, low variance\nList experiment: Low bias, high variance\nDouble list experiment: Low bias, low variance, easier to break\n\n\n\n\nNeed extensive piloting to choose well"
+    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, high precision \nList experiment: Low bias, low precision \nDouble list experiment: Low bias, high precision   (but easier to break)\n\n\n\n\nNeed extensive piloting to choose well"
   },
   {
-    "objectID": "slides/dle/melbourne.html#activity",
-    "href": "slides/dle/melbourne.html#activity",
+    "objectID": "slides/dle/melbourne.html#activity-groups-3-4",
+    "href": "slides/dle/melbourne.html#activity-groups-3-4",
     "title": "Gustavo Diaz",
-    "section": "Activity",
-    "text": "Activity\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
+    "section": "Activity (groups 3-4)",
+    "text": "Activity (groups 3-4)\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
   },
   {
     "objectID": "slides/dle/melbourne.html#end-product-fa-laptop-code",
@@ -865,21 +879,133 @@
     "href": "slides/dle/melbourne.html#navigating-research-design-tradeoffs",
     "title": "Gustavo Diaz",
     "section": "Navigating research design tradeoffs",
-    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments\n\nPreferring precision over unbiasedness\n\nBlock randomization\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
+    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments (Diaz 2023)\n\nPreferring precision over unbiasedness\n\nBlock randomization (Bowers, Diaz, and Grady 2023)\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
   },
   {
     "objectID": "slides/dle/melbourne.html#appendix",
     "href": "slides/dle/melbourne.html#appendix",
     "title": "Gustavo Diaz",
     "section": "Appendix",
-    "text": "Appendix"
+    "text": "Appendix\n\n\nAssumptions\nTypes of sensitive items\nTypes of DLE\nCarryover design effects\nDLEs are costly\nNegative correlation\nPaired items\nRandomized response"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#assumptions",
+    "href": "slides/dle/melbourne.html#assumptions",
+    "title": "Gustavo Diaz",
+    "section": "List experiment assumptions",
+    "text": "List experiment assumptions\n\n\n\n\n\n\n1. No liars\n\n\nThose who do not hold the sensitive item never falsely claim to bear it.\n\n\n\n\n\n\n\n\n\n2. No design effects\n\n\nIncluding the sensitive item does not change how participants respond to the baseline items"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#attitudes",
+    "href": "slides/dle/melbourne.html#attitudes",
+    "title": "Gustavo Diaz",
+    "section": "Types of sensitive items",
+    "text": "Types of sensitive items\n\nFrowned-upon attitude\n\n“I would hate it if a black family moves next door”\n\nPretend-to attitudes\n\n“Of course I support the government!”"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#types",
+    "href": "slides/dle/melbourne.html#types",
+    "title": "Gustavo Diaz",
+    "section": "Types of DLE",
+    "text": "Types of DLE\n\n\n\n\n \n  \n    List order \n    Sensitive item location \n  \n \n\n  \n    Fixed \n    Fixed \n  \n  \n    Randomized \n    Fixed \n  \n  \n    Fixed \n    Randomized \n  \n  \n    Randomized \n    Randomized"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#carryover",
+    "href": "slides/dle/melbourne.html#carryover",
+    "title": "Gustavo Diaz",
+    "section": "Carryover design effects",
+    "text": "Carryover design effects\n\n\n\n\n \n  \n    Observed response \n    \\(Y_{i1}\\) \n    \\(Y_{i2}\\) \n    \\((Y_{i1} - Y_{i2})\\) \n  \n \n\n  \n    Baseline \n    2 \n    2 \n    0 \n  \n  Deflation\n\n    \\(z_i = 1\\) \n    1 \n    1 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    1 \n    1 \n  \n  Inflation\n\n    \\(z_i = 1\\) \n    3 \n    3 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    3 \n    -1"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#cost",
+    "href": "slides/dle/melbourne.html#cost",
+    "title": "Gustavo Diaz",
+    "section": "DLEs are costly to implement",
+    "text": "DLEs are costly to implement"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negative",
+    "href": "slides/dle/melbourne.html#negative",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negative1",
+    "href": "slides/dle/melbourne.html#negative1",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#positive",
+    "href": "slides/dle/melbourne.html#positive",
+    "title": "Gustavo Diaz",
+    "section": "Positively correlated lists",
+    "text": "Positively correlated lists\nItems paired by number:\n\n\nList A\n\nI saw people playing sports\nI visited friends\nI went to activities by feminist groups\nI went to religious ceremonies\n\n\nList B\n\nI saw people playing soccer\nI chatted with my friends\nI went to activities by LGBTQ groups\nI donated to charity at church"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized",
+    "href": "slides/dle/melbourne.html#randomized",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized1",
+    "href": "slides/dle/melbourne.html#randomized1",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized2",
+    "href": "slides/dle/melbourne.html#randomized2",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized3",
+    "href": "slides/dle/melbourne.html#randomized3",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized4",
+    "href": "slides/dle/melbourne.html#randomized4",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n\n \n[TURN AWAY FROM RESPONDENT]\n\n\n \nNow you throw the dice so that I cannot see what comes out."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized5",
+    "href": "slides/dle/melbourne.html#randomized5",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you thrown the dice?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized6",
+    "href": "slides/dle/melbourne.html#randomized6",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you picked it up?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized7",
+    "href": "slides/dle/melbourne.html#randomized7",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \nNow, during the height of the conflict in 2007 and 2008 (in Afghanistan), did you know any militants, like a family member, a friend, or someone you talked to on a regular basis?\n\nPlease, before you answer, take note of the number you rolled on the dice."
   },
   {
     "objectID": "slides/dle/melbourne_appendix.html#types-of-dle",
     "href": "slides/dle/melbourne_appendix.html#types-of-dle",
     "title": "Gustavo Diaz",
     "section": "Types of DLE",
-    "text": "Types of DLE\n\n# Packages\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.3.0      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 1.0.0 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(DeclareDesign)\n\nLoading required package: randomizr\nLoading required package: fabricatr\nLoading required package: estimatr\n\nAttaching package: 'DeclareDesign'\n\nThe following object is masked from 'package:dplyr':\n\n    vars\n\nThe following object is masked from 'package:ggplot2':\n\n    vars\n\nlibrary(kableExtra)\n\n\nAttaching package: 'kableExtra'\n\nThe following object is masked from 'package:dplyr':\n\n    group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\ndesigns = data.frame(\n  expand.grid(\n    Lists = c(\"Fixed\", \"Randomized\"),\n    Sensitive_item = c(\"Fixed\", \"Randomized\")\n  )\n)\n\ncolnames(designs) = c(\"List order\", \"Sensitive item location\")\n\ndesigns %>% \n  kbl(format = \"markdown\",\n      escape = FALSE,\n      align = \"cc\")\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
+    "text": "Types of DLE\n\n\n\n\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
   },
   {
     "objectID": "slides/dle/spark.html#improving-the-measurement-of-sensitive-survey-questions-with-double-list-experiments",
@@ -935,39 +1061,7 @@
     "href": "slides/dle/spark.html#prevalence-rate",
     "title": "Gustavo Diaz",
     "section": "Prevalence rate",
-<<<<<<< HEAD
-    "text": "Prevalence rate\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(List with sensitive item)} -\\\\ \\text{Mean(List without sensitive item)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know how individual respondents voted!"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
-    "href": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
-    "title": "Gustavo Diaz",
-    "section": "Methods for Sensitive Questionsin Surveys",
-    "text": "Methods for Sensitive Questionsin Surveys\n \nGustavo Diaz\nPostdoctoral Fellow\nDepartment of Political Science\nMcMaster University\ngustavodiaz.org"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#validation",
-    "href": "slides/dle/melbourne.html#validation",
-    "title": "Gustavo Diaz",
-    "section": "Validation",
-    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#bias-variance-tradeoff",
-    "href": "slides/dle/melbourne.html#bias-variance-tradeoff",
-    "title": "Gustavo Diaz",
-    "section": "Bias-variance tradeoff",
-    "text": "Bias-variance tradeoff"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#validation-1",
-    "href": "slides/dle/melbourne.html#validation-1",
-    "title": "Gustavo Diaz",
-    "section": "Validation",
-    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
-=======
     "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nProportion of individuals in the target population who hold the sensitive attitude or behavior\nWe obtain an estimate while keeping individual responses anonymous"
->>>>>>> 4c61787efdceb0420093bfdbc96bccf92f3e3f08
   },
   {
     "objectID": "slides/dle/spark.html#this-reduces-sensitivity-bias",
@@ -1023,7 +1117,7 @@
     "href": "slides/dle/spark.html#sensitive-item",
     "title": "Gustavo Diaz",
     "section": "Sensitive item",
-    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nSingle list: Half of the respondents see sensitive item\nDouble list: Everyone sees it\nEquivalent to making two parallel list experiments"
+    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nEquivalent to making two parallel list experiments\nCalculate prevalence by averaging the two single-list estimates"
   },
   {
     "objectID": "slides/dle/spark.html#variance-reduced-by-half",
@@ -1099,13 +1193,8 @@
     "objectID": "slides/dle/spark.html#example",
     "href": "slides/dle/spark.html#example",
     "title": "Gustavo Diaz",
-<<<<<<< HEAD
-    "section": "Navigating research design tradeoffs",
-    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments (Diaz 2023)\n\nPreferring precision over unbiasedness\n\nBlock randomization (Bowers, Diaz, and Grady 2023)\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
-=======
     "section": "Example",
     "text": "Example\n\n\nSeeing Organization Y may alert respondents to the researchers’ interest on support for conservative organizations as a socially undesirable attitude\nIf this is true, a conservative respondent would:\n\nSchedule 1: Lie about supporting American Family Association and Tea Party Patriots\nSchedule 2: Lie about supporting Tea Party Patriots only\n\nThis is true even if they do not support Organization Y!"
->>>>>>> 4c61787efdceb0420093bfdbc96bccf92f3e3f08
   },
   {
     "objectID": "slides/dle/spark.html#statistical-test-difference-in-differences",
@@ -1147,74 +1236,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-<<<<<<< HEAD
-    "text": "# Packages\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.3.0      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 1.0.0 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(DeclareDesign)\n\nLoading required package: randomizr\nLoading required package: fabricatr\nLoading required package: estimatr\n\nAttaching package: 'DeclareDesign'\n\nThe following object is masked from 'package:dplyr':\n\n    vars\n\nThe following object is masked from 'package:ggplot2':\n\n    vars\n\nlibrary(kableExtra)\n\n\nAttaching package: 'kableExtra'\n\nThe following object is masked from 'package:dplyr':\n\n    group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\ndesigns = data.frame(\n  expand.grid(\n    Lists = c(\"Fixed\", \"Randomized\"),\n    Sensitive_item = c(\"Fixed\", \"Randomized\")\n  )\n)\n\ncolnames(designs) = c(\"List order\", \"Sensitive item location\")\n\ndesigns %>% \n  kbl(format = \"markdown\",\n      escape = FALSE,\n      align = \"cc\")\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#learning-goals",
-    "href": "slides/dle/melbourne.html#learning-goals",
-    "title": "Gustavo Diaz",
-    "section": "Learning goals",
-    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics\nContext: List experiments"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#questions",
-    "href": "slides/dle/melbourne.html#questions",
-    "title": "Gustavo Diaz",
-    "section": "Questions",
-    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nDo you know anyone with links to a militant organization?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#bias-variance-as-darts-revisited",
-    "href": "slides/dle/melbourne.html#bias-variance-as-darts-revisited",
-    "title": "Gustavo Diaz",
-    "section": "Bias-variance as darts revisited",
-    "text": "Bias-variance as darts revisited\n\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent players  different winning strategies"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#what-do-these-have-in-common",
-    "href": "slides/dle/melbourne.html#what-do-these-have-in-common",
-    "title": "Gustavo Diaz",
-    "section": "What do these have in common?",
-    "text": "What do these have in common?\n\n\nThey are sensitive questions\nWe can only learn about them using surveys\nBut asking about them directly leads to misreporting\nThis form of measurement error is called sensitivity bias"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates-2",
-    "href": "slides/dle/melbourne.html#yields-more-precise-estimates-2",
-    "title": "Gustavo Diaz",
-    "section": "Yields more precise estimates",
-    "text": "Yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#this-can-happen",
-    "href": "slides/dle/melbourne.html#this-can-happen",
-    "title": "Gustavo Diaz",
-    "section": "This can happen",
-    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#this-can-happen-1",
-    "href": "slides/dle/melbourne.html#this-can-happen-1",
-    "title": "Gustavo Diaz",
-    "section": "This can happen",
-    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#summary",
-    "href": "slides/dle/melbourne.html#summary",
-    "title": "Gustavo Diaz",
-    "section": "Summary",
-    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, high precision \nList experiment: Low bias, low precision \nDouble list experiment: Low bias, high precision   (but easier to break)\n\n\n\n\nNeed extensive piloting to choose well"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#activity",
-    "href": "slides/dle/melbourne.html#activity",
-    "title": "Gustavo Diaz",
-    "section": "Activity",
-    "text": "Activity\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
-=======
     "text": "These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.\nAdvances in the Design and Analysis of Experiments\nPolitical Data Analysis"
->>>>>>> 4c61787efdceb0420093bfdbc96bccf92f3e3f08
   },
   {
     "objectID": "teaching.html#instructor",
@@ -1224,207 +1246,10 @@
     "text": "Instructor\n\nMcMaster University\nResearch Design for Public Opinion and Public Policy\n\n\nTulane University\nPolitics of Developing Democracies\nComparative Politics\n\n\nUniversity of Illinois at Urbana-Champaign\nComparative Politics in Developing Nations (Online)\nMath Camp for Political Scientists"
   },
   {
-<<<<<<< HEAD
-    "objectID": "slides/dle/melbourne.html#appendix",
-    "href": "slides/dle/melbourne.html#appendix",
-    "title": "Gustavo Diaz",
-    "section": "Appendix",
-    "text": "Appendix\n\n\nAssumptions\nTypes of sensitive items\nTypes of DLE\nCarryover design effects\nDLEs are costly\nNegative correlation\nPaired items\nRandomized response"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#compare-with-direct-question",
-    "href": "slides/dle/melbourne.html#compare-with-direct-question",
-    "title": "Gustavo Diaz",
-    "section": "Compare with direct question",
-    "text": "Compare with direct question\nDid you vote YES or NO on the Personhood Initiative, which appeared on the November 2011 Mississippi General Election Ballot?\n\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(Voted yes)}\n\\]\n\n\n\nSource: Rosenfeld et al (2016)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#compare-with-direct-question-1",
-    "href": "slides/dle/melbourne.html#compare-with-direct-question-1",
-    "title": "Gustavo Diaz",
-    "section": "Compare with direct question",
-    "text": "Compare with direct question\nDid you vote YES or NO on the Personhood Initiative?, which appeared on the November 2011 Mississippi General Election Ballot?\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(Voted yes)}\n\\]\n\n\nSource: Rosenfeld et al (2016)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#three-prevalence-estimates",
-    "href": "slides/dle/melbourne.html#three-prevalence-estimates",
-    "title": "Gustavo Diaz",
-    "section": "Three prevalence estimates",
-    "text": "Three prevalence estimates\n\\[\n\\text{Prevalence}_A = \\text{Mean}(A_t) - \\text{Mean}(A_c)\n\\]\n\n\\[\n\\text{Prevalence}_B = \\text{Mean}(B_t) - \\text{Mean}(B_c)\n\\]\n\n\n\\[\n\\text{Prevalence}_{Pooled} = (\\text{Prevalence}_A + \\text{Prevalence}_B)/2\n\\]"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
-    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
-    "title": "Gustavo Diaz",
-    "section": "DLE yields more precise estimates",
-    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#three-prevalence-estimators",
-    "href": "slides/dle/melbourne.html#three-prevalence-estimators",
-    "title": "Gustavo Diaz",
-    "section": "Three prevalence estimators",
-    "text": "Three prevalence estimators\n\\[\n\\text{Prevalence}_A = \\text{Mean}(A_t) - \\text{Mean}(A_c)\n\\]\n\n\\[\n\\text{Prevalence}_B = \\text{Mean}(B_t) - \\text{Mean}(B_c)\n\\]\n\n\n\\[\n\\text{Prevalence}_{Pooled} = (\\text{Prevalence}_A + \\text{Prevalence}_B)/2\n\\]"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#activity-groups-3-4",
-    "href": "slides/dle/melbourne.html#activity-groups-3-4",
-    "title": "Gustavo Diaz",
-    "section": "Activity (groups 3-4)",
-    "text": "Activity (groups 3-4)\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#types",
-    "href": "slides/dle/melbourne.html#types",
-    "title": "Gustavo Diaz",
-    "section": "Types of DLE",
-    "text": "Types of DLE\n\n\n\n\n \n  \n    List order \n    Sensitive item location \n  \n \n\n  \n    Fixed \n    Fixed \n  \n  \n    Randomized \n    Fixed \n  \n  \n    Fixed \n    Randomized \n  \n  \n    Randomized \n    Randomized"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#cost",
-    "href": "slides/dle/melbourne.html#cost",
-    "title": "Gustavo Diaz",
-    "section": "DLEs are costly to implement",
-    "text": "DLEs are costly to implement"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#assumptions",
-    "href": "slides/dle/melbourne.html#assumptions",
-    "title": "Gustavo Diaz",
-    "section": "List experiment assumptions",
-    "text": "List experiment assumptions\n\n\n\n\n\n\n1. No liars\n\n\nThose who do not hold the sensitive item never falsely claim to bear it.\n\n\n\n\n\n\n\n\n\n2. No design effects\n\n\nIncluding the sensitive item does not change how participants respond to the baseline items"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#negative",
-    "href": "slides/dle/melbourne.html#negative",
-    "title": "Gustavo Diaz",
-    "section": "Negatively correlated items",
-    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#negatively-correlated-items",
-    "href": "slides/dle/melbourne.html#negatively-correlated-items",
-    "title": "Gustavo Diaz",
-    "section": "Negatively correlated items",
-    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#negative2",
-    "href": "slides/dle/melbourne.html#negative2",
-    "title": "Gustavo Diaz",
-    "section": "Negatively correlated items",
-    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#positive",
-    "href": "slides/dle/melbourne.html#positive",
-    "title": "Gustavo Diaz",
-    "section": "Positively correlated lists",
-    "text": "Positively correlated lists\nItems paired by number:\n\n\nList A\n\nI saw people playing sports\nI visited friends\nI went to activities by feminist groups\nI went to religious ceremonies\n\n\nList B\n\nI saw people playing soccer\nI chatted with my friends\nI went to activities by LGBTQ groups\nI donated to charity at church"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#negative1",
-    "href": "slides/dle/melbourne.html#negative1",
-    "title": "Gustavo Diaz",
-    "section": "Negatively correlated items",
-    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized",
-    "href": "slides/dle/melbourne.html#randomized",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized1",
-    "href": "slides/dle/melbourne.html#randomized1",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized2",
-    "href": "slides/dle/melbourne.html#randomized2",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized3",
-    "href": "slides/dle/melbourne.html#randomized3",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized4",
-    "href": "slides/dle/melbourne.html#randomized4",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n\n \n[TURN AWAY FROM RESPONDENT]\n\n\n \nNow you throw the dice so that I cannot see what comes out."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized5",
-    "href": "slides/dle/melbourne.html#randomized5",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you thrown the dice?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized6",
-    "href": "slides/dle/melbourne.html#randomized6",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you picked it up?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#randomized7",
-    "href": "slides/dle/melbourne.html#randomized7",
-    "title": "Gustavo Diaz",
-    "section": "Randomized response",
-    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \nNow, during the height of the conflict in 2007 and 2008 (in Afghanistan), did you know any militants, like a family member, a friend, or someone you talked to on a regular basis?\n\nPlease, before you answer, take note of the number you rolled on the dice."
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
-    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
-    "title": "Gustavo Diaz",
-    "section": "DLE yields more precise estimates",
-    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#can-we-break-this-tradeoff",
-    "href": "slides/dle/melbourne.html#can-we-break-this-tradeoff",
-    "title": "Gustavo Diaz",
-    "section": "Can we break this tradeoff?",
-    "text": "Can we break this tradeoff?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#can-we-break-away-from-the-bias-variance-tradeoff",
-    "href": "slides/dle/melbourne.html#can-we-break-away-from-the-bias-variance-tradeoff",
-    "title": "Gustavo Diaz",
-    "section": "Can we break away from the bias-variance tradeoff?",
-    "text": "Can we break away from the bias-variance tradeoff?"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#attitudes",
-    "href": "slides/dle/melbourne.html#attitudes",
-    "title": "Gustavo Diaz",
-    "section": "Types of sensitive items",
-    "text": "Types of sensitive items\n\nFrowned-upon attitude\n\n“I would hate it if a black family moves next door”\n\nPretend-to attitudes\n\n“Of course I support the government!”"
-  },
-  {
-    "objectID": "slides/dle/melbourne.html#carryover",
-    "href": "slides/dle/melbourne.html#carryover",
-    "title": "Gustavo Diaz",
-    "section": "Carryover design effects",
-    "text": "Carryover design effects\n\n\n\n\n \n  \n    Observed response \n    \\(Y_{i1}\\) \n    \\(Y_{i2}\\) \n    \\((Y_{i1} - Y_{i2})\\) \n  \n \n\n  \n    Baseline \n    2 \n    2 \n    0 \n  \n  Deflation\n\n    \\(z_i = 1\\) \n    1 \n    1 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    1 \n    1 \n  \n  Inflation\n\n    \\(z_i = 1\\) \n    3 \n    3 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    3 \n    -1"
-=======
     "objectID": "teaching.html#teaching-assistant",
     "href": "teaching.html#teaching-assistant",
     "title": "Teaching",
     "section": "Teaching Assistant",
     "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
->>>>>>> 4c61787efdceb0420093bfdbc96bccf92f3e3f08
   }
 ]
