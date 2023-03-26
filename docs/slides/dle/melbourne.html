@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.269">
+  <meta name="generator" content="quarto-1.2.335">
 
   <title>Gustavo Diaz – melbourne</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -319,6 +319,9 @@
       margin-right: 0; 
     }
   </style>
+  
+  <script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -346,6 +349,7 @@ McMaster University<br>
 <ul>
 <li class="fragment"><p><strong>Specific:</strong> Different versions of the same survey question change the answers we get</p></li>
 <li class="fragment"><p><strong>General:</strong> Illustrate bias-variance tradeoff in statistics</p></li>
+<li class="fragment"><p><strong>Context:</strong> List experiments</p></li>
 </ul>
 </div>
 </section>
@@ -361,6 +365,7 @@ McMaster University<br>
 <li class="fragment"><p>Would you bribe a police officer to avoid a traffic ticket?</p></li>
 <li class="fragment"><p>Have you had sex after drinking alcohol?</p></li>
 <li class="fragment"><p>Have you been offered goods or favors for your vote?</p></li>
+<li class="fragment"><p>Do you know anyone with links to a militant organization?</p></li>
 <li class="fragment"><p>Would you oppose a black family moving next door?</p></li>
 <li class="fragment"><p>Would you allow Muslim immigrants to become citizens?</p></li>
 </ul>
@@ -459,15 +464,27 @@ McMaster University<br>
 <section id="prevalence-rate" class="slide level2">
 <h2>Prevalence rate</h2>
 <p><span class="math display">\[
-\text{Prevalence(X)} = \text{Mean(List with X)} - \text{Mean(List without X)}
+\text{Prevalence(Voted yes)} =\\ \text{Mean(List with sensitive item)} -\\ \text{Mean(List without sensitive item)}
 \]</span></p>
 <div class="fragment">
 <ul>
 <li><p><strong>Estimate:</strong> Proportion of individuals in the target population who hold the sensitive attitude or behavior</p></li>
-<li><p>But we <strong>do not know</strong> who they are in our survey!</p></li>
+<li><p>But we <strong>do not know</strong> how individual respondents voted!</p></li>
 </ul>
 </div>
 </section>
+<section id="compare-with-direct-question" class="slide level2">
+<h2>Compare with direct question</h2>
+<p>Did you vote YES or NO on the Personhood Initiative, which appeared on the November 2011 Mississippi General Election Ballot?</p>
+<div class="fragment">
+<p><span class="math display">\[
+\text{Prevalence(Voted yes)} =\\ \text{Mean(Voted yes)}
+\]</span></p>
+
+</div>
+<aside><div>
+<p>Source: <a href="https://doi.org/10.1111/ajps.12205">Rosenfeld et al (2016)</a></p>
+</div></aside></section>
 <section id="validation" class="slide level2">
 <h2>Validation</h2>
 <div class="cell">
@@ -560,13 +577,30 @@ McMaster University<br>
 <div>
 <ul>
 <li class="fragment"><p>Randomly appears in list A or B</p></li>
+<li class="fragment"><p><strong>Single list:</strong> Half of the respondents see sensitive item</p></li>
+<li class="fragment"><p><strong>Double list:</strong> Everyone sees it</p></li>
 <li class="fragment"><p>Equivalent to making two parallel list experiments</p></li>
-<li class="fragment"><p>Calculate prevalence by averaging the two single-list estimates</p></li>
 </ul>
 </div>
 </section>
-<section id="yields-more-precise-estimates" class="slide level2">
-<h2>Yields more precise estimates</h2>
+<section id="three-prevalence-estimators" class="slide level2">
+<h2>Three prevalence estimators</h2>
+<p><span class="math display">\[
+\text{Prevalence}_A = \text{Mean}(A_t) - \text{Mean}(A_c)
+\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[
+\text{Prevalence}_B = \text{Mean}(B_t) - \text{Mean}(B_c)
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+\text{Prevalence}_{Pooled} = (\text{Prevalence}_A + \text{Prevalence}_B)/2
+\]</span></p>
+</div>
+</section>
+<section id="dle-yields-more-precise-estimates" class="slide level2">
+<h2>DLE yields more precise estimates</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -580,8 +614,8 @@ McMaster University<br>
 <aside><div>
 <p>Adapted from <a href="https://gustavodiaz.org/files/research/dle_test.pdf">Diaz (2023)</a></p>
 </div></aside></section>
-<section id="yields-more-precise-estimates-1" class="slide level2" data-visibility="uncounted">
-<h2>Yields more precise estimates</h2>
+<section id="dle-yields-more-precise-estimates-1" class="slide level2" data-visibility="uncounted">
+<h2>DLE yields more precise estimates</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -642,9 +676,9 @@ McMaster University<br>
 </ul>
 <div class="fragment">
 <ol type="1">
-<li><p><strong>Direct question:</strong> High bias, low variance</p></li>
-<li><p><strong>List experiment:</strong> Low bias, high variance</p></li>
-<li><p><strong>Double list experiment:</strong> Low bias, low variance, easier to break</p></li>
+<li><p><strong>Direct question:</strong> High bias, high precision <img data-src="figs/darts_direct.png" width="60"></p></li>
+<li><p><strong>List experiment:</strong> Low bias, low precision <img data-src="figs/darts_list.png" width="60"></p></li>
+<li><p><strong>Double list experiment:</strong> Low bias, high precision <img data-src="figs/darts_dle.png" width="60"> <br> <code>(but easier to break)</code></p></li>
 </ol>
 </div>
 <div class="fragment">
@@ -653,8 +687,8 @@ McMaster University<br>
 </ul>
 </div>
 </section>
-<section id="activity" class="slide level2">
-<h2>Activity</h2>
+<section id="activity-groups-3-4" class="slide level2">
+<h2>Activity (groups 3-4)</h2>
 <ul>
 <li><p>Imagine something people tend to hide</p></li>
 <li><p>How common do you think it is among your friends/peers/community?</p></li>
@@ -698,11 +732,11 @@ McMaster University<br>
 <ol type="1">
 <li><p>Improving precision without sacrificing unbiasedness</p>
 <ul>
-<li><a href="https://gustavodiaz.org/files/research/dle_test.pdf">Double list experiments</a></li>
+<li>Double list experiments <a href="https://gustavodiaz.org/files/research/dle_test.pdf">(Diaz 2023)</a></li>
 </ul></li>
 <li><p>Preferring precision over unbiasedness</p>
 <ul>
-<li><a href="https://egap.org/resource/sd-block-rand/">Block randomization</a></li>
+<li>Block randomization <a href="https://egap.org/resource/sd-block-rand/">(Bowers, Diaz, and Grady 2023)</a></li>
 </ul></li>
 </ol>
 <div class="fragment">
@@ -716,11 +750,308 @@ McMaster University<br>
 </section>
 <section id="appendix" class="slide level2" data-background-color="#1d428a" data-visibility="uncounted">
 <h2>Appendix</h2>
+<!-- Links here -->
+<ul>
+<li><a href="#/assumptions">Assumptions</a></li>
+<li><a href="#/attitudes">Types of sensitive items</a></li>
+<li><a href="#/types">Types of DLE</a></li>
+<li><a href="#/carryover">Carryover design effects</a></li>
+<li><a href="#/cost">DLEs are costly</a></li>
+<li><a href="#/negative">Negative correlation</a></li>
+<li><a href="#/positive">Paired items</a></li>
+<li><a href="#/randomized">Randomized response</a></li>
+</ul>
+</section>
+<section id="assumptions" class="slide level2" data-visibility="uncounted">
+<h2>List experiment assumptions</h2>
+<div class="callout callout-warning callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>1. No liars</strong></p>
+</div>
+<div class="callout-content">
+<p>Those who <strong>do not</strong> hold the sensitive item <strong>never</strong> falsely claim to bear it.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-warning callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>2. No design effects</strong></p>
+</div>
+<div class="callout-content">
+<p>Including the sensitive item <strong>does not change</strong> how participants respond to the baseline items</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="attitudes" class="slide level2" data-visibility="uncounted">
+<h2>Types of sensitive items</h2>
+<ol type="1">
+<li><p>Frowned-upon attitude</p>
+<ul>
+<li>“I would hate it if a black family moves next door”</li>
+</ul></li>
+<li><p>Pretend-to attitudes</p>
+<ul>
+<li>“Of course I support the government!”</li>
+</ul></li>
+</ol>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="types" class="slide level2" data-visibility="uncounted">
+<h2>Types of DLE</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:center;"> List order </th>
+   <th style="text-align:center;"> Sensitive item location </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:center;"> Fixed </td>
+   <td style="text-align:center;"> Fixed </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Randomized </td>
+   <td style="text-align:center;"> Fixed </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Fixed </td>
+   <td style="text-align:center;"> Randomized </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Randomized </td>
+   <td style="text-align:center;"> Randomized </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="carryover" class="slide level2" data-visibility="uncounted">
+<h2>Carryover design effects</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Observed response </th>
+   <th style="text-align:center;"> \(Y_{i1}\) </th>
+   <th style="text-align:center;"> \(Y_{i2}\) </th>
+   <th style="text-align:center;"> \((Y_{i1} - Y_{i2})\) </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Baseline </td>
+   <td style="text-align:center;"> 2 </td>
+   <td style="text-align:center;"> 2 </td>
+   <td style="text-align:center;"> 0 </td>
+  </tr>
+  <tr grouplength="2"><td colspan="4" style="border-bottom: 1px solid;"><strong>Deflation</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> \(z_i = 1\) </td>
+   <td style="text-align:center;"> 1 </td>
+   <td style="text-align:center;"> 1 </td>
+   <td style="text-align:center;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> \(z_i = 0\) </td>
+   <td style="text-align:center;"> 2 </td>
+   <td style="text-align:center;"> 1 </td>
+   <td style="text-align:center;"> 1 </td>
+  </tr>
+  <tr grouplength="2"><td colspan="4" style="border-bottom: 1px solid;"><strong>Inflation</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> \(z_i = 1\) </td>
+   <td style="text-align:center;"> 3 </td>
+   <td style="text-align:center;"> 3 </td>
+   <td style="text-align:center;"> 0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> \(z_i = 0\) </td>
+   <td style="text-align:center;"> 2 </td>
+   <td style="text-align:center;"> 3 </td>
+   <td style="text-align:center;"> -1 </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="cost" class="slide level2" data-visibility="uncounted">
+<h2>DLEs are costly to implement</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="melbourne_files/figure-revealjs/unnamed-chunk-13-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="negative" class="slide level2" data-visibility="uncounted">
+<h2>Negatively correlated items</h2>
+<p>Things done in the last six months:</p>
+<ol type="1">
+<li>I saw people playing sports in my neighborhood</li>
+<li>I visited friends on weekends</li>
+<li>I participated in activities organized by feminist groups</li>
+<li>I went to religious ceremonies at the church in my neighborhood</li>
+</ol>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="negative1" class="slide level2" data-visibility="uncounted">
+<h2>Negatively correlated items</h2>
+<p>Things done in the last six months:</p>
+<ol type="1">
+<li><span style="color: gray;">I saw people playing sports in my neighborhood</span></li>
+<li><span style="color: gray;">I visited friends on weekends</span></li>
+<li><span style="color: #1d428a;"><strong>I participated in activities organized by feminist groups</strong></span></li>
+<li><span style="color: #1d428a;"><strong>I went to religious ceremonies at the church in my neighborhood</strong></span></li>
+</ol>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="positive" class="slide level2" data-visibility="uncounted">
+<h2>Positively correlated lists</h2>
+<p>Items paired by number:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="list-a">List A</h3>
+<ol type="1">
+<li>I saw people playing sports</li>
+<li>I visited friends</li>
+<li>I went to activities by feminist groups</li>
+<li>I went to religious ceremonies</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<h3 id="list-b">List B</h3>
+<ol type="1">
+<li>I saw people playing soccer</li>
+<li>I chatted with my friends</li>
+<li>I went to activities by LGBTQ groups</li>
+<li>I donated to charity at church</li>
+</ol>
+</div>
+</div>
+
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>.</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized1" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw.</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized2" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>.</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized3" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>. If <i class="fa-solid fa-dice-six" aria-hidden="true"></i> shows, tell me <em>yes</em>.</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized4" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>. If <i class="fa-solid fa-dice-six" aria-hidden="true"></i> shows, tell me <em>yes</em>. But if another number shows, tell me your own opinion about the question.</p>
+<div class="fragment">
+<p>&nbsp;</p>
+<p>[TURN AWAY FROM RESPONDENT]</p>
+</div>
+<div class="fragment">
+<p>&nbsp;</p>
+<p>Now you throw the dice so that I cannot see what comes out.</p>
+</div>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized5" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>. If <i class="fa-solid fa-dice-six" aria-hidden="true"></i> shows, tell me <em>yes</em>. But if another number shows, tell me your own opinion about the question.</p>
+<p>&nbsp;</p>
+<p>[TURN AWAY FROM RESPONDENT]</p>
+<p>&nbsp;</p>
+<p>Have you thrown the dice?</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized6" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>. If <i class="fa-solid fa-dice-six" aria-hidden="true"></i> shows, tell me <em>yes</em>. But if another number shows, tell me your own opinion about the question.</p>
+<p>&nbsp;</p>
+<p>[TURN AWAY FROM RESPONDENT]</p>
+<p>&nbsp;</p>
+<p>Have you picked it up?</p>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
+<section id="randomized7" class="slide level2" data-visibility="uncounted">
+<h2>Randomized response</h2>
+
+<p>For this question, I want you to answer <em>yes</em> or <em>no</em>. But I want you to consider the number of your dice throw. If <i class="fa-solid fa-dice-one" aria-hidden="true"></i> shows on the dice, tell me <em>no</em>. If <i class="fa-solid fa-dice-six" aria-hidden="true"></i> shows, tell me <em>yes</em>. But if another number shows, tell me your own opinion about the question.</p>
+<p>&nbsp;</p>
+<p>Now, during the height of the conflict in 2007 and 2008 <em>(in Afghanistan)</em>, did you know any militants, like a family member, a friend, or someone you talked to on a regular basis?</p>
+<div class="fragment">
+<p>Please, before you answer, take note of the number you rolled on the dice.</p>
 
 <div class="footer footer-default">
 
 </div>
-</section>
+</div>
+<aside><div>
+<p><a href="#/appendix"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></a></p>
+</div></aside></section>
     </div>
   </div>
 

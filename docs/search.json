@@ -1082,7 +1082,7 @@
     "href": "slides/dle/melbourne.html#prevalence-rate",
     "title": "Gustavo Diaz",
     "section": "Prevalence rate",
-    "text": "Prevalence rate\n\\[\n\\text{Prevalence(X)} = \\text{Mean(List with X)} - \\text{Mean(List without X)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know who they are in our survey!"
+    "text": "Prevalence rate\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(List with sensitive item)} -\\\\ \\text{Mean(List without sensitive item)}\n\\]\n\n\nEstimate: Proportion of individuals in the target population who hold the sensitive attitude or behavior\nBut we do not know how individual respondents voted!"
   },
   {
     "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
@@ -1173,7 +1173,7 @@
     "href": "slides/dle/melbourne.html#sensitive-item",
     "title": "Gustavo Diaz",
     "section": "Sensitive item",
-    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nEquivalent to making two parallel list experiments\nCalculate prevalence by averaging the two single-list estimates"
+    "text": "Sensitive item\nOrganization X (advocating for immigration reduction and measures against undocumented immigration)\n\n\nRandomly appears in list A or B\nSingle list: Half of the respondents see sensitive item\nDouble list: Everyone sees it\nEquivalent to making two parallel list experiments"
   },
   {
     "objectID": "slides/dle/melbourne.html#yields-more-precise-estimates",
@@ -1250,7 +1250,7 @@
     "href": "slides/dle/melbourne.html#navigating-research-design-tradeoffs",
     "title": "Gustavo Diaz",
     "section": "Navigating research design tradeoffs",
-    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments\n\nPreferring precision over unbiasedness\n\nBlock randomization\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
+    "text": "Navigating research design tradeoffs\n\nImproving precision without sacrificing unbiasedness\n\nDouble list experiments (Diaz 2023)\n\nPreferring precision over unbiasedness\n\nBlock randomization (Bowers, Diaz, and Grady 2023)\n\n\n\n\nApplications: Accountability, governance, and representation in low/medium income countries\n\nBlocking + DLE to estimate prevalence of criminal governance strategies in Uruguay"
   },
   {
     "objectID": "slides/dle/melbourne.html#challenges-to-accountability-and-representation-in-the-global-south",
@@ -1327,14 +1327,14 @@
     "href": "slides/dle/melbourne.html#learning-goals",
     "title": "Gustavo Diaz",
     "section": "Learning goals",
-    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics"
+    "text": "Learning goals\n\n\nSpecific: Different versions of the same survey question change the answers we get\nGeneral: Illustrate bias-variance tradeoff in statistics\nContext: List experiments"
   },
   {
     "objectID": "slides/dle/melbourne.html#questions",
     "href": "slides/dle/melbourne.html#questions",
     "title": "Gustavo Diaz",
     "section": "Questions",
-    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
+    "text": "Questions\n\n\nHave you lied about having COVID symptoms?\nWould you bribe a police officer to avoid a traffic ticket?\nHave you had sex after drinking alcohol?\nHave you been offered goods or favors for your vote?\nDo you know anyone with links to a militant organization?\nWould you oppose a black family moving next door?\nWould you allow Muslim immigrants to become citizens?"
   },
   {
     "objectID": "slides/dle/melbourne.html#bias-variance-as-darts-revisited",
@@ -1376,7 +1376,7 @@
     "href": "slides/dle/melbourne.html#summary",
     "title": "Gustavo Diaz",
     "section": "Summary",
-    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, low variance\nList experiment: Low bias, high variance\nDouble list experiment: Low bias, low variance, easier to break\n\n\n\n\nNeed extensive piloting to choose well"
+    "text": "Summary\n\nThree approaches to sensitive questions\n\n\n\nDirect question: High bias, high precision \nList experiment: Low bias, low precision \nDouble list experiment: Low bias, high precision   (but easier to break)\n\n\n\n\nNeed extensive piloting to choose well"
   },
   {
     "objectID": "slides/dle/melbourne.html#activity",
@@ -1397,6 +1397,195 @@
     "href": "slides/dle/melbourne.html#appendix",
     "title": "Gustavo Diaz",
     "section": "Appendix",
-    "text": "Appendix"
+    "text": "Appendix\n\n\nAssumptions\nTypes of sensitive items\nTypes of DLE\nCarryover design effects\nDLEs are costly\nNegative correlation\nPaired items\nRandomized response"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#compare-with-direct-question",
+    "href": "slides/dle/melbourne.html#compare-with-direct-question",
+    "title": "Gustavo Diaz",
+    "section": "Compare with direct question",
+    "text": "Compare with direct question\nDid you vote YES or NO on the Personhood Initiative, which appeared on the November 2011 Mississippi General Election Ballot?\n\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(Voted yes)}\n\\]\n\n\n\nSource: Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#compare-with-direct-question-1",
+    "href": "slides/dle/melbourne.html#compare-with-direct-question-1",
+    "title": "Gustavo Diaz",
+    "section": "Compare with direct question",
+    "text": "Compare with direct question\nDid you vote YES or NO on the Personhood Initiative?, which appeared on the November 2011 Mississippi General Election Ballot?\n\\[\n\\text{Prevalence(Voted yes)} =\\\\ \\text{Mean(Voted yes)}\n\\]\n\n\nSource: Rosenfeld et al (2016)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#three-prevalence-estimates",
+    "href": "slides/dle/melbourne.html#three-prevalence-estimates",
+    "title": "Gustavo Diaz",
+    "section": "Three prevalence estimates",
+    "text": "Three prevalence estimates\n\\[\n\\text{Prevalence}_A = \\text{Mean}(A_t) - \\text{Mean}(A_c)\n\\]\n\n\\[\n\\text{Prevalence}_B = \\text{Mean}(B_t) - \\text{Mean}(B_c)\n\\]\n\n\n\\[\n\\text{Prevalence}_{Pooled} = (\\text{Prevalence}_A + \\text{Prevalence}_B)/2\n\\]"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
+    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
+    "title": "Gustavo Diaz",
+    "section": "DLE yields more precise estimates",
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#three-prevalence-estimators",
+    "href": "slides/dle/melbourne.html#three-prevalence-estimators",
+    "title": "Gustavo Diaz",
+    "section": "Three prevalence estimators",
+    "text": "Three prevalence estimators\n\\[\n\\text{Prevalence}_A = \\text{Mean}(A_t) - \\text{Mean}(A_c)\n\\]\n\n\\[\n\\text{Prevalence}_B = \\text{Mean}(B_t) - \\text{Mean}(B_c)\n\\]\n\n\n\\[\n\\text{Prevalence}_{Pooled} = (\\text{Prevalence}_A + \\text{Prevalence}_B)/2\n\\]"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#activity-groups-3-4",
+    "href": "slides/dle/melbourne.html#activity-groups-3-4",
+    "title": "Gustavo Diaz",
+    "section": "Activity (groups 3-4)",
+    "text": "Activity (groups 3-4)\n\nImagine something people tend to hide\nHow common do you think it is among your friends/peers/community?\nDesign a list experiment to learn about it\nHow many people would you ask?\nHow many lists?\nHow many and which baseline items?\nWould it be any different from asking directly?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#types",
+    "href": "slides/dle/melbourne.html#types",
+    "title": "Gustavo Diaz",
+    "section": "Types of DLE",
+    "text": "Types of DLE\n\n\n\n\n \n  \n    List order \n    Sensitive item location \n  \n \n\n  \n    Fixed \n    Fixed \n  \n  \n    Randomized \n    Fixed \n  \n  \n    Fixed \n    Randomized \n  \n  \n    Randomized \n    Randomized"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#cost",
+    "href": "slides/dle/melbourne.html#cost",
+    "title": "Gustavo Diaz",
+    "section": "DLEs are costly to implement",
+    "text": "DLEs are costly to implement"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#assumptions",
+    "href": "slides/dle/melbourne.html#assumptions",
+    "title": "Gustavo Diaz",
+    "section": "List experiment assumptions",
+    "text": "List experiment assumptions\n\n\n\n\n\n\n1. No liars\n\n\nThose who do not hold the sensitive item never falsely claim to bear it.\n\n\n\n\n\n\n\n\n\n2. No design effects\n\n\nIncluding the sensitive item does not change how participants respond to the baseline items"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negative",
+    "href": "slides/dle/melbourne.html#negative",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negatively-correlated-items",
+    "href": "slides/dle/melbourne.html#negatively-correlated-items",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negative2",
+    "href": "slides/dle/melbourne.html#negative2",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#positive",
+    "href": "slides/dle/melbourne.html#positive",
+    "title": "Gustavo Diaz",
+    "section": "Positively correlated lists",
+    "text": "Positively correlated lists\nItems paired by number:\n\n\nList A\n\nI saw people playing sports\nI visited friends\nI went to activities by feminist groups\nI went to religious ceremonies\n\n\nList B\n\nI saw people playing soccer\nI chatted with my friends\nI went to activities by LGBTQ groups\nI donated to charity at church"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#negative1",
+    "href": "slides/dle/melbourne.html#negative1",
+    "title": "Gustavo Diaz",
+    "section": "Negatively correlated items",
+    "text": "Negatively correlated items\nThings done in the last six months:\n\nI saw people playing sports in my neighborhood\nI visited friends on weekends\nI participated in activities organized by feminist groups\nI went to religious ceremonies at the church in my neighborhood"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized",
+    "href": "slides/dle/melbourne.html#randomized",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized1",
+    "href": "slides/dle/melbourne.html#randomized1",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized2",
+    "href": "slides/dle/melbourne.html#randomized2",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized3",
+    "href": "slides/dle/melbourne.html#randomized3",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized4",
+    "href": "slides/dle/melbourne.html#randomized4",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n\n \n[TURN AWAY FROM RESPONDENT]\n\n\n \nNow you throw the dice so that I cannot see what comes out."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized5",
+    "href": "slides/dle/melbourne.html#randomized5",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you thrown the dice?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized6",
+    "href": "slides/dle/melbourne.html#randomized6",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you picked it up?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#randomized7",
+    "href": "slides/dle/melbourne.html#randomized7",
+    "title": "Gustavo Diaz",
+    "section": "Randomized response",
+    "text": "Randomized response\n\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \nNow, during the height of the conflict in 2007 and 2008 (in Afghanistan), did you know any militants, like a family member, a friend, or someone you talked to on a regular basis?\n\nPlease, before you answer, take note of the number you rolled on the dice."
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
+    "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
+    "title": "Gustavo Diaz",
+    "section": "DLE yields more precise estimates",
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#can-we-break-this-tradeoff",
+    "href": "slides/dle/melbourne.html#can-we-break-this-tradeoff",
+    "title": "Gustavo Diaz",
+    "section": "Can we break this tradeoff?",
+    "text": "Can we break this tradeoff?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#can-we-break-away-from-the-bias-variance-tradeoff",
+    "href": "slides/dle/melbourne.html#can-we-break-away-from-the-bias-variance-tradeoff",
+    "title": "Gustavo Diaz",
+    "section": "Can we break away from the bias-variance tradeoff?",
+    "text": "Can we break away from the bias-variance tradeoff?"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#attitudes",
+    "href": "slides/dle/melbourne.html#attitudes",
+    "title": "Gustavo Diaz",
+    "section": "Types of sensitive items",
+    "text": "Types of sensitive items\n\nFrowned-upon attitude\n\n“I would hate it if a black family moves next door”\n\nPretend-to attitudes\n\n“Of course I support the government!”"
+  },
+  {
+    "objectID": "slides/dle/melbourne.html#carryover",
+    "href": "slides/dle/melbourne.html#carryover",
+    "title": "Gustavo Diaz",
+    "section": "Carryover design effects",
+    "text": "Carryover design effects\n\n\n\n\n \n  \n    Observed response \n    \\(Y_{i1}\\) \n    \\(Y_{i2}\\) \n    \\((Y_{i1} - Y_{i2})\\) \n  \n \n\n  \n    Baseline \n    2 \n    2 \n    0 \n  \n  Deflation\n\n    \\(z_i = 1\\) \n    1 \n    1 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    1 \n    1 \n  \n  Inflation\n\n    \\(z_i = 1\\) \n    3 \n    3 \n    0 \n  \n  \n    \\(z_i = 0\\) \n    2 \n    3 \n    -1"
   }
 ]

@@ -33,7 +33,7 @@ library(kableExtra)
 
 
 # ggplot global options
-theme_set(theme_bw(base_size = 20))
+theme_set(theme_gray(base_size = 20))
 ```
 
 
@@ -83,6 +83,8 @@ est_df$term = fct_relevel(est_df$term, "trt_A", "trt_B", "Z")
 
 - **General:** Illustrate bias-variance tradeoff in statistics
 
+- **Context:** List experiments
+
 :::
 
 ## Bias-variance tradeoff as darts
@@ -101,9 +103,12 @@ est_df$term = fct_relevel(est_df$term, "trt_A", "trt_B", "Z")
 
 - Have you been offered goods or favors for your vote?
 
+- Do you know anyone with links to a militant organization?
+
 - Would you oppose a black family moving next door?
 
 - Would you allow Muslim immigrants to become citizens?
+
 
 :::
 
@@ -217,14 +222,30 @@ Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
 ## Prevalence rate
 
 $$
-\text{Prevalence(X)} = \text{Mean(List with X)} - \text{Mean(List without X)}
+\text{Prevalence(Voted yes)} =\\ \text{Mean(List with sensitive item)} -\\ \text{Mean(List without sensitive item)}
 $$
 
 . . .
 
 - **Estimate:** Proportion of individuals in the target population who hold the sensitive attitude or behavior
 
-- But we **do not know** who they are in our survey!
+- But we **do not know** how individual respondents voted!
+
+## Compare with direct question
+
+Did you vote YES or NO on the Personhood Initiative, which appeared on the November 2011 Mississippi General Election Ballot?
+
+. . .
+
+
+$$
+\text{Prevalence(Voted yes)} =\\ \text{Mean(Voted yes)}
+$$
+
+::: aside
+Source: [Rosenfeld et al (2016)](https://doi.org/10.1111/ajps.12205)
+:::
+
 
 ## Validation
 
@@ -360,12 +381,34 @@ Source: [Alvarez et al (2019)](https://doi.org/10.1017/pan.2018.57)
 ::: incremental
 - Randomly appears in list A or B
 
+- **Single list:** Half of the respondents see sensitive item
+
+- **Double list:** Everyone sees it
+
 - Equivalent to making two parallel list experiments
 
-- Calculate prevalence by averaging the two single-list estimates
 :::
 
-## Yields more precise estimates
+## Three prevalence estimators
+
+$$
+\text{Prevalence}_A = \text{Mean}(A_t) - \text{Mean}(A_c)
+$$
+
+. . .
+
+$$
+\text{Prevalence}_B = \text{Mean}(B_t) - \text{Mean}(B_c)
+$$
+
+. . .
+
+
+$$
+\text{Prevalence}_{Pooled} = (\text{Prevalence}_A + \text{Prevalence}_B)/2
+$$ 
+
+## DLE yields more precise estimates
 
 ```{r}
 ggplot(est_df %>% filter(experiment == "X")) +
@@ -387,7 +430,7 @@ Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 
 
 
-## Yields more precise estimates {visibility="uncounted"}
+## DLE yields more precise estimates {visibility="uncounted"}
 
 ```{r}
 ggplot(est_df %>% filter(experiment == "X")) +
@@ -465,17 +508,19 @@ Adapted from [Diaz (2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 
 . . .
 
-1. **Direct question:** High bias, low variance
 
-2. **List experiment:** Low bias, high variance
 
-3. **Double list experiment:** Low bias, low variance, easier to break
+1. **Direct question:** High bias, high precision ![](figs/darts_direct.png){width=60}
+
+2. **List experiment:** Low bias, low precision ![](figs/darts_list.png){width=60}
+
+3. **Double list experiment:** Low bias, high precision ![](figs/darts_dle.png){width=60} <br> `(but easier to break)` 
 
 . . .
 
 - Need extensive piloting to choose well
 
-## Activity
+## Activity (groups 3-4)
 
 - Imagine something people tend to hide
 
@@ -522,12 +567,12 @@ Different players {{< fa arrow-right >}} different winning strategies
 
 1. Improving precision without sacrificing unbiasedness
 
-    - [Double list experiments](https://gustavodiaz.org/files/research/dle_test.pdf)
+    - Double list experiments [(Diaz 2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
     
 
 2. Preferring precision over unbiasedness
 
-    - [Block randomization](https://egap.org/resource/sd-block-rand/)
+    - Block randomization [(Bowers, Diaz, and Grady 2023)](https://egap.org/resource/sd-block-rand/)
     
 . . .
 
@@ -536,6 +581,299 @@ Different players {{< fa arrow-right >}} different winning strategies
     - Blocking + DLE to estimate prevalence of criminal governance strategies in Uruguay
     
 ## Appendix {#appendix background-color="#1d428a" visibility="uncounted"}
+
+<!-- Links here -->
+
+- [Assumptions](#assumptions)
+- [Types of sensitive items](#attitudes)
+- [Types of DLE](#types)
+- [Carryover design effects](#carryover)
+- [DLEs are costly](#cost)
+- [Negative correlation](#negative)
+- [Paired items](#positive)
+- [Randomized response](#randomized)
+
+## List experiment assumptions {#assumptions visibility="uncounted"}
+
+::: {.callout-warning}
+### 1. No liars
+
+Those who **do not** hold the sensitive item **never** falsely claim to bear it.
+
+:::
+
+::: {.callout-warning}
+### 2. No design effects
+
+Including the sensitive item **does not change** how participants respond to the baseline items
+
+:::
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## Types of sensitive items {#attitudes visibility="uncounted"}
+
+1. Frowned-upon attitude
+
+    - "I would hate it if a black family moves next door"
+    
+2. Pretend-to attitudes
+
+    - "Of course I support the government!"
+    
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+
+
+## Types of DLE {#types visibility="uncounted"}
+
+```{r}
+designs = data.frame(
+  expand.grid(
+    Lists = c("Fixed", "Randomized"),
+    Sensitive_item = c("Fixed", "Randomized")
+  )
+)
+
+colnames(designs) = c("List order", "Sensitive item location")
+
+designs %>% 
+  kbl(booktabs = TRUE,
+      escape = FALSE,
+      align = "cc")
+```
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## Carryover design effects {#carryover visibility="uncounted"}
+
+```{r}
+toy = data.frame(
+  pot = c("Baseline", rep(c("\\(z_i = 1\\)", "\\(z_i = 0\\)"), 3)),
+  Ya = c(2, 1, 2, 3, 2, 3, 2),
+  Yb = c(2, 1, 1, 3, 3, 2, 3),
+  zz = c(0, 1, -1, 1, -1, 1, -1)
+)
+
+toy = toy %>% 
+  mutate(diff = Ya - Yb,
+         sgn = diff * zz) %>% # (z_i - (1-z_i)) (Y_{i1} - Y_{i2})
+  select(pot, Ya, Yb, diff)
+
+toy = toy[1:5,]
+
+colnames(toy) = c("Observed response",
+                  "\\(Y_{i1}\\)",
+                  "\\(Y_{i2}\\)",
+                  "\\((Y_{i1} - Y_{i2})\\)")
+
+toy %>% 
+  kbl(escape = FALSE,
+      align = "lcccc") %>% 
+  pack_rows("Deflation", 2, 3) %>% 
+  pack_rows("Inflation", 4, 5) %>% 
+  column_spec(1, bold = c(T, F, F, F, F, F, F))
+```
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## DLEs are costly to implement {#cost visibility="uncounted"}
+
+```{r}
+load("cost_sim.rda")
+
+cost_df = cost_sim %>% 
+  mutate(rho = recode(as.factor(rho),
+                      "0" = "rho == 0",
+                      "0.4" = "rho == 0.4",
+                      "0.8" = "rho == 0.8")) %>% 
+  group_by(estimator, rho, cost) %>% 
+  summarize(power = mean(p.value <= 0.05, na.rm = TRUE))
+
+# Reorder terms
+cost_df$estimator = fct_relevel(cost_df$estimator,
+                                "List A", "List B", "DLE")
+
+ggplot(cost_df %>% filter(rho == "rho == 0" &
+                            estimator != "List B")) +
+  aes(x = cost, y = power, linetype = estimator, shape = estimator) + 
+  geom_hline(yintercept = 0.8, linetype = "dotted") +
+  labs(x = "Sample size loss",
+       y = expression(paste('Power at ', alpha  == 0.05)),
+       shape = "Design",
+       linetype = "Design") +
+  geom_line(size = 1) + geom_point(size = 2) +
+  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.2)) +
+  scale_shape_discrete(labels = c("Single list", "DLE")) +
+  scale_linetype_discrete(labels = c("Single list", "DLE")) +
+  theme(legend.position = "bottom")
+```
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+
+## Negatively correlated items {#negative visibility="uncounted"}
+
+Things done in the last six months:
+
+1. I saw people playing sports in my neighborhood
+2. I visited friends on weekends
+3. I participated in activities organized by feminist groups
+4. I went to religious ceremonies at the church in my neighborhood
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## Negatively correlated items {#negative1 visibility="uncounted"}
+
+Things done in the last six months:
+
+1. [I saw people playing sports in my neighborhood]{style="color: gray;"}
+2. [I visited friends on weekends]{style="color: gray;"}
+3. [**I participated in activities organized by feminist groups**]{style="color: #1d428a;"}
+4. [**I went to religious ceremonies at the church in my neighborhood**]{style="color: #1d428a;"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## Positively correlated lists {#positive visibility="uncounted"}
+
+Items paired by number:
+
+:::: {.columns}
+::: {.column width="50%"}
+### List A
+1. I saw people playing sports
+2. I visited friends
+3. I went to activities by feminist groups
+4. I went to religious ceremonies
+:::
+
+::: {.column width="50%"}
+### List B
+1. I saw people playing soccer
+2. I chatted with my friends
+3. I went to activities by LGBTQ groups
+4. I donated to charity at church
+:::
+
+::::
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+## Randomized response {#randomized visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*.
+
+## Randomized response {#randomized1 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw.
+
+## Randomized response {#randomized2 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*.
+
+## Randomized response {#randomized3 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*. If {{< fa dice-six >}} shows, tell me *yes*.
+
+## Randomized response {#randomized4 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*. If {{< fa dice-six >}} shows, tell me *yes*. But if another number shows, tell me your own opinion about the question.
+
+. . .
+
+&nbsp;
+
+[TURN AWAY FROM RESPONDENT]
+
+. . .
+
+&nbsp;
+
+Now you throw the dice so that I cannot see what comes out.
+
+## Randomized response {#randomized5 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*. If {{< fa dice-six >}} shows, tell me *yes*. But if another number shows, tell me your own opinion about the question.
+
+&nbsp;
+
+[TURN AWAY FROM RESPONDENT]
+
+&nbsp;
+
+Have you thrown the dice?
+
+## Randomized response {#randomized6 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*. If {{< fa dice-six >}} shows, tell me *yes*. But if another number shows, tell me your own opinion about the question.
+
+&nbsp;
+
+[TURN AWAY FROM RESPONDENT]
+
+&nbsp;
+
+Have you picked it up?
+
+## Randomized response {#randomized7 visibility="uncounted"}
+
+::: aside
+[{{< fa rotate-left >}}](#appendix)
+:::
+
+For this question, I want you to answer *yes* or *no*. But I want you to consider the number of your dice throw. If {{< fa dice-one >}} shows on the dice, tell me *no*. If {{< fa dice-six >}} shows, tell me *yes*. But if another number shows, tell me your own opinion about the question.
+
+&nbsp;
+
+Now, during the height of the conflict in 2007 and 2008 *(in Afghanistan)*, did you know any militants, like a family member, a friend, or someone you talked to on a regular basis? 
+
+. . .
+
+Please, before you answer, take note of the number you rolled on the dice.
 
 
 
