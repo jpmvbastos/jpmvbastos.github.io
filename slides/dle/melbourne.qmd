@@ -1,7 +1,8 @@
 ---
 format:
   revealjs:
-    theme: [default, melbourne.scss]
+    embed-resources: true
+    theme: melbourne.scss
     slide-number: true
 ---
 
