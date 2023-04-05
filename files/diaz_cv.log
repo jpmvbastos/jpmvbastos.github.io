@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  15 MAR 2023 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.5)  5 APR 2023 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **diaz_cv.tex
 (./diaz_cv.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-07> (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-03-30> (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -637,7 +637,7 @@ File: pgfmoduleparser.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 \@curXheight=\skip65
 ) (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count346
 \l__pdf_internal_box=\box109
 ) (./diaz_cv.aux)
@@ -753,25 +753,25 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomethree on in
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 ) [1
 
-{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] 
+{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}] [2] [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./diaz_cv.aux)
 Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: CDEB2DDD944ACB24994B118E51408519;1765.
  ) 
 Here is how much of TeX's memory you used:
- 24337 strings out of 477989
- 455326 string characters out of 5837644
- 1861340 words of memory out of 5000000
- 44031 multiletter control sequences out of 15000+600000
+ 24340 strings out of 477977
+ 455465 string characters out of 5837000
+ 1862660 words of memory out of 5000000
+ 44045 multiletter control sequences out of 15000+600000
  552747 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,118p,1019b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc} <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (3 pages, 117247 bytes).
+ <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on diaz_cv.pdf (3 pages, 117445 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
