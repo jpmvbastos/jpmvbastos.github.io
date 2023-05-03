@@ -16,8 +16,8 @@ rmarkdown::render("job_market/statements/teaching_statement_methods.Rmd",
 
 
 # comparative
-rmarkdown::render("job_market/cover_letter/cover_letter_cp.Rmd",
-                  output_file = "diaz_cover_letter.pdf")
+quarto::quarto_render("job_market/cover_letter/cover_letter_cp.qmd", 
+                      output_file = "diaz_cover_letter.pdf")
 rmarkdown::render("job_market/statements/research_statement_cp.Rmd",
                   output_file = "diaz_research_statement.pdf")
 rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",

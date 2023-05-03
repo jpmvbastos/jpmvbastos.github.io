@@ -16,7 +16,7 @@ library(fontawesome)
 gs4_deauth()
 
 ## Set date threshold to display jobs
-t = "2023-03-31"
+t = "2023-06-01"
 ```
 
 ## Welcome!
@@ -26,7 +26,8 @@ This page is for internal use only. If you are not a letter writer, I encourage 
 ## Upcoming Deadlines
 
 ```{r, message = FALSE}
-jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282")
+jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282",
+                  sheet = 2)
 
 # some manipulation to show only what is useful
 jobs = jobs %>% 
