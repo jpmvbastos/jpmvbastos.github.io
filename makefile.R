@@ -3,7 +3,7 @@
 
 # cv
 rmarkdown::render("files/diaz_cv.Rmd")
-rmarkdown::render("files/diaz_cv_teaching.Rmd")
+
 
 # methods
 rmarkdown::render("job_market/cover_letter/cover_letter_methods.Rmd",
