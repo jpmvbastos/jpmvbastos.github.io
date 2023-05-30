@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+$presentation-heading-color: #1d428a;
+$code-color: #00b176;
+//** Link hover color set via `darken()` function.
+$link-color: #00b176;
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+

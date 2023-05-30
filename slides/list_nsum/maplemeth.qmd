@@ -1,0 +1,39 @@
+---
+title: "Combining List Experiments and the Network Scale-Up Method"
+author:
+  - Gustavo Díaz
+  - Ines Fynn
+  - Verónica Pérez Bentancur
+  - Lucía Tiscornia
+institute: 
+  - McMaster University
+  - Pontificia Universidad Católica de Chile
+  - Universidad de la República
+  - University College Dublin
+format:
+  revealjs:
+    embed-resources: true
+    slide-number: true
+---
+
+
+## First slide
+
+```{r include=FALSE}
+library(knitr)
+
+opts_chunk$set(fig.pos = "center")
+```
+
+```{r setup}
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+
+# ggplot global options
+theme_set(theme_gray(base_size = 20))
+```
+
+Hello!
