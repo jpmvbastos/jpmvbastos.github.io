@@ -48,7 +48,8 @@ Slides: [gustavodiaz.org/maplemeth](https://gustavodiaz.org/maplemeth.html)
 ```{r include=FALSE}
 library(knitr)
 
-opts_chunk$set(fig.pos = "center")
+opts_chunk$set(fig.pos = "center", echo = FALSE, 
+               message = FALSE, warning = FALSE)
 ```
 
 ```{r setup}
