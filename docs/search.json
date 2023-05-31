@@ -56,62 +56,6 @@
     "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
   },
   {
-    "objectID": "files/diaz_cv_kaist.html",
-    "href": "files/diaz_cv_kaist.html",
-    "title": "CV",
-    "section": "",
-    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
-  },
-  {
-    "objectID": "files/diaz_cv_kaist.html#mcmaster-university",
-    "href": "files/diaz_cv_kaist.html#mcmaster-university",
-    "title": "CV",
-    "section": "McMaster University",
-    "text": "McMaster University\nPublic Opinion and Public Policy. Spring 2023"
-  },
-  {
-    "objectID": "files/diaz_cv_kaist.html#tulane-university",
-    "href": "files/diaz_cv_kaist.html#tulane-university",
-    "title": "CV",
-    "section": "Tulane University",
-    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
-  },
-  {
-    "objectID": "files/diaz_cv_kaist.html#phd-institution",
-    "href": "files/diaz_cv_kaist.html#phd-institution",
-    "title": "CV",
-    "section": "PhD Institution",
-    "text": "PhD Institution\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Spring 2021\nQuantitative Methods II (Graduate). Spring 2021\nQuantitative Methods I (Graduate). Fall 2020\nQuantitative Methods III (Graduate). Fall 2020\nIntroduction to Quantitative Political Research. Fall 2017\nComparative Politics in Developing Nations. Fall 2016"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html",
-    "href": "files/diaz_cv_teaching.html",
-    "title": "CV",
-    "section": "",
-    "text": "McMaster University\nPostdoctoral Fellow, Department of Political Science -\nTulane University\nPostdoctoral Fellow, Center for Inter-American Policy and Research -2022"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#mcmaster-university",
-    "href": "files/diaz_cv_teaching.html#mcmaster-university",
-    "title": "CV",
-    "section": "McMaster University",
-    "text": "McMaster University\nResearch Design for Public Opinion and Public Policy. Spring 2023"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#tulane-university",
-    "href": "files/diaz_cv_teaching.html#tulane-university",
-    "title": "CV",
-    "section": "Tulane University",
-    "text": "Tulane University\nPolitics of Developing Democracies. Spring 2022\nComparative Politics. Fall 2021"
-  },
-  {
-    "objectID": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
-    "href": "files/diaz_cv_teaching.html#university-of-illinois-at-urbana-champaign",
-    "title": "CV",
-    "section": "University of Illinois at Urbana-Champaign",
-    "text": "University of Illinois at Urbana-Champaign\n\nInstructor\nComparative Politics in Developing Nations (Online). Summer 2019\nMathcamp for Political Scientists. Fall 2017-2019\n\n\nTeaching Assistant\nResearch Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021\nQuantitative Methods II (Graduate). Jake Bowers. Spring 2021\nQuantitative Methods I (Graduate). Brian Gaines. Fall 2020\nQuantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020\nIntroduction to Quantitative Political Research. Jake Bowers. Fall 2017\nComparative Politics in Developing Nations. Avital Livny. Fall 2016"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
@@ -438,7 +382,7 @@
     "href": "market.html#upcoming-deadlines",
     "title": "Job Market Hub",
     "section": "Upcoming Deadlines",
-    "text": "Upcoming Deadlines\nLast update: May 3, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n\nJake\nMatt\nMichelle\n\n\n\n\n1\n1\n1\n\n\n\n\n\n\n\n \nLecturer in International Development and Quantitative Social Science - Department of International Development - King’s College LondonLetters: Jake, Matt, Michelle  Deadline: May 28, 2023  Delivery: After shortlist?  Notes: The post holder will be expected to teach quantitative methods at the undergraduate and post-graduate level, and to supervise dissertations using quantitative methods."
+    "text": "Upcoming Deadlines\nLast update: May 31, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nNA - NA - NALetters:  Deadline: NA  Delivery: NA  Notes: NA  \n \n** - - **Letters:  Deadline:  Delivery:  Notes:"
   },
   {
     "objectID": "market.html#materials",
@@ -578,42 +522,42 @@
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nequal_pb = sims %&gt;% ungroup() %&gt;%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %&gt;%\n  filter(pb==\"bold(p[b]) == (`.5, .5, .5`)\" &\n           taub==\"bold(tau[b]) == (`0, 2, 4`)\")\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\", alpha = 0) +\n  geom_line(size = 2, stat = \"density\", alpha = 0) +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\", alpha = 0) +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\", alpha = 0) +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\n## ℹ Please use `linewidth` instead."
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-1",
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-1",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\", alpha = 0) +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-2",
     "href": "slides/bias_est/apsa2022.html#equal-boldsymbolp_b-2",
     "title": "Gustavo Diaz",
     "section": "Equal \\(\\boldsymbol{p_b}\\)",
-    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
+    "text": "Equal \\(\\boldsymbol{p_b}\\)\n\nggplot(equal_pb) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under nearly equal \\(\\boldsymbol{p_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-constant-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
+    "text": "Different \\(\\boldsymbol{p_b}\\), constant \\(\\boldsymbol{\\tau_b}\\)\n\nconstant = sims %&gt;% ungroup() %&gt;%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %&gt;%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`0, 0, 0`)\")\n\nggplot(constant) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nSimilar results under different \\(\\boldsymbol{p_b}\\), homogeneous \\(\\boldsymbol{\\tau_b}\\)"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "href": "slides/bias_est/apsa2022.html#different-boldsymbolp_b-heterogeneous-boldsymboltau_b",
     "title": "Gustavo Diaz",
     "section": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)",
-    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
+    "text": "Different \\(\\boldsymbol{p_b}\\), heterogeneous \\(\\boldsymbol{\\tau_b}\\)\n\nhet = sims %&gt;% ungroup() %&gt;%\n  filter(estimator %in% c(\"Precision\",\"Block-size\") &\n           nb == \"bold(n[b]) == (`100, 100, 100`)\") %&gt;%\n  filter(pb==\"bold(p[b]) == (`.05, .3, .4`)\" &\n           taub==\"bold(tau[b]) == (`4, 2, 0`)\")\n\nggplot(het) +\n  aes(x = estimate, color = estimator, linetype = estimator) +\n  geom_vline(aes(xintercept = estimand), linetype = \"dotted\") +\n  geom_line(size = 2, stat = \"density\") +\n  theme(legend.position = \"bottom\") +\n   geom_point(aes(x = estimand, y = 0), shape = 17, size = 3, \n              show.legend = FALSE, color = \"black\") +\n  geom_text(aes(x = estimand, y = 0, label = \"True ATE\"),\n  nudge_y = -.2, show.legend = FALSE, color = \"black\") +\n  facet_wrap(~ title, scales = \"free_x\", label = label_parsed) +\n  scale_color_viridis_d(begin = 0.9, end = 0) +\n  labs(x = \"Estimated ATE\", y = \"Density\", \n       linetype = \"Weights\", color = \"Weights\")\n\n\n\nBias of precision weights increases with \\(\\boldsymbol{\\tau_b}\\) heterogeneity"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#blocking-takeaways",
     "href": "slides/bias_est/apsa2022.html#blocking-takeaways",
     "title": "Gustavo Diaz",
     "section": "Blocking takeaways",
-    "text": "Blocking takeaways\n\n\n\n\n\n\\(\\boldsymbol{p_b}\\)\n\\(\\boldsymbol{\\tau_b}\\)\nBest weighting scheme\n\n\n\n\nConstant/similar\nAny\nEither\n\n\nDifferent\nConstant/similar\nPrecision\n\n\nDifferent\nHeterogeneous\nBlock-size\n\n\n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
+    "text": "Blocking takeaways\n\nb_take = data.frame(\npb = c(\"Constant/similar\", rep(\"Different\", 2)),\ntb = c(\"Any\", \"Constant/similar\", \"Heterogeneous\"),\nwt = c(\"Either\", \"Precision\", \"Block-size\")\n)\n\ncolnames(b_take) = c(\"\\\\(\\\\boldsymbol{p_b}\\\\)\", \n                     \"\\\\(\\\\boldsymbol{\\\\tau_b}\\\\)\",\n                     \"Best weighting scheme\")\n\nb_take %&gt;% \n  kbl(escape = FALSE)\n\n\n\n\n\\(\\boldsymbol{p_b}\\)\n\\(\\boldsymbol{\\tau_b}\\)\nBest weighting scheme\n\n\n\n\nConstant/similar\nAny\nEither\n\n\nDifferent\nConstant/similar\nPrecision\n\n\nDifferent\nHeterogeneous\nBlock-size\n\n\n\n\n\n\n\n\n\nLessons:\n\nAim for equal proportion treated across blocks if possible\nOtherwise, pre-specify adaptive rules"
   },
   {
     "objectID": "slides/bias_est/apsa2022.html#conclusion",
@@ -627,7 +571,7 @@
     "href": "slides/dle/lunchlab.html#list-experiment",
     "title": "Gustavo Diaz",
     "section": "List experiment",
-    "text": "List experiment\nNow I am going to read you three things that make people angry or upset."
+    "text": "List experiment\n\n# Packages\nlibrary(tidyverse)\n## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n## ✔ ggplot2 3.4.0      ✔ purrr   0.3.4 \n## ✔ tibble  3.1.8      ✔ dplyr   1.0.10\n## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n## ✔ readr   2.1.3      ✔ forcats 0.5.2\n## Warning: package 'ggplot2' was built under R version 4.2.2\n## Warning: package 'readr' was built under R version 4.2.2\n## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n## ✖ dplyr::filter() masks stats::filter()\n## ✖ dplyr::lag()    masks stats::lag()\nlibrary(DeclareDesign)\n## Loading required package: randomizr\n## Loading required package: fabricatr\n## Loading required package: estimatr\n## \n## Attaching package: 'DeclareDesign'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     vars\n## \n## The following object is masked from 'package:ggplot2':\n## \n##     vars\nlibrary(kableExtra)\n## \n## Attaching package: 'kableExtra'\n## \n## The following object is masked from 'package:dplyr':\n## \n##     group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\n# Data prep\nload(\"attn_rep.RData\")\n\ncali = dle\n\nremove(dle)\n\n# Analysis\na = cali %&gt;% \n  split(.$experiment) %&gt;% \n  map(~difference_in_means(listA ~ trt_A, data = .)) %&gt;% \n  map(tidy) %&gt;% \n  bind_rows(.id = \"experiment\")\n\nb = cali %&gt;% \n  split(.$experiment) %&gt;% \n  map(~difference_in_means(listB ~ trt_B, data = .)) %&gt;% \n  map(tidy) %&gt;% \n  bind_rows(.id = \"experiment\")\n\npool = cali %&gt;% \n  mutate(id = row_number()) %&gt;% \n  pivot_longer(cols = c(listA, listB)) %&gt;% \n  rename(list = name, count = value) %&gt;% \n  mutate(Z = ifelse(trt_A == 1 & list == \"listA\" | trt_B == 1 & list == \"listB\",\n                    1, 0)) %&gt;% \n  split(.$experiment) %&gt;% \n  map(~ lm_robust(count ~ Z + list, clusters = id, se_type = \"stata\", data = .)) %&gt;% \n  map(tidy) %&gt;% \n  bind_rows(.id = \"experiment\") %&gt;% \n  filter(term == \"Z\")\n  \nest_df = rbind(a, b, pool)\n\nest_df$term = fct_relevel(est_df$term, \"trt_A\", \"trt_B\", \"Z\")\n\nNow I am going to read you three things that make people angry or upset."
   },
   {
     "objectID": "slides/dle/lunchlab.html#list-experiment-1",
@@ -655,14 +599,14 @@
     "href": "slides/dle/lunchlab.html#double-list-experiment",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\nWe want DLEs to look like this"
+    "text": "Double list experiment\n\nggplot(est_df %&gt;% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\n## ℹ Please use `linewidth` instead.\n\n\n\n\n\n\nWe want DLEs to look like this"
   },
   {
     "objectID": "slides/dle/lunchlab.html#double-list-experiment-1",
     "href": "slides/dle/lunchlab.html#double-list-experiment-1",
     "title": "Gustavo Diaz",
     "section": "Double list experiment",
-    "text": "Double list experiment\n\n\n\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
+    "text": "Double list experiment\n\nggplot(est_df %&gt;% filter(experiment == \"Y\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization Y\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nBut if they look like this we are in trouble"
   },
   {
     "objectID": "slides/dle/melbourne.html#methods-for-sensitive-questions-in-surveys",
@@ -767,28 +711,28 @@
     "href": "slides/dle/melbourne.html#validation",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\n# got this through\n# https://automeris.io/WebPlotDigitizer/\n# And by reverse engineering table 1\n# Because replication data was not available\n# So this has some human error\nvalidation = data.frame(\n  technique = c(\"Direct question\", \"List experiment\"),\n  estimate = c(0.396, 0.487),\n  upper = c(0.419, 0.562),\n  lower = c(0.376, 0.417)\n)\n\nactual_vote = 0.65\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_point(size = 4, alpha = 0) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1, alpha = 0) +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation-1",
     "href": "slides/dle/melbourne.html#validation-1",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_hline(yintercept = actual_vote, \n             linetype = \"dashed\",\n             linewidth = 1) +\n  geom_point(size = 4, alpha = 0) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1, alpha = 0) +\n  annotate(\"text\", x = 0.7, y = 0.7, size = 5, \n           label = \"Actual vote share\") +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation-2",
     "href": "slides/dle/melbourne.html#validation-2",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_hline(yintercept = actual_vote, \n             linetype = \"dashed\",\n             linewidth = 1) +\n  geom_point(size = 4) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1, alpha = 0) +\n  annotate(\"text\", x = 0.7, y = 0.7, size = 5, \n           label = \"Actual vote share\") +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#validation-3",
     "href": "slides/dle/melbourne.html#validation-3",
     "title": "Gustavo Diaz",
     "section": "Validation",
-    "text": "Validation\n\nggplot(validation) +\n  aes(x = technique, y = estimate) +\n  geom_hline(yintercept = actual_vote, \n             linetype = \"dashed\",\n             linewidth = 1) +\n  geom_point(size = 4) + \n  geom_linerange(aes(x = technique, ymin = lower, ymax = upper),\n                 linewidth = 1) +\n  annotate(\"text\", x = 0.7, y = 0.7, size = 5, \n           label = \"Actual vote share\") +\n  ylim(0.2, 0.8) +\n  labs(x = \"Technique\", \n       y = \"Estimated proportion of 'No' votes\")\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
+    "text": "Validation\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Rosenfeld et al (2016)"
   },
   {
     "objectID": "slides/dle/melbourne.html#list-experiments-are-not-always-an-improvement",
@@ -830,14 +774,14 @@
     "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates",
     "title": "Gustavo Diaz",
     "section": "DLE yields more precise estimates",
-    "text": "DLE yields more precise estimates\n\nggplot(est_df %&gt;% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5), alpha = 0) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5), alpha = 0) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X (immigration reduction)\",\n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
     "href": "slides/dle/melbourne.html#dle-yields-more-precise-estimates-1",
     "title": "Gustavo Diaz",
     "section": "DLE yields more precise estimates",
-    "text": "DLE yields more precise estimates\n\nggplot(est_df %&gt;% filter(experiment == \"X\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization X (immigration reduction)\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "DLE yields more precise estimates\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#but-this-is-not-for-free",
@@ -851,14 +795,14 @@
     "href": "slides/dle/melbourne.html#this-can-happen",
     "title": "Gustavo Diaz",
     "section": "This can happen",
-    "text": "This can happen\n\nggplot(est_df %&gt;% filter(experiment == \"Y\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5), alpha = 0) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5), alpha = 0) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization Y (citizen border patrol)\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#this-can-happen-1",
     "href": "slides/dle/melbourne.html#this-can-happen-1",
     "title": "Gustavo Diaz",
     "section": "This can happen",
-    "text": "This can happen\n\nggplot(est_df %&gt;% filter(experiment == \"Y\")) +\n  aes(x = term, y = estimate, shape = term) +\n  geom_hline(yintercept = 0, linetype = \"dashed\") + \n  geom_point(size = 4, position = position_dodge(width = 0.5)) +\n  geom_linerange(aes(x = term, ymin = conf.low, ymax = conf.high), \n                 size = 1, position = position_dodge(width = 0.5)) +\n  theme(legend.position = \"none\") +\n  labs(subtitle = \"Organization Y (citizen border patrol)\", \n       x = \"Estimator\", \n       y = \"Proportion support\") +\n  scale_x_discrete(labels = c(\"List A\", \"List B\", \"Pooled\"))\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
+    "text": "This can happen\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Diaz (2023)"
   },
   {
     "objectID": "slides/dle/melbourne.html#summary",
@@ -921,21 +865,21 @@
     "href": "slides/dle/melbourne.html#types",
     "title": "Gustavo Diaz",
     "section": "Types of DLE",
-    "text": "Types of DLE\n\ndesigns = data.frame(\n  expand.grid(\n    Lists = c(\"Fixed\", \"Randomized\"),\n    Sensitive_item = c(\"Fixed\", \"Randomized\")\n  )\n)\n\ncolnames(designs) = c(\"List order\", \"Sensitive item location\")\n\ndesigns %&gt;% \n  kbl(booktabs = TRUE,\n      escape = FALSE,\n      align = \"cc\")\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
+    "text": "Types of DLE\n\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
   },
   {
     "objectID": "slides/dle/melbourne.html#carryover",
     "href": "slides/dle/melbourne.html#carryover",
     "title": "Gustavo Diaz",
     "section": "Carryover design effects",
-    "text": "Carryover design effects\n\ntoy = data.frame(\n  pot = c(\"Baseline\", rep(c(\"\\\\(z_i = 1\\\\)\", \"\\\\(z_i = 0\\\\)\"), 3)),\n  Ya = c(2, 1, 2, 3, 2, 3, 2),\n  Yb = c(2, 1, 1, 3, 3, 2, 3),\n  zz = c(0, 1, -1, 1, -1, 1, -1)\n)\n\ntoy = toy %&gt;% \n  mutate(diff = Ya - Yb,\n         sgn = diff * zz) %&gt;% # (z_i - (1-z_i)) (Y_{i1} - Y_{i2})\n  select(pot, Ya, Yb, diff)\n\ntoy = toy[1:5,]\n\ncolnames(toy) = c(\"Observed response\",\n                  \"\\\\(Y_{i1}\\\\)\",\n                  \"\\\\(Y_{i2}\\\\)\",\n                  \"\\\\((Y_{i1} - Y_{i2})\\\\)\")\n\ntoy %&gt;% \n  kbl(escape = FALSE,\n      align = \"lcccc\") %&gt;% \n  pack_rows(\"Deflation\", 2, 3) %&gt;% \n  pack_rows(\"Inflation\", 4, 5) %&gt;% \n  column_spec(1, bold = c(T, F, F, F, F, F, F))\n\nWarning in ensure_len_html(bold, nrows, \"bold\"): The number of provided values\nin bold does not equal to the number of rows.\n\n\n\n\n\nObserved response\n\\(Y_{i1}\\)\n\\(Y_{i2}\\)\n\\((Y_{i1} - Y_{i2})\\)\n\n\n\n\nBaseline\n2\n2\n0\n\n\nDeflation\n\n\n\\(z_i = 1\\)\n1\n1\n0\n\n\n\\(z_i = 0\\)\n2\n1\n1\n\n\nInflation\n\n\n\\(z_i = 1\\)\n3\n3\n0\n\n\n\\(z_i = 0\\)\n2\n3\n-1"
+    "text": "Carryover design effects\n\n\n\n\n\nObserved response\n\\(Y_{i1}\\)\n\\(Y_{i2}\\)\n\\((Y_{i1} - Y_{i2})\\)\n\n\n\n\nBaseline\n2\n2\n0\n\n\nDeflation\n\n\n\\(z_i = 1\\)\n1\n1\n0\n\n\n\\(z_i = 0\\)\n2\n1\n1\n\n\nInflation\n\n\n\\(z_i = 1\\)\n3\n3\n0\n\n\n\\(z_i = 0\\)\n2\n3\n-1"
   },
   {
     "objectID": "slides/dle/melbourne.html#cost",
     "href": "slides/dle/melbourne.html#cost",
     "title": "Gustavo Diaz",
     "section": "DLEs are costly to implement",
-    "text": "DLEs are costly to implement\n\nload(\"cost_sim.rda\")\n\ncost_df = cost_sim %&gt;% \n  mutate(rho = recode(as.factor(rho),\n                      \"0\" = \"rho == 0\",\n                      \"0.4\" = \"rho == 0.4\",\n                      \"0.8\" = \"rho == 0.8\")) %&gt;% \n  group_by(estimator, rho, cost) %&gt;% \n  summarize(power = mean(p.value &lt;= 0.05, na.rm = TRUE))\n\n`summarise()` has grouped output by 'estimator', 'rho'. You can override using\nthe `.groups` argument.\n\n# Reorder terms\ncost_df$estimator = fct_relevel(cost_df$estimator,\n                                \"List A\", \"List B\", \"DLE\")\n\nggplot(cost_df %&gt;% filter(rho == \"rho == 0\" &\n                            estimator != \"List B\")) +\n  aes(x = cost, y = power, linetype = estimator, shape = estimator) + \n  geom_hline(yintercept = 0.8, linetype = \"dotted\") +\n  labs(x = \"Sample size loss\",\n       y = expression(paste('Power at ', alpha  == 0.05)),\n       shape = \"Design\",\n       linetype = \"Design\") +\n  geom_line(size = 1) + geom_point(size = 2) +\n  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.2)) +\n  scale_shape_discrete(labels = c(\"Single list\", \"DLE\")) +\n  scale_linetype_discrete(labels = c(\"Single list\", \"DLE\")) +\n  theme(legend.position = \"bottom\")"
+    "text": "DLEs are costly to implement"
   },
   {
     "objectID": "slides/dle/melbourne.html#negative",
@@ -1019,7 +963,7 @@
     "href": "slides/dle/melbourne_appendix.html#types-of-dle",
     "title": "Gustavo Diaz",
     "section": "Types of DLE",
-    "text": "Types of DLE\n\n# Packages\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.3.0      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 1.0.0 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(DeclareDesign)\n\nLoading required package: randomizr\nLoading required package: fabricatr\nLoading required package: estimatr\n\nAttaching package: 'DeclareDesign'\n\nThe following object is masked from 'package:dplyr':\n\n    vars\n\nThe following object is masked from 'package:ggplot2':\n\n    vars\n\nlibrary(kableExtra)\n\n\nAttaching package: 'kableExtra'\n\nThe following object is masked from 'package:dplyr':\n\n    group_rows\n\n# ggplot global options\ntheme_set(theme_bw(base_size = 20))\n\n\ndesigns = data.frame(\n  expand.grid(\n    Lists = c(\"Fixed\", \"Randomized\"),\n    Sensitive_item = c(\"Fixed\", \"Randomized\")\n  )\n)\n\ncolnames(designs) = c(\"List order\", \"Sensitive item location\")\n\ndesigns %&gt;% \n  kbl(format = \"markdown\",\n      escape = FALSE,\n      align = \"cc\")\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
+    "text": "Types of DLE\n\n\n\n\n\nList order\nSensitive item location\n\n\n\n\nFixed\nFixed\n\n\nRandomized\nFixed\n\n\nFixed\nRandomized\n\n\nRandomized\nRandomized"
   },
   {
     "objectID": "slides/dle/spark.html#improving-the-measurement-of-sensitive-survey-questions-with-double-list-experiments",
@@ -1246,6 +1190,27 @@
     "text": "Thank you!\nFeedback: diazg2@mcmaster.ca\nSlides: https://gustavodiaz.org/slides/dle/spark.html\nPaper: https://gustavodiaz.org/files/research/dle_test.pdf"
   },
   {
+    "objectID": "slides/list_nsum/maplemeth.html#combining-list-experiments-and-the-network-scale-up-method",
+    "href": "slides/list_nsum/maplemeth.html#combining-list-experiments-and-the-network-scale-up-method",
+    "title": "Gustavo Diaz",
+    "section": "Combining List Experiments and the Network Scale Up Method",
+    "text": "Combining List Experiments and the Network Scale Up Method\n\n\nGustavo Díaz\nMcMaster University\ndiazg2@mcmaster.ca\n @gusvalo\nVerónica Pérez Bentancur\nUniversidad de la República veronica.perez@cienciassociales.edu.uy\n @veroperezben\n\nInes Fynn\nPontificia Universidad Católica de Chile\nifynn@uc.cl\n @ifynn_\nLucía Tiscornia\nUniversity College Dublin\nlucia.tiscornia@ucd.ie\n @tiscornia21\n\n\n \nSlides: gustavodiaz.org/maplemeth"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#first-slide",
+    "href": "slides/list_nsum/maplemeth.html#first-slide",
+    "title": "Gustavo Diaz",
+    "section": "First slide",
+    "text": "First slide\nHello!\n\n\n\n\n\n\nThis goes on the bottom!"
+  },
+  {
+    "objectID": "talk.html",
+    "href": "talk.html",
+    "title": "Hello MapleMeth!",
+    "section": "",
+    "text": "You can find a copy of my slides here. Most links are clickable in case you want to know more.\nYou can learn more about me and my work here.\nYou can also learn about the other team members here:\n\nInes Fynn  \nVerónica Pérez Bentancur  \nLucía Tiscornia"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -1272,12 +1237,5 @@
     "title": "Teaching",
     "section": "Teaching Assistant",
     "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#first-slide",
-    "href": "slides/list_nsum/maplemeth.html#first-slide",
-    "title": "Combining List Experiments with the Network Scale-Up Method",
-    "section": "First slide",
-    "text": "First slide\nHello!"
   }
 ]

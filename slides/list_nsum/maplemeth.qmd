@@ -1,23 +1,49 @@
 ---
-title: "Combining List Experiments and the Network Scale-Up Method"
-author:
-  - Gustavo Díaz
-  - Ines Fynn
-  - Verónica Pérez Bentancur
-  - Lucía Tiscornia
-institute: 
-  - McMaster University
-  - Pontificia Universidad Católica de Chile
-  - Universidad de la República
-  - University College Dublin
 format:
   revealjs:
     embed-resources: true
     slide-number: true
 ---
 
+::: {style="text-align: center"}
+## Combining List Experiments and the Network Scale Up Method {.center .smaller}
 
-## First slide
+::: columns
+
+::: {.column width="50%"}
+**Gustavo Díaz**  
+McMaster University  
+<diazg2@mcmaster.ca>  
+[{{< fa brands twitter >}} @gusvalo](https://twitter.com/Gusvalo)
+
+**Verónica Pérez Bentancur**  
+Universidad de la República
+<veronica.perez@cienciassociales.edu.uy>  
+[{{< fa brands twitter >}} @veroperezben](https://twitter.com/veroperezben)
+:::
+
+::: {.column width="50%"}
+**Ines Fynn**  
+Pontificia Universidad Católica de Chile  
+<ifynn@uc.cl>  
+[{{< fa brands twitter >}} @ifynn_](https://twitter.com/ifynn_)
+
+**Lucía Tiscornia**  
+University College Dublin  
+<lucia.tiscornia@ucd.ie>  
+[{{< fa brands twitter >}} @tiscornia21](https://twitter.com/tiscornia21)
+
+:::
+
+:::
+
+&nbsp;
+
+Slides: [gustavodiaz.org/maplemeth](https://gustavodiaz.org/maplemeth.html)
+
+:::
+
+
 
 ```{r include=FALSE}
 library(knitr)
@@ -36,4 +62,10 @@ library(kableExtra)
 theme_set(theme_gray(base_size = 20))
 ```
 
+## First slide
+
 Hello!
+
+::: aside
+This goes on the bottom!
+:::
