@@ -267,7 +267,7 @@ Adapted from [Rosenfeld, Imai, and Shapiro (2016)](https://doi.org/10.1111/ajps.
 . . .
 
 $$
-\hat{\mu} = \overline{Y} - (1 - \overline{Y}) (\overline{V}_{1,0} - \overline{V}_{0,0})
+\hat{\mu} = \overline{Y} + (1 - \overline{Y}) (\overline{V}_{1,0} - \overline{V}_{0,0})
 $$
 
 ::: incremental
@@ -287,7 +287,9 @@ $$
 
 - Need an indirect questioning technique that lets us **infer individual responses to sensitive item**
 
-- But most introduce noise to ensure anonymity
+- But most rely on anonymity
+
+- Can't combine without extra assumptions or altered designs (e.g. [Blair, Imai, and Lyall 2014](https://doi.org/10.1111/ajps.12086))
 
 :::
 
@@ -345,7 +347,7 @@ Adapted from [McCarty et al (2001)](https://doi.org/10.17730/humo.60.1.efx5t9gjt
 
 ::: {.callout-warning}
 ## Assumption
-If someone knows an unusually large number of people with sensitive item, then they are likely to hold the sensitive item too.
+If someone knows a unusually large number of people with the sensitive item, then they are likely to hold the sensitive item too.
 :::
 
 . . .
@@ -377,7 +379,7 @@ $$
 :::
 
 ::: aside
-**Details:** [Zheng, Salganik and Gelman (2006)](https://doi.org/10.1198/016214505000001168); [Calvo and Murillo (2013)](https://doi.org/10.1177/0010414012463882)
+**Details:** [Zheng, Salganik, and Gelman (2006)](https://doi.org/10.1198/016214505000001168); [Calvo and Murillo (2013)](https://doi.org/10.1177/0010414012463882)
 :::
 
 ## Hierarchical model {visibility="uncounted"}
@@ -476,10 +478,10 @@ Treatments based on qualitative evidence from fieldwork [(Pérez Bentancur and T
 
 During the last six months, in your neighborhood, have you seen gangs...
 
-- Threaten neighbors
+- **Threaten neighbors**
 - Evict neighbors
 - Make donations to neighbors
-- **Threatening neighbors**
+- Offering jobs neighbors
 - Blackmail neighbors
 - Blackmail businesses
 - Pay a neighbor's phone or electricity bills
@@ -554,7 +556,7 @@ How many people do you know, **who also know you, with whom you have interacted 
 
 - Choice range 0-10+
 
-- Recode as 1 if $r_{ik} > \text{mean}(r_{ik}) + 1 \text{SD}$
+- Recode as 1 if $r_{ik} > \text{mean}(r_{ik}) + 1 \text{SD}$, 0 otherwise
 
 ::: aside
 See list of groups [here](#nsum-groups)

@@ -1285,14 +1285,14 @@
     "href": "slides/list_nsum/maplemeth.html#combined-estimator",
     "title": "Gustavo Diaz",
     "section": "Combined estimator",
-    "text": "Combined estimator\n\nLogic: You don’t need a list experiment for those who openly confess to the sensitive item\n\n\n\\[\n\\hat{\\mu} = \\overline{Y} - (1 - \\overline{Y}) (\\overline{V}_{1,0} - \\overline{V}_{0,0})\n\\]\n\n\n\\(\\overline{Y}\\): Proportion confess in direct question\n\\((\\overline{V}_{1,0} - \\overline{V}_{0,0})\\): List experiment estimate among those not confessing\n\n\n\n\n\nSource: Aronow et al (2015)"
+    "text": "Combined estimator\n\nLogic: You don’t need a list experiment for those who openly confess to the sensitive item\n\n\n\\[\n\\hat{\\mu} = \\overline{Y} + (1 - \\overline{Y}) (\\overline{V}_{1,0} - \\overline{V}_{0,0})\n\\]\n\n\n\\(\\overline{Y}\\): Proportion confess in direct question\n\\((\\overline{V}_{1,0} - \\overline{V}_{0,0})\\): List experiment estimate among those not confessing\n\n\n\n\n\nSource: Aronow et al (2015)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#problem",
     "href": "slides/list_nsum/maplemeth.html#problem",
     "title": "Gustavo Diaz",
     "section": "Problem",
-    "text": "Problem\n\n\nCan’t always include direct questions\nNeed an indirect questioning technique that lets us infer individual responses to sensitive item\nBut most introduce noise to ensure anonymity"
+    "text": "Problem\n\n\nCan’t always include direct questions\nNeed an indirect questioning technique that lets us infer individual responses to sensitive item\nBut most rely on anonymity\nCan’t combine without extra assumptions or altered designs (e.g. Blair, Imai, and Lyall 2014)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#network-scale-up-method-nsum",
@@ -1327,14 +1327,14 @@
     "href": "slides/list_nsum/maplemeth.html#why-nsum",
     "title": "Gustavo Diaz",
     "section": "Why NSUM?",
-    "text": "Why NSUM?\n\n\nCan infer individual responses to sensitive item\n\n\n\n\n\n\n\n\n\nAssumption\n\n\nIf someone knows an unusually large number of people with sensitive item, then they are likely to hold the sensitive item too.\n\n\n\n\n\n\nIf true, can use NSUM responses instead of direct questions\n\n\n\n\nGoal: Find individuals with large sensitive network relative to personal network"
+    "text": "Why NSUM?\n\n\nCan infer individual responses to sensitive item\n\n\n\n\n\n\n\n\n\nAssumption\n\n\nIf someone knows a unusually large number of people with the sensitive item, then they are likely to hold the sensitive item too.\n\n\n\n\n\n\nIf true, can use NSUM responses instead of direct questions\n\n\n\n\nGoal: Find individuals with large sensitive network relative to personal network"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#hierarchical-model",
     "href": "slides/list_nsum/maplemeth.html#hierarchical-model",
     "title": "Gustavo Diaz",
     "section": "Hierarchical model",
-    "text": "Hierarchical model\n\\[\n\\begin{align*}\ny_{ik} \\sim \\text{negative-binomial}( & \\text{mean} = e^{\\alpha_i + \\beta_k},\\\\ & \\text{overdispersion} = \\omega_k)\n\\end{align*}\n\\]\n\n\n\\(y_{ik}\\): Degree of group \\(k\\) for person \\(i\\)\n\\(\\alpha_i\\): Expected degree of person \\(i\\) (logged)\n\\(\\beta_k\\): Expected degrees of group \\(k\\) (logged)\n\\(\\omega_k\\): Controls variance in propensity to know someone from group \\(k\\)\n\n\n\n\nDetails: Zheng, Salganik and Gelman (2006); Calvo and Murillo (2013)"
+    "text": "Hierarchical model\n\\[\n\\begin{align*}\ny_{ik} \\sim \\text{negative-binomial}( & \\text{mean} = e^{\\alpha_i + \\beta_k},\\\\ & \\text{overdispersion} = \\omega_k)\n\\end{align*}\n\\]\n\n\n\\(y_{ik}\\): Degree of group \\(k\\) for person \\(i\\)\n\\(\\alpha_i\\): Expected degree of person \\(i\\) (logged)\n\\(\\beta_k\\): Expected degrees of group \\(k\\) (logged)\n\\(\\omega_k\\): Controls variance in propensity to know someone from group \\(k\\)\n\n\n\n\nDetails: Zheng, Salganik, and Gelman (2006); Calvo and Murillo (2013)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#hierarchical-model-1",
@@ -1369,7 +1369,7 @@
     "href": "slides/list_nsum/maplemeth.html#direct-question",
     "title": "Gustavo Diaz",
     "section": "Direct question",
-    "text": "Direct question\nDuring the last six months, in your neighborhood, have you seen gangs…\n\nThreaten neighbors\nEvict neighbors\nMake donations to neighbors\nThreatening neighbors\nBlackmail neighbors\nBlackmail businesses\nPay a neighbor’s phone or electricity bills"
+    "text": "Direct question\nDuring the last six months, in your neighborhood, have you seen gangs…\n\nThreaten neighbors\nEvict neighbors\nMake donations to neighbors\nOffering jobs neighbors\nBlackmail neighbors\nBlackmail businesses\nPay a neighbor’s phone or electricity bills"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#list-experiments",
@@ -1397,7 +1397,7 @@
     "href": "slides/list_nsum/maplemeth.html#nsum",
     "title": "Gustavo Diaz",
     "section": "NSUM",
-    "text": "NSUM\nHow many people do you know, who also know you, with whom you have interacted in the last year in person, by phone, or any other channel\n\n\n15 reference groups + sensitive item\nChoice range 0-10+\nRecode as 1 if \\(r_{ik} &gt; \\text{mean}(r_{ik}) + 1 \\text{SD}\\)\n\n\n\n\nSee list of groups here"
+    "text": "NSUM\nHow many people do you know, who also know you, with whom you have interacted in the last year in person, by phone, or any other channel\n\n\n15 reference groups + sensitive item\nChoice range 0-10+\nRecode as 1 if \\(r_{ik} &gt; \\text{mean}(r_{ik}) + 1 \\text{SD}\\), 0 otherwise\n\n\n\n\nSee list of groups here"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#single-question-estimates",
