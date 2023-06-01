@@ -274,7 +274,7 @@ $$
 ::: incremental
 - $\overline{Y}$: Proportion confess in direct question
 
-- $(\overline{V}_{1,0} - \overline{V}_{0,0})$: List experiment estimate among not confessing
+- $(\overline{V}_{1,0} - \overline{V}_{0,0})$: List experiment estimate among those not confessing
 :::
 
 ::: aside
@@ -286,16 +286,9 @@ $$
 ::: incremental
 - Can't always include direct questions
 
-- Combining with other indirect questions needs altered designs or extra modeling assumptions (e.g. [Blair, Imai, and Lyall 2014](https://doi.org/10.1111/ajps.12086))
+- Need an indirect questioning technique that lets us **infer individual responses to sensitive item**
 
-:::
-
-::: {style="text-align: center"}
-## What to do? {.center background-color="#FDBF57"}
-
-. . .
-
-- **This project:** Replace direct questions with Network scale-up questions!
+- But most introduce noise to ensure anonymity
 
 :::
 
@@ -425,11 +418,7 @@ $$
 
 ## Survey
 
-<!-- REMEMBER TO ONLY FOCUS ON ONE STRATEGY -->
-
-- Facebook sample of Montevideo residents `(N = )`
-
-. . .
+- Facebook sample of Montevideo residents `(N = 2688)`
 
 - Four criminal governance strategies
 
@@ -437,16 +426,40 @@ $$
 
 ::: columns
 
-::: {.column width="50%"}
+::: {.column width="48%"}
 ### Negative
 - Threaten neighbors
 - Evict neighbors
 :::
 
-::: {.column width="50%"}
+::: {.column width="52%"}
 ### Positive
-- Offer jobs to neighbors
 - Make donations to neighbors
+- Offer jobs to neighbors
+
+:::
+
+:::
+
+## Survey {visibility="uncounted"}
+
+- Facebook sample of Montevideo residents `(N = 2688)`
+
+- Four criminal governance strategies
+
+::: columns
+
+::: {.column width="48%"}
+### Negative
+- **Threaten neighbors**
+- [Evict neighbors]{style="color: gray;"}
+:::
+
+::: {.column width="52%"}
+### Positive
+- [Make donations to neighbors]{style="color: gray;"}
+- [Offer jobs to neighbors]{style="color: gray;"}
+
 
 :::
 
@@ -454,6 +467,142 @@ $$
 
 ## Direct question
 
-## List experiment
+During the last six months, in your neighborhood, have you seen gangs...
+
+- Threaten neighbors
+- Evict neighbors
+- Make donations to neighbors
+- **Threatening neighbors**
+- Blackmail neighbors
+- Blackmail businesses
+- Pay a neighbor's phone or electricity bills
+
+## List experiments
+
+Things people have experienced in the last six months:
+
+```{r}
+list0 = tribble(
+  ~A, ~B,
+  "Saw people doing sports", "Saw people playing soccer",
+  "Visited friends", "Chatted with friends",
+  "Activities by feminist groups", "Activities by LGBTQ groups",
+  "Went to church", "Went to charity events",
+  "", ""
+)
+
+list0 %>% 
+  kbl(col.names = c("List A", "List B"))
+```
+
+
+## List experiments {visibility="uncounted"}
+
+Things people have experienced in the last six months:
+
+```{r}
+list1 = tribble(
+  ~A, ~B,
+  "Saw people doing sports", "Saw people playing soccer",
+  "Visited friends", "Chatted with friends",
+  "Activities by feminist groups", "Activities by LGBTQ groups",
+  "Went to church", "Went to charity events",
+  "Did not drink mate", "Gangs threatening neighbors"
+)
+
+list1 %>% 
+  kbl(col.names = c("List A", "List B")) %>% 
+  column_spec(1, italic = c(rep(F, 4), T)) %>%
+  column_spec(2, bold = c(rep(F, 4), T))
+```
+
+## List experiments {visibility="uncounted"}
+
+Things people have experienced in the last six months:
+
+```{r}
+list2 = tribble(
+  ~A, ~B,
+  "Saw people doing sports", "Saw people playing soccer",
+  "Visited friends", "Chatted with friends",
+  "Activities by feminist groups", "Activities by LGBTQ groups",
+  "Went to church", "Went to charity events",
+  "Gangs threatening neighbors", "Did not drink mate"
+)
+
+list2 %>% 
+  kbl(col.names = c("List A", "List B")) %>% 
+  column_spec(2, italic = c(rep(F, 4), T)) %>%
+  column_spec(1, bold = c(rep(F, 4), T))
+```
+
 
 ## NSUM
+
+How many people do you know, **who also know you, with whom you have interacted in the last year** in person, by phone, or any other channel
+
+. . .
+
+- 15 reference questions + sensitive item
+
+- Choice range 0-10+
+
+- Recode as 1 if $r_{ik} > \text{mean}(r_{ik}) + 1 \text{SD}$
+
+## Single-method estimates
+
+```{r}
+load("prevalence_estimates.RData")
+
+plot_df = prev_estimates %>% 
+  filter(estimator != "nsum_generous" &
+           list_treatment == "amenazar") %>% 
+  mutate(
+  estimator = case_when(
+    estimator == "nsum_conservative" ~ "NSUM",
+    estimator == "List" & list == "count_a" ~ "List A",
+    estimator == "List" & list == "count_b" ~ "List B",
+    estimator == "List + NSUM" & list == "count_a" ~ "List A + NSUM",
+    estimator == "List + NSUM" & list == "count_b" ~ "List B + NSUM",
+    estimator == "List + direct" & list == "count_a" ~ "List A + direct",
+    estimator == "List + direct" & list == "count_b" ~ "List B + direct",
+    .default = estimator
+  )  
+  )
+
+# quick way would be to filter by whether estimator has +
+```
+
+
+## Combined estimates
+
+## Conclusion
+
+## NSUM groups {visibility="uncounted"}
+
+::: columns
+
+::: {.column width="50%"}
+From *Las Piedras*  
+Male 25-29  
+Police officers  
+University students  
+Had a kid last year  
+Passed away last year  
+Married last year  
+Female 45-49
+:::
+
+::: {.column width="50%"}
+Public employees  
+Welfare card holders  
+Registered with party  
+With kids in public school  
+Did not vote in last election  
+Currently in jail  
+Recently unemployed
+**[Sensitive item]**
+:::
+
+:::
+
