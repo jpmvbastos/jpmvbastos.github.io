@@ -38,7 +38,6 @@ University College Dublin
 :::
 
 &nbsp;
-&nbsp;
 
 Slides: [gustavodiaz.org/talk](https://gustavodiaz.org/talk.html)
 
@@ -245,7 +244,7 @@ Adapted from [Rosenfeld, Imai, and Shapiro (2016)](https://doi.org/10.1111/ajps.
 
 - Auxiliary information [(Chou 2020)](https://doi.org/10.1177/0049124117729711)
 
-- Double list experiments [(Droitcour et al 1991)](https://doi.org/10.1002/9781118150382.ch11)
+- Double list experiments [(Diaz 2023)](https://gustavodiaz.org/files/research/dle_test.pdf)
 
 - Combine with direct questions [(Aronow et al 2015)](https://doi.org/10.1093/jssam/smu023)
 
@@ -257,7 +256,7 @@ Adapted from [Rosenfeld, Imai, and Shapiro (2016)](https://doi.org/10.1111/ajps.
 
 - [Auxiliary information [(Chou 2020)](https://doi.org/10.1177/0049124117729711)]{style="color: gray;"}
 
-- [Double list experiments [(Droitcour et al 1991)](https://doi.org/10.1002/9781118150382.ch11)]{style="color: gray;"}
+- [Double list experiments [(Diaz 2023)](https://gustavodiaz.org/files/research/dle_test.pdf)]{style="color: gray;"}
 
 - **Combine with direct questions [(Aronow et al 2015)](https://doi.org/10.1093/jssam/smu023)**
 
@@ -351,7 +350,7 @@ If someone knows an unusually large number of people with sensitive item, then t
 
 . . .
 
-- If true, can use NSUM responses as direct questions
+- If true, can use NSUM responses instead of direct questions
 
 . . .
 
@@ -441,6 +440,10 @@ $$
 
 :::
 
+::: aside
+Treatments based on qualitative evidence from fieldwork [(Pérez Bentancur and Tiscornia 2022)](https://doi.org/10.1177/00491241221082595)
+:::
+
 ## Survey {visibility="uncounted"}
 
 - Facebook sample of Montevideo residents `(N = 2688)`
@@ -463,6 +466,10 @@ $$
 
 :::
 
+:::
+
+::: aside
+Treatments based on qualitative evidence from fieldwork [(Pérez Bentancur and Tiscornia 2022)](https://doi.org/10.1177/00491241221082595)
 :::
 
 ## Direct question
@@ -537,19 +544,23 @@ list2 %>%
 ```
 
 
-## NSUM
+## NSUM {#nsum}
 
 How many people do you know, **who also know you, with whom you have interacted in the last year** in person, by phone, or any other channel
 
 . . .
 
-- 15 reference questions + sensitive item
+- 15 reference groups + sensitive item
 
 - Choice range 0-10+
 
 - Recode as 1 if $r_{ik} > \text{mean}(r_{ik}) + 1 \text{SD}$
 
-## Single-method estimates
+::: aside
+See list of groups [here](#nsum-groups)
+:::
+
+## Single-question estimates
 
 ```{r}
 load("prevalence_estimates.RData")
@@ -573,12 +584,91 @@ plot_df = prev_estimates %>%
 # quick way would be to filter by whether estimator has +
 ```
 
+```{r}
+ggplot(plot_df %>%
+         filter(!str_detect(estimator, fixed("+")))
+) +
+  aes(x = estimator, y = estimate) +
+  ylim(-0.4, 0.4) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_point(size = 4, alpha = 0) +
+  geom_linerange(aes(x = estimator, ymin = conf.low, ymax = conf.high),
+                 linewidth = 1, alpha = 0) +
+  labs(x = "Question",
+       y = "Proportion saw gangs\nthreatening neighbors")
+  
+```
+
+## Single-question estimates {visibility="uncounted"}
+
+```{r}
+ggplot(plot_df %>%
+         filter(!str_detect(estimator, fixed("+")))
+) +
+  aes(x = estimator, y = estimate) +
+  ylim(-0.4, 0.4) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_point(size = 4) +
+  geom_linerange(aes(x = estimator, ymin = conf.low, ymax = conf.high),
+                 linewidth = 1) +
+  labs(x = "Question",
+       y = "Proportion saw gangs\nthreatening neighbors")
+```
+
 
 ## Combined estimates
 
+```{r}
+ggplot(plot_df %>%
+         filter(str_detect(estimator, fixed("+")))
+) +
+  aes(x = estimator, y = estimate) +
+  ylim(-0.4, 0.4) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_point(size = 4) +
+  geom_linerange(aes(x = estimator, ymin = conf.low, ymax = conf.high),
+                 linewidth = 1) +
+  labs(x = "Question",
+       y = "Proportion saw gangs\nthreatening neighbors")
+```
+
+## Standard errors
+
+```{r}
+plot_df %>% 
+  filter(str_detect(estimator, "List")) %>% 
+  select(estimator, std.error) %>% 
+  mutate(list = ifelse(str_detect(estimator, "List A"), "A", "B"),
+         estimator = recode(estimator,
+                            "List A" = "List",
+                            "List B" = "List",
+                            "List A + NSUM" = "List + NSUM",
+                            "List B + NSUM" = "List + NSUM",
+                            "List A + direct" = "List + direct",
+                            "List B + direct" = "List + direct")) %>% 
+  pivot_wider(names_from = "list", values_from = "std.error") %>% 
+  mutate(order = c(1, 3, 2)) %>% 
+  arrange(order) %>% 
+  select(!order) %>% 
+  kbl(digits = 3, 
+      col.names = c("Estimator", "List A", "List B"))
+```
+
+
 ## Conclusion
 
-## NSUM groups {visibility="uncounted"}
+- Can use NSUM to improve precision of list experiment estimates
+
+- Logic applies to other indirect questioning techniques that rely on anonymity
+
+### Questions
+
+- More principled approach to infer who holds the sensitive item from NSUM questions?
+
+- What would you like to see to be convinced that NSUM is a suitable replacement for direct questions?
+
+
+## NSUM groups {#nsum-groups visibility="uncounted"}
 
 ::: columns
 
@@ -606,3 +696,6 @@ Recently unemployed
 
 :::
 
+::: aside
+[{{< fa rotate-left >}}](#nsum)
+:::

@@ -382,7 +382,7 @@
     "href": "market.html#upcoming-deadlines",
     "title": "Job Market Hub",
     "section": "Upcoming Deadlines",
-    "text": "Upcoming Deadlines\nLast update: May 31, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nNA - NA - NALetters:  Deadline: NA  Delivery: NA  Notes: NA  \n \n** - - **Letters:  Deadline:  Delivery:  Notes:"
+    "text": "Upcoming Deadlines\nLast update: June 1, 2023. Full list here.\nNumber of letters to write:\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nNA - NA - NALetters:  Deadline: NA  Delivery: NA  Notes: NA  \n \n** - - **Letters:  Deadline:  Delivery:  Notes:"
   },
   {
     "objectID": "market.html#materials",
@@ -1194,49 +1194,7 @@
     "href": "slides/list_nsum/maplemeth.html#combining-list-experiments-and-the-network-scale-up-method",
     "title": "Gustavo Diaz",
     "section": "Combining List Experiments and the Network Scale Up Method",
-    "text": "Combining List Experiments and the Network Scale Up Method\n\n\nGustavo Díaz\nMcMaster University\ndiazg2@mcmaster.ca\n @gusvalo\nVerónica Pérez Bentancur\nUniversidad de la República veronica.perez@cienciassociales.edu.uy\n @veroperezben\n\nInes Fynn\nPontificia Universidad Católica de Chile\nifynn@uc.cl\n @ifynn_\nLucía Tiscornia\nUniversity College Dublin\nlucia.tiscornia@ucd.ie\n @tiscornia21\n\n\n   \nSlides: gustavodiaz.org/talk"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#first-slide",
-    "href": "slides/list_nsum/maplemeth.html#first-slide",
-    "title": "Gustavo Diaz",
-    "section": "First slide",
-    "text": "First slide\nHello!\n\n\n\n\n\n\nThis goes on the bottom!"
-  },
-  {
-    "objectID": "talk.html",
-    "href": "talk.html",
-    "title": "Hello MapleMeth!",
-    "section": "",
-    "text": "You can find a copy of my slides here. Most links are clickable in case you want to know more.\nYou can learn more about me and my work here.\nYou can also learn about the other team members here:\n\nInes Fynn  \nVerónica Pérez Bentancur  \nLucía Tiscornia"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.\nAdvances in the Design and Analysis of Experiments\nPolitical Data Analysis"
-  },
-  {
-    "objectID": "teaching.html#sample-syllabi",
-    "href": "teaching.html#sample-syllabi",
-    "title": "Teaching",
-    "section": "",
-    "text": "These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.\nAdvances in the Design and Analysis of Experiments\nPolitical Data Analysis"
-  },
-  {
-    "objectID": "teaching.html#instructor",
-    "href": "teaching.html#instructor",
-    "title": "Teaching",
-    "section": "Instructor",
-    "text": "Instructor\n\nMcMaster University\nResearch Design for Public Opinion and Public Policy\n\n\nTulane University\nPolitics of Developing Democracies\nComparative Politics\n\n\nUniversity of Illinois at Urbana-Champaign\nComparative Politics in Developing Nations (Online)\nMath Camp for Political Scientists"
-  },
-  {
-    "objectID": "teaching.html#teaching-assistant",
-    "href": "teaching.html#teaching-assistant",
-    "title": "Teaching",
-    "section": "Teaching Assistant",
-    "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
+    "text": "Combining List Experiments and the Network Scale Up Method\n\n\nGustavo Díaz\nMcMaster University\ndiazg2@mcmaster.ca\n @gusvalo\nVerónica Pérez Bentancur\nUniversidad de la República veronica.perez@cienciassociales.edu.uy\n @veroperezben\n\nInes Fynn\nPontificia Universidad Católica de Chile\nifynn@uc.cl\n @ifynn_\nLucía Tiscornia\nUniversity College Dublin\nlucia.tiscornia@ucd.ie\n @tiscornia21\n\n\n \nSlides: gustavodiaz.org/talk"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#background",
@@ -1313,21 +1271,14 @@
     "href": "slides/list_nsum/maplemeth.html#ways-to-reduce-variance",
     "title": "Gustavo Diaz",
     "section": "Ways to reduce variance",
-    "text": "Ways to reduce variance\n\nNegatively correlated items (Glynn 2013)\nCovariate adjustment (Blair and Imai 2012)\nAuxiliary information (Chou 2020)\nDouble list experiments (Droitcour et al 1991)\nCombine with direct questions (Aronow et al 2015)"
+    "text": "Ways to reduce variance\n\nNegatively correlated items (Glynn 2013)\nCovariate adjustment (Blair and Imai 2012)\nAuxiliary information (Chou 2020)\nDouble list experiments (Diaz 2023)\nCombine with direct questions (Aronow et al 2015)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#ways-to-reduce-variance-1",
     "href": "slides/list_nsum/maplemeth.html#ways-to-reduce-variance-1",
     "title": "Gustavo Diaz",
     "section": "Ways to reduce variance",
-    "text": "Ways to reduce variance\n\nNegatively correlated items (Glynn 2013)\nCovariate adjustment (Blair and Imai 2012)\nAuxiliary information (Chou 2020)\nDouble list experiments (Droitcour et al 1991)\nCombine with direct questions (Aronow et al 2015)"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#combined-estimator-aronow-et-al-2015",
-    "href": "slides/list_nsum/maplemeth.html#combined-estimator-aronow-et-al-2015",
-    "title": "Gustavo Diaz",
-    "section": "Combined estimator (Aronow et al 2015)",
-    "text": "Combined estimator (Aronow et al 2015)\n\nLogic: You don’t need a list experiment for those who openly admit to the sensitive item\n\n\n\\[\n\\hat{\\mu} = \\bar{Y} - (1 - \\bar{Y}) (\\bar{V}_{1,0} - \\bar{V}_{0,0})\n\\]"
+    "text": "Ways to reduce variance\n\nNegatively correlated items (Glynn 2013)\nCovariate adjustment (Blair and Imai 2012)\nAuxiliary information (Chou 2020)\nDouble list experiments (Diaz 2023)\nCombine with direct questions (Aronow et al 2015)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#combined-estimator",
@@ -1337,25 +1288,11 @@
     "text": "Combined estimator\n\nLogic: You don’t need a list experiment for those who openly confess to the sensitive item\n\n\n\\[\n\\hat{\\mu} = \\overline{Y} - (1 - \\overline{Y}) (\\overline{V}_{1,0} - \\overline{V}_{0,0})\n\\]\n\n\n\\(\\overline{Y}\\): Proportion confess in direct question\n\\((\\overline{V}_{1,0} - \\overline{V}_{0,0})\\): List experiment estimate among those not confessing\n\n\n\n\n\nSource: Aronow et al (2015)"
   },
   {
-    "objectID": "slides/list_nsum/maplemeth.html#combined-estimator-1",
-    "href": "slides/list_nsum/maplemeth.html#combined-estimator-1",
-    "title": "Gustavo Diaz",
-    "section": "Combined estimator",
-    "text": "Combined estimator\n\nLogic: You don’t need a list experiment for those who openly admit to the sensitive item\n\n\\[\n\\hat{\\mu} = \\underbrace{\\bar{Y}}_{\\text{Proportion yes direct question}} - \\underbrace{(1 - \\bar{Y})}_{\\text{Weighted down}} \\underbrace{(\\bar{V}_{1,0} - \\bar{V}_{0,0})}_{\\text{List experiment estimate among \"no\" in direct question}}\n\\]\n\n\n\n\n\n\nSource: Aronow et al (2015)"
-  },
-  {
     "objectID": "slides/list_nsum/maplemeth.html#problem",
     "href": "slides/list_nsum/maplemeth.html#problem",
     "title": "Gustavo Diaz",
     "section": "Problem",
     "text": "Problem\n\n\nCan’t always include direct questions\nNeed an indirect questioning technique that lets us infer individual responses to sensitive item\nBut most introduce noise to ensure anonymity"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#what-to-do",
-    "href": "slides/list_nsum/maplemeth.html#what-to-do",
-    "title": "Gustavo Diaz",
-    "section": "What to do?",
-    "text": "What to do?\n\n\nThis project: Replace direct questions with Network scale-up questions!"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#network-scale-up-method-nsum",
@@ -1390,14 +1327,7 @@
     "href": "slides/list_nsum/maplemeth.html#why-nsum",
     "title": "Gustavo Diaz",
     "section": "Why NSUM?",
-    "text": "Why NSUM?\n\n\nCan infer individual responses to sensitive item\n\n\n\n\n\n\n\n\n\nAssumption\n\n\nIf someone knows an unusually large number of people with sensitive item, then they are likely to hold the sensitive item too.\n\n\n\n\n\n\nIf true, can use NSUM responses as direct questions\n\n\n\n\nGoal: Find individuals with large sensitive network relative to personal network"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#modeling",
-    "href": "slides/list_nsum/maplemeth.html#modeling",
-    "title": "Gustavo Diaz",
-    "section": "Modeling",
-    "text": "Modeling\n\\[\n\\begin{align*}\ny_{ik} \\sim \\text{negative-binomial}( & \\text{mean} = e^{\\alpha_i + \\beta_k},\\\\ & \\text{overdispersion} = \\omega_k)\n\\end{align*}\n\\]\n\n\n\n\n\n\nDetails: Zheng, Salganik and Gelman (2006); Calvo and Murillo (2013)"
+    "text": "Why NSUM?\n\n\nCan infer individual responses to sensitive item\n\n\n\n\n\n\n\n\n\nAssumption\n\n\nIf someone knows an unusually large number of people with sensitive item, then they are likely to hold the sensitive item too.\n\n\n\n\n\n\nIf true, can use NSUM responses instead of direct questions\n\n\n\n\nGoal: Find individuals with large sensitive network relative to personal network"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#hierarchical-model",
@@ -1414,20 +1344,6 @@
     "text": "Hierarchical model\n\nFit with MLE in two steps (Personal network, sensitive group network)\nFocus on standardized residuals:\n\n\\[\nr_{ik} = \\sqrt{y_{ik}} - \\sqrt{e \\alpha_i + \\beta_k}\n\\]\n\n\nHigh residual: Higher exposure to sensitive item\n\n\n\n\nDetails: Ventura, Ley, and Cantú (2023)"
   },
   {
-    "objectID": "slides/list_nsum/maplemeth.html#hierarchical-model-2",
-    "href": "slides/list_nsum/maplemeth.html#hierarchical-model-2",
-    "title": "Gustavo Diaz",
-    "section": "Hierarchical model",
-    "text": "Hierarchical model\n\n\nFit with MLE in two steps (Personal network, sensitive group network)\nFocus on standardized residuals:\n\n\\[\nr_{ik} = \\underbrace{\\sqrt{y_{ik}}}_{\\text{Sensitive network}} - \\underbrace{\\sqrt{e \\alpha_i + \\beta_k}}_{\\text{Personal network}}\n\\]\n\n\nHigh residual: Higher exposure to sensitive item\n\n\n\n\nDetails: Ventura, Ley, and Cantú (2023)"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#crime-organization-strategies-in-uruguay",
-    "href": "slides/list_nsum/maplemeth.html#crime-organization-strategies-in-uruguay",
-    "title": "Gustavo Diaz",
-    "section": "Crime organization strategies in Uruguay",
-    "text": "Crime organization strategies in Uruguay"
-  },
-  {
     "objectID": "slides/list_nsum/maplemeth.html#criminal-governance-strategies-in-uruguay",
     "href": "slides/list_nsum/maplemeth.html#criminal-governance-strategies-in-uruguay",
     "title": "Gustavo Diaz",
@@ -1439,7 +1355,14 @@
     "href": "slides/list_nsum/maplemeth.html#survey",
     "title": "Gustavo Diaz",
     "section": "Survey",
-    "text": "Survey\n\nFacebook sample of Montevideo residents (N = 2688)\nFour criminal governance strategies\n\n\n\n\nNegative\n\nThreaten neighbors\nEvict neighbors\n\n\nPositive\n\nMake donations to neighbors\nOffer jobs to neighbors"
+    "text": "Survey\n\nFacebook sample of Montevideo residents (N = 2688)\nFour criminal governance strategies\n\n\n\n\nNegative\n\nThreaten neighbors\nEvict neighbors\n\n\nPositive\n\nMake donations to neighbors\nOffer jobs to neighbors\n\n\n\n\n\n\nTreatments based on qualitative evidence from fieldwork (Pérez Bentancur and Tiscornia 2022)"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#survey-1",
+    "href": "slides/list_nsum/maplemeth.html#survey-1",
+    "title": "Gustavo Diaz",
+    "section": "Survey",
+    "text": "Survey\n\nFacebook sample of Montevideo residents (N = 2688)\nFour criminal governance strategies\n\n\n\nNegative\n\nThreaten neighbors\nEvict neighbors\n\n\nPositive\n\nMake donations to neighbors\nOffer jobs to neighbors\n\n\n\n\n\nTreatments based on qualitative evidence from fieldwork (Pérez Bentancur and Tiscornia 2022)"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#direct-question",
@@ -1447,48 +1370,6 @@
     "title": "Gustavo Diaz",
     "section": "Direct question",
     "text": "Direct question\nDuring the last six months, in your neighborhood, have you seen gangs…\n\nThreaten neighbors\nEvict neighbors\nMake donations to neighbors\nThreatening neighbors\nBlackmail neighbors\nBlackmail businesses\nPay a neighbor’s phone or electricity bills"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#list-experiment",
-    "href": "slides/list_nsum/maplemeth.html#list-experiment",
-    "title": "Gustavo Diaz",
-    "section": "List experiment",
-    "text": "List experiment\nThings people have experienced in the last six months:\n\n\n\n\n\nList A\nList B\n\n\n\n\nSaw people doing sports\nSaw people playing soccer\n\n\nVisited friends\nChatted with friends\n\n\nActivities by feminist groups\nActivities by LGBTQ groups\n\n\nWent to church\nWent to charity events"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#nsum",
-    "href": "slides/list_nsum/maplemeth.html#nsum",
-    "title": "Gustavo Diaz",
-    "section": "NSUM",
-    "text": "NSUM\nHow many people do you know, who also know you, with whom you have interacted in the last year in person, by phone, or any other channel\n\n\n15 reference questions + sensitive item\nChoice range 0-10+\nRecode as 1 if \\(r_{ik} &gt; \\text{mean}(r_{ik}) + 1 \\text{SD}\\)"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#survey-1",
-    "href": "slides/list_nsum/maplemeth.html#survey-1",
-    "title": "Gustavo Diaz",
-    "section": "Survey",
-    "text": "Survey\n\nFacebook sample of Montevideo residents (N = 2688)\nFour criminal governance strategies\n\n\n\nNegative\n\nThreaten neighbors\nEvict neighbors\n\n\nPositive\n\nMake donations to neighbors\nOffer jobs to neighbors"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#single-method-estimates",
-    "href": "slides/list_nsum/maplemeth.html#single-method-estimates",
-    "title": "Gustavo Diaz",
-    "section": "Single-method estimates",
-    "text": "Single-method estimates"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#combined-estimates",
-    "href": "slides/list_nsum/maplemeth.html#combined-estimates",
-    "title": "Gustavo Diaz",
-    "section": "Combined estimates",
-    "text": "Combined estimates"
-  },
-  {
-    "objectID": "slides/list_nsum/maplemeth.html#conclusion",
-    "href": "slides/list_nsum/maplemeth.html#conclusion",
-    "title": "Gustavo Diaz",
-    "section": "Conclusion",
-    "text": "Conclusion"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#list-experiments",
@@ -1512,11 +1393,46 @@
     "text": "List experiments\nThings people have experienced in the last six months:\n\n\n\n\n\nList A\nList B\n\n\n\n\nSaw people doing sports\nSaw people playing soccer\n\n\nVisited friends\nChatted with friends\n\n\nActivities by feminist groups\nActivities by LGBTQ groups\n\n\nWent to church\nWent to charity events\n\n\nGangs threatening neighbors\nDid not drink mate"
   },
   {
-    "objectID": "slides/list_nsum/maplemeth.html#nsum-questions",
-    "href": "slides/list_nsum/maplemeth.html#nsum-questions",
+    "objectID": "slides/list_nsum/maplemeth.html#nsum",
+    "href": "slides/list_nsum/maplemeth.html#nsum",
     "title": "Gustavo Diaz",
-    "section": "NSUM questions",
-    "text": "NSUM questions"
+    "section": "NSUM",
+    "text": "NSUM\nHow many people do you know, who also know you, with whom you have interacted in the last year in person, by phone, or any other channel\n\n\n15 reference groups + sensitive item\nChoice range 0-10+\nRecode as 1 if \\(r_{ik} &gt; \\text{mean}(r_{ik}) + 1 \\text{SD}\\)\n\n\n\n\nSee list of groups here"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#single-question-estimates",
+    "href": "slides/list_nsum/maplemeth.html#single-question-estimates",
+    "title": "Gustavo Diaz",
+    "section": "Single-question estimates",
+    "text": "Single-question estimates"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#single-question-estimates-1",
+    "href": "slides/list_nsum/maplemeth.html#single-question-estimates-1",
+    "title": "Gustavo Diaz",
+    "section": "Single-question estimates",
+    "text": "Single-question estimates"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#combined-estimates",
+    "href": "slides/list_nsum/maplemeth.html#combined-estimates",
+    "title": "Gustavo Diaz",
+    "section": "Combined estimates",
+    "text": "Combined estimates"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#standard-errors",
+    "href": "slides/list_nsum/maplemeth.html#standard-errors",
+    "title": "Gustavo Diaz",
+    "section": "Standard errors",
+    "text": "Standard errors\n\n\n\n\n\nEstimator\nList A\nList B\n\n\n\n\nList\n0.086\n0.088\n\n\nList + direct\n0.078\n0.080\n\n\nList + NSUM\n0.073\n0.078"
+  },
+  {
+    "objectID": "slides/list_nsum/maplemeth.html#conclusion",
+    "href": "slides/list_nsum/maplemeth.html#conclusion",
+    "title": "Gustavo Diaz",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nCan use NSUM to improve precision of list experiment estimates\nLogic applies to other indirect questioning techniques that rely on anonymity\n\nQuestions\n\nMore principled approach to infer who holds the sensitive item from NSUM questions?\nWhat would you like to see to be convinced that NSUM is a suitable replacement for direct questions?"
   },
   {
     "objectID": "slides/list_nsum/maplemeth.html#nsum-groups",
@@ -1524,5 +1440,40 @@
     "title": "Gustavo Diaz",
     "section": "NSUM groups",
     "text": "NSUM groups\n\n\nFrom Las Piedras\nMale 25-29\nPolice officers\nUniversity students\nHad a kid last year\nPassed away last year\nMarried last year\nFemale 45-49\n\nPublic employees\nWelfare card holders\nRegistered with party\nWith kids in public school\nDid not vote in last election\nCurrently in jail\nRecently unemployed [Sensitive item]"
+  },
+  {
+    "objectID": "talk.html",
+    "href": "talk.html",
+    "title": "Hello MapleMeth!",
+    "section": "",
+    "text": "You can find a copy of my slides here. Most links are clickable in case you want to know more.\nYou can learn more about me and my work here.\nYou can also learn about the other team members here:\n\nInes Fynn  \nVerónica Pérez Bentancur  \nLucía Tiscornia"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.\nAdvances in the Design and Analysis of Experiments\nPolitical Data Analysis"
+  },
+  {
+    "objectID": "teaching.html#sample-syllabi",
+    "href": "teaching.html#sample-syllabi",
+    "title": "Teaching",
+    "section": "",
+    "text": "These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.\nAdvances in the Design and Analysis of Experiments\nPolitical Data Analysis"
+  },
+  {
+    "objectID": "teaching.html#instructor",
+    "href": "teaching.html#instructor",
+    "title": "Teaching",
+    "section": "Instructor",
+    "text": "Instructor\n\nMcMaster University\nResearch Design for Public Opinion and Public Policy\n\n\nTulane University\nPolitics of Developing Democracies\nComparative Politics\n\n\nUniversity of Illinois at Urbana-Champaign\nComparative Politics in Developing Nations (Online)\nMath Camp for Political Scientists"
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant\n\nUniversity of Illinois at Urbana-Champaign\n\nGraduate\nQuantitative Methods I (Instructor: Brian Gaines)\nQuantitative Methods II (Instructor: Jake Bowers)\nQuantitative Methods III (Instructor: Wendy K. Tam Cho)\nResearch Design and Techniques (Instructors: Jake Bowers and James H. Kuklinski)\n\n\nUndergraduate\nQuantitative Methods (Instructor: Jake Bowers)\nComparative Politics in Developing Nations (Instructor: Avital Livny)"
   }
 ]
