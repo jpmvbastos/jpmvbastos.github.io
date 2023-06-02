@@ -85,7 +85,7 @@ Adapted from [Kuklinski, Cobb, and Gilens (1997)](https://doi.org/10.1017/S00223
 
 ## Example {visibility="uncounted"}
 
-After I read them all, just tell me HOW MANY of them upset you
+After I read them all, tell me HOW MANY of them upset you
 
 ::: aside
 Adapted from [Kuklinski, Cobb, and Gilens (1997)](https://doi.org/10.1017/S0022381600053470)
