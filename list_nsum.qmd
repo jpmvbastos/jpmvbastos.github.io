@@ -1,0 +1,17 @@
+---
+title: "Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors"
+---
+
+Thank you for your interest! You can find more details about the project here.
+
+You can find a copy of my slides [here](https://gustavodiaz.org/slides/list_nsum/maplemeth.html). Most links are clickable in case you want to know more.
+
+You can learn more about me and my work [here](https://gustavodiaz.org/).
+
+You can also learn about the other team members here:
+
+- Ines Fynn [{{< fa globe >}}](https://imfd.cl/en/investigador/ines-fynn/) [{{< fa brands twitter >}}](https://twitter.com/ifynn_)
+
+- Verónica Pérez Bentancur [{{< fa globe >}}](https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en) [{{< fa brands twitter >}}](https://twitter.com/veroperezben)
+
+- Lucía Tiscornia [{{< fa globe >}}](https://www.luciatiscornia.com/) [{{< fa brands twitter >}}](https://twitter.com/tiscornia21)
