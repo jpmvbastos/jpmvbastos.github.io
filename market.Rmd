@@ -16,7 +16,7 @@ library(fontawesome)
 gs4_deauth()
 
 ## Set date threshold to display jobs
-t = "2023-06-01"
+t = "2023-10-01"
 ```
 
 ## Welcome!
@@ -27,7 +27,7 @@ This page is for internal use only. If you are not a letter writer, I encourage 
 
 ```{r, message = FALSE}
 jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282",
-                  sheet = 2)
+                  sheet = 1)
 
 # some manipulation to show only what is useful
 jobs = jobs %>% 
@@ -41,13 +41,13 @@ filter(as_date(deadline) <= as_date(t)) %>%
 )
 ```
 
-**Last update:** `r format(Sys.Date(), "%B %e, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
+**Last update:** `r format(Sys.Date(), "%B %e, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=1630537882).
 
 **Number of letters to write:**
 
 ```{r}
 jobs %>% 
-  summarize(across(Avital:Michelle, ~ sum(.x, na.rm = TRUE))) %>% 
+  summarize(across(Gisela:Michelle, ~ sum(.x, na.rm = TRUE))) %>% 
   select_if(~sum(.) > 0) %>% 
   kbl() %>% 
   kable_paper(full_width = FALSE, position = "left")
@@ -56,7 +56,7 @@ jobs %>%
 &nbsp;
 
 ```{r, results = "asis"}
-refs = jobs %>% select(Avital:Michelle)
+refs = jobs %>% select(Gisela:Michelle)
 
 # try a loop now
 for(i in 1:nrow(jobs)){
