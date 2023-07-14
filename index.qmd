@@ -8,6 +8,6 @@ about:
 
 I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/).
 
-I use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in the social sciences. My substantive work focuses on the challenges to accountability, governance, and representation in the Global South.
+I use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in the social sciences. My substantive work focuses on the challenges to accountability, governance, and representation.
 
 I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/). Before joining McMaster, I was a postdoctoral fellow at the [Center for Inter-American Policy and Research](https://stonecenter.tulane.edu/cipr) at [Tulane University](https://tulane.edu/).

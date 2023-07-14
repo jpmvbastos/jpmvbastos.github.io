@@ -12,7 +12,7 @@ address: |
 email: "diazg2@mcmaster.ca"
 url: "gustavodiaz.org"
 phone: +1 217 904 0581
-fontsize: 11pt
+fontsize: 12pt
 mainfont: cochineal
 monofont: Fira Code
 
@@ -23,17 +23,18 @@ greetings: "Dear Members of the Search Committee,"
 
 ```{r setup, include=F}
 
-jobtitle = "an Open Rank Professorship in Computational Social Science"
-place = "Notre Dame"
+jobtitle = "an Assistant Professor in Methods"
+comparative = TRUE
+place = "Michigan"
 area = "political economy and political behavior"
-region = "low to middle income countries"
+applications = "topics ranging from the challenges to accountability, governance, and representation in developing countries, to questions of racial prejudice in the United States"
 tools = "computational social science and design-based causal inference"
 courses = "computational social science, machine learning, data analysis and visualization, evidence informed public policy, and causal inference"
 ```
 
-I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
+I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My postdoc work involves building a machine learning text analysis pipeline to understand methodological patterns in academic citations in the social sciences. My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. My contributions are informed by my substantive work on the challenges to accountability and representation in `r region`. My work is published or forthcoming in outlets including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I apply these to `r applications`. My work is published or forthcoming in outlets including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
