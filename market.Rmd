@@ -16,7 +16,7 @@ library(fontawesome)
 gs4_deauth()
 
 ## Set date threshold to display jobs
-t = "2023-10-01"
+t = "2023-09-10"
 ```
 
 ## Welcome!
@@ -85,52 +85,102 @@ for(i in 1:nrow(jobs)){
 
 ## Materials
 
-- Cover letter [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf) [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf)
+- Cover letter [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf) [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf)
 
-- Research statement [`[Comparative]`](job_market/statements/research_statement_cp.pdf) [`[Methods]`](job_market/statements/research_statement_methods.pdf)
+- Research statement [`[Methods]`](job_market/statements/research_statement_methods.pdf) [`[Comparative]`](job_market/statements/research_statement_cp.pdf) 
 
-- Teaching statement [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) [`[Methods]`](job_market/statements/teaching_statement_methods.pdf)
+- Teaching statement
+[`[Methods]`](job_market/statements/teaching_statement_methods.pdf) [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) 
 
-## Writing Samples
+- Diversity statement [Coming soon!]
 
-Mix and match depending on application. See the [research](/research.html) tab for more.
+## Research
 
-### Comparative
-
-1. ["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](files/research/nearby_corruption.pdf)
-
-    - CP Job talk
-    - New version going for review soon!
-  
-2. ["Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil"](files/research/audit_spending.pdf)
-
-    - Invited to present in political economy of development workshop organized by the *Journal of Public Policy*
-  
-3. ["Light in the Midst of Chaos: COVID-19 and Female Political Representation."](https://doi.org/10.1016/j.worlddev.2020.105125) *World Development* 136: 105125 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
-
-4. *Include paper with Virginia, Rebecca, and Matt here when available*
-
+Highlights here. See the [research](/research.html) tab for more.
 
 ### Methods
 
-1. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](files/research/dle_test.pdf)
+1. **Assessing the Validity of Prevalence Estimates in Double List Experiments**  
+*Journal of Experimental Political Science*  
+[`Paper`](files/research/dle_test.pdf)   [`Appendix`](files/research/dle_test_appendix.pdf)
 
-    - **R&R** in *Journal of Experimental Political Science*
-    - Methods job talk
+    - Review process complete, official version should come soon
+    - I started working on this *before* working on my dissertation!
   
-2. ["Balancing Precision and Retention in Experimental Design"](files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/))
+2. **Balancing Precision and Retention in Experimental Design**  
+with [Erin Rossiter](http://erossiter.com/)  
+[`Paper`](https://gustavodiaz.org/files/research/precision_retention.pdf) [`Appendix`](https://gustavodiaz.org/files/research/precision_retention_appendix.pdf)
 
-    - Public version coming in August
+    - Under review in APSR
+    
+3. **List experiment and Network Scale-up questions to measure criminal governance strategies in Uruguay**  
+with [Ines Fynn](https://imfd.cl/en/investigador/ines-fynn/), [Verónica Pérez Bentancur](https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en), and [Lucía Tiscornia](https://www.luciatiscornia.com/)
+
+    - Ongoing project that should yield 4 papers:
+    1. Combining list experiments and network scale-up questions to improve measurement of sensitive attitudes (Presenting at Polmeth, Maplemeth, Toronto Behavior Workshop, maybe LAPolmeth)
+    2. Recovering estimates when placebo statements mess up your list experiment
+    3. Short piece documenting extent of criminal governance activity in a context of low crime and high state presence (Presenting at APSA)
+    4. Longer piece same as (3) but delving deeper into theory and field interviews
   
-3. ["A Model Selection Approach to Geographic Spillovers."](files/research/model_spillovers.pdf)
+4. **Survey Experiments and the Quest for Valid Interpretation**  
+with [Christopher Grady](https://publish.illinois.edu/cdgrady2/) and [James H. Kuklinski](https://pol.illinois.edu/directory/profile/kuklinsk)  
+In: *Luigi Curini and Robert Franzese (eds)*  
+*The SAGE Handbook of Research Methods in Political Science and International Relations*, 2020  
+[`Chapter`](files/research/sage_survey_experiments_chapter.pdf) [`Handbook`](https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875)
 
-    - Best poster award. 2019 Latin American Political Methodology Meeting
-    - Rewriting as a research note!
+### Comparative
+
+
+1. **Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina**  
+with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/)  
+[`Paper`](https://gustavodiaz.org/files/research/gender_performance.pdf) [`Appendix`](https://gustavodiaz.org/files/research/gender_performance_appendix.pdf)
+
+    - Under review at BJPS
+    
+2. **Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil**  
+[`Paper`](files/research/audit_spending.pdf)
+
+    - Presenting at APSA. Presented in political economy of development workshop organized by the *Journal of Public Policy*
+
+3. **Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil**   
+[`Paper`](files/research/nearby_corruption.pdf)
+
+    - Old job talk
+
+    
+4. **Light in the Midst of Chaos: COVID-19 and Female Political Representation**  
+with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816)  
+*World Development* 136: 105125, 2020  
+[`Paper`](https://doi.org/10.1016/j.worlddev.2020.105125)
 
 
 
 ## Teaching
 
+- McMaster course website: [popw23.gustavodiaz.org](https://popw23.gustavodiaz.org/)
+
 - [Syllabi](/teaching.html)
 
 - [Teaching evaluations](/job_market/statements/diaz_teaching_evals.pdf)
+
+    - I have not included it in yet but my recent course at Mac only got like 3 reviews...
+
+## Other stuff
+
+Section in progress. Things that may be missing or understated in current materials.
+
+- Building a text analysis pipeline to analyze citation patterns in methodology across social sciences as part of postdoc duties
+
+- Dissertation data is original combines text analysis and supervised learning to create most up to date data set of Brazilian local anti-corruption audits
+
+- Dissertation got poster award at Latin American Polmeth 2019
+
+- Cool places I have interviewed but not taken jobs at before that may make people feel like they need to hire me before someone else does: 
+
+> Penn State, University of Konstanz, University of Birmingham, Howard University, William & Mary, KDI School of Public Policy and Management, Carlos III-Juan March Institute of Social Sciences, University of Melbourne
+
+- Went to EITM at Emory in 2019
+
+- Have experience mentoring an undergrad RA. Used it as an excuse so we could both learn text analysis. Student got job as data consultant after college. I claim all the credit
+
+- Last 3 years have been marked by: Pandemic, parenting, moving, escaping from hurricane, immigration troubles, family illness. This is the first summer since 2020 without a major life thing going on. Feel free to weave that in your assessment of my productivity if you feel it may help
