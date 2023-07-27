@@ -1,0 +1,52 @@
+---
+format: pdf
+fontsize: 12pt
+urlcolor: blue
+---
+## Teaching Statement
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
+
+### Teaching philosophy
+
+```{r setup, include=F}
+field = "quantitative methods"
+students = "political science majors"
+methods_offer = "statistics, causal inference, experiments, computational social science, and machine learning"
+cp_offer = "evidence-informed public policy and the politics of the Global South"
+source = "website"
+```
+
+As someone teaching `r field` to `r students`, I face the impossible task of conveying mathematical thinking, statistical programming, and their application to academia, policy, and industry to an audience in which the majority of individuals chose their degree to explicitly avoid these topics. Usually, my students start the semester with an appreciation for quantitative research, but find it impossible to produce their own output.
+
+My approach to accomplish this within one semester is to unify all these elements as the task of acquiring a new language. A single course will not teach students everything they need to know to become fluent, but it can give enough tools to facilitate future learning in a direction that is beneficial to students with diverse backgrounds and career goals. For some, this may mean engaging directly with code. For others, the goal is to communicate productively with data analysts in a future workplace.
+
+To accommodate this diversity, I design courses with two principles in mind. First, students need flexibility to engage with the course on their own terms and focus on the content they find useful. For example, the flipped classroom lab sessions in my course on data analysis for public opinion and policy asks students to evaluate a research design, suggest alternatives or modifications, and to evaluate its statistical properties through coding and writing. Some students may propose increasing the sample size, sampling from a different underlying population, or changing the assignment of treatment conditions. This allows students to pursue the tasks that suit their interests and gives me the freedom to reward creativity and effort over correctness.
+
+The second principle is accountability, which is necessary to keep everyone on task while allowing flexibility. This means agreeing on an overarching theme that every single course activity must relate to. For example, early on my data analysisz course, I introduce the bias-variance tradeoff as a principle to choose among alternative research designs. So, while students are free to propose any modification to an existing research design that they deem appropriate, they are also required to document the explicit or implicit costs that would come from their proposal. They must consider, for instance, that a representative sample is more expensive than a convenience sample, or that implementing a block-randomized experiment may require access to variables that cannot be measured easily.
+
+Flexibility and accountability also help in preventing instances of discrimination in the learning process. Through flexibility, students are invited to add value to the course by bringing their own perspective, knowledge, or experiences. In turn, accountability sets the scope for the type of contributions of interventions that are admissible. From this perspective, a racist remark is unacceptable not because someone disagrees with it, but because it is beyond the scope of the course vocabulary.
+
+
+### Teaching experience
+
+I have experience teaching substantive and methodological courses to diverse audiences and under different formats. At McMaster, I teach data analysis for public policy and public opinion, with emphasis on experimental and quasi-experimental designs for causal inference. The goal of this course is to give students hands-on experience in designing a quantitative research project in an area relevant to academia, policy, or industry.
+
+At Tulane, I taught an undergrad senior course on the challenges of developing democracies from the perspective of evidence-informed policymaking. This course overviews the main challenges in the path to democratic consolidation around the world, the proposed solutions to these challenges, and how governments, researchers, and civil society organizations use data to evaluate these solutions. The previous version focused primarily design-based causal inference. In a future version, I plan to expand toward the application of machine learning and big data.
+
+I also taught introduction to comparative politics, emphasizing theoretical and methodological considerations as the core of the course, while simultaneously encouraging students to apply this knowledge to recent events in a region or country of their choosing. 
+
+In my time at Illinois, I taught statistics and research methods. In the 2020-2021 academic year, I was the graduate methods teaching assistant in our department. My duties involved advising PhD students taking courses in the quantitative methods sequence, as well as mentoring undergraduates enrolled in the senior honors thesis program. I also served as a teaching assistant for Jake Bowers' introduction to data analysis for political science majors. This course focuses on flipped classroom learning, letting students engage with the course material on their own time and using lecture time to work as a group on problem sets and research projects. I have also contributed as a math camp instructor for three consecutive years, introducing statistical programming in R to incoming graduate students in our department. 
+
+I also had experience teaching on the politics of the Global South. I benefited from exposure to different versions of an introductory course to the politics on developing countries. I taught an online version of this course as an independent instructor following Matt Winters' syllabus, which emphasizes theoretical accounts of economic and political development. I also served as a teaching assistant for Avital Livny's version, which emphasizes building social science concepts and tools to understand cross-national variation in economic development, state formation, regime change, and ethnic conflict.
+
+Teaching to these diverse audiences made me aware of the importance of promoting out-of classroom learning experiences. I organized a reading group on computational social science at Illinois that met regularly in the Summer and Fall of 2017. I started a a collaborative project in which graduate students share cheatsheets introducing their fellows to new methodological tools. I have also enjoyed the experience of mentoring an undergraduate research assistant, using the opportunity to help both of us learn text analysis. In the future, I plan to facilitate and institutionalize similar learning experiences in every aspect of my work.
+
+### Teaching interests
+
+I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`.
