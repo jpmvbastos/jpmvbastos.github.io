@@ -10,8 +10,8 @@ quarto::quarto_render("job_market/cover_letter/cover_letter_methods.qmd",
                       output_file = "diaz_cover_letter.pdf")
 quarto::quarto_render("job_market/statements/research_statement_methods.qmd",
                   output_file = "diaz_research_statement.pdf")
-rmarkdown::render("job_market/statements/teaching_statement_methods.Rmd",
-                  output_file = "diaz_teaching_statement.pdf")
+quarto::quarto_render("job_market/statements/teaching_statement_methods.qmd",
+                      output_file = "diaz_teaching_statement.pdf")
 
 
 
