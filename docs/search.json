@@ -417,7 +417,7 @@
     "href": "market.html#materials",
     "title": "Job Market Hub",
     "section": "Materials",
-    "text": "Materials\n\nCover letter [Methods] [Comparative]\nResearch statement [Methods] [Comparative]\nTeaching statement [Methods] [Comparative]\nDiversity statement [Coming soon!]"
+    "text": "Materials\nMethods is the default set of materials\n\nCover letter [Methods] [Comparative] [Statistics]\nResearch statement [Methods] [Comparative] [Statistics]\nTeaching statement [Methods] [Comparative] [Statistics]\nDiversity statement [Methods] [Comparative] [Statistics]"
   },
   {
     "objectID": "market.html#writing-samples",
@@ -431,7 +431,7 @@
     "href": "market.html#teaching",
     "title": "Job Market Hub",
     "section": "Teaching",
-    "text": "Teaching\n\nMcMaster course website: popw23.gustavodiaz.org\nSyllabi\nTeaching evaluations\n\nI have not included it in yet but my recent course at Mac only got like 3 reviews…"
+    "text": "Teaching\n\nMcMaster course website: popw23.gustavodiaz.org\nSyllabi\nTeaching evaluations"
   },
   {
     "objectID": "research.html",
@@ -1523,7 +1523,7 @@
     "href": "market.html#other-stuff",
     "title": "Job Market Hub",
     "section": "Other stuff",
-    "text": "Other stuff\nSection in progress. Things that may be missing or understated in current materials.\n\nBuilding a text analysis pipeline to analyze citation patterns in methodology across social sciences as part of postdoc duties\nDissertation data is original combines text analysis and supervised learning to create most up to date data set of Brazilian local anti-corruption audits\nDissertation got poster award at Latin American Polmeth 2019\nCool places I have interviewed but not taken jobs at that may make people feel like they need to hire me before someone else does:\n\n\nPenn State, University of Konstanz, University of Birmingham, Howard University, William & Mary, KDI School of Public Policy and Management, Carlos III-Juan March Institute of Social Sciences, University of Melbourne\n\n\nWent to EITM at Emory in 2019\nHave experience mentoring an undergrad RA. Used it as an excuse so we could both learn text analysis. Student got job as data consultant after college. I claim all the credit\nLast 3 years have been marked by: Pandemic, parenting, moving, escaping from hurricane, immigration troubles, family illness. This is the first summer since 2020 without a major life thing going on. Feel free to weave that in your assessment of my productivity if you feel it may help"
+    "text": "Other stuff\nSection in progress. Things that may be missing or understated in current materials.\n\nWorking on text analysis modeling to analyze citation patterns in methodology across social sciences as part of postdoc duties\nAttending a grant writing workshop in the Fall, focus on preparing an application for an NSF-equivalent grant in Canada\nDissertation data collection combines text analysis and supervised learning to create most up to date data set of Brazilian local anti-corruption audits\nDissertation got poster award at Latin American Polmeth 2019\nCool places I have interviewed but not taken jobs at that may make people feel like they need to hire me before someone else does:\n\n\nPenn State, University of Konstanz, University of Birmingham, Howard University, William & Mary, KDI School of Public Policy and Management, Carlos III-Juan March Institute of Social Sciences, University of Melbourne\n\n\nWent to EITM at Emory in 2019\nHave experience mentoring an undergrad RA. Used it as an excuse so we could both learn text analysis. Student got job as data consultant after college. I claim all the credit\nLast 3 years have been marked by: Pandemic, parenting, moving, escaping from hurricane, immigration troubles, family illness. This is the first summer since 2020 without a major life thing going on. Feel free to weave that in your assessment of my productivity if you feel it may help"
   },
   {
     "objectID": "job_market/statements/diversity_statement_methods.html",

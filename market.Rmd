@@ -85,14 +85,16 @@ for(i in 1:nrow(jobs)){
 
 ## Materials
 
-- Cover letter [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf) [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf)
+Methods is the default set of materials
 
-- Research statement [`[Methods]`](job_market/statements/research_statement_methods.pdf) [`[Comparative]`](job_market/statements/research_statement_cp.pdf) 
+- Cover letter [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf) [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf) [`[Statistics]`](job_market/cover_letter/cover_letter_stats.pdf)
+
+- Research statement [`[Methods]`](job_market/statements/research_statement_methods.pdf) [`[Comparative]`](job_market/statements/research_statement_cp.pdf) [`[Statistics]`](job_market/statements/research_statement_stats.pdf) 
 
 - Teaching statement
-[`[Methods]`](job_market/statements/teaching_statement_methods.pdf) [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) 
+[`[Methods]`](job_market/statements/teaching_statement_methods.pdf) [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) [`[Statistics]`](job_market/statements/teaching_statement_stats.pdf) 
 
-- Diversity statement [Coming soon!]
+- Diversity statement [`[Methods]`](job_market/statements/diversity_statement_methods.pdf) [`[Comparative]`](job_market/statements/diversity_statement_cp.pdf) [`[Statistics]`](job_market/statements/diversity_statement_stats.pdf) 
 
 ## Research
 
@@ -163,15 +165,16 @@ with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816)
 
 - [Teaching evaluations](/job_market/statements/diaz_teaching_evals.pdf)
 
-    - I have not included it in yet but my recent course at Mac only got like 3 reviews...
 
 ## Other stuff
 
 Section in progress. Things that may be missing or understated in current materials.
 
-- Building a text analysis pipeline to analyze citation patterns in methodology across social sciences as part of postdoc duties
+- Working on text analysis modeling to analyze citation patterns in methodology across social sciences as part of postdoc duties
 
-- Dissertation data is original combines text analysis and supervised learning to create most up to date data set of Brazilian local anti-corruption audits
+- Attending a grant writing workshop in the Fall, focus on preparing an application for an NSF-equivalent grant in Canada
+
+- Dissertation data collection combines text analysis and supervised learning to create most up to date data set of Brazilian local anti-corruption audits
 
 - Dissertation got poster award at Latin American Polmeth 2019
 
