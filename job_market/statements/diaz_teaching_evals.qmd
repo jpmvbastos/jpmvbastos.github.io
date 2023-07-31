@@ -1,19 +1,22 @@
 ---
-output: 
-    stevetemplates::statement:
-    latex_engine: pdflatex
-geometry: margin=1in
-
-title: "Overview of Teaching Evaluations"
-author: Gustavo Diaz
-affiliation: Department of Political Science, McMaster University
-email: "diazg2@mcmaster.ca"
-
-fontfamily: cochineal
-fontsize: 11pt
+format: pdf
+fontsize: 12pt
+urlcolor: blue
 ---
+## Teaching Evaluations
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
 
 The following tables present a summary of my teaching evaluations. Scores range from 1 to 5, with 5 being the most positive. Detailed evaluations available upon request.
+
+# McMaster University
+
+In Spring 2023, only 1 student completed the evaluations for my data analysis for public opinion and policy course. This may have happened due to a change in the online platform for teaching evaluation surveys in the previous semester.
 
 # Tulane University
 
@@ -65,3 +68,4 @@ The following tables present a summary of my teaching evaluations. Scores range 
 	\end{tabular}
 	\end{center}
 \end{table}
+

@@ -1,0 +1,27 @@
+---
+format: pdf
+fontsize: 12pt
+urlcolor: blue
+geometry:
+  - bottom=0mm
+header-includes:
+    - \pagenumbering{gobble}
+---
+## Diversity Statement
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
+
+I grew up in a low income family in Chile, being part of the first generation to obtain a college degree, and the only person pursuing an academic career. The main challenge during my first years of graduate school was to simultaneously learn to communicate effectively as an academic, a social scientist, and a non-native English speaker.
+
+I realized that my struggles were more common than I expected among peers and students. More importantly, they were rooted in subtle yet systemic patterns of discrimination. I learned to recognize that the traditional higher education setting does not give equal treatment to individuals from underrepresented backgrounds and with different learning styles and career goals. In that sense, I believe our collective challenge is to facilitate spaces for cutting-edge knowledge generation and communication that value diverse voices, even if they do not fit in conventional disciplinary molds.
+
+As an underrepresented scholar in quantitative political science, I focus on creating more space for diverse voices in the field. My initial efforts focused on facilitating out-of-classroom learning opportunities, which I consider essential to break initial entry barriers. At Illinois, I started a methods cheatsheets project in 2018. In this project, volunteer graduate students write a short introduction to the theory, implementation, and current debates surrounding a technique of their expertise. These resources are shared in a repository available for current and future generations.
+
+Currently, I am working on incorporating these principles into my teaching. My course on data analysis for public opinion and policy is designed to give students enough flexibility to connect statistical theory to their own interests and career goals. For example, in response papers they can choose what parts of a research design they would change if they were in charge of replicating a study on a topic of their choosing. I also plan to introduce contract grading in subsequent iterations of this course to emphasize creativity and engagement over correctness.
+
+In the future, I aim to translate these ideas into a sustainable and inclusive research program. I believe the laboratory workflow is the template to follow to incorporate the skills and contributions of different backgrounds. This framework creates a space to foster dialogue across backgrounds, learning styles, and career stages, while also providing a safety net to provide early support to those who may otherwise struggle.

@@ -1,0 +1,60 @@
+---
+format: pdf
+fontsize: 12pt
+urlcolor: blue
+---
+## Research Statement
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
+
+
+```{r setup, include=F}
+area = "the challenges to accountability, governance, and representation in developing democracies"
+tools = "design-based causal inference and computational social science to navigate research design trade-offs before data collection"
+```
+
+<!-- I have no idea how to make this 3 pages -->
+
+<!-- One short paragraph or sentence to situate my work. Use the beginning of the ddem syllabus-->
+According to Freedom House, 2022 marks the 17^th^ consecutive year with available data in which the number of countries where democracy deteriorated outnumbers the number of countries where democracy improved. This trend emerges after several decades of continuous democratization and highlights the difficult path that separates democratization and consolidation.
+
+This period is also marked by redoubled efforts by scholars, governments, and civil society organizations to identify and overcome the challenges to democracy around the world. Progress in research transparency and registration has lead to more coordinated efforts to produce credible evidence to determine what works, where, and why. 
+
+My research focuses on `r area`. This is an area where strategic behavior from both citizens and politicians precludes the identification of successful interventions. My current agenda analyzes the unintended electoral consequences of investigating and exposing corruption, as well as the gendered patterns in citizens' evaluation of politicians' performance in office.
+
+Given the focus on hard-to-observe phenomena, this substantive agenda also informs a methodological program on the application of tools from `r tools`.
+
+### The unintended electoral consequences of exposing corruption
+
+The literature in political science and economics on electoral accountability highlights voters' adverse selection problem: They prefer to have good over bad elected officials but they can only infer an incumbent's type through observable outputs of their performance. Therefore, corrupt incumbents have incentives to hide illicit activities and appear good. To fight corruption, governments, civil society organizations, and scholars devote considerable resources to implementing and evaluating anti-corruption interventions that attempt to bridge the information gap between voters and politicians' performance in office. However, the cumulative evidence suggests that these interventions rarely translate into voters sanctioning corrupt incumbents.
+
+A recent explanation for the lack of electoral sanctions is that politicians undertake preemptive behavior to ward off the negative consequences of corruption. For example, previous research shows that political parties avoid nominating legislators investigated for corruption to reelection. On the other side of the coin, research also shows that local level elected officials switch away from parties investigated for corruption after securing reelection. In short, politicians avoid direct association with corruption.
+
+I expand on this research in work funded by the Lemann Center for Brazilian studies at the University of Illinois, using data from a long-running anti-corruption program in Brazil that randomly selects municipalities to audit their use of federal funds, and combining text analysis and machine learning to create the most comprehensive dataset of corruption infractions to date. I make two contributions to the literature.
+
+First, in a working paper, I argue that the main reason why politicians update their behavior in reaction to increased monitoring is because they expect increased scrutiny from their constituents. This contrasts from previous work suggesting that the primary incentive is top-down enforcement. I show that being selected for auditing leads mayors to shift public spending in a attempt to minimize the chances of uncovering irregularities. Mayors selected for auditing spend less when they are eligible for reelection and when the audits are announced close to an election year. This runs counter to previous evidence in political business cycles, which suggests that heightened electoral concerns lead to an increase in public spending.
+
+In another working paper, I argue that politicians are also responsive to revealed corruption even when they are not directly connected to it. Whereas previous literature has shown evidence that partisans might react strategically to anticipated sanctions when their political party is linked to corruption, I argue that this behavior is even more widespread and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. This occurs because officeholders expect their constituencies to receive the news of corruption in nearby localities and react with increased scrutiny on their performance. I show that mayors in municipalities exposed to nearby corruption are more likely to seek reelection under a different party, and that they do so in a pattern that suggests an attempt to secure more resources for reelection.
+
+### Gendered evaluations of officeholders' performance
+
+In work with Kelly Senters Piazza (US Air Force Academy), we expand this agenda toward the gendered patterns that underlie how voters evaluate politicians' performance in office in light of corruption. In a forthcoming book chapter in *Norms, Gender and Corruption: Understanding the Nexus*, we use my data on corruption infractions at the local level in Brazil to revisit previous findings on the gendered electoral consequences of corruption. Previous work in this topic uses public opinion data and survey experiments to show how revealing corruption increases support for female representation, yet also how female politicians face harsher sanctions for comparable levels of wrongdoing. We show that revealing corruption increases support for female representation in the form of an increased proportion of female candidates running for mayor, yet this support does not translate into an increased proportion of women winning elections, which we attribute to incumbent mayors' incentives to counter the rise of female challengers. 
+
+This program extends to the study of gendered performance evaluations beyond corruption. In a piece in *World Development*, we highlight how exceptional events, such as corruption, conflict, and public health disasters, can promote female political representation by raising questions around the ability of male leadership to handle crises, as well as priming voters about issues around which women are perceived to have policy expertise. Examining public opinion data and recent media coverage around the world, we argue for the presence of both mechanisms in the COVID-19 global pandemic, implying a potential surge in female political representation.
+
+In work under review with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to study gendered differential reactions to policy implementation. Previous work suggests that women face higher scrutiny for their performance in office However, in the context of the implementation of a food distribution program, we find that voters are only responsive to performance information (positive or negative) among male officeholders and tend to ignore performance information when told that an officeholder is a woman. We attribute this result to voters' perception of male politicians as the default category, thus providing no new information on top of performance. In turn, mentioning the gender of a female politician leads voters to believe that good performance stems from factors beyond the incumbent's control.
+
+### Improving precision before data analysis
+
+The focus on corruption and performance evaluations in my work has led me to contribute to the development of tools to improve our ability to detect or measure hard-to-observe social and political phenomena. This agenda currently focuses on survey and field experiments. In the future, I plan expand toward quasi-experiments and observational studies.
+
+For example, in a manuscript accepted at the *Journal of Experimental Political Science*, I revisit double list experiments. Social scientists use list experiments in surveys when respondents may conceal their answer to sensitive questions. When their assumptions are met, list experiments reduce sensitivity biases from misreporting. However, they tend to produce estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of the estimate for the prevalence of the sensitive trait. This implies an estimator that is more precise and still unbiased, but their implementation brings the question over whether the aggregation of the results of two parallel experiments yields a valid estimate. I propose a statistical test to assess the validity of estimates from double list experiments by leveraging variation in the order in which respondents receive the sensitive item, which provides researchers with a tool to apply this technique more widely.
+
+As another example, in work under review with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting a research design feature aimed at improving precision can instead hurt precision through sample loss. For example, block randomization often improves precision, but it may require contacting participants multiple times to collect blocking covariates before treatment and then post-treatment outcomes. This creates space for either explicit (e.g. subjects dropping from the study between waves) or implicit sample loss (e.g. resource limitation forcing researchers to halve the sample size). Both forms of sample loss may offset the precision gains of blocking. Both standard and block randomized experiments have well-known unbiased estimators, but one must choose whether to block or not depending on the expected gains in precision. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.
+
+<!-- include crime-uruguay as an example of future work if application explicitly requires it -->

@@ -17,7 +17,6 @@ Gustavo Diaz
 discipline = "Social scientists"
 fields = "computational social science and design-based causal inference"
 applications = "topics ranging from the challenges to accountability, governance, and representation in developing countries, to questions of misinformation and racial prejudice in the United States"
-region = ", primarily in developing countries"
 # some applications I may not want to say Uruguay explicitly
 uruguay = "Montevideo, Uruguay"
 ```
@@ -33,11 +32,11 @@ I apply the insights of my methodological work on `r applications`. The common t
 
 The last decade has seen considerable improvement in research transparency and registration. Recent advances in experimental design provide tools to diagnose the properties of a research design before data collection. For example, one can think about bias, power, or target sample size under different hypothetical data generation processes.
 
-A recurrent goal in statistics, econometrics, and political methodology is to minimize bias, or being close to the hypothetical truth on average. Instead, my agenda focuses on optimizing statistical precision. The literature implicitly assumes that one cam simply improve precision by increasing sample size. However, this is not feasible in most applications due to resource considerations.
+A recurrent goal in statistics, econometrics, and political methodology is to minimize bias, or being close to the hypothetical truth on average. Instead, my agenda focuses on optimizing statistical precision, understood as producing consistent results after multiple realizations of the same data generation process. The literature implicitly assumes that one cam simply improve precision by increasing sample size. However, this is not feasible in most applications due to resource considerations.
 
 Even if resources are not an obstacle, even the least intrusive study wastes time and energy from researchers, administrators, and participants. This implies an ethical mandate to identify a research design that maximizes benefits and minimizes harm at the lowest possible cost. An emphasis on statistical precision allows researchers to anticipate and internalize these costs before implementation.
 
-Focusing on field and survey experiments, this agenda follows two strands. First, researchers often face the choice between alternative experimental designs for which unbiased estimators are already documented. In this case, opting for the design with more precision has leads to unforeseen costs in other dimensions. Two projects exemplify how I develop standard to navigate this precision.
+Focusing on field and survey experiments, this agenda follows two strands. First, researchers often face the choice between alternative experimental designs for which unbiased estimators are already documented. In this case, opting for the design with more precision leads to unforeseen costs in other dimensions. Two projects exemplify how I develop standard to navigate this precision.
 
 In a manuscript forthcoming in the *Journal of Experimental Political Science*, I propose statistical tests to address problems with double list experiments. Social scientists use list experiments in surveys when respondents may not answer truthfully to sensitive questions. When their assumptions are met, list experiments reduce sensitivity biases from misreporting. However, they tend to produce estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of the estimate for the prevalence of the sensitive trait. 
 
@@ -56,8 +55,6 @@ Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois)
 
 ### Future work
 <!-- Perhaps pick and choose based on search -->
+I plan to use the insights of my work to inform applications around my substantie areas of interest. In turn, I aim to use applications as a motivation for further methodological innovation.
 
-<!-- Be mindful of spacing in the `r region` token -->
-I plan to use the insights of my work to inform applications around the challenges to accountability, governance, and representation`r region`. In turn, I aim to use applications as a motivation for further methodological innovation.
-
-For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This will expand the tools available to researchers to improve the measurement of sensitive attitudes and behaviors through surveys.
+For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys.
