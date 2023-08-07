@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gustavo Diaz – melbourne_appendix</title>
+<title>Gustavo Diaz – research_statement_cp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -150,102 +116,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="melbourne_appendix.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="research_statement_cp.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-<section id="types-of-dle" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-dle">Types of DLE</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.2     ✔ readr     2.1.4
-✔ forcats   1.0.0     ✔ stringr   1.5.0
-✔ ggplot2   3.4.2     ✔ tibble    3.2.1
-✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-✔ purrr     1.0.1     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DeclareDesign)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: randomizr
-Loading required package: fabricatr
-Loading required package: estimatr
+<section id="research-statement" class="level2">
+<h2 class="anchored" data-anchor-id="research-statement">Research Statement</h2>
+Gustavo Diaz<br>
+<em>Department of Political Science, McMaster University</em><br>
+<a href="mailto:diazg2@mcmaster.ca" class="email">diazg2@mcmaster.ca</a><br>
 
-Attaching package: 'DeclareDesign'
-
-The following object is masked from 'package:dplyr':
-
-    vars
-
-The following object is masked from 'package:ggplot2':
-
-    vars</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'kableExtra'
-
-The following object is masked from 'package:dplyr':
-
-    group_rows</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ggplot global options</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_set</span>(<span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>designs <span class="ot">=</span> <span class="fu">data.frame</span>(</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">expand.grid</span>(</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">Lists =</span> <span class="fu">c</span>(<span class="st">"Fixed"</span>, <span class="st">"Randomized"</span>),</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sensitive_item =</span> <span class="fu">c</span>(<span class="st">"Fixed"</span>, <span class="st">"Randomized"</span>)</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(designs) <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"List order"</span>, <span class="st">"Sensitive item location"</span>)</span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>designs <span class="sc">%&gt;%</span> </span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kbl</span>(<span class="at">format =</span> <span class="st">"markdown"</span>,</span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>      <span class="at">escape =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>      <span class="at">align =</span> <span class="st">"cc"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<table class="table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: center;">List order</th>
-<th style="text-align: center;">Sensitive item location</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Fixed</td>
-<td style="text-align: center;">Fixed</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Randomized</td>
-<td style="text-align: center;">Fixed</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Fixed</td>
-<td style="text-align: center;">Randomized</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Randomized</td>
-<td style="text-align: center;">Randomized</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+<p>&nbsp;</p>
+<!-- I have no idea how to make this 3 pages -->
+<!-- One short paragraph or sentence to situate my work. Use the beginning of the ddem syllabus-->
+<p>According to Freedom House, 2022 marks the 17<sup>th</sup> consecutive year with available data in which the number of countries where democracy deteriorated outnumbers the number of countries where democracy improved. This trend emerges after several decades of continuous democratization and highlights the difficult path that separates democratization and consolidation.</p>
+<p>This period is also marked by redoubled efforts by scholars, governments, and civil society organizations to identify and overcome the challenges to democracy around the world. Progress in research transparency and registration has lead to more coordinated efforts to produce credible evidence to determine what works, where, and why.</p>
+<p>My research focuses on the challenges to accountability, governance, and representation in developing democracies. This is an area where strategic behavior from both citizens and politicians precludes the identification of successful interventions. My current agenda analyzes the unintended electoral consequences of investigating and exposing corruption, as well as the gendered patterns in citizens’ evaluation of politicians’ performance in office.</p>
+<p>Given the focus on hard-to-observe phenomena, this substantive agenda also informs a methodological program on the application of tools from design-based causal inference and computational social science to navigate research design trade-offs before data collection.</p>
+<section id="the-unintended-electoral-consequences-of-exposing-corruption" class="level3">
+<h3 class="anchored" data-anchor-id="the-unintended-electoral-consequences-of-exposing-corruption">The unintended electoral consequences of exposing corruption</h3>
+<p>The literature in political science and economics on electoral accountability highlights voters’ adverse selection problem: They prefer to have good over bad elected officials but they can only infer an incumbent’s type through observable outputs of their performance. Therefore, corrupt incumbents have incentives to hide illicit activities and appear good. To fight corruption, governments, civil society organizations, and scholars devote considerable resources to implementing and evaluating anti-corruption interventions that attempt to bridge the information gap between voters and politicians’ performance in office. However, the cumulative evidence suggests that these interventions rarely translate into voters sanctioning corrupt incumbents.</p>
+<p>A recent explanation for the lack of electoral sanctions is that politicians undertake preemptive behavior to ward off the negative consequences of corruption. For example, previous research shows that political parties avoid nominating legislators investigated for corruption to reelection. On the other side of the coin, research also shows that local level elected officials switch away from parties investigated for corruption after securing reelection. In short, politicians avoid direct association with corruption.</p>
+<p>I expand on this research in work funded by the Lemann Center for Brazilian studies at the University of Illinois, using data from a long-running anti-corruption program in Brazil that randomly selects municipalities to audit their use of federal funds, and combining text analysis and machine learning to create the most comprehensive dataset of corruption infractions to date. I make two contributions to the literature.</p>
+<p>First, in a working paper, I argue that the main reason why politicians update their behavior in reaction to increased monitoring is because they expect increased scrutiny from their constituents. This contrasts from previous work suggesting that the primary incentive is top-down enforcement. I show that being selected for auditing leads mayors to shift public spending in a attempt to minimize the chances of uncovering irregularities. Mayors selected for auditing spend less when they are eligible for reelection and when the audits are announced close to an election year. This runs counter to previous evidence in political business cycles, which suggests that heightened electoral concerns lead to an increase in public spending.</p>
+<p>In another working paper, I argue that politicians are also responsive to revealed corruption even when they are not directly connected to it. Whereas previous literature has shown evidence that partisans might react strategically to anticipated sanctions when their political party is linked to corruption, I argue that this behavior is even more widespread and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. This occurs because officeholders expect their constituencies to receive the news of corruption in nearby localities and react with increased scrutiny on their performance. I show that mayors in municipalities exposed to nearby corruption are more likely to seek reelection under a different party, and that they do so in a pattern that suggests an attempt to secure more resources for reelection.</p>
+</section>
+<section id="gendered-evaluations-of-officeholders-performance" class="level3">
+<h3 class="anchored" data-anchor-id="gendered-evaluations-of-officeholders-performance">Gendered evaluations of officeholders’ performance</h3>
+<p>In work with Kelly Senters Piazza (US Air Force Academy), we expand this agenda toward the gendered patterns that underlie how voters evaluate politicians’ performance in office in light of corruption. In a forthcoming book chapter in <em>Norms, Gender and Corruption: Understanding the Nexus</em>, we use my data on corruption infractions at the local level in Brazil to revisit previous findings on the gendered electoral consequences of corruption. Previous work in this topic uses public opinion data and survey experiments to show how revealing corruption increases support for female representation, yet also how female politicians face harsher sanctions for comparable levels of wrongdoing. We show that revealing corruption increases support for female representation in the form of an increased proportion of female candidates running for mayor, yet this support does not translate into an increased proportion of women winning elections, which we attribute to incumbent mayors’ incentives to counter the rise of female challengers.</p>
+<p>This program extends to the study of gendered performance evaluations beyond corruption. In a piece in <em>World Development</em>, we highlight how exceptional events, such as corruption, conflict, and public health disasters, can promote female political representation by raising questions around the ability of male leadership to handle crises, as well as priming voters about issues around which women are perceived to have policy expertise. Examining public opinion data and recent media coverage around the world, we argue for the presence of both mechanisms in the COVID-19 global pandemic, implying a potential surge in female political representation.</p>
+<p>In work under review with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to study gendered differential reactions to policy implementation. Previous work suggests that women face higher scrutiny for their performance in office However, in the context of the implementation of a food distribution program, we find that voters are only responsive to performance information (positive or negative) among male officeholders and tend to ignore performance information when told that an officeholder is a woman. We attribute this result to voters’ perception of male politicians as the default category, thus providing no new information on top of performance. In turn, mentioning the gender of a female politician leads voters to believe that good performance stems from factors beyond the incumbent’s control.</p>
+</section>
+<section id="improving-precision-before-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="improving-precision-before-data-analysis">Improving precision before data analysis</h3>
+<p>The focus on corruption and performance evaluations in my work has led me to contribute to the development of tools to improve our ability to detect or measure hard-to-observe social and political phenomena. This agenda currently focuses on survey and field experiments. In the future, I plan expand toward quasi-experiments and observational studies.</p>
+<p>For example, in a manuscript accepted at the <em>Journal of Experimental Political Science</em>, I revisit double list experiments. Social scientists use list experiments in surveys when respondents may conceal their answer to sensitive questions. When their assumptions are met, list experiments reduce sensitivity biases from misreporting. However, they tend to produce estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of the estimate for the prevalence of the sensitive trait. This implies an estimator that is more precise and still unbiased, but their implementation brings the question over whether the aggregation of the results of two parallel experiments yields a valid estimate. I propose a statistical test to assess the validity of estimates from double list experiments by leveraging variation in the order in which respondents receive the sensitive item, which provides researchers with a tool to apply this technique more widely.</p>
+<p>As another example, in work under review with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting a research design feature aimed at improving precision can instead hurt precision through sample loss. For example, block randomization often improves precision, but it may require contacting participants multiple times to collect blocking covariates before treatment and then post-treatment outcomes. This creates space for either explicit (e.g.&nbsp;subjects dropping from the study between waves) or implicit sample loss (e.g.&nbsp;resource limitation forcing researchers to halve the sample size). Both forms of sample loss may offset the precision gains of blocking. Both standard and block randomized experiments have well-known unbiased estimators, but one must choose whether to block or not depending on the expected gains in precision. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.</p>
+<!-- include crime-uruguay as an example of future work if application explicitly requires it -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
