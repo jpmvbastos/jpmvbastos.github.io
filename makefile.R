@@ -12,6 +12,8 @@ quarto::quarto_render("job_market/statements/research_statement_methods.qmd",
                   output_file = "diaz_research_statement.pdf")
 quarto::quarto_render("job_market/statements/teaching_statement_methods.qmd",
                       output_file = "diaz_teaching_statement.pdf")
+quarto::quarto_render("job_market/statements/diversity_statement_methods.qmd",
+                      output_file = "diaz_diversity_statement.pdf")
 
 
 
