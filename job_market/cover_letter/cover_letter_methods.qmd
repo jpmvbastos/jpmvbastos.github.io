@@ -18,14 +18,13 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Methods"
-comparative = TRUE
-place = "Michigan"
-area = "political economy and political behavior"
+jobtitle = "Assistant Professors"
+place = "the Tec de Monterrey"
 tools = "computational social science and design-based causal inference"
-applications = "topics ranging from the challenges to accountability, governance, and representation in developing countries, to questions of misinformation and racial prejudice in the United States"
+applications = "the study of the challenges to accountability, governance, and representation in comparative politics"
 discipline = "political science"
-courses = "statistics, causal inference, experiments, computational social science, machine learning, and evidence-informed policy"
+courses = "statistics, causal inference, experiments, computational social science, machine learning, comparative politics, and evidence-informed policy"
+source = "website"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
@@ -53,7 +52,7 @@ These experiences have prepared me to teach to a diverse student body, to adapt 
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
 <!-- Also tweak depending on job -->
-I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my website and teaching portfolio. As a first-generation scholar, my teaching philosophy emphasizes using the language of the social sciences as a tool to advance the careers of students with different backgrounds and goals.
+I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes using the language of the social sciences as a tool to advance the careers of students with different backgrounds and goals.
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
