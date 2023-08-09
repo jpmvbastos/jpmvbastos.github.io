@@ -25,6 +25,19 @@ rmarkdown::render("job_market/statements/research_statement_cp.Rmd",
 rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",
                   output_file = "diaz_teaching_statement.pdf")
 
+# statistics
+quarto::quarto_render("job_market/cover_letter/cover_letter_stats.qmd", 
+                      output_file = "diaz_cover_letter.pdf")
+quarto::quarto_render("job_market/statements/research_statement_stats.qmd",
+                      output_file = "diaz_research_statement.pdf")
+quarto::quarto_render("job_market/statements/teaching_statement_stats.qmd",
+                      output_file = "diaz_teaching_statement.pdf")
+quarto::quarto_render("job_market/statements/diversity_statement_stats.qmd",
+                      output_file = "diaz_diversity_statement.pdf")
+
+
+
+
 # comparative teaching
 rmarkdown::render("job_market/cover_letter/cover_letter_cp_teaching.Rmd",
                   output_file = "diaz_cover_letter.pdf")
