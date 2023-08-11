@@ -17,13 +17,14 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "Rice"
-jobtitle = "an Assistant Professor in Democratic Representation"
+place = "American University"
+jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
 area = "the challenges to accountability, governance, and representation in developing democracies"
 tools = "design-based causal inference and computational social science"
-courses = "the politics of the Global South, evidence-informed policy, research design, computational social science, causal inference, experiments, survey research, and statistics"
+courses = "Comparative politics, accountability and representation, the politics of the Global South, research design, and quantitative methods"
+source = "website"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
@@ -54,7 +55,7 @@ My time at Illinois also gave me extensive teaching experience. I taught an onli
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
 <!-- Also tweak depending on job -->
-I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my website. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.
+I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.

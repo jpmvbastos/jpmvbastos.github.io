@@ -17,7 +17,7 @@ Gustavo Diaz
 ```{r setup, include=F}
 field = "quantitative methods"
 students = "political science majors"
-cp_offer = "comparative politics, accountability and representation, and the politics of developing democracies"
+cp_offer = "comparative politics, accountability and representation, and the politics of the Global South"
 methods_offer = "research design, quantitative methods, causal inference, and computational social science"
 source = "website"
 ```

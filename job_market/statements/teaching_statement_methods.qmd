@@ -19,7 +19,7 @@ field = "quantitative methods"
 students = "political science majors"
 methods_offer = "statistics, causal inference, experiments, computational social science, and machine learning"
 cp_offer = "evidence-informed public policy and the politics of the Global South"
-source = "website"
+source = "teaching portfolio"
 ```
 
 <!-- Hide for shorter version -->

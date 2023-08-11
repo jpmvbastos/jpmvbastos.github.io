@@ -18,13 +18,13 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "Assistant Professors"
-place = "the Tec de Monterrey"
+jobtitle = "an Assistant Professor in Quantitative Methods"
+place = "Clemson"
 tools = "computational social science and design-based causal inference"
-applications = "the study of the challenges to accountability, governance, and representation in comparative politics"
+applications = "questions of evidence-informed policy in the Global South"
 discipline = "political science"
-courses = "statistics, causal inference, experiments, computational social science, machine learning, comparative politics, and evidence-informed policy"
-source = "website"
+courses = "statistics, causal inference, experiments, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
+source = "teaching portfolio"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
