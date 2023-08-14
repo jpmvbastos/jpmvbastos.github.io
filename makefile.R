@@ -4,7 +4,6 @@
 # cv
 rmarkdown::render("files/diaz_cv.Rmd")
 
-
 # methods
 quarto::quarto_render("job_market/cover_letter/cover_letter_methods.qmd", 
                       output_file = "diaz_cover_letter.pdf")
@@ -54,6 +53,10 @@ rmarkdown::render("job_market/statements/diversity_statement.Rmd",
                   output_file = "diaz_diversity_statement.pdf")
 # evals
 rmarkdown::render("job_market/statements/diaz_teaching_evals.Rmd")
+
+# dissertation abstract
+quarto::quarto_render("job_market/statements/diaz_dissertation_abstract.qmd",
+                      output_file = "diaz_dissertation_abstract.pdf")
 
 ## JOB SPECIFIC MATERIALS
 # Here if needed
