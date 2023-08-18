@@ -1,86 +1,55 @@
 ---
 title: "Research"
+description: "" 
+listing:
+  - id: working-papers
+    include: 
+      type: "Working"
+    contents: research.yaml
+    template: research.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true
+  - id: in-progress
+    include: 
+      type: "Progress"
+    contents: research.yaml
+    template: research.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true  
+  - id: published-papers
+    include: 
+      type: "Published"
+    contents: research.yaml
+    template: research.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    #categories: true
+toc: false    
+#page-layout: full
 ---
 
 ## Publications
 
-<!-- Remember double space for line break -->
+:::{#published-papers}
+:::
 
-**Assessing the Validity of Prevalence Estimates in Double List Experiments**  
-*Journal of Experimental Political Science*, Accepted  
-[`Paper`](files/research/dle_test.pdf)   [`Appendix`](files/research/dle_test_appendix.pdf)
+## Working papers
 
-**Data Sources for the Study of Gender and Corruption**  
-with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816)  
-In: *Emily Beaulieu Bacchus and Tiffany Barnes (eds)*  
-*Handbook on Gender and Corruption in Democracies*, Forthcoming 
+:::{#working-papers}
+:::
 
-**Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts**  
-with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816)  
-In: *Ina Kubbe and Ortrun Merkle (eds)*  
-*Norms, Gender and Corruption: Understanding the Nexus*, 2022  
-[`Chapter`](files/research/gender_corruption.pdf) [`Book`](https://www.e-elgar.com/shop/gbp/norms-gender-and-corruption-9781802205824.html)
+## Work in progress
 
-**Light in the Midst of Chaos: COVID-19 and Female Political Representation**  
-with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816)  
-*World Development* 136: 105125, 2020  
-[`Paper`](https://doi.org/10.1016/j.worlddev.2020.105125)
-
-**Survey Experiments and the Quest for Valid Interpretation**  
-with [Christopher Grady](https://publish.illinois.edu/cdgrady2/) and [James H. Kuklinski](https://pol.illinois.edu/directory/profile/kuklinsk)  
-In: *Luigi Curini and Robert Franzese (eds)*  
-*The SAGE Handbook of Research Methods in Political Science and International Relations*, 2020  
-[`Chapter`](files/research/sage_survey_experiments_chapter.pdf) [`Handbook`](https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875)
-
-**Civic Education and Voter Turnout Under Voluntary Voting**  
-*Política* 52(1): 61-91, 2014 *(in Spanish)*  
-[`Paper`](https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813)
+:::{#in-progress}
+:::
 
 
 
-## Working Papers
-
-**Balancing Precision and Retention in Experimental Design**  
-with [Erin Rossiter](http://erossiter.com/)  
-[`Paper`](https://gustavodiaz.org/files/research/precision_retention.pdf) [`Appendix`](https://gustavodiaz.org/files/research/precision_retention_appendix.pdf)
-
-**Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina**  
-with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/)  
-[`Paper`](https://gustavodiaz.org/files/research/gender_performance.pdf) [`Appendix`](https://gustavodiaz.org/files/research/gender_performance_appendix.pdf)
-
-**Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil**   
-[`Paper`](files/research/nearby_corruption.pdf)
-
-<!-- <br/> -->
-<!-- [`[Appendix]`](files/research/nearby_corruption_appendix.pdf) -->
-
-**Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil**  
-[`Paper`](files/research/audit_spending.pdf)
-
-**A Model Selection Approach to Geographic Spillovers**  
-[`Paper`](files/research/model_spillovers.pdf) [`Appendix`](files/research/model_spillovers_appendix.pdf) [`Data`](https://github.com/gustavo-diaz/model_interference_rep)  
-*Best poster award. 2019 Latin American Political Methodology Meeting*
-
-
-## Work in Progress
-
-**Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors**  
-with [Ines Fynn](https://imfd.cl/en/investigador/ines-fynn/), [Verónica Pérez Bentancur](https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en), and [Lucía Tiscornia](https://www.luciatiscornia.com/)
-
-
-**Investigating Criminal Governance Strategies in Uruguay**  
-with [Ines Fynn](https://imfd.cl/en/investigador/ines-fynn/), [Verónica Pérez Bentancur](https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en), and [Lucía Tiscornia](https://www.luciatiscornia.com/)
-
-**The Importance of Being Private: How Presence of Others can Bias Survey Responses**  
-with [Michelle Dion](https://michelledion.com/) and [Guillem Riambau](http://guillemriambau.com/)
-
-**Support for Same-sex Marriage After Legalization: Evidence from a List Experiment in Argentina**  
-with [Michelle Dion](https://michelledion.com/) and [Jordi Diez](https://www.jordidiez.ca/)
-
-
-**When Should We Use Biased Estimators of the Average Treatment Effect?**  
-with [Jake Bowers](http://www.jakebowers.org/) and [Christopher Grady](https://publish.illinois.edu/cdgrady2/)  
-[`EGAP resource`](https://egap.org/resource/sd-block-rand/)
 
 
 

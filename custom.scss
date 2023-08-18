@@ -5,6 +5,10 @@
 // Variables
 // --------------------------------------------------
 
+//** Primary color.
+$primary: #7A003C !default;
+$secondary: #ac1455 !default;
+
 //** Link hover color set via `darken()` function.
 $link-color: #ac1455;
 $link-hover-color:      darken($link-color, 15%) !default;

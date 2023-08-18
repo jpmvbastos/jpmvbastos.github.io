@@ -1,0 +1,123 @@
+# Newer entries on top
+# Useful copy paste for coauthors:
+# <a href='website'>name</a>
+
+- title: "<b>Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors</b>"
+  type: "Progress"
+  date: 2023-08-17
+  with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  
+- title: "<b>Investigating Criminal Governance Strategies in Uruguay</b>"
+  type: "Progress"
+  date: 2023-08-16
+  with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+
+- title: "<b>How the Presence of Others can Bias Survey Responses</b>"
+  type: "Progress"
+  date: 2023-08-01
+  with: "with <a href='https://michelledion.com/'>Michelle Dion</a> and <a href='http://guillemriambau.com/'>Guillem Riambau</a>"
+  
+- title: "<b>Support for Same-sex Marriage After Legalization: Evidence from a List Experiment in Argentina</b>"
+  type: "Progress"
+  date: 2023-07-01
+  with: "with <a href='https://www.jordidiez.ca/'>Jordi Diez</a> and <a href='https://michelledion.com/'>Michelle Dion</a>"
+
+- title: "<b>When Should We Use Biased Estimators of the Average Treatment Effect?</b>"
+  type: "Progress"
+  date: 2022-09-01
+  with: "with <a href='http://www.jakebowers.org/'>Jake Bowers</a> and <a href='https://publish.illinois.edu/cdgrady2/'>Christopher Grady</a> <br/>"
+  blog: "https://egap.org/resource/sd-block-rand/"
+
+- title: "<b>Balancing Precision and Retention in Experimental Design</b>"
+  type: "Working"
+  with: "with <a href='http://erossiter.com/'>Erin Rossiter</a>"
+  date: 2023-07-01
+  status: "Under review"
+  pdf: "../files/research/precision_retention.pdf"
+  appendix: "../files/research/precision_retention.pdf"
+  
+- title: "<b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b>"
+  type: "Working"
+  with: "with <a href='https://virginiaoliveros.com/'>Virginia Oliveros</a>, <a href='https://vivo.brown.edu/display/rweitzsh'>Erin Rebecca Weitz-Shapiro</a>, and <a href='https://sites.google.com/site/mswinters1/'>Matthew S. Winters</a>"
+  date: 2023-06-01
+  status: "Under review"
+  pdf: "../files/research/gender_performance.pdf"
+  appendix: "../files/research/gender_performance_appendix.pdf"
+  
+- title: "<b>Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil</b>"
+  type: "Working"
+  date: 2023-05-01
+  status: "Working paper"
+  pdf: "../files/research/audit_spending.pdf"
+  
+- title: "<b>Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil</b>"
+  type: "Working"
+  date: 2023-04-01
+  status: "Working paper"
+  pdf: "../files/research/nearby_corruption.pdf"
+
+- title: "<b>A Model Selection Approach to Geographic Spillovers</b>"
+  type: "Working"
+  date: 2019-01-01
+  status: "Working paper"
+  pdf: "../files/research/model_spillovers.pdf"
+  appendix: "../files/research/model_spillovers_appendix.pdf"
+  github: "https://github.com/gustavo-diaz/model_interference_rep"
+  note: "Best poster award. 2019 Latin American Political Methodology Meeting"
+  
+- title: "<b>Assessing the Validity of Prevalence Estimates in Double List Experiments</b>"
+  type: "Published"
+  date: 2023-07-01 # just placeholder for sorting purposes
+  year: 2023
+  journal: "Accepted at <em>Journal of Experimental Political Science</em>"
+  pdf: "../files/research/dle_test.pdf"
+  appendix: "../files/research/dle_test_appendix.pdf"
+  
+- title: "<b>Data Sources for the Study of Gender and Corruption</b>"
+  type: "Published"
+  date: 2023-06-01
+  year: 2023
+  with: "with <a href='https://www.usafa.edu/facultyprofile/?smid=23816'>Kelly Senters Piazza</a>"
+  journal: "Forthcoming in <em>Handbook on Gender and Corruption in Democracies</em>"
+  pdf: "../files/research/data_corruption.pdf"
+  editor: "Edited by Emily Beaulieu Bacchus and Tiffany Barnes"
+  
+- title: "<b>Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts</b>"
+  type: "Published"
+  date: 2022-07-01
+  year: 2022
+  with: "with <a href='https://www.usafa.edu/facultyprofile/?smid=23816'>Kelly Senters Piazza</a>"
+  journal: "<em>Norms, Gender and Corruption: Understanding the Nexus</em>"
+  editor: "Edited by Inna Kube and Ortrun Merkle"
+  pdf: "../files/research/gender_corruption.pdf"
+  book: "https://www.e-elgar.com/shop/usd/norms-gender-and-corruption-9781802205824.html"
+  
+- title: "<b>Light in the Midst of Chaos: COVID-19 and Female Political Representation</b>"
+  type: "Published"
+  date: 2020-08-01
+  year: 2020
+  with: "with <a href='https://www.usafa.edu/facultyprofile/?smid=23816'>Kelly Senters Piazza</a>"
+  journal: "<em>World Development</em>"
+  pubclosed: "https://doi.org/10.1016/j.worlddev.2020.105125"
+
+- title: "<b>Survey Experiments and the Quest for Valid Interpretation</b>"
+  type: "Published"
+  date: 2020-07-01
+  year: 2020
+  with: "with <a href='https://publish.illinois.edu/cdgrady2/'>Christopher Grady</a> and <a href='https://pol.illinois.edu/directory/profile/kuklinsk'>James H. Kuklinski</a>"
+  journal: "<em>The SAGE Handbook of Research Methods in Political Science and International Relations</em>"
+  editor: "Edited by Luigi Curini and Robert Franzese"
+  pdf: "../files/research/sage_survey_experiments_chapter.pdf"
+  book: "https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875"
+  
+- title: "<b>Civic Education and Voter Turnout Under Voluntary Voting</b>"
+  type: "Published"
+  date: 2014-07-01
+  year: 2014
+  journal: "<em>Política</em> (In Spanish)"
+  pubopen: "https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813"
+  
+
+
+  
+
