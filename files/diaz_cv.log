@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.7)  17 AUG 2023 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.7)  21 AUG 2023 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,7 +809,7 @@ File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-[2] [3] 
+[2] [3] [4] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./diaz_cv.aux)
  ***********
@@ -817,21 +817,21 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
  ***********
 Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
-(rerunfilecheck)             Checksum: CDEB2DDD944ACB24994B118E51408519;1765.
+(rerunfilecheck)             Checksum: B7149ABD5B05D28981775517B66EBBD3;1915.
  ) 
 Here is how much of TeX's memory you used:
- 26201 strings out of 477128
- 481656 string characters out of 5810571
+ 26206 strings out of 477128
+ 481722 string characters out of 5810571
  1928248 words of memory out of 5000000
- 46548 multiletter control sequences out of 15000+600000
+ 46550 multiletter control sequences out of 15000+600000
  605773 words of font info for 203 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,121p,1019b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (3 pages, 117747 bytes).
+Output written on diaz_cv.pdf (4 pages, 119297 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 69757 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 69765 words of extra memory for PDF output out of 74296 (max. 10000000)
 

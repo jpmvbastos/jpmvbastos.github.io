@@ -37,7 +37,9 @@ quarto::quarto_render("job_market/statements/teaching_statement_stats.qmd",
 quarto::quarto_render("job_market/statements/diversity_statement_stats.qmd",
                       output_file = "diaz_diversity_statement.pdf")
 
-
+# stats teaching
+quarto::quarto_render("job_market/cover_letter/cover_letter_stats_teaching.qmd", 
+                      output_file = "diaz_cover_letter.pdf")
 
 
 # comparative teaching
