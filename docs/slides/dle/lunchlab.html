@@ -8,7 +8,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.340">
+  <meta name="generator" content="quarto-1.3.310">
 
   <title>Gustavo Diaz – lunchlab</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,71 +28,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -391,81 +326,6 @@
 
 <section id="list-experiment" class="slide level2">
 <h2>List experiment</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Packages</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="do">## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="do">## ✔ dplyr     1.1.2     ✔ readr     2.1.4</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="do">## ✔ forcats   1.0.0     ✔ stringr   1.5.0</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="do">## ✔ ggplot2   3.4.2     ✔ tibble    3.2.1</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="do">## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="do">## ✔ purrr     1.0.1     </span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="do">## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="do">## ✖ dplyr::filter() masks stats::filter()</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="do">## ✖ dplyr::lag()    masks stats::lag()</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="do">## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="fu">library</span>(DeclareDesign)</span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="do">## Loading required package: randomizr</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="do">## Loading required package: fabricatr</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="do">## Loading required package: estimatr</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="do">## </span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="do">## Attaching package: 'DeclareDesign'</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="do">## </span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="do">## The following object is masked from 'package:dplyr':</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="do">## </span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="do">##     vars</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="do">## </span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="do">## The following object is masked from 'package:ggplot2':</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="do">## </span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="do">##     vars</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="fu">library</span>(kableExtra)</span>
-<span id="cb1-28"><a href="#cb1-28"></a><span class="do">## </span></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="do">## Attaching package: 'kableExtra'</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="do">## </span></span>
-<span id="cb1-31"><a href="#cb1-31"></a><span class="do">## The following object is masked from 'package:dplyr':</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a><span class="do">## </span></span>
-<span id="cb1-33"><a href="#cb1-33"></a><span class="do">##     group_rows</span></span>
-<span id="cb1-34"><a href="#cb1-34"></a></span>
-<span id="cb1-35"><a href="#cb1-35"></a><span class="co"># ggplot global options</span></span>
-<span id="cb1-36"><a href="#cb1-36"></a><span class="fu">theme_set</span>(<span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Data prep</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">load</span>(<span class="st">"attn_rep.RData"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a>cali <span class="ot">=</span> dle</span>
-<span id="cb2-5"><a href="#cb2-5"></a></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">remove</span>(dle)</span>
-<span id="cb2-7"><a href="#cb2-7"></a></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="co"># Analysis</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a>a <span class="ot">=</span> cali <span class="sc">%&gt;%</span> </span>
-<span id="cb2-10"><a href="#cb2-10"></a>  <span class="fu">split</span>(.<span class="sc">$</span>experiment) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-11"><a href="#cb2-11"></a>  <span class="fu">map</span>(<span class="sc">~</span><span class="fu">difference_in_means</span>(listA <span class="sc">~</span> trt_A, <span class="at">data =</span> .)) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-12"><a href="#cb2-12"></a>  <span class="fu">map</span>(tidy) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-13"><a href="#cb2-13"></a>  <span class="fu">bind_rows</span>(<span class="at">.id =</span> <span class="st">"experiment"</span>)</span>
-<span id="cb2-14"><a href="#cb2-14"></a></span>
-<span id="cb2-15"><a href="#cb2-15"></a>b <span class="ot">=</span> cali <span class="sc">%&gt;%</span> </span>
-<span id="cb2-16"><a href="#cb2-16"></a>  <span class="fu">split</span>(.<span class="sc">$</span>experiment) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-17"><a href="#cb2-17"></a>  <span class="fu">map</span>(<span class="sc">~</span><span class="fu">difference_in_means</span>(listB <span class="sc">~</span> trt_B, <span class="at">data =</span> .)) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-18"><a href="#cb2-18"></a>  <span class="fu">map</span>(tidy) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-19"><a href="#cb2-19"></a>  <span class="fu">bind_rows</span>(<span class="at">.id =</span> <span class="st">"experiment"</span>)</span>
-<span id="cb2-20"><a href="#cb2-20"></a></span>
-<span id="cb2-21"><a href="#cb2-21"></a>pool <span class="ot">=</span> cali <span class="sc">%&gt;%</span> </span>
-<span id="cb2-22"><a href="#cb2-22"></a>  <span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">row_number</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-23"><a href="#cb2-23"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">c</span>(listA, listB)) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-24"><a href="#cb2-24"></a>  <span class="fu">rename</span>(<span class="at">list =</span> name, <span class="at">count =</span> value) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-25"><a href="#cb2-25"></a>  <span class="fu">mutate</span>(<span class="at">Z =</span> <span class="fu">ifelse</span>(trt_A <span class="sc">==</span> <span class="dv">1</span> <span class="sc">&amp;</span> list <span class="sc">==</span> <span class="st">"listA"</span> <span class="sc">|</span> trt_B <span class="sc">==</span> <span class="dv">1</span> <span class="sc">&amp;</span> list <span class="sc">==</span> <span class="st">"listB"</span>,</span>
-<span id="cb2-26"><a href="#cb2-26"></a>                    <span class="dv">1</span>, <span class="dv">0</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-27"><a href="#cb2-27"></a>  <span class="fu">split</span>(.<span class="sc">$</span>experiment) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-28"><a href="#cb2-28"></a>  <span class="fu">map</span>(<span class="sc">~</span> <span class="fu">lm_robust</span>(count <span class="sc">~</span> Z <span class="sc">+</span> list, <span class="at">clusters =</span> id, <span class="at">se_type =</span> <span class="st">"stata"</span>, <span class="at">data =</span> .)) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-29"><a href="#cb2-29"></a>  <span class="fu">map</span>(tidy) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-30"><a href="#cb2-30"></a>  <span class="fu">bind_rows</span>(<span class="at">.id =</span> <span class="st">"experiment"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-31"><a href="#cb2-31"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"Z"</span>)</span>
-<span id="cb2-32"><a href="#cb2-32"></a>  </span>
-<span id="cb2-33"><a href="#cb2-33"></a>est_df <span class="ot">=</span> <span class="fu">rbind</span>(a, b, pool)</span>
-<span id="cb2-34"><a href="#cb2-34"></a></span>
-<span id="cb2-35"><a href="#cb2-35"></a>est_df<span class="sc">$</span>term <span class="ot">=</span> <span class="fu">fct_relevel</span>(est_df<span class="sc">$</span>term, <span class="st">"trt_A"</span>, <span class="st">"trt_B"</span>, <span class="st">"Z"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <p>Now I am going to read you three things that make people angry or upset.</p>
 </section>
 <section id="list-experiment-1" class="slide level2" data-visibility="uncounted">
@@ -498,21 +358,8 @@
 <section id="double-list-experiment" class="slide level2">
 <h2>Double list experiment</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">ggplot</span>(est_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(experiment <span class="sc">==</span> <span class="st">"X"</span>)) <span class="sc">+</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">y =</span> estimate, <span class="at">shape =</span> term) <span class="sc">+</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span> </span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.5</span>)) <span class="sc">+</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a>  <span class="fu">geom_linerange</span>(<span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">ymin =</span> conf.low, <span class="at">ymax =</span> conf.high), </span>
-<span id="cb3-6"><a href="#cb3-6"></a>                 <span class="at">size =</span> <span class="dv">1</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.5</span>)) <span class="sc">+</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a>  <span class="fu">labs</span>(<span class="at">subtitle =</span> <span class="st">"Organization X"</span>, </span>
-<span id="cb3-9"><a href="#cb3-9"></a>       <span class="at">x =</span> <span class="st">"Estimator"</span>, </span>
-<span id="cb3-10"><a href="#cb3-10"></a>       <span class="at">y =</span> <span class="st">"Proportion support"</span>) <span class="sc">+</span></span>
-<span id="cb3-11"><a href="#cb3-11"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"List A"</span>, <span class="st">"List B"</span>, <span class="st">"Pooled"</span>))</span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="do">## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a><span class="do">## ℹ Please use `linewidth` instead.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img data-src="lunchlab_files/figure-html/unnamed-chunk-3-1.png" width="864"></p>
+<p><img data-src="lunchlab_files/figure-revealjs/unnamed-chunk-3-1.png" width="864"></p>
 </div>
 </div>
 
@@ -522,19 +369,8 @@
 <section id="double-list-experiment-1" class="slide level2" data-visibility="uncounted">
 <h2>Double list experiment</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">ggplot</span>(est_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(experiment <span class="sc">==</span> <span class="st">"Y"</span>)) <span class="sc">+</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a>  <span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">y =</span> estimate, <span class="at">shape =</span> term) <span class="sc">+</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span> </span>
-<span id="cb4-4"><a href="#cb4-4"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.5</span>)) <span class="sc">+</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a>  <span class="fu">geom_linerange</span>(<span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">ymin =</span> conf.low, <span class="at">ymax =</span> conf.high), </span>
-<span id="cb4-6"><a href="#cb4-6"></a>                 <span class="at">size =</span> <span class="dv">1</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.5</span>)) <span class="sc">+</span></span>
-<span id="cb4-7"><a href="#cb4-7"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
-<span id="cb4-8"><a href="#cb4-8"></a>  <span class="fu">labs</span>(<span class="at">subtitle =</span> <span class="st">"Organization Y"</span>, </span>
-<span id="cb4-9"><a href="#cb4-9"></a>       <span class="at">x =</span> <span class="st">"Estimator"</span>, </span>
-<span id="cb4-10"><a href="#cb4-10"></a>       <span class="at">y =</span> <span class="st">"Proportion support"</span>) <span class="sc">+</span></span>
-<span id="cb4-11"><a href="#cb4-11"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"List A"</span>, <span class="st">"List B"</span>, <span class="st">"Pooled"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img data-src="lunchlab_files/figure-html/unnamed-chunk-4-1.png" width="864"></p>
+<p><img data-src="lunchlab_files/figure-revealjs/unnamed-chunk-4-1.png" width="864"></p>
 </div>
 </div>
 
@@ -756,6 +592,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
