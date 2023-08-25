@@ -49,6 +49,7 @@
   date: 2023-05-01
   status: "Working paper"
   pdf: "../files/research/audit_spending.pdf"
+  appendix: "../files/research/audit_spending_appendix.pdf"
   
 - title: "<b>Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil</b>"
   type: "Working"
