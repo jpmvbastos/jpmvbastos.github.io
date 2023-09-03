@@ -57,6 +57,8 @@ BA in Political Science \hfill 2014
 
 # Publications  
 
+<!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->
+
 Forthcoming. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://gustavodiaz.org/files/research/dle_test.pdf) *Journal of Experimental Political Science*
 
 Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook on Gender and Corruption in Democracies*, edited by Emily Beaulieu Bacchus and Tiffany Barnes. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
@@ -134,6 +136,8 @@ University of Illinois
 
 # Conferences & Talks
 
+<!-- Eventually have to make this into a list by year -->
+
 American Political Science Association: 2023, 2022, 2021, 2019
 
 Annual Meeting of the Society for Political Methodology: 2023, 2022, 2021
@@ -180,7 +184,7 @@ St. Louis Area Methods Meeting: 2019
 
 <!-- # Service -->
 
-<!-- **Reviewer:** *American Political Science Review*, *Journal of Elections, Public Opinion & Parties* -->
+<!-- **Reviewer:** *American Political Science Review*, *Comparative Political Studies*, *PS: Political Science & Politics*,  *Journal of Elections, Public Opinion & Parties* -->
 
 <!-- **Committee Member:** Comparative Politics Search Committee (University of Illinois at Urbana-Champaign) -->
 
