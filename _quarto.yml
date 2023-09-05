@@ -21,6 +21,8 @@ website:
       href: research.qmd
     - text: "Teaching"
       href: teaching.qmd
+    - text: "Talks"
+      href: https://talks.gustavodiaz.org
     - text: "CV"
       href: files/diaz_cv.pdf
     right:

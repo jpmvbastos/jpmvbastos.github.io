@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.14)  3 SEP 2023 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.5)  5 SEP 2023 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **diaz_cv.tex
 (./diaz_cv.tex
 LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-06-30>
+L3 programming layer <2023-08-29>
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -372,11 +372,11 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip64
 \f@nch@O@orf=\skip65
 ) (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2023/07/24 v2.0c lastpage: 2.09 or 2e? (HMM)
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/04/12 v2.0b Decide which 2e lastpage version to use (HMM)
+Package: lastpage2e 2023/07/24 v2.0c Decide which 2e lastpage version to use (HMM)
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2023-07-24 v2.0c Refers to last page's name (HMM; JPG)
 ) 
 ))
 Package hyperref Info: Option `unicode' set `true' on input line 99.
@@ -814,21 +814,21 @@ enddocument/afterlastpage: lastpage setting LastPage.
 (./diaz_cv.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-06-30>
+L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: B7149ABD5B05D28981775517B66EBBD3;1915.
  ) 
 Here is how much of TeX's memory you used:
- 26207 strings out of 477176
- 482895 string characters out of 5811027
- 1928238 words of memory out of 5000000
- 46503 multiletter control sequences out of 15000+600000
+ 26206 strings out of 476873
+ 482865 string characters out of 5806287
+ 1929801 words of memory out of 5000000
+ 46805 multiletter control sequences out of 15000+600000
  605773 words of font info for 203 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,121p,1019b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (4 pages, 119300 bytes).
+Output written on diaz_cv.pdf (4 pages, 119303 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams

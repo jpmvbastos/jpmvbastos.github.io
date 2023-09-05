@@ -18,12 +18,12 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Data Analytics"
-place = "MSU"
+jobtitle = "a Lecturer in Public Policy and Government"
+place = "Galway"
 tools = "computational social science and design-based causal inference"
-applications = "questions of accountability, governance, and representation in the Global South"
+applications = "questions of evidence-informed policy in the Global South"
 discipline = "political science"
-courses = "statistics, causal inference, experiments, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
+courses = "quantitative methods, causal inference, experiments, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
 source = "website"
 ```
 
