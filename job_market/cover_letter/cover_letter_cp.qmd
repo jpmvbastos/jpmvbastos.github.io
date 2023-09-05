@@ -17,11 +17,11 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "Rice"
-jobtitle = "an Assistant Professor in Democratic Representation"
+place = "UBC"
+jobtitle = "an Assistant Professor in Comparative Politics of the Global South"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-area = "the challenges to accountability, governance, and representation in developing democracies"
+area = "the challenges to accountability, governance, and representation in the Global South"
 tools = "design-based causal inference and computational social science"
 courses = "Comparative politics, accountability and representation, the politics of the Global South, research design, and quantitative methods"
 source = "teaching portfolio"

@@ -54,7 +54,8 @@ rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",
 rmarkdown::render("job_market/statements/diversity_statement.Rmd",
                   output_file = "diaz_diversity_statement.pdf")
 # evals
-rmarkdown::render("job_market/statements/diaz_teaching_evals.Rmd")
+quarto::quarto_render("job_market/statements/diaz_teaching_evals.qmd",
+                      output_file = "diaz_teaching_evals.pdf")
 
 # dissertation abstract
 quarto::quarto_render("job_market/statements/diaz_dissertation_abstract.qmd",

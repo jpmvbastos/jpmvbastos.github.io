@@ -14,7 +14,7 @@ Gustavo Diaz
 
 
 ```{r setup, include=F}
-discipline = "Social scientists"
+discipline = "Political scientists"
 fields = "computational social science and design-based causal inference"
 applications = "to the study of accountability, governance, and representation in the Global South"
 # some applications I may not want to say Uruguay explicitly
@@ -26,7 +26,7 @@ uruguay = "Montevideo, Uruguay"
 
 My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of field and survey experiments. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.
 
-I apply the insights of my methodological work `r applications`. The common theme in these applications is to improve our ability to make statistical inferences about hard-to-observe social and political phenomena.
+I apply the insights of my methodological work `r applications`. The common theme in these applications is to improve our ability to make statistical inferences about hard-to-observe social and political phenomena. For the sake of brevity, this document focuses on my methodological agenda.
 
 ### Improving precision before conducting an experiment
 
