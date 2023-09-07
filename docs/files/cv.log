@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded forma
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**diaz_cv.tex
-(./diaz_cv.tex
+**cv.tex
+(./cv.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -667,8 +667,8 @@ File: pgfmoduleparser.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box111
-) (./diaz_cv.aux)
-\openout1 = `diaz_cv.aux'.
+) (./cv.aux)
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
 LaTeX Font Info:    ... okay on input line 116.
@@ -742,9 +742,9 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 116.
-(./diaz_cv.out) (./diaz_cv.out)
+(./cv.out) (./cv.out)
 \@outlinefile=\write4
-\openout4 = `diaz_cv.out'.
+\openout4 = `cv.out'.
 
 (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
@@ -811,24 +811,24 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 [2] [3] [4] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./diaz_cv.aux)
+(./cv.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
+Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: B7149ABD5B05D28981775517B66EBBD3;1915.
  ) 
 Here is how much of TeX's memory you used:
  26206 strings out of 476873
- 482865 string characters out of 5806287
+ 482770 string characters out of 5806287
  1929801 words of memory out of 5000000
  46805 multiletter control sequences out of 15000+600000
  605773 words of font info for 203 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,12n,121p,1019b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,121p,1014b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (4 pages, 119474 bytes).
+Output written on cv.pdf (4 pages, 119303 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams

@@ -2,7 +2,8 @@
 # Run one at a time depending on the application
 
 # cv
-rmarkdown::render("files/diaz_cv.Rmd")
+rmarkdown::render("files/cv.Rmd") # For website
+rmarkdown::render("files/diaz_cv.Rmd") # For job apps
 
 # methods
 quarto::quarto_render("job_market/cover_letter/cover_letter_methods.qmd", 

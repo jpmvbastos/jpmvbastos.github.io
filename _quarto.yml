@@ -24,7 +24,7 @@ website:
     - text: "Talks"
       href: https://talks.gustavodiaz.org
     - text: "CV"
-      href: files/diaz_cv.pdf
+      href: files/cv.pdf
     right:
     - icon: envelope
       href: mailto:diazg2@mcmaster.ca
