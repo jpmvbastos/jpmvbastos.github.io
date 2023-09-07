@@ -15,10 +15,10 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-field = "statistics"
+field = "quantitative methods"
 students = "social science majors"
-methods_offer = "statistics, causal inference, experiments, computational social science, and machine learning"
-cp_offer = "evidence-informed public policy and the politics of the Global South"
+methods_offer = "statistics, research design, causal inference, experiments, computational social science, and machine learning"
+cp_offer = "comparative politics, democracy and representation, evidence-informed public policy, and the politics of the Global South"
 source = "website"
 ```
 

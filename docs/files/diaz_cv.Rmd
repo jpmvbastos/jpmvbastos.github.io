@@ -76,9 +76,11 @@ Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook
 
 # Under review  
 
-["Balancing Precision and Retention in Experimental Design"](https://gustavodiaz.org/files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/)) Listed as *under review* at *American Political Science Review* since May 2023
+["Balancing Precision and Retention in Experimental Design"](https://gustavodiaz.org/files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/))  
+*Listed under review at American Political Science Review since May 2023*
 
-["Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina."](https://gustavodiaz.org/files/research/gender_performance.pdf) (with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/)) Listed as *under review* at *British Journal of Political Science* since May 2023
+["Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina."](https://gustavodiaz.org/files/research/gender_performance.pdf) (with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/))  
+*Listed under review at British Journal of Political Science since May 2023*
 
 # Working Papers  
 
@@ -86,7 +88,8 @@ Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook
 
 ["Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil"](https://gustavodiaz.org/files/research/audit_spending.pdf)
 
-["A Model Selection Approach to Geographic Spillovers."](https://gustavodiaz.org/files/research/model_spillovers.pdf) *Best poster award. 2019 Latin American Political Methodology Meeting*
+["A Model Selection Approach to Geographic Spillovers."](https://gustavodiaz.org/files/research/model_spillovers.pdf)  
+*Best poster award. 2019 Latin American Political Methodology Meeting*
 
 
 
@@ -172,7 +175,7 @@ St. Louis Area Methods Meeting: 2019
 
 # Additional Training  
 
-2024\. Grant Writing Workshop. McMaster University
+2023\. Grant writing workshop for junior faculty. McMaster University
 
 2019\. Empirical Implications of Theoretical Models Summer Institute. Emory University
 

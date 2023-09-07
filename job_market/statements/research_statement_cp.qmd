@@ -14,8 +14,8 @@ Gustavo Diaz
 
 
 ```{r setup, include=F}
-area = "the challenges to accountability, governance, and representation in Latin America"
-tools = "design-based causal inference and computational social science to navigate research design trade-offs before data collection"
+area = "the challenges to accountability, governance, and representation in the Global South"
+tools = "design-based causal inference and computational social science to navigate research design trade-offs before data collection in experiments and quasi-experiments"
 ```
 
 <!-- I have no idea how to make this 3 pages -->
@@ -27,7 +27,7 @@ This period is also marked by redoubled efforts by scholars, governments, and ci
 
 My research focuses on `r area`. This is an area where strategic behavior from both citizens and politicians precludes the identification of successful interventions. My current agenda analyzes the unintended electoral consequences of investigating and exposing corruption, as well as the gendered patterns in citizens' evaluation of politicians' performance in office.
 
-Given the focus on hard-to-observe phenomena, this substantive agenda also informs a methodological program on the application of tools from `r tools`. For the sake of space, I only focus on my substantive agenda.
+Given the focus on hard-to-observe phenomena, this substantive agenda also informs a methodological program on the application of tools from `r tools`.
 
 ### The unintended electoral consequences of exposing corruption
 

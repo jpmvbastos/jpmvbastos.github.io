@@ -17,7 +17,7 @@ Gustavo Diaz
 &nbsp;
 
 ```{r, include = FALSE}
-field = "political methodology"
+field = "quantitative methods"
 person = "methodologist"
 ```
 

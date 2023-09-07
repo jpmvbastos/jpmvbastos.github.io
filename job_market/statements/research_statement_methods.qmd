@@ -16,7 +16,7 @@ Gustavo Diaz
 ```{r setup, include=F}
 discipline = "Social scientists"
 fields = "computational social science and design-based causal inference"
-applications = "to questions of evidence-informed policy in the Global South"
+applications = "to questions of accountability, governance, and representation in the Global South"
 # some applications I may not want to say Uruguay explicitly
 uruguay = "Montevideo, Uruguay"
 ```
