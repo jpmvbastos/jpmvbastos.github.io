@@ -54,7 +54,10 @@ Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois)
 
 
 ### Future work
-<!-- Perhaps pick and choose based on search -->
-I plan to use the insights of my work to inform applications around my substantie areas of interest. In turn, I aim to use applications as a motivation for further methodological innovation.
+<!-- Short version -->
+<!-- I plan to use the insights of my work to inform applications around my substantie areas of interest. In turn, I aim to use applications as a motivation for further methodological innovation. -->
 
-For example, in work in progress with with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys.
+<!-- For example, in work in progress with with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys. -->
+
+<!-- Long version -->
+Within the next 5 years, my goal is to establish a research group with the common goal of
