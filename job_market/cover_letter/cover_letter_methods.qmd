@@ -18,12 +18,12 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Computational Social Science"
-place = "the EUI"
+jobtitle = "Assistant Professor of Political Science and Social Data Analytics"
+place = "Penn State"
 tools = "computational social science and design-based causal inference"
-applications = "questions of accountability, governance, and representation in the Global South"
+applications = "questions about the challenges to democracy in the Global South"
 discipline = "social science"
-courses = "statistics, causal inference, experiments, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
+courses = "statistics, research design, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
 source = "website"
 ```
 
@@ -43,7 +43,7 @@ The second strand focuses on cases where one can improve precision by sacrificin
 
 <!-- TEACHING -->
 <!-- Remember to tweak based on whether the job is cp friendly -->
-I have experience teaching courses on quantitative methods and comparative politics. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize experimental and quasi-experimental designs for causal inference. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching introduction to comparative politics in a hybrid format and an online course on the politics of developing countries. 
+I have experience teaching courses on quantitative methods and comparative politics. At McMaster, I teach research for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize experimental and quasi-experimental designs for causal inference. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching introduction to comparative politics in a hybrid format and an online course on the politics of developing countries. 
 
 My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* exposes me to cutting-edge methods in the field. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on computational social science methods. 
 
