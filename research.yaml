@@ -34,7 +34,7 @@
   date: 2023-07-01
   status: "Under review"
   pdf: "../files/research/precision_retention.pdf"
-  appendix: "../files/research/precision_retention.pdf"
+  appendix: "../files/research/precision_retention_appendix.pdf"
   
 - title: "<b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b>"
   type: "Working"
