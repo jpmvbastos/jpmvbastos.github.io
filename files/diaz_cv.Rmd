@@ -59,9 +59,10 @@ BA in Political Science \hfill 2014
 
 <!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->
 
-Forthcoming. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://doi.org/10.1017/XPS.2023.24) *Journal of Experimental Political Science*
 
 Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook on Gender and Corruption in Democracies*, edited by Emily Beaulieu Bacchus and Tiffany Barnes. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
+
+2023\. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://doi.org/10.1017/XPS.2023.24) *Journal of Experimental Political Science*
 
 2022\. ["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](https://gustavodiaz.org/files/research/gender_corruption.pdf) In [*Norms, Gender and Corruption: Understanding the Nexus*](https://www.e-elgar.com/shop/gbp/norms-gender-and-corruption-9781802205824.html), edited by Ina Kubbe and Ortrun Merkle. Edward Elgar Publishing
 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))

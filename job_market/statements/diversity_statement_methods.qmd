@@ -17,8 +17,8 @@ Gustavo Diaz
 &nbsp;
 
 ```{r, include = FALSE}
-field = "quantitative methods"
-person = "methodologist"
+field = "applied statistics"
+person = "applied statistician"
 ```
 
 
