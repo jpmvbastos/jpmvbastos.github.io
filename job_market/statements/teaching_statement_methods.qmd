@@ -17,9 +17,9 @@ Gustavo Diaz
 ```{r setup, include=F}
 field = "quantitative methods"
 students = "social science majors"
-methods_offer = "statistics, research design, computational social science, and machine learning"
-cp_offer = "evidence-informed public policy, and the politics of the Global South"
-source = "website"
+methods_offer = "research methods, statistics, computational social science, and machine learning"
+cp_offer = "policy design and evaluation and the politics of the Global South"
+source = "teaching portfolio"
 ```
 
 <!-- Hide for shorter version -->
@@ -39,8 +39,7 @@ Flexibility and accountability also help in preventing instances of discriminati
 I have experience teaching substantive and methodological courses to diverse audiences and under different formats. At McMaster, I teach research design for public policy and public opinion, with emphasis on experimental and quasi-experimental designs for causal inference. The goal of this course is to give students hands-on experience in designing a quantitative research project in an area relevant to academia, policy, or industry.
 
 <!-- Tweak a bit for Penn State job -->
-At Tulane, I taught an undergrad senior course on the challenges of developing democracies from the perspective of evidence-informed policymaking. This course overviews the main challenges in the path to democratic consolidation around the world, the proposed solutions to these challenges, and how governments, researchers, and civil society organizations use data to evaluate these solutions. The previous version focused primarily design-based causal inference. In future versions of these two courses, I plan to expand to the application of machine learning and tools from big data, such as text analysis.
-
+At Tulane, I taught an undergrad senior course on the challenges of developing democracies from the perspective of evidence-informed policymaking. This course overviews the main challenges in the path to democratic consolidation around the world, the proposed solutions to these challenges, and how governments, researchers, and civil society organizations use data to evaluate these solutions. The previous version focused primarily design-based causal inference. In future versions of these two courses, I plan to expand the syllabi to include applications of computational social science and machine learning.
 
 I also taught introduction to comparative politics, emphasizing theoretical and methodological considerations as the core of the course, while simultaneously encouraging students to apply this knowledge to recent events in a region or country of their choosing. 
 
