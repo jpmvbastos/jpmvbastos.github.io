@@ -70,9 +70,10 @@
   type: "Published"
   date: 2023-07-01 # just placeholder for sorting purposes
   year: 2023
-  journal: "Accepted at <em>Journal of Experimental Political Science</em>"
-  pdf: "../files/research/dle_test.pdf"
-  appendix: "../files/research/dle_test_appendix.pdf"
+  journal: "<em>Journal of Experimental Political Science</em>"
+  pubopen: "https://doi.org/10.1017/XPS.2023.24"
+  appendix: "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S2052263023000246/resource/name/S2052263023000246sup001.pdf"
+  dataverse: "https://doi.org/10.7910/DVN/SUV8DK"
   
 - title: "<b>Data Sources for the Study of Gender and Corruption</b>"
   type: "Published"
