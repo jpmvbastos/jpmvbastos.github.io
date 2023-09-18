@@ -18,13 +18,13 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Computational Social Science"
-place = "NYU"
+jobtitle = "an Assistant Professor in Methodology"
+place = "UCSD"
 tools = "computational social science and design-based causal inference"
-applications = "questions about the use of evidence-informed policy making to address social and political challenges in the Global South"
-discipline = "social science"
+applications = "questions of accountability, governance, and representation in the Global South"
+discipline = "political science science"
 courses = "research design, statistics, causal inference, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
-source = "website"
+source = "teaching materials"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
