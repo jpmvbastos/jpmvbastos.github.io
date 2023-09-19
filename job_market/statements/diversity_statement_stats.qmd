@@ -17,8 +17,8 @@ Gustavo Diaz
 &nbsp;
 
 ```{r, include = FALSE}
-field = "statistics"
-person = "statistician"
+field = "applied statistics"
+person = "applied statistician"
 ```
 
 
