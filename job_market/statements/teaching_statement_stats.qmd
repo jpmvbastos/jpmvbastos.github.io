@@ -17,7 +17,7 @@ Gustavo Diaz
 ```{r setup, include=F}
 field = "statistics"
 students = "social science majors"
-methods_offer = "statistical inference, statistical programming, causal inference,  machine learning, and applications to evidence-informed policy"
+methods_offer = "statistical inference, statistical programming, causal inference,  data science, machine learning, and applications to evidence-informed policy"
 source = "website"
 ```
 
