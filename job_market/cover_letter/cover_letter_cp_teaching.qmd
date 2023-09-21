@@ -17,13 +17,13 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "The Ohio State University"
-jobtitle = "an Assistant Professor in Comparative Politics"
+place = "UW-Eau Claire"
+jobtitle = "an Assistant Professor in Comparative Government"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
 area = "the challenges to accountability, governance, and representation in the Global South"
-tools = "design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in experiments and quasi-experiments"
-courses = "comparative politics, accountability and representation, the politics of the Global South, evidence-informed policy, research design, experiments, causal inference, and quantitative methods"
+tools = "design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in quantitative studies"
+courses = "comparative politics, accountability and representation, the politics of the Global South, evidence-informed policy, research design, computational social science, and quantitative methods"
 source = "website"
 ```
 
@@ -32,20 +32,7 @@ I write to express my interest in your call for `r jobtitle`. I am a postdoctora
 
 <!-- Edit this paragraph depending on the search focus -->
 <!-- Update as reviews progress -->
-Substantively, I research `r area`. Methodologically, I use tools from `r tools`. My work is published or forthcoming in *World Development* and *The SAGE Handbook of Research Methods in Political Science and International Relations*, and the *Journal of Experimental Political Science*.
-
-<!-- RESEARCH -->
-<!-- Remember to update the status of stuff sent for review -->
-<!-- Nearby corruption -->
-The core of my primary agenda is an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. This dataset informs several of my ongoing research projects. For example, in a solo-authored working paper, I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing.
-
-<!-- Gender corruption -->
-I  also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents' incentives to counter the rise of female politicians. In another forthcoming chapter, we discuss the challenges and opportunities of different data sources to study gender and corruption.
-
-This program extends toward the gendered evaluations of officeholders' performance in general. In a piece in *World Development*, we discuss how the COVID-19 pandemic has the potential to promote female political representation through increased discontent with the performance of male-led executives and by priming a health policy issue commonly associated with women. In work under review with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to show gendered differential reactions to policy implementation.
-
-<!-- Survey experiments and block rand -->
-This research agenda has also led me to produce methodological work to improve our ability to detect hard-to-observe social and political phenomena. I focus on how scholars can navigate research design tradeoffs before data collection. For example, in an article accepted at the *Journal of Experimental Political Science*, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications.
+Substantively, I teach and research on `r area`. Methodologically, I study the application of tools from `r tools`.
 
 <!-- TEACHING -->
 My experience as a methodology and area studies postdoc at two separate institutions has given me the opportunity to teach courses in comparative politics and quantitative methods. At McMaster, I teach an applied research design course for public opinion and public policy. At Tulane, I taught an introductory course in comparative politics and a senior seminar on the challenges of developing democracies from an evidence-informed policy perspective. My work as the methods editorial assistant for the *American Political Science Review* also puts me in a unique position to gain exposure to the most current methods in the field, awareness of which I can incorporate into my teaching and mentoring.
@@ -56,6 +43,20 @@ My time at Illinois also gave me extensive teaching experience. I taught an onli
 <!-- Remember to switch from teaching portfolio/website accordingly -->
 <!-- Also tweak depending on job -->
 I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.
+
+<!-- RESEARCH -->
+<!-- Remember to update the status of stuff sent for review -->
+<!-- Nearby corruption -->
+The core of my research agenda follows from an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. This dataset informs several of my ongoing research projects. For example, in a solo-authored working paper, I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  While previous literature suggests that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing.
+
+<!-- Gender corruption -->
+I  also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents' incentives to counter the rise of female politicians. In another forthcoming chapter, we discuss the challenges and opportunities of different data sources to study gender and corruption.
+
+This program extends toward the gendered evaluations of officeholders' performance in general. In a piece in *World Development*, we discuss how the COVID-19 pandemic has the potential to promote female political representation through increased discontent with the performance of male-led executives and by priming a health policy issue commonly associated with women. In work under review with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to show gendered differential reactions to policy implementation.
+
+<!-- Survey experiments and block rand -->
+This research agenda has also led me to produce methodological work to improve our ability to detect hard-to-observe social and political phenomena. I focus on how scholars can navigate research design tradeoffs before data collection. For example, in an article accepted at the *Journal of Experimental Political Science*, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications.
+
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.

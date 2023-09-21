@@ -20,7 +20,7 @@ fontsize: 12pt
 
 jobtitle = "an Assistant Professor of Statistics"
 comparative = TRUE
-place = "Skidmore College"
+place = "Middlebury"
 tools = "data science and design-based causal inference"
 discipline = "social science"
 courses = "statistical inference, statistical programming, causal inference,  data science, machine learning, and applications to evidence-informed policy"

@@ -15,8 +15,6 @@ quarto::quarto_render("job_market/statements/teaching_statement_methods.qmd",
 quarto::quarto_render("job_market/statements/diversity_statement_methods.qmd",
                       output_file = "diaz_diversity_statement.pdf")
 
-
-
 # comparative
 quarto::quarto_render("job_market/cover_letter/cover_letter_cp.qmd", 
                       output_file = "diaz_cover_letter.pdf")
@@ -26,6 +24,10 @@ quarto::quarto_render("job_market/statements/teaching_statement_cp.qmd",
                       output_file = "diaz_teaching_statement.pdf")
 quarto::quarto_render("job_market/statements/diversity_statement_cp.qmd",
                       output_file = "diaz_diversity_statement.pdf")
+
+# comparative teaching
+quarto::quarto_render("job_market/cover_letter/cover_letter_cp_teaching.qmd", 
+                      output_file = "diaz_cover_letter.pdf")
 
 
 # statistics
@@ -53,17 +55,8 @@ rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",
 
 
 # methods teaching
-quarto::quarto_render("job_market/cover_letter/cover_letter_methods.qmd", 
+quarto::quarto_render("job_market/cover_letter/cover_letter_methods_teaching.qmd", 
                       output_file = "diaz_cover_letter.pdf")
-quarto::quarto_render("job_market/statements/research_statement_methods.qmd",
-                      output_file = "diaz_research_statement.pdf")
-quarto::quarto_render("job_market/statements/teaching_statement_methods.qmd",
-                      output_file = "diaz_teaching_statement.pdf")
-quarto::quarto_render("job_market/statements/diversity_statement_methods.qmd",
-                      output_file = "diaz_diversity_statement.pdf")
-
-
-
 
 # evals
 quarto::quarto_render("job_market/statements/diaz_teaching_evals.qmd",

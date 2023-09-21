@@ -18,8 +18,8 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "tenure track positions"
-place = "CIDE"
+jobtitle = "An Assistant Professor of Government"
+place = "Hamilton College"
 tools = "computational social science and design-based causal inference"
 applications = "questions of accountability, governance, and representation in the Global South"
 discipline = "political science"

@@ -18,12 +18,12 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Teaching Professor"
-place = "UCSD"
+jobtitle = "an Assistant Professor of Government"
+place = "Hamilton College"
 tools = "computational social science and design-based causal inference"
-applications = "questions of accountability, governance, and representation in the Global South"
-discipline = "social science"
-courses = "methodology, research design, quantitative methods, computational social science, machine learning, evidence-informed policy, and the politics of the Global South"
+applications = "questions around the use of evidence-informed policy to address social and political challenges in democracies"
+discipline = "political science"
+courses = "quantitative methods, research design, computational social science, and evidence-informed policy"
 source = "teaching portfolio"
 ```
 
