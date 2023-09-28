@@ -2,7 +2,7 @@
 title: "Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors"
 author:
   - '**Gustavo Diaz**<br><diazg2@mcmaster.ca>' 
-  - '**Ines Fynn**<br><ifynn@uc.cl>'
+  - '**Ines Fynn**<br><ines.fynn@ucu.edu.uy>'
   - '**Verónica Pérez Bentancur**<br><veronica.perez@cienciassociales.edu.uy>'
   - '**Lucía Tiscornia**<br>lucia.tiscornia@ucd.ie'
 date: today
@@ -11,7 +11,7 @@ date-format: long
 
 # Welcome!
 
-Thank you for visiting my poster! You can find more details about the project here.
+Thank you for visiting our poster! You can find more details about the project here.
 
 - [Poster PDF](files/posters/list_nsum.pdf)
 - [Slides](https://gustavodiaz.org/slides/list_nsum/maplemeth.html)
@@ -26,7 +26,7 @@ Any kind of feedback is welcomed at this stage!
 
 This is part of Gustavo's broader research program on navigating research design tradeoffs in experiments. It's the second project in a series about tradeoffs in list experiments.
 
-The [first paper](files/research/dle_test.pdf) in the series is accepted at JEPS. In other collaborations, I discuss tradeoffs in field and survey experiments in general. [This recent example](files/research/precision_retention.pdf) is currently under review.
+The [first paper](https://doi.org/10.1017/XPS.2023.24) in the series is published at JEPS. Other collaborations discuss tradeoffs in field and survey experiments in general. [This recent example](files/research/precision_retention.pdf) is currently under review.
 
 The main methodological takeaway from the project is to remind researchers that we can get additional leverage in studies of sensitive attitudes or behaviors in surveys by including and combining estimates from different questioning techniques.
 
