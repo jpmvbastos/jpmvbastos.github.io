@@ -18,18 +18,18 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "An Assistant Professor of Government"
-place = "Hamilton College"
+jobtitle = "An Assistant Professor in Political and Social Data Science"
+place = "the Université de Montréal. I am not a citizen or permanent resident of Canada. However, I have previously studied at the UdeM, which means I am familiar with the language policy and can commit to master the required language proficiency in a timely manner."
 tools = "computational social science and design-based causal inference"
 applications = "questions of accountability, governance, and representation in the Global South"
 discipline = "political science"
-courses = "research design, statistics, experiments, causal inference, computational social science, and evidence-informed policy"
+courses = "research design, statistics, causal inference, experiments computational social science, machine learning, and their application to evidence-informed policy"
 source = "website"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I apply these ideas to `r applications`. My work is published or forthcoming in outlets including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+My research uses tools from `r tools` to navigate research design tradeoffs in the social sciences. I apply these ideas to `r applications`. My work is published or forthcoming in outlets including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
@@ -43,11 +43,12 @@ The second strand focuses on cases where one can improve precision by sacrificin
 
 <!-- TEACHING -->
 <!-- Remember to tweak based on whether the job is cp friendly -->
-I have experience teaching courses on quantitative methods and comparative politics. At McMaster, I teach research for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize experimental and quasi-experimental designs for causal inference. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching introduction to comparative politics in a hybrid format and an online course on the politics of developing countries. 
+I have experience teaching courses on quantitative methods and comparative politics. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize experimental and quasi-experimental designs. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching introduction to comparative politics in a hybrid format and an online course on the politics of developing countries. 
 
-My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* exposes me to cutting-edge methods in the field. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on computational social science methods. 
+My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* exposes me to cutting-edge methods in the field. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on computational social science. 
 
-These experiences have prepared me to teach to a diverse student body, to adapt to both online and in-person platforms, and to teach both the theory and application of quantitative methods.
+<!-- Take this out to fit pages -->
+<!-- These experiences have prepared me to teach to a diverse student body, to adapt to both online and in-person platforms, and to teach both the theory and application of quantitative methods. -->
 
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
