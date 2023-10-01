@@ -58,6 +58,11 @@ rmarkdown::render("job_market/statements/teaching_statement_cp.Rmd",
 quarto::quarto_render("job_market/cover_letter/cover_letter_methods_teaching.qmd", 
                       output_file = "diaz_cover_letter.pdf")
 
+# methods montreal
+quarto::quarto_render("job_market/cover_letter/cover_letter_udem.qmd", 
+                      output_file = "diaz_cover_letter_fr.pdf")
+
+
 # evals
 quarto::quarto_render("job_market/statements/diaz_teaching_evals.qmd",
                       output_file = "diaz_teaching_evals.pdf")
