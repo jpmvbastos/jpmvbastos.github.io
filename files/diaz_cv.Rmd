@@ -50,8 +50,8 @@ MA in Political Science \hfill 2017
 **Pontificia Universidad Católica de Chile**  
 BA in Political Science \hfill 2014
 
-**Université de Montréal**  
-Emerging Leaders in the Americas Exchange Program \hfill 2011
+<!-- **Université de Montréal**   -->
+<!-- Emerging Leaders in the Americas Exchange Program \hfill 2011 -->
 
 
 <!-- # Interests -->
@@ -162,6 +162,8 @@ Southern Political Science Association: 2022
 Latin American Political Methodology Meeting: 2022, 2021, 2020, 2019
 
 Midwest Workshop in Empirical Political Science: 2021
+
+American University, Methods Reading Group: 2021
 
 King's College London, Quantitative Political Economy Research Group: 2021
 
