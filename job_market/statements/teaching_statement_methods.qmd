@@ -16,10 +16,10 @@ Gustavo Diaz
 
 ```{r setup, include=F}
 field = "quantitative methods"
-students = "political science majors"
-methods_offer = "research design, statistics, experiments, causal inference, computational social science, and machine learning"
+students = "social science majors"
+methods_offer = "statistics, statistical programming, causal inference, computational social science, and machine learning"
 cp_offer = "evidence informed policy and the politics of the Global South"
-source = "teaching portfolio"
+source = "website"
 ```
 
 <!-- Hide for shorter version -->
