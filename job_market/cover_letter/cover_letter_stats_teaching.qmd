@@ -18,12 +18,12 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Statistics"
+jobtitle = "an Assistant Professor in Interdisciplinary Data Analytics"
 comparative = TRUE
-place = "Middlebury"
-tools = "data science and design-based causal inference"
+place = "Puget Sound"
+tools = "social data science and design-based causal inference"
 discipline = "social science"
-courses = "statistical inference, statistical programming, causal inference,  data science, machine learning, and applications to evidence-informed policy"
+courses = "statistical inference, statistical programming, causal inference,  data science, machine learning, and applications to evidence-informed policy around the globe"
 source = "website"
 ```
 

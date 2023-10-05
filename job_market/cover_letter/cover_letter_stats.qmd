@@ -18,18 +18,19 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Statistics/Data Science"
+jobtitle = "an Assistant Professor in Statistics and Data Science"
 comparative = TRUE
-place = "York"
+place = "Notre Dame"
 tools = "data science and design-based causal inference"
 discipline = "social science"
-courses = "statistical inference, statistical programming, causal inference,  machine learning, and applications to evidence-informed policy"
-source = "teaching dossier"
+courses = "statistical inference, statistical programming, causal inference,  machine learning, and their application to evidence-informed policy"
+source = "website"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which human behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published or forthcoming in outlets discussing these topics, including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+<!-- Changed human to collective behavior for ND app -->
+My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which collective behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published or forthcoming in outlets discussing these topics, including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
@@ -43,16 +44,14 @@ The second strand focuses on cases where one can improve precision by sacrificin
 
 <!-- TEACHING -->
 <!-- Remember to tweak based on whether the job is cp friendly -->
-I have experience teaching courses on quantitative methods and their application to policy. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize the value of design-based causal inference in making credible policy recommendations. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching political science courses in online and hybrid formats. 
+My teaching focuses on making applied statistics accessible to diverse audiences through a combination of flexibility and accountability. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize the value of statistics in making credible policy recommendations. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching political science courses in online and hybrid formats. 
 
-My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* exposes me to cutting-edge statistical applications in the social science. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on data science. 
-
-These experiences have prepared me to teach to a diverse student body, to adapt to both online and in-person platforms, and to teach both the theory and application of statistics.
+My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* gives me the opportunity to shape and influence the development and application of cutting-edge methods in the social sciences. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on data science. 
 
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
 <!-- Also tweak depending on job -->
-I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes using the language of statistics as a tool to advance the careers of students with different backgrounds and goals.
+I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`.
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.

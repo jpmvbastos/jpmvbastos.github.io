@@ -26,7 +26,8 @@ uruguay = "Montevideo, Uruguay"
 
 My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of randomized controlled trials. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.
 
-I apply the insights of my work in statistics on `r applications`. The common goal is to improve our ability to make statistical inferences when human behavior prevents us from observing phenomena of interest directly.
+<!-- Changed human to collective behavior for ND app -->
+I apply the insights of my work in statistics on `r applications`. The common goal is to improve our ability to make statistical inferences when collective behavior prevents us from observing phenomena of interest directly.
 
 ### Improving precision before conducting an experiment
 
