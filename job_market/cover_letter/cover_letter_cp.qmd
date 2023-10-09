@@ -17,14 +17,14 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "UNC"
-jobtitle = "an Assistant Professor in American or Comparative Politics"
+place = "IE University"
+jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-area = "political economy and political behavior in the Global South"
+area = "the challenges to accountability, governance, and representation in Latin America"
 tools = "design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in experiments and quasi-experiments"
-courses = "comparative politics, accountability and representation, the politics of the Global South, evidence-informed policy, research design, field experiments, and survey experiments"
-source = "teaching portfolio"
+courses = "comparative politics, accountability and representation, Latin American politics, evidence-informed policy, research design, quantitative methods, causal inference, and computational social science"
+source = "website"
 ```
 
 <!-- Think about adding a sentence of work with Michelle -->
