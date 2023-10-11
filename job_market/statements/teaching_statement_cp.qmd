@@ -15,9 +15,9 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-cp_offer = "comparative politics, democracy and representation, Latin American Politics, and evidence-informed policy"
-methods_offer = "research design, quantitative methods, and computational social science"
-source = "website"
+cp_offer = "evidence-informed policy, policy evaluation, and the politics of the Global South"
+methods_offer = "research design and quantitative methods"
+source = "teaching portfolio"
 ```
 
 I approach teaching as the task of acquiring a new language. Since students come from different paths and have different career goals, I emphasize developing the skill to think and communicate in the language of the social sciences and translate it to different situations. This gives students the freedom to engage with the course material on their own terms and apply it to their interests. This approach also creates a set of communication rules that allows individual students to stay on task no matter how much their interests differ from the course content and provides the group with tools to manage instances of discrimination in the classroom and beyond.

@@ -14,8 +14,8 @@ Gustavo Diaz
 
 
 ```{r setup, include=F}
-area = "the challenges to accountability and democratic consolidation in Latin America"
-tools = "design-based causal inference and computational social science to navigate research design trade-offs before data collection in experiments and quasi-experiments"
+area = "the use evidence-informed policy to address challenges to democracy in the Global South"
+tools = "causal inference and computational social science to navigate research design trade-offs before data collection in quantitative studies"
 ```
 
 <!-- I have no idea how to make this 3 pages -->

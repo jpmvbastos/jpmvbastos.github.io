@@ -17,11 +17,11 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "UT Austin"
-jobtitle = "an Assistant Professor in Latin American Comparative Policy and Politics"
+place = "Cal Poly SLO"
+jobtitle = "an Assistant Professor in Public Policy"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-area = "evidence-informed policy to address the challenges to democracy in Latin America"
+area = "evidence-informed policy to address the challenges to democracy in the Global South"
 tools = "design-based causal inference and computational social science to develop standards to navigate research design tradeoffs in experiments and quasi-experiments"
 courses = "comparative politics, democracy and representation, Latin American politics, evidence-informed policy, research design, quantitative methods, and computational social science"
 source = "website"
