@@ -15,8 +15,8 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-cp_offer = "comparative politics, accountability and representation,the politics of the Global South, and evidence-informed policy"
-methods_offer = "research design, quantitative methods, causal inference, and computational social science"
+cp_offer = "comparative politics, democracy and representation, Latin American Politics, and evidence-informed policy"
+methods_offer = "research design, quantitative methods, and computational social science"
 source = "website"
 ```
 

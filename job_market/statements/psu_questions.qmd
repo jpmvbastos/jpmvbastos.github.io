@@ -1,0 +1,26 @@
+---
+format: pdf
+fontsize: 12pt
+urlcolor: blue
+---
+## Interview questions
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
+
+### 1. Please identify one item on your CV that should not be overlooked, and explain how it will help shape your future career at Penn State
+
+My dissertation paper "A Model Selection Approach to Geographic Spillovers" (best poster award at LAPolmeth 2019) solves a methodological problem in my dissertation that applies to the social sciences in general. My theory suggested geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow/broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This is an example of how my work will borrow from a broad range of social data analytics techniques to overcome inferential challenges in the discipline.
+
+### 2. Write a brief description of a graduate-level elective course that you would be excited to teach at Penn State
+
+I would teach a course on social data analytics to inform decision-making. The course would show how the public and private sectors use randomized controlled trials, quasi-experiments, machine learning, large language models and big data to understand, design, and implement their decisions. The emphasis would be on hands-on applications around the uses and abuses of cutting-edge methods (e.g. whether the findings of RCTs can scale up or how algorithms can amplify human biases). This course would complement the already excellent quantitative methods training at PSU, giving students a chance to start developing a policy-relevant research agenda or connect their training and interests with non-academic careers in the public sector.
+
+### 3. Suppose you were given a modest budget, teaching relief, and administrative assistance to support an event at Penn State that you host. Write a brief description of the event
+
+I would organize a 2-3 day retreat aimed at promoting collaborations between academics and the public and private sectors around the use of social data analytics to address current and future threats to democracy around the world. The event would connect members from democracy-preserving organizations with researchers across the social sciences to devise transportable interventions and high-performance computing applications. This leverages the comparative advantage provided by C-SoDA and ICDS and would put PSU at the center of impact-driven methodological innovation. In future iterations, this event could cover different substantive and methodological themes and involve different members of the PSU community.
+
