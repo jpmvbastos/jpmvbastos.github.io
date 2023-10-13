@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Gustavo Diaz">
-<meta name="keywords" content="R Markdown, academic CV, template">
 
-<title>Gustavo Diaz - CV</title>
+<title>Gustavo Diaz – research_statement_stats</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -52,13 +50,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-</head><body class="nav-fixed fullcontent">\usepackage{multicol}
-\usepackage{hyperref}
 
 
+</head>
 
-
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -123,181 +119,47 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="research_statement_stats.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">CV</h1>
-</div>
 
 
+<section id="research-statement" class="level2">
+<h2 class="anchored" data-anchor-id="research-statement">Research Statement</h2>
+Gustavo Diaz<br>
+<em>Department of Political Science, McMaster University</em><br>
+<a href="mailto:diazg2@mcmaster.ca" class="email">diazg2@mcmaster.ca</a><br>
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Gustavo Diaz </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="positions" class="level1">
-<h1>Positions</h1>
-<!-- Positions singular for now -->
-<!-- Remember double space for line skip -->
-<p><strong>McMaster University</strong><br>
-Postdoctoral Fellow, Department of Political Science -2024</p>
-<p><strong>Tulane University</strong><br>
-Postdoctoral Fellow, Center for Inter-American Policy and Research -2022</p>
+<p>&nbsp;</p>
+<p>Social scientists often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians’ performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in how we use data, as researchers must try to anticipate the challenges to inference even before conducting analyses.</p>
+<p>My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from data science and design-based causal inference to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of randomized controlled trials. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.</p>
+<!-- Changed human to collective behavior for ND app -->
+<p>I apply the insights of my work in statistics on topics ranging from the challenges to accountability, governance, and representation to questions of misinformation and racial prejudice. The common goal is to improve our ability to make statistical inferences when collective behavior prevents us from observing phenomena of interest directly.</p>
+<section id="improving-precision-before-conducting-an-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="improving-precision-before-conducting-an-experiment">Improving precision before conducting an experiment</h3>
+<p>In the social sciences, the last decade has seen considerable improvement in research transparency and registration. Borrowing heavily from statistics, recent advances in experimental design provide tools to diagnose the properties of a research design before data collection. For example, one can think about bias, power, or target sample size under different hypothetical data generation processes.</p>
+<p>A recurrent goal in the causal inference literature is to minimize bias, or being close to the hypothetical truth on average. Instead, my agenda focuses on optimizing statistical precision, as in producing consistent estimates after multiple realizations of the same data generation process. The literature implicitly assumes that one cam simply improve precision by increasing sample size. However, this is not feasible in most social science applications due to resource considerations.</p>
+<p>Even if resources are not an obstacle, even the least intrusive study wastes time and energy from researchers, administrators, and participants. This implies an ethical mandate to identify a research design that maximizes benefits and minimizes harm at the lowest possible cost. An emphasis on statistical precision allows researchers to anticipate and internalize these costs before implementation.</p>
+<p>Focusing on randomized controlled trials, this agenda follows two strands. First, researchers often face the choice between alternative experimental designs for which unbiased estimators are already documented. In this case, opting for the design with more precision leads to unforeseen costs in other dimensions. Two projects exemplify how I develop standard to navigate this precision.</p>
+<p>In a manuscript forthcoming in the <em>Journal of Experimental Political Science</em>, I propose statistical tests to address problems with double list experiments. Social scientists use list experiments in surveys when respondents may not answer truthfully to sensitive questions. When their assumptions are met, list experiments reduce sensitivity biases from misreporting. However, they tend to produce estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of the estimate for the prevalence of the sensitive trait.</p>
+<p>This implies an estimator that is more precise and still unbiased, but their implementation invites questions over its validity. The tests leverage variation in the order in which respondents see the sensitive item to detect whether respondents are reacting to list experiment questions in unintended ways. This provides researchers with a tool to apply this underexplored variant of the technique more widely.</p>
+<p>In a paper under review with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting research design features aimed at improving precision can instead hurt precision through implicit or explicit sample loss. For example, block randomization often improves precision. However, if this requires contacting participants multiple times to collect blocking covariates first and then post-treatment outcomes, then it creates space for attrition that would not exist otherwise, which may offset the precision gains of blocking. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.</p>
+<p>The second reason to focus on statistical precision is that sometimes a more precise yet biased estimator gives more informative answers than an unbiased estimator, which is especially relevant for policy decision-makers. In this case, the researcher is explicitly sacrificing unbiasedness for the sake of precision. Two other projects reflect this issue.</p>
+<p>First, in work in progress with Jake Bowers (Illinois) and Christopher Grady (USAID), we discuss the circumstances under which researchers should prefer biased yet more precise estimators in the analysis of experimental data. Once again, an example of this trade-off comes from block-randomized experiments. Block-randomization entails grouping observations in groups or strata, conducting parallel experiments in each, and then calculating a single treatment effect with a weighted average. Previous work in statistics suggests that block-size weights lead to an unbiased estimator of the average treatment effect in this setting. However, because experiments are expensive to implement, we illustrate situations under which researchers may prefer to sacrifice unbiasedness in favor of more precise estimates, which would lead to the use of precision weights instead, the equivalent of using fixed effects in OLS regression. We extend this idea to the use of M-estimator for data with skewed outcomes. We illustrate these ideas through simulation and by revisiting the design of a messaging field experiment conducted by the Office of Evaluation Sciences in the United States.</p>
+<!-- If you squint you can fit the SAGE handbook here -->
+<p>Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in <em>The SAGE Handbook of Research Methods in Political Science and International Relations</em>, we discuss the trend of increasingly more complex research designs in survey experimentation. For example, short vignettes are replaced with factorial experiments including many attributes. This increase in complexity allows researchers to isolate causal effects from potential confounders, but raises concerns over whether the tasks that respondents face in survey experiments tap into the intended construct outside of the survey framework. In other words, we draw attention to the trade-off between simple designs that risk confounding bias and complex designs that yield unbiased estimates but risk external validity bias.</p>
 </section>
-<section id="education" class="level1">
-<h1>Education</h1>
-<p><strong>University of Illinois at Urbana-Champaign</strong><br>
-PhD in Poltical Science <br>
-<em>Committee:</em> Jake Bowers (chair), Avital Livny, Gisela Sin, Matthew S. Winters</p>
-<p>MA in Political Science </p>
-<p><strong>Pontificia Universidad Católica de Chile</strong><br>
-BA in Political Science </p>
-<!-- **Université de Montréal**   -->
-<!-- Emerging Leaders in the Americas Exchange Program \hfill 2011 -->
-<!-- # Interests -->
-<!-- Political Economy, Political Behavior, Accountability, Representation, Developing Countries, Causal Inference, Machine Learning -->
-</section>
-<section id="publications" class="level1">
-<h1>Publications</h1>
-<!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->
-<p>Forthcoming. “Data Sources for the Study of Gender and Corruption.” In <em>Handbook on Gender and Corruption in Democracies</em>, edited by Emily Beaulieu Bacchus and Tiffany Barnes. Edward Elgar Publishing (with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>)</p>
-<p>2023. <a href="https://doi.org/10.1017/XPS.2023.24">“Assessing the Validity of Prevalence Estimates in Double List Experiments.”</a> <em>Journal of Experimental Political Science</em></p>
-<p>2022. <a href="https://gustavodiaz.org/files/research/gender_corruption.pdf">“Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts.”</a> In <a href="https://www.e-elgar.com/shop/gbp/norms-gender-and-corruption-9781802205824.html"><em>Norms, Gender and Corruption: Understanding the Nexus</em></a>, edited by Ina Kubbe and Ortrun Merkle. Edward Elgar Publishing (with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>)</p>
-<p>2020. <a href="https://doi.org/10.1016/j.worlddev.2020.105125">“Light in the Midst of Chaos: COVID-19 and Female Political Representation.”</a> <em>World Development</em> 136: 105125 (with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>)</p>
-<p>2020. <a href="https://gustavodiaz.org/files/research/sage_survey_experiments_chapter.pdf">“Survey Experiments and the Quest for Valid Interpretation.”</a> In <a href="https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875"><em>The SAGE Handbook of Research Methods in Political Science and International Relations</em></a>, edited by Luigi Curini and Robert Franzese. London: Sage (with <a href="https://publish.illinois.edu/cdgrady2/">Christopher Grady</a> and <a href="https://pol.illinois.edu/directory/profile/kuklinsk">James H. Kuklinski</a>)</p>
-<p>2014. <a href="https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813">“Civic Education and Voter Turnout Under Voluntary Voting.”</a> <em>Política</em> 52(1): 61-91 (In Spanish)</p>
-</section>
-<section id="under-review" class="level1">
-<h1>Under review</h1>
-<p><a href="https://gustavodiaz.org/files/research/precision_retention.pdf">“Balancing Precision and Retention in Experimental Design”</a> (with <a href="http://erossiter.com/">Erin Rossiter</a>)<br>
-<em>Listed under review at American Political Science Review since May 2023</em></p>
-<p><a href="https://gustavodiaz.org/files/research/gender_performance.pdf">“Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina.”</a> (with <a href="https://virginiaoliveros.com/">Virginia Oliveros</a>, <a href="https://vivo.brown.edu/display/rweitzsh">Rebecca Weitz-Shapiro</a>, and <a href="https://sites.google.com/site/mswinters1/">Matthew S. Winters</a>)<br>
-<em>Listed under review at British Journal of Political Science since May 2023</em></p>
-</section>
-<section id="working-papers" class="level1">
-<h1>Working Papers</h1>
-<p><a href="https://gustavodiaz.org/files/research/nearby_corruption.pdf">“Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil”</a></p>
-<p><a href="https://gustavodiaz.org/files/research/audit_spending.pdf">“Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil”</a></p>
-<p><a href="https://gustavodiaz.org/files/research/model_spillovers.pdf">“A Model Selection Approach to Geographic Spillovers.”</a><br>
-<em>Best poster award. 2019 Latin American Political Methodology Meeting</em></p>
-</section>
-<section id="teaching" class="level1">
-<h1>Teaching</h1>
-<section id="mcmaster-university" class="level2">
-<h2 class="anchored" data-anchor-id="mcmaster-university">McMaster University</h2>
-<p><a href="https://popw23.gustavodiaz.org/">Research Design for Public Opinion and Public Policy</a>. Spring 2024, 2023</p>
-</section>
-<section id="tulane-university" class="level2">
-<h2 class="anchored" data-anchor-id="tulane-university">Tulane University</h2>
-<p><a href="https://gustavodiaz.org/files/teaching/ddem_syllabus.pdf">Politics of Developing Democracies</a>. Spring 2022</p>
-<p><a href="https://gustavodiaz.org/teaching/cp_intro/syllabus/polc2300_syllabus.pdf">Comparative Politics</a>. Fall 2021</p>
-</section>
-<section id="university-of-illinois-at-urbana-champaign" class="level2">
-<h2 class="anchored" data-anchor-id="university-of-illinois-at-urbana-champaign">University of Illinois at Urbana-Champaign</h2>
-<section id="instructor" class="level3">
-<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
-<p>Comparative Politics in Developing Nations (Online). Summer 2019</p>
-<p>Mathcamp for Political Scientists. Fall 2017-2019</p>
-</section>
-<section id="teaching-assistant" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-assistant">Teaching Assistant</h3>
-<p>Research Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021</p>
-<p>Quantitative Methods II (Graduate). Jake Bowers. Spring 2021</p>
-<p>Quantitative Methods I (Graduate). Brian Gaines. Fall 2020</p>
-<p>Quantitative Methods III (Graduate). Wendy K. Tam Cho Fall 2020</p>
-<p>Introduction to Quantitative Political Research. Jake Bowers. Fall 2017</p>
-<p>Comparative Politics in Developing Nations. Avital Livny. Fall 2016</p>
-</section>
-</section>
-</section>
-<section id="awards-honors" class="level1">
-<h1>Awards &amp; Honors</h1>
-<p>2019-2020. Werner Baer Dissertation Writing Fellowship. Lemann Center for Brazilian Studies, University of Illinois</p>
-<p>2019. Best Poster Award. Latin American Political Methodology Meeting. Montevideo, Uruguay</p>
-<p>2016. Rita and Leonard Ogren Award for Academic Excellence. Department of Political Science, University of Illinois</p>
-</section>
-<section id="conferences-talks" class="level1">
-<h1>Conferences &amp; Talks</h1>
-<!-- Eventually have to make this into a list by year -->
-<p>American Political Science Association: 2023, 2022, 2021, 2019</p>
-<p>Annual Meeting of the Society for Political Methodology: 2023, 2022, 2021</p>
-<p>MapleMeth: 2023</p>
-<p>Journal of Public Policy Political Economy of Development Virtual Workshop: 2022</p>
-<p>McMaster University, Spark Centre for Social Research Innovation: 2022</p>
-<p>Midwest Political Science Association: 2022, 2021, 2018, 2017</p>
-<p>Southern Political Science Association: 2022</p>
-<p>Latin American Political Methodology Meeting: 2022, 2021, 2020, 2019</p>
-<p>Midwest Workshop in Empirical Political Science: 2021</p>
-<p>American University, Methods Reading Group: 2021</p>
-<p>King’s College London, Quantitative Political Economy Research Group: 2021</p>
-<p>Washington University in St.&nbsp;Louis: 2021</p>
-<p>NYU-CESS Annual Experimental Political Science Conference: 2021, 2020</p>
-<p>University of Notre Dame: 2020</p>
-<p>University of Minnesota Political Methodology Colloquium: 2019</p>
-<p>Empirical Implications of Theoretical Models: 2019</p>
-<p>St.&nbsp;Louis Area Methods Meeting: 2019</p>
-</section>
-<section id="additional-training" class="level1">
-<h1>Additional Training</h1>
-<p>2023. Grant writing workshop for junior faculty. McMaster University</p>
-<p>2019. Empirical Implications of Theoretical Models Summer Institute. Emory University</p>
-<p>2014. Summer School on Mixed Methods. Department of Political Science, PUC</p>
-</section>
-<section id="skills" class="level1">
-<h1>Skills</h1>
-<p><strong>Languages:</strong> Spanish, French, Portuguese</p>
-<p><strong>Software:</strong> R, STATA, QGIS, GeoDa, GitHub, , Markdown</p>
-<!-- # Service -->
-<!-- **Reviewer:** *American Political Science Review*, *Comparative Political Studies*, *PS: Political Science & Politics*,  *Journal of Elections, Public Opinion & Parties* -->
-<!-- **Committee Member:** Comparative Politics Search Committee (University of Illinois at Urbana-Champaign) -->
-<!-- **Discussant:** APSA 2020, MPSA 2021, LAPolmeth 2021 -->
-<!-- # References -->
-<!-- \begin{multicols}{2} -->
-<!-- Jake Bowers\\ -->
-<!-- Associate Professor\\ -->
-<!-- University of Illinois at Urbana-Champaign\\ -->
-<!-- \href{mailto:jwbowers@illinois.edu}{jwbowers@illinois.edu} -->
-<!-- Avital Livny\\ -->
-<!-- Assistant Professor\\ -->
-<!-- University of Illinois at Urbana-Champaign\\ -->
-<!-- \href{mailto:alivny@illinois.edu}{alivny@illinois.edu} -->
-<!-- Gisela Sin\\ -->
-<!-- Associate Professor\\ -->
-<!-- University of Illinois at Urbana-Champaign\\ -->
-<!-- \href{mailto:gsin@illinois.edu}{gsin@illinois.edu} -->
-<!-- Matthew S. Winters\\ -->
-<!-- Professor\\ -->
-<!-- University of Illinois at Urbana-Champaign\\ -->
-<!-- \href{mailto:mwinters@illinois.edu}{mwinters@illinois.edu} -->
-<!-- \end{multicols} -->
-<!-- Alternative section for 3 refs-->
-<!-- # References -->
-<!-- Jake Bowers   -->
-<!-- Associate Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:jwbowers@illinois.edu}{jwbowers@illinois.edu} -->
-<!-- Gisela Sin   -->
-<!-- Associate Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:gsin@illinois.edu}{gsin@illinois.edu} -->
-<!-- Matthew S. Winters   -->
-<!-- Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:mwinters@illinois.edu}{mwinters@illinois.edu} -->
+<section id="future-work" class="level3">
+<h3 class="anchored" data-anchor-id="future-work">Future work</h3>
+<!-- Perhaps pick and choose based on search -->
+<p>I plan to use the insights of my work to inform applications in the social sciences. In turn, I aim to use applications as a motivation to further develop tools for statistical inference.</p>
+<p>For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of criminal governance strategies in Montevideo, Uruguay. We also develops techniques to combine estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
