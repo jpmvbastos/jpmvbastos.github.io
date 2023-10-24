@@ -14,9 +14,9 @@ Gustavo Diaz
 
 
 ```{r setup, include=F}
-discipline = "Political scientists"
+discipline = "Social scientists"
 fields = "computational social science and design-based causal inference"
-applications = "to questions about the challenges to accountability, governance, and representation in the Global South"
+applications = "to questions around the use of statistical evidence to address social and political challenges in the Global South"
 # some applications I may not want to say Uruguay explicitly
 uruguay = "Montevideo, Uruguay"
 ```
@@ -26,7 +26,7 @@ uruguay = "Montevideo, Uruguay"
 
 My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of field and survey experiments. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.
 
-I apply the insights of my methodological work `r applications`. The common theme in these applications is to improve our ability to make statistical inferences about hard-to-observe social and political phenomena. For the sake of brevity, this document focuses on my methodological agenda.
+<!-- I apply the insights of my methodological work `r applications`. The common theme in these applications is to improve our ability to make statistical inferences about hard-to-observe social and political phenomena. For the sake of brevity, this document focuses on my methodological agenda. -->
 
 ### Improving precision before conducting an experiment
 
@@ -53,11 +53,11 @@ Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois)
 
 
 
-### Future work
+<!-- ### Future work -->
 <!-- Short version -->
-I plan to use the insights of my work to inform applications around my substantive areas of interest. In turn, I aim to use applications as a motivation for further methodological innovation.
+<!-- I plan to use the insights of my work to inform applications around my substantive areas of interest. In turn, I aim to use applications as a motivation for further methodological innovation. -->
 
-For example, in work in progress with with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available to measure sensitive attitudes and behaviors through surveys.
+<!-- For example, in work in progress with with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in `r uruguay`. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available to measure sensitive attitudes and behaviors through surveys. -->
 
 <!-- Long version -->
 <!-- Within the next five years, my goal is to establish a research group with the common goal of improving research design in the social sciences. The group will pursue two objectives. First, to continue developing new tools to improve research design before data collection, now expanding beyond experiments and quasi-experiments toward a broader set of cutting edge tools for statistical learning and inference. Second, to apply these tools across a broad range of substantive areas of interest, then use these programs as a motivation for further methodological innovation. -->
