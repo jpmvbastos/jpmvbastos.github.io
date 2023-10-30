@@ -18,18 +18,18 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Quantitative Methods"
-place = "Pittsburgh"
+jobtitle = "an Assistant Professor in Computational Analysis of Political Data"
+place = "Laval"
 tools = "computational social science and design-based causal inference"
-applications = "questions around the use of statistical evidence to address social and political challenges in the Global South"
-discipline = "social science"
-courses = "statistics, statistical programming, causal inference, computational social science, machine learning, computational social science and their application to politics and society in the Global South"
+applications = "questions about the challenges to accountability, governance, and representation in the Global South"
+discipline = "political science"
+courses = "statistics, statistical programming, causal inference, computational social science, machine learning, and their application to politics and society in the Global South"
 source = "website"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research develops standards to navigate research design tradeoffs in the social sciences, with emphasis on `r tools`. I apply these ideas to `r applications`. My work is published in outlets including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+My research develops standards to navigate research design tradeoffs in the social sciences, with emphasis on `r tools`. I apply these ideas to `r applications`. My work is published in outlets including *World Development*, the *Journal of Experimental Political Science*, *The SAGE Handbook of Research Methods in Political Science and International Relations*, and is under **revise and resubmit** at the *British Journal of Political Science*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
@@ -56,7 +56,7 @@ My involvement beyond the classroom also complements my teaching and mentoring. 
 I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. 
 
 <!-- CLOSING -->
-I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
+I believe my expertise makes me an excellent fit at `r place`. I have previous experience as a student in a french-speaking university, which means I will be ready to engage in teaching and mentorship in accordance to the university's language policy in a timely manner. If you have any questions, you can contact me via email or phone.
 
 
 Sincerely,
@@ -64,6 +64,6 @@ Sincerely,
 <!-- Remember double spaces to lineskip -->
 Gustavo Diaz  
 Postdoctoral Fellow  
-Department of Political Science  
+<!-- Department of Political Science   -->
 McMaster University
 

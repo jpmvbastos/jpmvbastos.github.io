@@ -15,9 +15,9 @@ format: letter-pdf
 fontsize: 12pt
 ---
 
-Je vous écris à propos de votre annonce pour un poste de professeur adjoint en sciences des données politiques et sociales. Actuellement, je suis stagiaire postdoctorale en méthodologies statistiques avancées, analyse causale, et sciences des données au département de science politique à l'Université McMaster. J'ai obtenu mon doctorat (*University of Illinois at Urbana-Champaign*) sous la direction de Jake Bowers, Matt Winters, Gisela Sin et Avital Livny.
+Je vous écris à propos de votre annonce pour un poste de professeur en analyse computationnelle des données politiques. Actuellement, je suis stagiaire postdoctorale en méthodologies statistiques avancées, analyse causale, et sciences des données au département de science politique à l'Université McMaster. J'ai obtenu mon doctorat (*University of Illinois at Urbana-Champaign*) sous la direction de Jake Bowers, Matt Winters, Gisela Sin et Avital Livny.
 
-Je recherche le développement des critères pour naviguer les compromis liés à la conception de recherche en sciences sociales, avec l'accent mis sur les sciences sociales computationnelles et l'analyse causale. J'applique ces idées aux questions de gouvernance et représentation dans le Sud global. Mes travaux sont publiés dans revues et volumes telles que *World Development*, le *Journal of Experimental Political Science* et le *SAGE Handbook of Research Methods in Political Science and International Relations*.
+Je recherche le développement des critères pour naviguer les compromis liés à la conception de recherche en sciences sociales, avec l'accent mis sur les sciences sociales computationnelles et l'analyse causale. J'applique ces idées aux questions de gouvernance et représentation dans le Sud global. Mes travaux sont publiés dans revues et volumes telles que *World Development*, le *Journal of Experimental Political Science* et le *SAGE Handbook of Research Methods in Political Science and International Relations*. J'ai aussi un travail en ***revise and resubmit*** dans le *British Journal of Political Science*.
 
 Mon programme de recherche se concentre sur le développement d'outils qu'on peut adopter pour améliorer la précision statistique avant la collecte de données. Cette dimension est souvent négligée dans la littérature en statistiques, en économétrie et en méthodologie politique, au profit de l'identification d'estimateurs non biaisés. Implicitement, cette littérature suppose qu'on peut améliorer la précision en augmentant la taille de l'échantillon. Cela n'est pas possible dans les applications habituelles en science politique en raison de contraintes de ressources. En plus, même l'étude la moins intrusive a un mandat d'identifier une conception de recherche qui maximise les avantages et minimise les préjudices au coût le plus bas.
 
@@ -29,9 +29,9 @@ Mon expérience d'enseignement comprend des cours sur les méthodes quantitative
 
 Ma participation extracurriculaire contribue également à mon enseignement. En tant que assistant éditorial en méthodologie pour l'*American Political Science Review*, j'ai l'opportunité de influencer le développement des méthodes avancés dans la discipline. En tant que doctorant en Illinois, j'ai initié un projet collaboratif dans lequel les doctorants introduit nouvelles méthodes à leurs pairs et j'ai organisé un groupe de lecture sur les sciences sociales computationnelles.
 
-Je suis prêt à enseigner des cours sur la statistique, l'analyse causale, les essais contrôlés aléatoires, les sciences sociales computationnelles, l'apprentissage automatique, ainsi que leur application aux politiques basées sur des preuves. Vous pouvez trouver des exemplaires des programmes dans mon site web.
+Je suis prêt à enseigner des cours sur la statistique, la programmation statistique, l'analyse causale, les sciences sociales computationnelles, l'apprentissage automatique, ainsi que leur application aux politiques basées sur des preuves. Vous pouvez trouver des exemplaires des programmes dans mon site web.
 
-Je crois que mon expertise me rend bien adapté à l'UdeM. Je ne suis pas citoyen/résident permanent du Canada, mais j'ai l'expérience d'avoir étudié à l'UdeM. Ce qui signifie que je peux m'engager à l'enseignement conformément à la politique linguistique dans les délais impartis. N'hésitez pas à me contacter si vous avez des questions.
+Je crois que mon expertise me rend bien adapté à l'Université Laval. J'ai l'expérience d'avoir étudié dans une institution francophone. Ce qui signifie que je peux m'engager à l'enseignement conformément à la politique linguistique dans les délais impartis. N'hésitez pas à me contacter si vous avez des questions.
 
 
 
@@ -41,6 +41,6 @@ Cordialement,
 <!-- Remember double spaces to lineskip -->
 Gustavo Diaz  
 Postdoctoral Fellow  
-Department of Political Science  
+<!-- Department of Political Science   -->
 McMaster University
 
