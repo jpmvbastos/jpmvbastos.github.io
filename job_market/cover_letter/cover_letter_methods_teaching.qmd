@@ -3,13 +3,13 @@ author:
   - name: Gustavo Diaz
     affiliation:
       - name: '**Gustavo Diaz**'
-        department: | 
+        department: |
                     | *Kenneth Taylor Hall 527*
                     | *1280 Main Street West*
                     | *Hamilton, ON Canada*
         address: '{{< fa envelope >}} `diazg2@mcmaster.ca`'
         city: '{{< fa globe >}} `gustavodiaz.org`'
-        country: '{{< fa phone >}} +1 217 904 0581'
+#         country: '{{< fa phone >}} +1 217 904 0581'
 opening: "Dear Members of the Search Committee,"
 format: letter-pdf
 fontsize: 12pt
@@ -18,12 +18,12 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Government"
-place = "Hamilton College"
-tools = "computational social science and design-based causal inference"
-applications = "questions around the use of evidence-informed policy to address social and political challenges in democracies"
-discipline = "political science"
-courses = "quantitative methods, research design, computational social science, and evidence-informed policy"
+jobtitle = "an Instructional Professor in the Social Sciences Core"
+place = "the University of Chicago"
+tools = "design-based causal inference"
+applications = "questions around the use of evidence-informed policy to address social and political challenges in democracies around the world"
+discipline = "social science"
+courses = "research design, causal inference, experiments, statistics, and data visualization"
 source = "teaching portfolio"
 ```
 

@@ -17,6 +17,7 @@ Gustavo Diaz
 discipline = "Social scientists"
 fields = "data science and design-based causal inference"
 applications = "topics ranging from the challenges to accountability, governance, and representation to questions of misinformation and racial prejudice"
+machine = "data science tools"
 # some applications I may not want to say Uruguay explicitly
 uruguay = "Montevideo, Uruguay"
 ```
@@ -27,7 +28,7 @@ uruguay = "Montevideo, Uruguay"
 My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of randomized controlled trials. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.
 
 <!-- Changed human to collective behavior for ND app -->
-<!-- I apply the insights of my work in statistics on `r applications`. The common goal is to improve our ability to make statistical inferences when human behavior prevents us from observing phenomena of interest directly. -->
+I apply the insights of my work in statistics on `r applications`. The common goal is to improve our ability to make statistical inferences when human behavior prevents us from observing phenomena of interest directly.
 
 ### Improving precision before conducting an experiment
 
@@ -52,8 +53,8 @@ First, in work in progress with Jake Bowers (Illinois) and Christopher Grady (US
 <!-- If you squint you can fit the SAGE handbook here -->
 Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in *The SAGE Handbook of Research Methods in Political Science and International Relations*, we discuss the trend of increasingly more complex research designs in survey experimentation. For example, short vignettes are replaced with factorial experiments including many attributes. This increase in complexity allows researchers to isolate causal effects from potential confounders, but raises concerns over whether the tasks that respondents face in survey experiments tap into the intended construct outside of the survey framework. In other words, we draw attention to the trade-off between simple designs that risk confounding bias and complex designs that yield unbiased estimates but risk external validity bias.
 
-<!-- ### Future work -->
+### Future work
 <!-- Perhaps pick and choose based on search -->
-<!-- I plan to use the insights of my work to inform applications in the social sciences. In turn, I aim to use applications as a motivation to further develop tools for statistical inference. -->
+I plan to use the insights of my work to inform applications in the social sciences. In turn, I aim to use applications as a motivation to further develop tools for statistical inference. For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of criminal governance strategies in `r uruguay`. We also develops techniques to combine estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys.
 
-<!-- For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of criminal governance strategies in `r uruguay`. We also develops techniques to combine estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys. -->
+I also plan to expand my research program toward the use of `r machine` to improve statistical inference. An early example comes from my dissertation work, funded by the Lemann Center for Brazilian Studies, on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of other mayors in nearby localities.  My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting.

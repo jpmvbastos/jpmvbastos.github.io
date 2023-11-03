@@ -15,9 +15,9 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-field = "quantitative methods"
+field = "research design and statistics"
 students = "social science majors"
-methods_offer = "research design and quantitative methods"
+methods_offer = "research design, causal inference, experiments, statistics, and data visualization"
 cp_offer = "evidence-informed policy, policy evaluation, and the politics of the Global South"
 source = "teaching portfolio"
 ```
@@ -50,4 +50,7 @@ Teaching to these diverse audiences made me aware of the importance of promoting
 
 ### Teaching interests
 
-I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`.
+<!-- I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`. -->
+
+<!-- Rewrite when substantive teaching is not needed -->
+I am prepared to teach courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`.

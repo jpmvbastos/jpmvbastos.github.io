@@ -50,8 +50,8 @@ MA in Political Science \hfill 2017
 **Pontificia Universidad Católica de Chile**  
 BA in Political Science \hfill 2014
 
-**Université de Montréal**  
-Emerging Leaders in the Americas Exchange Program \hfill 2011
+<!-- **Université de Montréal**   -->
+<!-- Emerging Leaders in the Americas Exchange Program \hfill 2011 -->
 
 
 <!-- # Interests -->

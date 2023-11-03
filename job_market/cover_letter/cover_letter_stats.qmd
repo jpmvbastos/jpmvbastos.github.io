@@ -1,15 +1,15 @@
 ---
-author:
-  - name: Gustavo Diaz
-    affiliation:
-      - name: '**Gustavo Diaz**'
-        department: | 
-                    | *Kenneth Taylor Hall 527*
-                    | *1280 Main Street West*
-                    | *Hamilton, ON Canada*
-        address: '{{< fa envelope >}} `diazg2@mcmaster.ca`'
-        city: '{{< fa globe >}} `gustavodiaz.org`'
-        country: '{{< fa phone >}} +1 217 904 0581'
+# author:
+#   - name: Gustavo Diaz
+#     affiliation:
+#       - name: '**Gustavo Diaz**'
+#         department: | 
+#                     | *Kenneth Taylor Hall 527*
+#                     | *1280 Main Street West*
+#                     | *Hamilton, ON Canada*
+#         address: '{{< fa envelope >}} `diazg2@mcmaster.ca`'
+#         city: '{{< fa globe >}} `gustavodiaz.org`'
+#         country: '{{< fa phone >}} +1 217 904 0581'
 opening: "Dear Members of the Search Committee,"
 format: letter-pdf
 fontsize: 12pt
@@ -18,18 +18,19 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Statistics and Machine Learning"
+jobtitle = "an Assistant Professor in Data Science and Statistics [23_T_MATH_M]"
 comparative = TRUE
-place = "the Université de Montréal"
-tools = "machine learning and design-based causal inference"
+place = "Concordia"
+tools = "data science and design-based causal inference"
 discipline = "social science"
-courses = "statistical inference, statistical programming, causal inference, machine learning, and their application to evidence-informed policy"
-source = "website"
+machine = "data science tools"
+courses = "statistical inference, statistical programming, causal inference, machine learning, and their application to social science and public policy"
+source = "teaching portfolio"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which human behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published or forthcoming in outlets discussing these topics, including *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which human behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published, forthcoming, or under revise and resubmit in leading social science outlets discussing these topics, including the *British Journal of Political Science*, *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
@@ -40,12 +41,15 @@ Focusing on randomized controlled trials, this agenda follows two strands. First
 
 The second strand focuses on cases where one can improve precision by sacrificing unbiasedness deliberately. For example, in work in progress with Jake Bowers (Illinois) and Christopher Grady (USAID), we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a *SAGE Handbook* chapter with Christopher Grady and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the cost of external validity bias.
 
+<!-- One paragraph about data/science applications -->
+<!-- Needs to be added on research statement too! -->
+I plan to expand my research program toward the use of `r machine` to improve statistical inference. An early example comes from my dissertation work, funded by the Lemann Center for Brazilian Studies, on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of other mayors in nearby localities.  My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting.
 
 <!-- TEACHING -->
 <!-- Remember to tweak based on whether the job is cp friendly -->
-My teaching focuses on making applied statistics accessible to diverse audiences through a combination of flexibility and accountability. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on evidence-informed policy to address social and political challenges in developing democracies. Both courses emphasize the value of statistics in making credible policy recommendations. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching political science courses in online and hybrid formats.
+My teaching focuses on making applied statistics accessible to diverse audiences through a combination of flexibility and accountability. At McMaster, I teach data analysis for public policy and public opinion. At Tulane, I taught a seminar on the use of design-based causal inference to address social and political challenges in developing democracies. At Illinois, I served as a teaching assistant for statistics courses at the undergraduate and PhD levels using a flipped classroom approach. I also served as a math camp instructor for incoming graduate students for three consecutive years. I also have experience teaching political science courses in online and hybrid formats.
 
-My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* gives me the opportunity to shape and influence the development and application of cutting-edge methods in the social sciences. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on data science.
+My involvement beyond the classroom also complements my teaching and mentoring. My work as the methods editorial assistant for the *American Political Science Review* gives me the opportunity to shape and influence the development and application of cutting-edge statistical methods in the social sciences. As a PhD student at Illinois, I started a collaborative project in which graduate students introduced their peers to new methods and organized a reading group on data science.
 
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
@@ -60,7 +64,7 @@ I am prepared to teach courses on `r courses`. You can find copies of current an
 <!-- Third, in a project that also includes Guillem Riambau (Universitat de Barcelona), we use data from the Asian Barometer to understand whether the presence of others during an interview shapes how people respond to face-to-face surveys. I lead the process of harmonizing and documenting the coding of key variables using data spanning 20 years of surveys across 17 countries. This project aims to improve our understanding of how context, culture, and institutions shape measurement error in cross-national surveys. -->
 
 <!-- CLOSING -->
-I believe my expertise makes me an excellent fit at `r place`. I am not a citizen or permanent resident of Canada. However, I have previously studied at the UdeM, which means I can commit to teaching and mentoring in accordance to the language policy in a timely manner. If you have any questions, you can contact me via email or phone.
+I believe my expertise makes me an excellent fit at `r place`. My previous experience as a student in a French-speaking institution allows me to read and grade student work in that language. Moreover, this position's location aligns perfectly with my family circumstances. If you have any questions, you can contact me via email or phone.
 
 
 Sincerely,
