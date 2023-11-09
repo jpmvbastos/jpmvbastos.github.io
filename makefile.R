@@ -77,7 +77,7 @@ quarto::quarto_render("job_market/statements/diaz_dissertation_abstract.qmd",
 
 ## JOB SPECIFIC MATERIALS
 # Here if needed
-quarto::quarto_render("job_market/statements/psu_questions.qmd",
-                      output_file = "diaz_psu_questions.pdf")
+quarto::quarto_render("job_market/statements/western_leadership_statement.qmd",
+                      output_file = "diaz_professional_statement.pdf")
 
 

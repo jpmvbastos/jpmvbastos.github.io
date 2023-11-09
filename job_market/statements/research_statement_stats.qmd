@@ -22,16 +22,16 @@ uruguay = "Montevideo, Uruguay"
 ```
 
 
-`r discipline` often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in how we use data, as researchers must try to anticipate the challenges to inference even before conducting analyses.
+<!-- `r discipline` often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in how we use data, as researchers must try to anticipate the challenges to inference even before conducting analyses. -->
 
-My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of randomized controlled trials. In the future, I plan to expand to causal inference in quasi-experiments and observational studies.
+My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. My current agenda focuses on the design of randomized controlled trials. In the future, I plan to expand to causal inference in quasi-experiments and observational studies, as well as the use of machine learning for statistical inference.
 
 <!-- Changed human to collective behavior for ND app -->
 <!-- I apply the insights of my work in statistics on `r applications`. The common goal is to improve our ability to make statistical inferences when human behavior prevents us from observing phenomena of interest directly. -->
 
-### Improving precision before conducting an experiment
+<!-- ### Improving precision before conducting an experiment -->
 
-In the social sciences, the last decade has seen considerable improvement in research transparency and registration. Borrowing heavily from statistics, recent advances in experimental design provide tools to diagnose the properties of a research design before data collection. For example, one can think about bias, power, or target sample size under different hypothetical data generation processes.
+<!-- In the social sciences, the last decade has seen considerable improvement in research transparency and registration. Borrowing heavily from statistics, recent advances in experimental design provide tools to diagnose the properties of a research design before data collection. For example, one can think about bias, power, or target sample size under different hypothetical data generation processes. -->
 
 A recurrent goal in the causal inference literature is to minimize bias, or being close to the hypothetical truth on average. Instead, my agenda focuses on optimizing statistical precision, as in producing consistent estimates after multiple realizations of the same data generation process. The literature implicitly assumes that one cam simply improve precision by increasing sample size. However, this is not feasible in most social science applications due to resource considerations.
 
@@ -57,3 +57,7 @@ Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois)
 <!-- I plan to use the insights of my work to inform applications in the social sciences. In turn, I aim to use applications as a motivation to further develop tools for statistical inference. -->
 
 <!-- For example, in work in progress with with Inés Fynn (PUC-Chile), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of criminal governance strategies in `r uruguay`. We also develops techniques to combine estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available measure sensitive attitudes and behaviors through surveys. -->
+
+<!-- More about data science stuff -->
+I plan to expand my research program toward the use of data science tools to improve statistical inference. An early example comes from my dissertation work on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of
+other mayors in nearby localities. My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting.
