@@ -15,11 +15,11 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-field = "research design and statistics"
-students = "social science majors"
-methods_offer = "research design, causal inference, experiments, statistics, and data visualization"
-cp_offer = "evidence-informed policy, policy evaluation, and the politics of the Global South"
-source = "teaching portfolio"
+field = "research design and quantitative methods"
+students = "political science majors"
+methods_offer = "research design, quantitative methods, causal inference, experiments, and computational social science. I have not taught qualitative methods in the past, but I have pursued extracurricular training in these techniques and would be eager to develop a new course on the subject."
+cp_offer = "comparative politics, Latin American politics, the politics of the Global South, and democracy and representation,"
+source = "website"
 ```
 
 <!-- Hide for shorter version -->
@@ -36,11 +36,9 @@ Flexibility and accountability also help in preventing instances of discriminati
 
 ### Teaching experience
 
-I have experience teaching substantive and methodological courses to diverse audiences and under different formats. At McMaster, I teach research design for public policy and public opinion, with emphasis on experimental and quasi-experimental designs for causal inference. The goal of this course is to give students hands-on experience in designing a quantitative research project in an area relevant to academia, policy, or industry.
+I have experience teaching substantive and methodological courses to diverse audiences and under different formats. At McMaster, I teach data analysis for public policy and public opinion, with emphasis on experimental and quasi-experimental designs for causal inference. The goal of this course is to give students hands-on experience in designing a quantitative research project in an area relevant to academia, policy, or industry.
 
-At Tulane, I taught an undergrad senior course on the challenges of developing democracies from the perspective of evidence-informed policymaking. This course overviews the main challenges in the path to democratic consolidation around the world, the proposed solutions to these challenges, and how governments, researchers, and civil society organizations use data to evaluate these solutions. The previous version focused primarily design-based causal inference. In future versions of these two courses, I plan to expand the syllabi to include applications of computational social science and machine learning.
-
-I also taught introduction to comparative politics, emphasizing theoretical and methodological considerations as the core of the course, while simultaneously encouraging students to apply this knowledge to recent events in a region or country of their choosing. 
+At Tulane, I taught an undergrad senior course on the challenges of developing democracies from the perspective of evidence-based policy making. This course overviews the main challenges in the path to democratic consolidation around the world, the proposed solutions to these challenges, and how governments, researchers, and civil society organizations use data to evaluate these solutions. The previous version focused primarily design-based causal inference. In future versions of these two courses, I plan to expand the syllabi to include applications of computational social science and machine learning. I also taught introduction to comparative politics, emphasizing theoretical and methodological considerations as the core of the course, while simultaneously encouraging students to apply this knowledge to recent events in a region or country of their choosing. 
 
 In my time at Illinois, I taught statistics and research methods. In the 2020-2021 academic year, I was the graduate methods teaching assistant in our department. My duties involved advising PhD students taking courses in the quantitative methods sequence, as well as mentoring undergraduates enrolled in the senior honors thesis program. I also served as a teaching assistant for Jake Bowers' introduction to data analysis for political science majors. This course focuses on flipped classroom learning, letting students engage with the course material on their own time and using lecture time to work as a group on problem sets and research projects. I have also contributed as a math camp instructor for three consecutive years, introducing statistical programming in R to incoming graduate students in our department. 
 
@@ -50,7 +48,7 @@ Teaching to these diverse audiences made me aware of the importance of promoting
 
 ### Teaching interests
 
-<!-- I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`. -->
+I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`.
 
 <!-- Rewrite when substantive teaching is not needed -->
-I am prepared to teach courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`.
+<!-- I am prepared to teach courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`. -->
