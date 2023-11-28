@@ -29,7 +29,7 @@ listing:
     type: table
     fields: [title, Links]
     filter-ui: false
-    sort: "title desc"
+    sort: "title"
     sort-ui: false
     #categories: true
 toc: false    
