@@ -1,9 +1,10 @@
 ---
 title: "Welcome"
-about:
-  template: solana
-  image: "images/profile3.png"
-  image-width: 12em
+# about:
+#   template: solana
+#   image: "images/profile3.png"
+#   image-width: 12em
+page-layout: full
 ---
 
 I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/).

@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -57,70 +58,68 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Gustavo Diaz</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://talks.gustavodiaz.org" rel="" target="">
- <span class="menu-text">Talks</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./files/cv.pdf" rel="" target="">
- <span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:diazg2@mcmaster.ca" rel="" target=""><i class="bi bi-envelope" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/gusvalo" rel="" target=""><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/gustavo-diaz" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=TVXK8-8AAAAJ" rel="" target=""><i class="bi bi-google" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-</ul>
-            <div class="quarto-navbar-tools">
-</div>
-          </div> <!-- /navcollapse -->
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Gustavo Diaz
+      </li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Gustavo Diaz</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./talks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recent and Upcoming Talks</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./files/cv.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CV</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -149,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming Deadlines</h2>
-<p><strong>Last update:</strong> November 15, 2023. Full list <a href="https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=1630537882">here</a>.</p>
+<p><strong>Last update:</strong> November 27, 2023. Full list <a href="https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=1630537882">here</a>.</p>
 <p><strong>Number of letters to write:</strong></p>
 <div class="cell">
 <div class="cell-output-display">
@@ -163,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
 </tr>
 </tbody>
 </table>
@@ -174,15 +173,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>&nbsp;</p>
-<p><a href="https://uasys.wd5.myworkdayjobs.com/en-US/UASYS/job/Assistant-Professor-of-Comparative-Politics_R0047156"><strong>Assistant Professor of Comparative Politics - Department of Political Science - University of Arkansas, Fayetteville</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 1, 2023 <br> <strong>Delivery:</strong> After shorlist <br> <strong>Notes:</strong> The successful candidate’s scholarship and teaching should concentrate on Latin American politics, focusing on one or more of the following areas: gender and politics, criminal and political violence, comparative political behavior, political institutions, and democratization. The individual will be expected to work with our college’s Latin American and Latino Studies program. <br>&nbsp;<br>
-&nbsp;<br>
-<a href="https://apply.interfolio.com/134121"><strong>Assistant Professor of Statistics &amp; Data Science - Department of Statistics &amp; Data Science - Carnegie Mellon University</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 1, 2023 <br> <strong>Delivery:</strong> Interfolio <br> <strong>Notes:</strong> Potential areas of interest include but are not limited to computational social science, finance, physical sciences and statistical computing. <br>&nbsp;<br>
-&nbsp;<br>
-<a href="https://www.academicwork.ca/jobs/ad23-57assistant-professor-of-economics-two-positions-university-of-guelph"><strong>Assistant Professor - Departments of Economics and Finance - University of Guelph</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 1, 2023 <br> <strong>Delivery:</strong> EconJobMarket <br> <strong>Notes:</strong> Preference will be given to candidates in applied microeconomic theory and applied econometrics <br>&nbsp;<br>
+<p><a href="https://www.academicwork.ca/jobs/ad23-57assistant-professor-of-economics-two-positions-university-of-guelph"><strong>Assistant Professor - Departments of Economics and Finance - University of Guelph</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 1, 2023 <br> <strong>Delivery:</strong> EconJobMarket <br> <strong>Notes:</strong> Preference will be given to candidates in applied microeconomic theory and applied econometrics <br>&nbsp;<br>
 &nbsp;<br>
 <a href="https://academicjobsonline.org/ajo/jobs/25568"><strong>Assistant Professor of Data Science - Department of Data Science - University of Oregon</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 1, 2023 <br> <strong>Delivery:</strong> After shorlist? <br> <strong>Notes:</strong> We enthusiastically invite multiple interdisciplinary researchers to join our newly established Department of Data Science as tenure-track faculty colleagues. We invite applications from researchers working in Data Science, broadly defined, including those working in other domains who contribute to data analysis methodology for that domain (e.g., methods and/or applications of artificial intelligence, machine learning, statistical inference, computational/applied mathematics, data visualization, etc) as well as those whose research focuses directly on the methodology itself (e.g., computer science or statistics). <br>&nbsp;<br>
-&nbsp;<br>
-<a href="https://fau.wd1.myworkdayjobs.com/en-US/FAU/job/Boca-Raton/Assistant-Professor-in-Comparative-Politics_REQ16855?q=political%20Science"><strong>Assistant Professor in Comparative Politics - Department of Political Science - Florida Atlantic University</strong></a><br><strong>Letters:</strong> Jake, Matt, Michelle <br> <strong>Deadline:</strong> December 2, 2023 <br> <strong>Delivery:</strong> Receive email <br> <strong>Notes:</strong> The committee members are Luisa Turbino Torres, Angie Nichols, and Jeffrey Morton. Candidates should expect to teach undergraduate and graduate courses in Comparative politics and research methods. Specializations include but are not limited to democracy and democratization, political economy, electoral politics, politics of regime change, political behavior, and/or political development in Latin America. Candidates should have a strong foundation in empirical research methods and be able to teach qualitative or quantitative design and methods courses at both the undergraduate and graduate levels. Preferred candidates will have some proficiency in Spanish, Portuguese, indigenous, and/or other regional/local dialects. <br>&nbsp;<br>
 &nbsp;</p>
 </section>
 <section id="materials" class="level2">

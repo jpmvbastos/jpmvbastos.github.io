@@ -30,7 +30,7 @@ listing:
     sort-ui: false
     #categories: true
 toc: false    
-#page-layout: full
+page-layout: full
 ---
 
 ## Publications

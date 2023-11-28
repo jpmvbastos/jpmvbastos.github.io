@@ -1,0 +1,37 @@
+# Newer entries on top
+# Frequent fontawesome expressions
+# {{< fa tv >}} (replace with webpage globe)
+# {{< fa file-lines >}}
+- title: "Research Design for Public Opinion and Policy"
+  Semester: "2023 Winter"
+  Institution: "McMaster University"
+  Links: "[{{< fa tv >}}](https://popw23.gustavodiaz.org/) [{{< fa file-lines >}}](https://popw23.gustavodiaz.org/syllabus.pdf)"
+  type: "current"
+  
+- title: "Politics of Developing Democracies"
+  Semester: "2022 Spring"
+  Institution: "Tulane University"
+  Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
+  type: "previous"
+  
+- title: "Comparative Politics"
+  Semester: "2021 Fall"
+  Institution: "Tulane University"
+  Links: "[{{< fa file-lines >}}](files/teaching/introcp_syllabus.pdf)"
+  type: "previous"
+  
+- title: "Comparative Politics of Developing Nations"
+  Semester: "2019 Summer"
+  Institution: "Tulane University"
+  Links: "[{{< fa file-lines >}}](files/teaching/cpdev_online_syllabus.pdf)"
+  type: "previous"
+  
+- title: "Advances in the Design and Analysis of Experiments"
+  Links: "[{{< fa file-lines >}}](files/teaching/exp_syllabus.pdf)"
+  type: "sample"
+  
+- title: "Political Data Analysis"
+  Links: "[{{< fa file-lines >}}](files/teaching/data_syllabus.pdf)"
+  type: "sample"
+  
+  

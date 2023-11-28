@@ -15,27 +15,13 @@ $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
-//== Navbar
-//
-// Basics of a navbar
-$navbar-bg: #7A003C;
-
 $font-family-sans-serif:      Fira Sans Condensed, sans-serif !default;
 $font-family-serif:           Barlow, serif !default;  /* Not actually a serif font but whatever */
 
-$font-size-base:              1.25rem !default;
+$font-size-base:              1.1rem !default;
 $headings-font-weight:        700 !default;
+$sidebar-font-size: 1.2rem;
 
-$h1-font-size: $font-size-base * 2.45;
-$h2-font-size: $font-size-base * 1.85;
-$h3-font-size: $font-size-base * 1.5;
-$h4-font-size: $font-size-base * 1.2;
-$h5-font-size: $font-size-base * 1;
-$h6-font-size: $font-size-base * 0.8;
-
-$toc-font-size: 1.1rem;
-$sidebar-font-size: 1.1rem;
-$sidebar-font-size-section: 0.9rem;
 
 
 

@@ -1,55 +1,55 @@
 ---
 title: "Teaching"
+description: "" 
+listing:
+  - id: current
+    include: 
+      type: "current"
+    contents: teaching.yaml
+    type: table
+    fields: [title, Semester, Institution, Links]
+    filter-ui: false
+    sort: "Semester desc"
+    sort-ui: false
+    #categories: true
+  - id: previous
+    include: 
+      type: "previous"
+    contents: teaching.yaml
+    type: table
+    fields: [title, Semester, Institution, Links]
+    filter-ui: false
+    sort: "Semester desc"
+    sort-ui: false
+    #categories: true
+  - id: sample
+    include:
+      type: "sample"
+    contents: teaching.yaml
+    type: table
+    fields: [title, Links]
+    filter-ui: false
+    sort: "title desc"
+    sort-ui: false
+    #categories: true
+toc: false    
+page-layout: full
 ---
 
-## Sample Syllabi
+<!-- See about omitting columns by table -->
 
-These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.
+## Currently teaching
 
-[Advances in the Design and Analysis of Experiments](files/teaching/exp_syllabus.pdf)
+:::{#current}
+:::
 
-[Political Data Analysis](files/teaching/data_syllabus.pdf)
+## Previously taught
 
-## Instructor
-
-### McMaster University
-
-[Research Design for Public Opinion and Public Policy](https://popw23.gustavodiaz.org/)
-
-### Tulane University
-
-[Politics of Developing Democracies](files/teaching/ddem_syllabus.pdf)
-
-[Comparative Politics](files/teaching/introcp_syllabus.pdf)
-
-### University of Illinois at Urbana-Champaign
-
-[Comparative Politics in Developing Nations (Online)](files/teaching/cpdev_online_syllabus.pdf)
-
-[Math Camp for Political Scientists](https://github.com/mathcamp-psgsa)
-
-## Teaching Assistant
-
-### University of Illinois at Urbana-Champaign
-
-#### Graduate
-
-Quantitative Methods I (Instructor: [Brian Gaines](https://pol.illinois.edu/directory/profile/bjgaines))
-
-Quantitative Methods II  (Instructor: [Jake Bowers](http://www.jakebowers.org/))
-
-Quantitative Methods III (Instructor: [Wendy K. Tam Cho](http://cho.pol.illinois.edu/wendy/))
-
-Research Design and Techniques (Instructors: [Jake Bowers](http://www.jakebowers.org/) and [James H. Kuklinski](https://pol.illinois.edu/directory/profile/kuklinsk))
-
-#### Undergraduate
-
-Quantitative Methods (Instructor: [Jake Bowers](http://www.jakebowers.org/))
-
-Comparative Politics in Developing Nations (Instructor: [Avital Livny](https://www.alivny.com/))
+:::{#previous}
+:::
 
 
+## Sample syllabi
 
-
-
-
+:::{#sample}
+:::
