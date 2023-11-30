@@ -23,7 +23,7 @@ Gustavo Diaz
 field = "statistics"
 students = "social science majors"
 methods_offer = "statistical inference, statistical programming, causal inference, machine learning, and their application to social science and public policy"
-source = "teaching portfolio"
+source = "website"
 ```
 
 <!-- As someone teaching `r field` to `r students`, I face the impossible task of conveying mathematical thinking, statistical programming, and their application to academia, policy, and industry to an audience in which the majority of individuals chose their degree to explicitly avoid math. Usually, my students start the semester with an appreciation for statistical analysis, but find it impossible to produce their own output. -->

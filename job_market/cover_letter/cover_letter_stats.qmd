@@ -18,19 +18,19 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor in Data Science and Statistics [23_T_MATH_M]"
+jobtitle = "an Assistant Professor of Data Science"
 comparative = TRUE
-place = "Concordia"
+place = "the University of Oregon"
 tools = "data science and design-based causal inference"
 discipline = "social science"
 machine = "data science tools"
 courses = "statistical inference, statistical programming, causal inference, machine learning, and their application to social science and public policy"
-source = "teaching portfolio"
+source = "website"
 ```
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which human behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published, forthcoming, or under revise and resubmit in leading social science outlets discussing these topics, including the *British Journal of Political Science*, *World Development*, the *Journal of Experimental Political Science*, and *The SAGE Handbook of Research Methods in Political Science and International Relations*.
+My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in the social sciences. I focus on applications in which human behavior prevents us from observing the phenomena we wish to understand directly, thus demanding creativity in data analysis. My work is published, forthcoming, or under revise and resubmit in leading social science outlets discussing these topics, including the *British Journal of Political Science*, *World Development*, and the *Journal of Experimental Political Science*.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
