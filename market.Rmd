@@ -16,12 +16,12 @@ library(fontawesome)
 gs4_deauth()
 
 ## Set date threshold to display jobs
-t = "2023-12-05"
+t = "2024-01-10"
 ```
 
 ## Welcome!
 
-This page is for internal use only. If you are not a letter writer, I encourage you to use the navigation tab on top to learn more about me and my work.
+This page is for internal use only. If you are not a letter writer, I encourage you to use the navigation tab to learn more about me and my work.
 
 ## Upcoming Deadlines
 
