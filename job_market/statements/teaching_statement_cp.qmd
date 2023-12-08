@@ -15,7 +15,7 @@ Gustavo Diaz
 ### Teaching philosophy
 
 ```{r setup, include=F}
-cp_offer = "comparative politics, Latin American politics, comparative political behavior, gender and politics, democracy and representation"
+cp_offer = "comparative politics, the politics of the Global South, Latin American politics, comparative political behavior, gender and politics, democracy and representation"
 methods_offer = "research design, quantitative methods, causal inference, experiments, and computational social science"
 source = "teaching portfolio"
 ```

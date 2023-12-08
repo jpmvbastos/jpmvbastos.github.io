@@ -17,13 +17,13 @@ fontsize: 12pt
 
 
 ```{r setup, include=F}
-place = "the University of Arkansas"
+place = "the ICP"
 jobtitle = "an Assistant Professor in Comparative Politics"
 # specialty does not appear in methods letter
 specialty = "comparative politics and quantitative methods" 
-area = "political economy and political behavior in Latin America, with topics including democracy, accountability, and representation, gender and politics, and criminal and political violence"
+area = "the challenges to accountability, governance, and representation in the Global South from the a political behavior perspective"
 tools = "causal inference and computational social science to develop standards to navigate research design tradeoffs in quantitative studies"
-courses = "comparative politics, Latin American politics, comparative political behavior, gender and politics, democracy and representation, research design, and quantitative methods"
+courses = "comparative politics, comparative political behavior, democracy and representation, research design, and quantitative methods"
 source = "teaching portfolio"
 ```
 
@@ -61,7 +61,7 @@ As a graduate student at Illinois, I taught an online course on the politics of 
 I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds and career goals.
 
 <!-- CLOSING -->
-I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
+I believe my expertise makes me an excellent fit at `r place`. Moreover, returning to my alma mater as a professor would be a dream come true. If you have any questions, you can contact me via email or phone.
 
 
 Sincerely,
