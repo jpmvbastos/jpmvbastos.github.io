@@ -18,13 +18,13 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Data Science"
+jobtitle = "an Assistant Professor in Statistics"
 comparative = TRUE
-place = "the University of Oregon"
-tools = "data science and design-based causal inference"
+place = "Binghamton University"
+tools = "machine learning and design-based causal inference"
 discipline = "social science"
-machine = "data science tools"
-courses = "statistical inference, statistical programming, causal inference, machine learning, and their application to social science and public policy"
+machine = "machine learning"
+courses = "statistical inference, statistical programming, causal inference, design of experiments, machine learning, and their application to social science and public policy"
 source = "website"
 ```
 
@@ -64,7 +64,7 @@ I am prepared to teach courses on `r courses`. You can find copies of current an
 <!-- Third, in a project that also includes Guillem Riambau (Universitat de Barcelona), we use data from the Asian Barometer to understand whether the presence of others during an interview shapes how people respond to face-to-face surveys. I lead the process of harmonizing and documenting the coding of key variables using data spanning 20 years of surveys across 17 countries. This project aims to improve our understanding of how context, culture, and institutions shape measurement error in cross-national surveys. -->
 
 <!-- CLOSING -->
-I believe my expertise makes me an excellent fit at `r place`. My previous experience as a student in a French-speaking institution allows me to read and grade student work in that language. Moreover, this position's location aligns perfectly with my family circumstances. If you have any questions, you can contact me via email or phone.
+I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
 
 
 Sincerely,
