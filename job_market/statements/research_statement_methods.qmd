@@ -8,7 +8,6 @@ urlcolor: blue
 Gustavo Diaz  
 *Department of Political Science, McMaster University*  
 <diazg2@mcmaster.ca>  
-**Position:** Department of Political Science & International Relations  
 \hrule
 
 &nbsp;
@@ -16,8 +15,8 @@ Gustavo Diaz
 
 ```{r setup, include=F}
 discipline = "Political scientists"
-fields = "data science and design-based causal inference"
-applications = "to questions around the use of statistical evidence to address social and political challenges in the Global South"
+fields = "computational social science"
+applications = "to questions around the challenges to accountability, governance, and representation"
 # some applications I may not want to say Uruguay explicitly
 uruguay = "Montevideo, Uruguay"
 ```
@@ -43,7 +42,7 @@ In a manuscript forthcoming in the *Journal of Experimental Political Science*, 
 
 This implies an estimator that is more precise and still unbiased, but their implementation brings the question over whether the aggregation of the results of two parallel experiments yields a valid estimate. The tests leverage variation in the order in which respondents see the sensitive item to detect whether respondents are reacting to list experiment questions in unintended ways. This provides researchers with a tool to apply this underexplored variant of the technique more widely.
 
-In a paper under review with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting research design features aimed at improving precision can instead hurt precision through implicit or explicit sample loss. For example, block randomization often improves precision. However, if this requires contacting participants multiple times to collect blocking covariates first and then post-treatment outcomes, then it creates space for attrition that would not exist otherwise, which may offset the precision gains of blocking. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.
+In a paper under **revise and resubmit** at te *American Political Science Review* with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting research design features aimed at improving precision can instead hurt precision through implicit or explicit sample loss. For example, block randomization often improves precision. However, if this requires contacting participants multiple times to collect blocking covariates first and then post-treatment outcomes, then it creates space for attrition that would not exist otherwise, which may offset the precision gains of blocking. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.
 
 The second reason to focus on statistical precision is that sometimes a more precise yet biased estimator gives more informative answers than an unbiased estimator, which is especially relevant for policy decision-makers. In this case, the researcher is explicitly sacrificing unbiasedness for the sake of precision. Two other projects reflect this issue.
 

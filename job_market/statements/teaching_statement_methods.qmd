@@ -17,9 +17,9 @@ Gustavo Diaz
 ```{r setup, include=F}
 field = "research design and quantitative methods"
 students = "political science majors"
-methods_offer = "research design, quantitative methods, causal inference, experiments, and computational social science. I have not taught qualitative methods in the past, but I have pursued extracurricular training in these techniques and would be eager to develop a new course on the subject."
+methods_offer = "research design, statistics, statistical programming, causal inference, machine learning, big data, and data visualization"
 cp_offer = "comparative politics, Latin American politics, the politics of the Global South, and democracy and representation,"
-source = "website"
+source = "teaching portfolio"
 ```
 
 <!-- Hide for shorter version -->
@@ -48,7 +48,7 @@ Teaching to these diverse audiences made me aware of the importance of promoting
 
 ### Teaching interests
 
-I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`.
+<!-- I am prepared to teach courses on `r methods_offer`. I can also teach substantive courses on `r cp_offer`. You can find copies of current and sample syllabi in my `r source`. -->
 
 <!-- Rewrite when substantive teaching is not needed -->
-<!-- I am prepared to teach courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`. -->
+I am prepared to teach courses on `r methods_offer`. You can find copies of current and sample syllabi in my `r source`.
