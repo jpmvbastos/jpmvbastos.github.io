@@ -58,6 +58,14 @@ BA in Political Science \hfill 2014
 
 <!-- Political Economy, Political Behavior, Accountability, Representation, Developing Countries, Causal Inference, Machine Learning -->
 
+# Under review  
+
+["Balancing Precision and Retention in Experimental Design"](https://gustavodiaz.org/files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/))  
+*Revise and resubmit at The American Political Science Review*
+
+["Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina."](https://gustavodiaz.org/files/research/gender_performance.pdf) (with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/))  
+*Revise and resubmit at The British Journal of Political Science*
+
 # Publications  
 
 <!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->
@@ -77,14 +85,6 @@ Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook
 2014\. ["Civic Education and Voter Turnout Under Voluntary Voting."](https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813) *Política* 52(1): 61-91 (In Spanish)
 
 
-
-# Under review  
-
-["Balancing Precision and Retention in Experimental Design"](https://gustavodiaz.org/files/research/precision_retention.pdf) (with [Erin Rossiter](http://erossiter.com/))  
-*Revise and resubmit at The American Political Science Review*
-
-["Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina."](https://gustavodiaz.org/files/research/gender_performance.pdf) (with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/))  
-*Revise and resubmit at The British Journal of Political Science*
 
 
 # Working Papers  
