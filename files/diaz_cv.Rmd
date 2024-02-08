@@ -66,6 +66,9 @@ BA in Political Science \hfill 2014
 ["Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina."](https://gustavodiaz.org/files/research/gender_performance.pdf) (with [Virginia Oliveros](https://virginiaoliveros.com/), [Rebecca Weitz-Shapiro](https://vivo.brown.edu/display/rweitzsh), and [Matthew S. Winters](https://sites.google.com/site/mswinters1/))  
 *Revise and resubmit at The British Journal of Political Science*
 
+["Two-Sided Two-Sided Sensitivity Bias in Surveys: A List Experiment on Same-Sex Marriage in Argentina"](https://gustavodiaz.org/files/research/ssm_arg.pdf) (with [Jordi Díez](https://www.jordidiez.ca/) and [Michelle Dion](https://michelledion.com/))  
+*Under review at Political Science Research and Methods since February 2024*
+
 # Publications  
 
 <!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->

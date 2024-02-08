@@ -2,6 +2,14 @@
 # Useful copy paste for coauthors:
 # <a href='website'>name</a>
 
+- title: "<b>Two-Sided Sensitivity Bias in Surveys: A List Experiment on Same-Sex Marriage in Argentina</b>"
+  type: "Working"
+  with: "with <a href='https://www.jordidiez.ca/'>Jordi Diez</a> and <a href='https://michelledion.com/'>Michelle Dion</a>"
+  date: 2023-10-24
+  status: "Working paper"
+  pdf: "../files/research/ssm_arg.pdf"
+  appendix: "../files/research/ssm_arg_appendix.pdf"
+  
 - title: "<b>Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors</b>"
   type: "Progress"
   date: 2023-08-17
@@ -17,11 +25,6 @@
   date: 2023-08-01
   with: "with <a href='https://michelledion.com/'>Michelle Dion</a> and <a href='http://guillemriambau.com/'>Guillem Riambau</a>"
   
-- title: "<b>Support for Same-sex Marriage After Legalization: Evidence from a List Experiment in Argentina</b>"
-  type: "Progress"
-  date: 2023-07-01
-  with: "with <a href='https://www.jordidiez.ca/'>Jordi Diez</a> and <a href='https://michelledion.com/'>Michelle Dion</a>"
-
 - title: "<b>When Should We Use Biased Estimators of the Average Treatment Effect?</b>"
   type: "Progress"
   date: 2022-09-01
