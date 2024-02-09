@@ -70,7 +70,7 @@ My involvement beyond the classroom also complements my teaching and mentoring. 
 <!-- I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. -->
 
 <!-- Tailored for Texas A&M -->
-I am prepared to teach introductory courses in a research design quantitative methods sequence, as well as electives in causal inference, experiments, survey design, machine learning, data visualization, and their application to evidence-informed policy in the Global South and beyond. You can find copies of current and sample syllabi at <gustavodiaz.org/teaching>.
+I am prepared to teach introductory courses in a research design quantitative methods sequence, as well as electives in causal inference, experiments, survey design, machine learning, data visualization, and their application to evidence-informed policy in the Global South and beyond. You can find copies of current and sample syllabi in my website.
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
