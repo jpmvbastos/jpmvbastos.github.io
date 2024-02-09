@@ -1,0 +1,63 @@
+---
+format: pdf
+fontsize: 12pt
+urlcolor: blue
+---
+## Personal Statement
+
+Gustavo Diaz  
+*Department of Political Science, McMaster University*  
+<diazg2@mcmaster.ca>  
+\hrule
+
+&nbsp;
+
+
+```{r setup, include=F}
+discipline = "Political scientists"
+fields = "computational social science"
+applications = "to questions around the challenges to accountability, governance, and representation"
+# some applications I may not want to say Uruguay explicitly
+uruguay = "Montevideo, Uruguay"
+```
+
+### Research
+
+Social scientists often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in research design, as researchers must try to anticipate the challenges to inference even before conducting data analysis.
+
+My research develops standards to navigate the tradeoffs that emerge when one considers research design alternatives before data collection. I use tools from computational social science and design-based causal inference to identify practices and procedures that researchers can adopt to improve how they approach data at the pre-analysis stage. 
+
+My current agenda focuses on the design of field and survey experiments. For example, in a paper under **R&R** at te *American Political Science Review* with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting research design features aimed at improving precision can instead hurt precision through implicit or explicit sample loss. For example, block randomization often improves precision. However, if this requires contacting participants multiple times to collect blocking covariates first and then post-treatment outcomes, then it creates space for attrition that would not exist otherwise, which may offset the precision gains of blocking.
+
+As another example, in a manuscript recently published in the *Journal of Experimental Political Science*, I propose statistical tests to address problems with double list experiments. This is a variant of the standard list experiment that promises more precision in the estimation of sensitive attitudes and behavior while preserving unbiasedness. However, their implementation brings additional questionnaire design complications that prevent researchers from adopting double list experiments as standard practice. The tests leverage variation in the order in which respondents see the sensitive item to detect whether respondents are reacting to list experiment questions in unintended ways. This provides researchers with a tool to apply this underexplored variant of the list experiment more widely.
+
+In the future, I plan to expand this research program in two directions. First, I plan to use the insights of my work to inform applications that answer relevant questions on evidence-informed policy in the Americas and beyond. 
+
+For example, in a piece under **R&R** at the *British Journal of Political Science* with Virginia Oliveros (Tulane), Rebecca Weitz-Shapiro (Brown), and Matt Winters (Illinois), we use a survey experiment in Argentina to study gendered differential reactions to policy implementation. Previous work suggests that women face higher scrutiny for their performance in office However, in the context of the implementation of a food distribution program, we find that voters are only responsive to performance information (positive or negative) among male officeholders and tend to ignore performance information when told that an officeholder is a woman. We attribute this result to voters' perception of male politicians as the default category, thus providing no new information on top of performance. In turn, mentioning the gender of a female politician leads voters to believe that good performance stems from factors beyond the incumbent's control.
+
+In turn, I aim to use applications as a motivation for further methodological innovation. For example, in work in progress with with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez (Universidad de la República), and Lucía Tiscornia (University College Dublin), we apply my work on list experiments to document the extent of negative and positive criminal governance strategies in Uruguay. This project also develops techniques to combine prevalence estimates from list experiments with network scale-up questions, a technique more common in the health sciences. This expands the range of tools available to measure sensitive attitudes and behaviors through surveys.
+
+As a second direction, I plan to expand I towards the use of data science tools to improve statistical inference. An early example comes from my dissertation work on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of other mayors in nearby localities. My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting.
+
+
+### Teaching
+
+As someone teaching quantitative methods to social science, I face the impossible task of conveying mathematical thinking, statistical programming, and their application to academia and decision-making to an audience in which the majority of individuals chose their degree to explicitly avoid these topics. Usually, my students start the semester with an appreciation for quantitative research, but find it impossible to produce their own output.
+
+My approach to accomplish this within one semester is to design courses as language-acquisition tasks under two guiding principles. First, students need flexibility to engage with the course on their own terms and focus on the content they find useful. For example, in the current iteration of my course on research design and data analysis for public opinion and policy, I have introduced contract grading to reward effort over correctness and allow students to work as much as they need to get the grade they want. In my course, students are presented with a baseline grading contract that guarantees a B+ as long as students complete assignments and requirements in a satisfactory and timely manner, with clear rules on what would decrease or improve their grade.
+
+The second principle is accountability, which is necessary to keep everyone on task while allowing flexibility. This means agreeing on an overarching theme that every single course activity must relate to, which in turn informs what can be considered as a satisfactory level of effort. For example, early on in my course, I introduce the bias-variance tradeoff as a principle to choose among alternative research designs. So, while students are free to explore any modification to an existing research design that they deem appropriate, they are required to discuss its consequences under this framework. They must consider, for instance, that a representative sample is more expensive than a convenience sample, or that implementing a block-randomized experiment may require access to variables that cannot be measured easily.
+
+Flexibility and accountability also help in preventing instances of discrimination in the learning process. Through flexibility, students are invited to add value to the course by bringing their own perspective, knowledge, or experiences. In turn, accountability sets the scope for the type of contributions of interventions that are admissible. From this perspective, a discriminatory or harmful remark is unacceptable not because of potential ideological disagreement, but because it is beyond the scope of the vocabulary that our course aims to build.
+
+In the future, I plan to expand upon this flexibility-accountability framework by incorporating flipped classroom approaches. With enough resources to record high-quality teaching material ahead of time, I can expand the scope of flexibility from assignment production toward the consumption of course material as a whole. This also enhances accountability by creating additional time to discuss norms and expectations around language-building.
+
+### Service
+
+As a first generation-scholar who initially chose to major in Political Science to avoid math only to become a political methodologist, I recognize that the conventional university setting may not allow individuals from non-traditional backgrounds to thrive. Therefore, my goal is to engage in service tasks that create opportunities to reduce entry barriers to knowledge generation and dissemination.
+
+My initial efforts focused on facilitating out-of-classroom learning opportunities. During my PhD at Illinois, I started a methods cheatsheets project in 2018. In this project, volunteer graduate students write a short introduction to the theory, implementation, and current debates surrounding a technique of their expertise. These resources are shared in a repository available for current and future generations. I also organized a reading group on computational social science to provide a low-stakes space for individuals to read and discuss about methods that are not covered in the core methodological training.
+
+In the future, I aim to translate these ideas into a sustainable and inclusive research program. I believe this is best accomplished by joining or creating a laboratory or working group around the topic of research methods for international affairs. This framework creates a space to foster dialogue across backgrounds, disciplines, and career stages, while also providing a safety net to provide early support to those who may otherwise struggle.
+
+
