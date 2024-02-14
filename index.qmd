@@ -1,9 +1,5 @@
 ---
 title: "Welcome"
-# about:
-#   template: solana
-#   image: "images/profile3.png"
-#   image-width: 12em
 page-layout: full
 ---
 
