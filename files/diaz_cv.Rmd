@@ -29,7 +29,6 @@ header-includes:
 ---
 
 # Positions  
-<!-- Positions singular for now -->
 <!-- Remember double space for line skip -->
 
 **McMaster University**  
@@ -105,7 +104,7 @@ Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook
 
 ## McMaster University  
 
-[Research Design for Public Opinion and Public Policy](https://popw23.gustavodiaz.org/). Spring 2024, 2023
+[Research Design for Public Opinion and Public Policy](https://popw24.gustavodiaz.org/). Spring 2024, 2023
 
 ## Tulane University  
 
@@ -231,19 +230,22 @@ St. Louis Area Methods Meeting: 2019
 <!-- \end{multicols} -->
 
 <!-- Alternative section for 3 refs-->
-<!-- # References -->
+# References
 
-<!-- Jake Bowers   -->
-<!-- Associate Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:jwbowers@illinois.edu}{jwbowers@illinois.edu} -->
+Jake Bowers  
+Professor  
+University of Illinois at Urbana-Champaign  
+\href{mailto:jwbowers@illinois.edu}{jwbowers@illinois.edu}
 
-<!-- Gisela Sin   -->
-<!-- Associate Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:gsin@illinois.edu}{gsin@illinois.edu} -->
+Michelle Dion  
+Professor  
+McMaster University  
+\href{mailto:dionm@mcmaster.ca}{dionm@mcmaster.ca}
 
-<!-- Matthew S. Winters   -->
-<!-- Professor, University of Illinois at Urbana-Champaign   -->
-<!-- \href{mailto:mwinters@illinois.edu}{mwinters@illinois.edu} -->
+Matthew S. Winters  
+Professor  
+University of Illinois at Urbana-Champaign  
+\href{mailto:mwinters@illinois.edu}{mwinters@illinois.edu}
 
 
 

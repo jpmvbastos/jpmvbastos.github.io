@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.30)  9 FEB 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.30)  28 FEB 2024 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,21 +816,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `diaz_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 8F8CDB89536F1612D9471722CAFF5C38;1915.
+(rerunfilecheck)             Checksum: 0489BE562A1431A0FA0E17D8E47DF0B2;2011.
  ) 
 Here is how much of TeX's memory you used:
- 26192 strings out of 476167
- 483537 string characters out of 5792933
+ 26196 strings out of 476167
+ 483583 string characters out of 5792933
  1935978 words of memory out of 5000000
- 47500 multiletter control sequences out of 15000+600000
+ 47502 multiletter control sequences out of 15000+600000
  605773 words of font info for 203 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,12n,121p,1019b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on diaz_cv.pdf (4 pages, 120565 bytes).
+Output written on diaz_cv.pdf (4 pages, 123058 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 69765 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 69773 words of extra memory for PDF output out of 74296 (max. 10000000)
 

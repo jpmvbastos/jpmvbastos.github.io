@@ -18,9 +18,9 @@ fontsize: 12pt
 
 ```{r setup, include=F}
 
-jobtitle = "an Assistant Professor of Instruction in Computational Social Science"
-place = "Northwestern"
-tools = "computational social science"
+jobtitle = "an Teaching Assistant Professor in Political Methodology"
+place = "UNC"
+tools = "data science"
 applications = "questions around the challenges to accountability, governance, and representation in the Global South"
 discipline = "political science"
 courses = "research design, statistics, statistical programming, causal inference, machine learning, big data, and data visualization"
@@ -43,20 +43,22 @@ These experiences have prepared me to teach to a diverse student body, to adapt 
 <!-- Teaching plans -->
 <!-- Remember to switch from teaching portfolio/website accordingly -->
 <!-- Also tweak depending on job -->
-I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`. As a first-generation scholar, my teaching philosophy emphasizes using the language of the social sciences as a tool to advance the careers of students with different backgrounds and goals.
+I am prepared to teach courses on `r courses`. You can find copies of current and sample syllabi in my `r source`.
+
+<!-- As a first-generation scholar, my teaching philosophy emphasizes using the language of the social sciences as a tool to advance the careers of students with different backgrounds and goals. -->
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->
 <!-- Survey experiments and block rand -->
-My research agenda focuses on developing tools that researchers can adopt to improve statistical precision before data collection. This is overlooked in the statistics, econometrics, and political methodology literature in favor of identifying unbiased estimators. Implicitly, this literature assumes that one can improve statistical precision by increasing sample size. This is not feasible in many `r discipline` applications due to resource limitations. Moreover, resource considerations aside, even the least intrusive study has an ethical mandate to identify a research design that maximizes benefits and minimizes harm at the lowest possible cost.
+<!-- My research agenda focuses on developing tools that researchers can adopt to improve statistical precision before data collection. This is overlooked in the statistics, econometrics, and political methodology literature in favor of identifying unbiased estimators. Implicitly, this literature assumes that one can improve statistical precision by increasing sample size. This is not feasible in many `r discipline` applications due to resource limitations. Moreover, resource considerations aside, even the least intrusive study has an ethical mandate to identify a research design that maximizes benefits and minimizes harm at the lowest possible cost. -->
 
-Focusing on field and survey experiments, this agenda follows two strands. First, I examine cases where one can improve statistical precision without sacrificing unbiasedness, which implies unforeseen costs in other dimensions. For example, in work under **R&R** at the *American Political Science Review* with Erin Rossiter (Notre Dame), we show how implementing alternatives to the standard experimental design, such as pre-post outcome measurement or block randomization, may attenuate the expected gains in precision via explicit or implicit sample loss. In a solo-authored piece accepted at the *Journal of Experimental Political Science*, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In work in progress with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez Bentancur (Universidad de la República), and Lucía Tiscornia (University College Dublin), we show how to combine list experiments with network scale up questions to improve the precision of prevalence rate estimates for sensitive attitudes and behaviors at the cost one additional assumption.
+<!-- Focusing on field and survey experiments, this agenda follows two strands. First, I examine cases where one can improve statistical precision without sacrificing unbiasedness, which implies unforeseen costs in other dimensions. For example, in work under **R&R** at the *American Political Science Review* with Erin Rossiter (Notre Dame), we show how implementing alternatives to the standard experimental design, such as pre-post outcome measurement or block randomization, may attenuate the expected gains in precision via explicit or implicit sample loss. In a solo-authored piece accepted at the *Journal of Experimental Political Science*, I introduce new tools to assess the validity of estimates in double list experiments. This is a variant of the list experiment that promises more precise results but comes with under-explored questionnaire design complications. In work in progress with Inés Fynn (Universidad Católica del Uruguay), Verónica Pérez Bentancur (Universidad de la República), and Lucía Tiscornia (University College Dublin), we show how to combine list experiments with network scale up questions to improve the precision of prevalence rate estimates for sensitive attitudes and behaviors at the cost one additional assumption. -->
 
-The second strand focuses on cases where one can improve precision by sacrificing unbiasedness deliberately. For example, in work in progress with Jake Bowers (Illinois) and Christopher Grady (USAID), we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a *SAGE Handbook* chapter with Christopher Grady and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the cost of external validity bias.
+<!-- The second strand focuses on cases where one can improve precision by sacrificing unbiasedness deliberately. For example, in work in progress with Jake Bowers (Illinois) and Christopher Grady (USAID), we discuss the circumstances under which researchers should prefer biased yet precise estimators to analyze experimental data, including applications to block-randomization and M-estimation. In a *SAGE Handbook* chapter with Christopher Grady and Jim Kuklinski (Illinois), we discuss the merits and challenges of increasingly complex survey experimental designs that improve precision at the cost of external validity bias. -->
 
 <!-- One paragraph about data/science applications -->
 <!-- Needs to be added on research statement too! -->
-I plan to expand my research program toward the use of `r machine` to improve statistical inference. An early example comes from my dissertation work, funded by the Lemann Center for Brazilian Studies, on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of other mayors in nearby localities.  My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting.
+<!-- I plan to expand my research program toward the use of `r machine` to improve statistical inference. An early example comes from my dissertation work, funded by the Lemann Center for Brazilian Studies, on the effect of investigating the use of federal funds among selected mayors in Brazil on the behavior of other mayors in nearby localities.  My theory suggests geographic spillovers as a quantity of interest, yet it gives no guidelines for how far away that effect would travel. This presents a tradeoff between operationalizations that introduce bias by being too narrow or too broad. I overcame this problem using a penalized regression framework to choose the optimal upper bound. This innovation received the best poster award in the 2019 Latin American Political Methodology meeting. -->
 
 <!-- CLOSING -->
 I believe my expertise makes me an excellent fit at `r place`. If you have any questions, you can contact me via email or phone.
@@ -66,7 +68,7 @@ Sincerely,
 
 <!-- Remember double spaces to lineskip -->
 Gustavo Diaz  
-Postdoctoral Fellow  
-Department of Political Science  
+<!-- Postdoctoral Fellow   -->
+<!-- Department of Political Science   -->
 McMaster University
 
