@@ -1,0 +1,12 @@
+---
+title: "Welcome!"
+date: "March 5, 2024"
+page-layout: full
+---
+
+You can find the slides I used in my presentations here:
+
+- [Methods Instructional Workshop](https://talks.gustavodiaz.org/nu1)
+- [Research Klatch](https://talks.gustavodiaz.org/nu2)
+
+You can also learn more about me and my work using the links in the sidebar.
