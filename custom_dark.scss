@@ -6,11 +6,11 @@
 // --------------------------------------------------
 
 //** Primary color.
-$primary: #D2D755 !default;
-$secondary: #D2D755 !default;
+$primary: #B6ACD1 !default;
+$secondary: #B6ACD1 !default;
 
 //** Link hover color set via `darken()` function.
-$link-color: #D2D755;
+$link-color: #B6ACD1;
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
