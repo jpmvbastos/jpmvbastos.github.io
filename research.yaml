@@ -15,10 +15,12 @@
   date: 2023-08-17
   with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
   
-- title: "<b>Investigating Criminal Governance Strategies in Uruguay</b>"
-  type: "Progress"
-  date: 2023-08-16
+- title: "<b>In the Crevices of the State: Criminal Governance in Unexpected Contexts</b>"
+  type: "Working"
+  date: 2024-04-02
   with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  status: "Working paper"
+  pdf: "../files/research/crevices.pdf"
 
 - title: "<b>How the Presence of Others can Bias Survey Responses</b>"
   type: "Progress"
