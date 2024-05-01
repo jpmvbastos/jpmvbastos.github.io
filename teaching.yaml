@@ -2,36 +2,78 @@
 # Frequent fontawesome expressions
 # {{< fa globe >}}
 # {{< fa file-lines >}}
-- title: "Research Design for Public Opinion and Policy"
-  Semester: "2024 Winter"
-  Institution: "McMaster University"
-  Links: "[{{< fa globe >}}](https://popw24.gustavodiaz.org/) [{{< fa file-lines >}}](files/teaching/rdpp_syllabus.pdf)"
+# Copy paste level button
+# Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+- title: 'Probability and Statistics'
+  date: 2024-09-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+  Term: "2024 Fall"
+  Institution: "Northwestern University"
+  Links: "TBD"
   type: "current"
   
+- title: "R Workshop"
+  date: 2024-09-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+  Term: "2024-2025 AY"
+  Institution: "Northwestern University"
+  Links: "TBD"
+  type: "current"
+  
+- title: "Mathcamp"
+  date: 2024-08-01
+  Term: "2024 Summer"
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+  Institution: "Northwestern University"
+  Links: "TBD"
+  type: "current"
+  
+- title: "Introduction to Empirical Methods in Political Science"
+  date: 2025-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "2025 Winter"
+  Institution: "Northwestern University"
+  Links: "TBD"
+  type: "current"
+  
+- title: "Evidence-Informed Decision-Making"
+  date: 2025-04-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U/G</b></i></button>'
+  Term: "2025 Spring"
+  Institution: "Northwestern University"
+  Links: "TBD"
+  type: "current"
+
+- title: "Research Design for Public Opinion and Policy"
+  date: 2024-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "2024 Winter"
+  Institution: "McMaster University"
+  Links: "[{{< fa globe >}}](https://popw24.gustavodiaz.org/) [{{< fa file-lines >}}](files/teaching/rdpp_syllabus.pdf)"
+  type: "previous"
+  
 - title: "Politics of Developing Democracies"
-  Semester: "2022 Spring"
+  date: 2022-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "2022 Spring"
   Institution: "Tulane University"
   Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
   type: "previous"
   
 - title: "Comparative Politics"
-  Semester: "2021 Fall"
+  date: 2021-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "2021 Fall"
   Institution: "Tulane University"
   Links: "[{{< fa file-lines >}}](files/teaching/introcp_syllabus.pdf)"
   type: "previous"
   
 - title: "Comparative Politics of Developing Nations"
-  Semester: "2019 Summer"
+  date: 2019-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "2019 Summer"
   Institution: "University of Illinois"
   Links: "[{{< fa file-lines >}}](files/teaching/cpdev_online_syllabus.pdf)"
   type: "previous"
-  
-- title: "Advances in the Design and Analysis of Experiments"
-  Links: "[{{< fa file-lines >}}](files/teaching/exp_syllabus.pdf)"
-  type: "sample"
-  
-- title: "Political Data Analysis"
-  Links: "[{{< fa file-lines >}}](files/teaching/data_syllabus.pdf)"
-  type: "sample"
   
   

@@ -7,9 +7,9 @@ listing:
       type: "current"
     contents: teaching.yaml
     type: table
-    fields: [title, Semester, Institution, Links]
+    fields: [title, Term, Level, Links]
     filter-ui: false
-    sort: "Semester desc"
+    sort: "date"
     sort-ui: false
     #categories: true
   - id: previous
@@ -17,19 +17,9 @@ listing:
       type: "previous"
     contents: teaching.yaml
     type: table
-    fields: [title, Semester, Institution, Links]
+    fields: [title, Term, Institution, Links]
     filter-ui: false
-    sort: "Semester desc"
-    sort-ui: false
-    #categories: true
-  - id: sample
-    include:
-      type: "sample"
-    contents: teaching.yaml
-    type: table
-    fields: [title, Links]
-    filter-ui: false
-    sort: "title"
+    sort: "date desc"
     sort-ui: false
     #categories: true
 toc: false    
@@ -38,7 +28,7 @@ page-layout: full
 
 <!-- See about omitting columns by table -->
 
-## Currently teaching
+## Current and upcoming
 
 :::{#current}
 :::
@@ -46,10 +36,4 @@ page-layout: full
 ## Previously taught
 
 :::{#previous}
-:::
-
-
-## Sample syllabi
-
-:::{#sample}
 :::

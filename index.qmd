@@ -3,10 +3,10 @@ title: "Welcome"
 page-layout: full
 ---
 
-I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/).
+I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/). In Fall 2024, I am joining the [Department of Political Science](https://polisci.northwestern.edu/) at Northwestern University as an Assistant Professor of Instruction. I will teach courses on statistics, statistical programming, and computational social science.
 
 <!-- Methods version -->
-I use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs. My substantive work focuses on the challenges to accountability, governance, and representation in the Global South.
+My research develops standards to navigate research design tradeoffs in the social sciences. My substantive work applies these ideas to the challenges to accountability, governance, and representation in the Global South and beyond.
 
 <!-- CP version -->
 <!-- I research the challenges to accountability, governance, and representation in the Global South. I also use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs. -->
