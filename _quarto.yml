@@ -32,7 +32,7 @@ website:
       - research.qmd
       - teaching.qmd
       - text: "Talks"
-        href: talks.qmd
+        href: talk.qmd
       - text: "CV"
         href: files/cv.pdf
 
