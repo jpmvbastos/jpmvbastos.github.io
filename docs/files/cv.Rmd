@@ -32,6 +32,10 @@ header-includes:
 <!-- Positions singular for now -->
 <!-- Remember double space for line skip -->
 
+**Northwestern University**  
+Assistant Professor of Instruction, Department of Political Science \hfill 2024- 
+
+
 **McMaster University**  
 Postdoctoral Fellow, Department of Political Science \hfill 2022-2024
 
@@ -42,7 +46,7 @@ Postdoctoral Fellow, Center for Inter-American Policy and Research \hfill 2021-2
 
 **University of Illinois at Urbana-Champaign**  
 PhD in Poltical Science \hfill 2021  
-*Committee:* Jake Bowers (chair), Avital Livny, Gisela Sin, Matthew S. Winters
+
 
 MA in Political Science \hfill 2017  
 
@@ -59,7 +63,7 @@ BA in Political Science \hfill 2014
 
 <!-- If I start the tenure track I will use the etaremune latex package to make reverse counts -->
 
-Forthcoming. "Data Sources for the Study of Gender and Corruption." In *Handbook on Gender and Corruption in Democracies*, edited by Emily Beaulieu Bacchus and Tiffany Barnes. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
+2024\. "Data Sources for the Study of Gender and Corruption." In *Handbook on Gender and Corruption in Democracies*, edited by Emily Beaulieu Bacchus and Tiffany Barnes. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
 
 2023\. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://doi.org/10.1017/XPS.2023.24) *Journal of Experimental Political Science*
 
@@ -142,18 +146,17 @@ University of Illinois
 # Conferences & Talks
 
 <!-- Eventually have to make this into a list by year -->
+MapleMeth: 2024, 2023
+
+Midwest Political Science Association: 2024, 2022, 2021, 2018, 2017
 
 American Political Science Association: 2023, 2022, 2021, 2019
 
 Annual Meeting of the Society for Political Methodology: 2023, 2022, 2021
 
-MapleMeth: 2023
-
 Journal of Public Policy Political Economy of Development Virtual Workshop: 2022
 
 McMaster University, Spark Centre for Social Research Innovation: 2022
-
-Midwest Political Science Association: 2022, 2021, 2018, 2017
 
 Southern Political Science Association: 2022
 
