@@ -3,12 +3,8 @@ title: "Welcome"
 page-layout: full
 ---
 
-I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/). In Fall 2024, I am joining the [Department of Political Science](https://polisci.northwestern.edu/) at Northwestern University as an Assistant Professor of Instruction. I will teach courses on statistics, statistical programming, and computational social science.
+I am an incoming Assistant Professor of Instruction at the [Department of Political Science](https://polisci.northwestern.edu/) at Northwestern University. I teach courses on statistics, statistical programming, and computational social science.
 
-<!-- Methods version -->
-My research develops standards to navigate research design tradeoffs in the social sciences. My substantive work applies these ideas to the challenges to accountability, governance, and representation in the Global South and beyond.
+My research develops standards to navigate research design tradeoffs in the social sciences, with focus on causal inference and computational social science. My substantive work applies these ideas to the challenges to accountability, governance, and representation in the Global South and beyond.
 
-<!-- CP version -->
-<!-- I research the challenges to accountability, governance, and representation in the Global South. I also use tools from design-based causal inference and computational social science to develop standards to navigate research design tradeoffs. -->
-
-I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/). Before joining McMaster, I was a postdoctoral fellow at the [Center for Inter-American Policy and Research](https://stonecenter.tulane.edu/cipr) at [Tulane University](https://tulane.edu/).
+I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the University of Illinois Urbana-Champaign.
