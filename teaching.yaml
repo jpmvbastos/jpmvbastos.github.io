@@ -9,7 +9,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2024 Fall"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-lines >}}](files/teaching/prob_stats.pdf)"
   type: "current"
   
 - title: "R Workshop"
@@ -20,7 +20,7 @@
   Links: "TBD"
   type: "current"
   
-- title: "Mathcamp"
+- title: "Social Science Math Camp"
   date: 2024-08-01
   Term: "2024 Summer"
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
