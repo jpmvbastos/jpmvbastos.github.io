@@ -17,7 +17,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2024-2025 AY"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-lines >}}](files/teaching/rworkshop.pdf)"
   type: "current"
   
 - title: "Social Science Math Camp"
@@ -26,7 +26,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Institution: "Northwestern University"
   Links: "[{{< fa globe >}}](https://gustavodiaz.org/NUmathcamp)"
-  type: "current"
+  type: "previous"
   
 - title: "Introduction to Empirical Methods in Political Science"
   date: 2025-01-01

@@ -44,9 +44,9 @@
 - title: "<b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b>"
   type: "Published"
   with: "with <a href='https://virginiaoliveros.com/'>Virginia Oliveros</a>, <a href='https://vivo.brown.edu/display/rweitzsh'>Rebecca Weitz-Shapiro</a>, and <a href='https://sites.google.com/site/mswinters1/'>Matthew S. Winters</a>"
-  date: 2024-07-15
+  date: 2024-10-02
   year: 2024
-  journal: "Conditionally accepted at the <em>British Journal of Political Science</em>"
+  journal: "<em>British Journal of Political Science</em>"
   pdf: "../files/research/gender_performance.pdf"
   appendix: "../files/research/gender_performance_appendix.pdf"
   
@@ -65,8 +65,8 @@
 
 - title: "<b>Assessing the Validity of Prevalence Estimates in Double List Experiments</b>"
   type: "Published"
-  date: 2023-07-01 # just placeholder for sorting purposes
-  year: 2023
+  date: 2024-09-30 # just placeholder for sorting purposes
+  year: 2024
   journal: "<em>Journal of Experimental Political Science</em>"
   pubopen: "https://doi.org/10.1017/XPS.2023.24"
   appendix: "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S2052263023000246/resource/name/S2052263023000246sup001.pdf"
@@ -79,6 +79,7 @@
   with: "with <a href='https://www.usafa.edu/facultyprofile/?smid=23816'>Kelly Senters Piazza</a>"
   journal: "<em>Handbook on Gender and Corruption in Democracies</em>"
   pdf: "../files/research/data_corruption.pdf"
+  book: "https://www.e-elgar.com/shop/usd/handbook-on-gender-and-corruption-in-democracies-9781803923239.html"
   editor: "Edited by Emily Beaulieu Bacchus and Tiffany Barnes"
   
 - title: "<b>Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts</b>"
