@@ -12,6 +12,7 @@ execute:
   
 website:
   title: "JP Bastos"
+  #favicon: address
   search: false
   sidebar:
     tools:
@@ -37,6 +38,8 @@ website:
         #href: media.qmd
       - text: "CV"
         href: files/Job_Market_CV___JP_Bastos.pdf
+
+    open-graph: true #see: https://ogp.me
 
   page-footer:
       border: false
