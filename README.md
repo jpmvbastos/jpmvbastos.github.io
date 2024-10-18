@@ -1,3 +1,3 @@
-# gustavo-diaz.github.io
+# JP Bastos's personal website 
 Personal website powered by [Quato](https://quarto.org/)
-View in [gustavodiaz.org](https://gustavodiaz.org)
+Forked from https://github.com/gustavo-diaz/gustavo-diaz.github.io
