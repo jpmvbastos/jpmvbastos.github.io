@@ -18,14 +18,16 @@ website:
     tools:
       - icon: envelope
         href: mailto:Joao-Pedro.Bastos@ttu.edu
-      - icon: twitter
-        href: https://x.com/jpmvbastos
-     # - icon: square-fill
-      #  href: https://bsky.app/profile/gustavodiaz.org
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=N4T1TYIAAAAJ&hl=en
       - icon: github
         href: https://github.com/jpmvbastos
-      - icon: google
-        href: https://scholar.google.com/citations?user=N4T1TYIAAAAJ&hl=en
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jpmvbastos/
+      - icon: twitter-x
+        href: https://x.com/jpmvbastos
+
+#
 
     contents:
       - text: "Home"
