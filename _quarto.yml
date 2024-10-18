@@ -31,10 +31,12 @@ website:
         href: index.qmd
       - research.qmd
       - teaching.qmd
-      - text: "Talks"
-        href: talk.qmd
+      - text: "Policy Work"
+        href: policy.qmd
+      - text: "Media"
+        href: media.qmd
       - text: "CV"
-        href: files/cv.pdf
+        href: files/Job_Market_CV___JP_Bastos.pdf
 
   page-footer:
       border: false

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Gustavo Diaz</title>
+<title>Research – JP Bastos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,9 +66,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-with','listing-date','listing-status','listing-pdf','listing-appendix',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-with","listing-date","listing-status","listing-pdf","listing-appendix"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -94,9 +94,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-with','listing-blog',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-with","listing-blog"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-with"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -122,13 +122,69 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-with','listing-date','listing-year','listing-journal','listing-pdf','listing-appendix','listing-pubopen','listing-dataverse','listing-book','listing-editor','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-journal','listing-pdf','listing-with','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-with","listing-date","listing-year","listing-journal","listing-pdf","listing-appendix","listing-pubopen","listing-dataverse","listing-book","listing-editor","listing-pubclosed"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-journal","listing-pdf","listing-with","listing-pubclosed"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-published-papers'] = new List('listing-published-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-revise-resubmit .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-date','listing-status','listing-with','listing-journal','listing-pdf',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-date","listing-status","listing-with","listing-journal","listing-pdf"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-revise-resubmit'] = new List('listing-revise-resubmit', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-review .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-date','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-date","listing-with"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-review'] = new List('listing-review', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -195,13 +251,12 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Gustavo Diaz</a> 
+      <a href="./">JP Bastos</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="mailto:gustavo.diaz@northwestern.edu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://twitter.com/gusvalo" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://bsky.app/profile/gustavodiaz.org" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-square-fill"></i></a>
-    <a href="https://github.com/gustavo-diaz" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://scholar.google.com/citations?user=TVXK8-8AAAAJ" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-google"></i></a>
+    <a href="mailto:Joao-Pedro.Bastos@ttu.edu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+    <a href="https://x.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://github.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-google"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -234,7 +289,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./files/cv.pdf" class="sidebar-item-text sidebar-link">
+  <a href="./files/Job_Market_CV___JP_Bastos.pdf" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CV</span></a>
   </div>
 </li>
@@ -266,8 +321,8 @@ window.Quarto = {
 </header>
 
 
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<section id="peer-reviewed-publications" class="level2">
+<h2 class="anchored" data-anchor-id="peer-reviewed-publications">Peer-Reviewed Publications</h2>
 <div id="listing-published-papers" class="quarto-listing quarto-listing-container-custom">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
@@ -285,37 +340,43 @@ window.Quarto = {
 <ul class="list">
   
     <data-index='0' data-listing-date-sort="1727845200000">
-      <b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b> 
+      <b>Female Ownership of Firms and Regulation Experience</b> 
       
       <!-- coauthor info if needed -->
       
       <br>
         <small class="text-muted">
-          with <a href="https://virginiaoliveros.com/">Virginia Oliveros</a>, <a href="https://vivo.brown.edu/display/rweitzsh">Rebecca Weitz-Shapiro</a>, and <a href="https://sites.google.com/site/mswinters1/">Matthew S. Winters</a>
+          with <a href="https://sites.google.com/site/jlbologna/">Jamie Bologna Pavlik</a>
         </small>
       
       
       <!-- paper info for working papers -->
       
-      
+
       <!-- paper info for published work -->
       
       <br>
        <small class="text-muted">
-          2024. <em>British Journal of Political Science</em>
+          2024. <em>Journal of Development Studies</em>
         </small>
       
       
       
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
       
       
-       <br>
+      
       
 
       
       
       
-        <a role="button" href="../files/research/gender_performance.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <br>
+        <a role="button" href="..files/research/Populism_and_Institutions-Final.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -323,280 +384,7 @@ window.Quarto = {
       
       
       
-      
-      
-      
-      
-      
-      
-        <a role="button" href="../files/research/gender_performance_appendix.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='1' data-listing-date-sort="1727672400000">
-      <b>Assessing the Validity of Prevalence Estimates in Double List Experiments</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      
-      <!-- paper info for working papers -->
-      
-      
-      <!-- paper info for published work -->
-      
-      <br>
-       <small class="text-muted">
-          2024. <em>Journal of Experimental Political Science</em>
-        </small>
-      
-      
-      
-      
-      
-       <br>
-      
-
-      
-      
-      
-      
-      
-        <a role="button" href="https://doi.org/10.1017/XPS.2023.24" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-open-access ai-lg"></i> Article
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S2052263023000246/resource/name/S2052263023000246sup001.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
-        </a>
-      
-      
-      
-        <a role="button" href="https://doi.org/10.7910/DVN/SUV8DK" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-dataverse ai-lg"></i> Dataverse 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='2' data-listing-date-sort="1714539600000">
-      <b>Data Sources for the Study of Gender and Corruption</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>
-        </small>
-      
-      
-      <!-- paper info for working papers -->
-      
-      
-      <!-- paper info for published work -->
-      
-      <br>
-       <small class="text-muted">
-          2024. <em>Handbook on Gender and Corruption in Democracies</em>
-        </small>
-      
-      
-      
-       <br>
-        <small class="text-muted">
-          Edited by Emily Beaulieu Bacchus and Tiffany Barnes
-        </small>
-      
-      
-      
-       <br>
-      
-
-      
-      
-      
-        <a role="button" href="../files/research/data_corruption.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
-        </a> 
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://www.e-elgar.com/shop/usd/handbook-on-gender-and-corruption-in-democracies-9781803923239.html" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-book ai-lg"></i> Book 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='3' data-listing-date-sort="1656651600000">
-      <b>Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>
-        </small>
-      
-      
-      <!-- paper info for working papers -->
-      
-      
-      <!-- paper info for published work -->
-      
-      <br>
-       <small class="text-muted">
-          2022. <em>Norms, Gender and Corruption: Understanding the Nexus</em>
-        </small>
-      
-      
-      
-       <br>
-        <small class="text-muted">
-          Edited by Inna Kube and Ortrun Merkle
-        </small>
-      
-      
-      
-       <br>
-      
-
-      
-      
-      
-        <a role="button" href="../files/research/gender_corruption.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
-        </a> 
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://www.e-elgar.com/shop/usd/norms-gender-and-corruption-9781802205824.html" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-book ai-lg"></i> Book 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='4' data-listing-date-sort="1596258000000">
-      <b>Light in the Midst of Chaos: COVID-19 and Female Political Representation</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="https://www.usafa.edu/facultyprofile/?smid=23816">Kelly Senters Piazza</a>
-        </small>
-      
-      
-      <!-- paper info for working papers -->
-      
-      
-      <!-- paper info for published work -->
-      
-      <br>
-       <small class="text-muted">
-          2020. <em>World Development</em>
-        </small>
-      
-      
-      
-      
-      
-       <br>
-      
-
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://doi.org/10.1016/j.worlddev.2020.105125" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2348552" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-closed-access ai-lg"></i> Article
         </a>
       
@@ -624,43 +412,112 @@ window.Quarto = {
       <hr>
     
   
-    <data-index='5' data-listing-date-sort="1593579600000">
-      <b>Survey Experiments and the Quest for Valid Interpretation</b> 
+    <data-index='1' data-listing-date-sort="1727845200000">
+      <b>Gender and Corruption in Firms: The Importance of Regional Context</b> 
       
       <!-- coauthor info if needed -->
       
       <br>
         <small class="text-muted">
-          with <a href="https://publish.illinois.edu/cdgrady2/">Christopher Grady</a> and <a href="https://pol.illinois.edu/directory/profile/kuklinsk">James H. Kuklinski</a>
+          with <a href="https://sites.google.com/site/jlbologna/">Jamie Bologna Pavlik</a>
         </small>
       
       
       <!-- paper info for working papers -->
       
-      
+
       <!-- paper info for published work -->
       
       <br>
        <small class="text-muted">
-          2020. <em>The SAGE Handbook of Research Methods in Political Science and International Relations</em>
+          2024. <em>Review of Development Economics</em>
         </small>
       
       
       
-       <br>
-        <small class="text-muted">
-          Edited by Luigi Curini and Robert Franzese
-        </small>
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
       
       
       
-       <br>
       
 
       
       
       
-        <a role="button" href="../files/research/sage_survey_experiments_chapter.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <br>
+        <a role="button" href="..files/research/Is_Corruption_More_Harmful_to_Women_.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
+      
+      
+      
+      
+      
+        <a role="button" href="https://onlinelibrary.wiley.com/doi/10.1111/rode.13146" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-closed-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1569992400000">
+      <b> Competição e Monopólio: o mainstream e a Escola Austríaca</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      <br>
+       <small class="text-muted">
+          2016. <em>MISES: Interdisciplinary Journal of Philosophy, Law and Economics</em> (in Portuguese)
+        </small>
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+        <br>
+        <a role="button" href="..files/research/Gender_and_Regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -670,10 +527,6 @@ window.Quarto = {
       
       
       
-        <a role="button" href="https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-book ai-lg"></i> Book 
-        </a>
-      
       
       
       
@@ -696,37 +549,43 @@ window.Quarto = {
       <hr>
     
   
-    <data-index='6' data-listing-date-sort="1404190800000">
-      <b>Civic Education and Voter Turnout Under Voluntary Voting</b> 
+    <data-index='3' data-listing-date-sort="1569992400000">
+      <b>Economics Against Tyranny: A Reassessment of the Liberal Order of Mises and Hayek.</b> 
       
       <!-- coauthor info if needed -->
       
       
       <!-- paper info for working papers -->
       
-      
+
       <!-- paper info for published work -->
       
       <br>
        <small class="text-muted">
-          2014. <em>Política</em> (In Spanish)
+          2019. <em>MISES: Interdisciplinary Journal of Philosophy, Law and Economics</em>
         </small>
       
       
       
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
       
       
-       <br>
+      
       
 
       
       
       
+        <br>
+        <a role="button" href="..files/research/Gender_and_Regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
       
       
-        <a role="button" href="https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-open-access ai-lg"></i> Article
-        </a>
       
       
       
@@ -754,16 +613,16 @@ window.Quarto = {
       <hr>
     
   
-</data-index='6'></data-index='5'></data-index='4'></data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+</data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
 
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
+<section id="revise-and-resubmit" class="level2">
+<h2 class="anchored" data-anchor-id="revise-and-resubmit">Revise and Resubmit</h2>
+<div id="listing-revise-resubmit" class="quarto-listing quarto-listing-container-custom">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
 
@@ -780,104 +639,43 @@ No matching items
 <ul class="list">
   
     <data-index='0' data-listing-date-sort="1723006800000">
-      <b>Balancing Precision and Retention in Experimental Design</b> 
+      <b>The Institutional Impact of Left-Leaning Populism in Latin America</b> 
       
       <!-- coauthor info if needed -->
       
       <br>
         <small class="text-muted">
-          with <a href="http://erossiter.com/">Erin Rossiter</a>
+          with <a href="https://www.ncachanosky.com">Nicolás Cachanosky</a>, <a href="https://www.alexandrepadilla.com">Alexandre Padilla</a>, and <a href="https://www.linkedin.com/in/karlahernandez321/">Karla C. Hernández</a>
         </small>
       
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          Revise and resubmit
-        </small>
-      
-      
+
       <!-- paper info for published work -->
       
       
       
+
+      <!-- paper info for R&R -->
       
-      
-       <br>
+        <br>
+         <small class="text-muted">
+            <em>European Journal of Political Economy</em>
+          </small>
       
 
-      
-      
-      
-        <a role="button" href="../files/research/precision_retention.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
-        </a> 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="../files/research/precision_retention_appendix.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='1' data-listing-date-sort="1712034000000">
-      <b>In the Crevices of the State: Criminal Governance in Unexpected Contexts</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="https://imfd.cl/en/investigador/ines-fynn/">Ines Fynn</a>, <a href="https://scholar.google.com/citations?user=wj21dxsAAAAJ&amp;hl=en">Verónica Pérez Bentancur</a>, and <a href="https://www.luciatiscornia.com/">Lucía Tiscornia</a>
-        </small>
-      
-      
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          Working paper
-        </small>
       
       
-      <!-- paper info for published work -->
-      
-      
-      
-      
-      
-       <br>
       
 
       
       
       
-        <a role="button" href="../files/research/crevices.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <br>
+        <a role="button" href="../files/research/Populism_and_Institutions-Final.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -909,38 +707,39 @@ No matching items
       <hr>
     
   
-    <data-index='2' data-listing-date-sort="1698123600000">
-      <b>Two-Sided Sensitivity Bias in Surveys</b> 
+    <data-index='1' data-listing-date-sort="1723006800000">
+      <b>Colonial Rule and Economic Freedom</b> 
       
       <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="https://www.jordidiez.ca/">Jordi Diez</a> and <a href="https://michelledion.com/">Michelle Dion</a>
-        </small>
       
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          Working paper
-        </small>
-      
-      
+
       <!-- paper info for published work -->
       
       
       
+
+      <!-- paper info for R&R -->
+      
+        <br>
+         <small class="text-muted">
+            <em>Public Choice</em>
+          </small>
+      
+
+      <!-- paper info for working papers -->
       
       
-       <br>
+      
       
 
       
       
       
-        <a role="button" href="../files/research/ssm_arg.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <br>
+        <a role="button" href="../files/research/Colonial_Rule_and_Economic_Freedom-4.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -953,10 +752,6 @@ No matching items
       
       
       
-      
-        <a role="button" href="../files/research/ssm_arg_appendix.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
-        </a>
       
       
       
@@ -976,16 +771,16 @@ No matching items
       <hr>
     
   
-</data-index='2'></data-index='1'></data-index='0'></ul>
+</data-index='1'></data-index='0'></ul>
 
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
-<div id="listing-in-progress" class="quarto-listing quarto-listing-container-custom">
+<section id="under-review" class="level2">
+<h2 class="anchored" data-anchor-id="under-review">Under Review</h2>
+<div id="listing-review" class="quarto-listing quarto-listing-container-custom">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
 
@@ -1001,21 +796,29 @@ No matching items
 
 <ul class="list">
   
-    <data-index='0' data-listing-date-sort="1692248400000">
-      <b>Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors</b> 
+    <data-index='0' data-listing-date-sort="1662094800000">
+      <b>The Political Economy of Populism Regime Length</b> 
       
       <!-- coauthor info if needed -->
       
       <br>
         <small class="text-muted">
-          with <a href="https://imfd.cl/en/investigador/ines-fynn/">Ines Fynn</a>, <a href="https://scholar.google.com/citations?user=wj21dxsAAAAJ&amp;hl=en">Verónica Pérez Bentancur</a>, and <a href="https://www.luciatiscornia.com/">Lucía Tiscornia</a>
+          with <a href="https://www.ncachanosky.com">Nicolás Cachanosky</a> and Tomás Faintich
         </small>
       
       
       <!-- paper info for working papers -->
       
-      
+
       <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
       
       
       
@@ -1053,21 +856,29 @@ No matching items
       <hr>
     
   
-    <data-index='1' data-listing-date-sort="1690866000000">
-      <b>How the Presence of Others can Bias Survey Responses</b> 
+    <data-index='1' data-listing-date-sort="1662008400000">
+      <b>Corruption and Political Allocation of Entrepreneurs</b> 
       
       <!-- coauthor info if needed -->
       
       <br>
         <small class="text-muted">
-          with <a href="https://michelledion.com/">Michelle Dion</a> and <a href="http://guillemriambau.com/">Guillem Riambau</a>
+          with <a href="https://www.justincallais.com">Justin T. Callais</a> and <a href="https://sites.google.com/site/jlbologna/">Jamie Bologna Pavlik</a>
         </small>
       
       
       <!-- paper info for working papers -->
       
-      
+
       <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
       
       
       
@@ -1105,63 +916,32 @@ No matching items
       <hr>
     
   
-    <data-index='2' data-listing-date-sort="1662008400000">
-      <b>When Should We Use Biased Estimators of the Average Treatment Effect?</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with <a href="http://www.jakebowers.org/">Jake Bowers</a> and <a href="https://publish.illinois.edu/cdgrady2/">Christopher Grady</a> <br>
-        </small>
-      
-      
-      <!-- paper info for working papers -->
-      
-      
-      <!-- paper info for published work -->
-      
-      
-      
-      
-      
+</data-index='1'></data-index='0'></ul>
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://egap.org/resource/sd-block-rand/" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post 
-        </a>
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
+<div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
   
-</data-index='2'></data-index='1'></data-index='0'></ul>
+</ul>
 
 <div class="listing-no-matching d-none">
 No matching items
@@ -1172,7 +952,308 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-custom" id="listing-in-progress">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1667278800000">
+      <b> The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="https://vincentgeloso.com">Vincent Geloso</a> and <a href="https://sites.google.com/site/jlbologna/">Jamie Bologna Pavlik</a>
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1664600400000">
+      <b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1664600400000">
+      <b>Political Determinants of Lockdown Policy and State Economic Freedom in Brazil</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="https://www.vincentmiozzi.com">Vincent Miozzi</a>
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1662008400000">
+      <b>Does joining the OECD improve economic performance?</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='4' data-listing-date-sort="1659330000000">
+      <b>The Economic Consequences of ’Plano Real’: A Synthetic Control Approach</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with Silvio Simonetti
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='4'></data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1741,7 +1822,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Gustavo Diaz</p>
+<p>© 2024 JP Bastos</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
