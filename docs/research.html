@@ -123,9 +123,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-journal','listing-pdf','listing-with','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-journal','listing-pdf','listing-pubopen','listing-with','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-journal","listing-pdf","listing-with","listing-pubclosed"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-journal","listing-pdf","listing-pubopen","listing-with","listing-pubclosed"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -253,16 +253,16 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/JP Headshot.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main tools-wide">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">JP Bastos</a> 
+        <div class="sidebar-tools-main tools-wide">
     <a href="mailto:Joao-Pedro.Bastos@ttu.edu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://x.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
     <a href="https://github.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-google"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+    </div>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -508,11 +508,15 @@ window.Quarto = {
       
       
         <br>
-        <a role="button" href="..files/research/Gender_and_Regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="..files/research/competicao-monopolio.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
       
+      
+        <a role="button" href="https://misesjournal.org.br/misesjournal/article/view/137" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
       
       
       
@@ -572,11 +576,15 @@ window.Quarto = {
       
       
         <br>
-        <a role="button" href="..files/research/Gender_and_Regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="..files/research/economics-tyranny.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
       
+      
+        <a role="button" href="https://misesjournal.org.br/misesjournal/article/view/1205" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
       
       
       
