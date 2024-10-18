@@ -32,7 +32,7 @@
           <%= item.status %>
         </small>
       <% } %>
-      
+
       <!-- paper info for published work -->
       <% if (item.type === 'Published') { %>
       <br/>
@@ -47,9 +47,20 @@
           <%= item.editor %>
         </small>
       <% } %>
+
+      <!-- paper info for R&R -->
+      <% if (item.type === 'R&R') { %>
+        <br/>
+         <small class="text-muted">
+            <%= item.journal %>
+          </small>
+      <% } %>
+
+      <!-- paper info for working papers -->
+      <% if (item.type === 'Under Review') { %>
+      <% } %>
       
       <% if (item.type !== 'Progress') { %>
-       <br/>
       <% } %>
 
       <% if (item.errata) { %>
@@ -59,6 +70,7 @@
       <% } %>
       
       <% if (item.pdf) { %>
+        <br/>
         <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 

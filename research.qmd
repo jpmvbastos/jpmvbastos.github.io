@@ -29,23 +29,45 @@ listing:
     sort: "date desc" 
     sort-ui: false
     #categories: true
+  - id: revise-resubmit
+    include: 
+      type: "R&R"
+    contents: research.yaml
+    template: research.ejs
+    sort: "date desc" 
+    sort-ui: false
+    #categories: true
+  - id: review
+    include: 
+      type: "Under Review"
+    contents: research.yaml
+    template: research.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true
 toc: false    
 page-layout: full
 ---
 
-## Publications
+## Peer-Reviewed Publications
 
 :::{#published-papers}
 :::
 
-## Working papers
+## Revise and Resubmit
 
-:::{#working-papers}
+:::{#revise-resubmit}
 :::
 
-## Work in progress
+## Under Review
 
-:::{#in-progress}
+:::{#review}
+:::
+
+## Working Papers
+
+:::{#working-papers}
 :::
 
 
