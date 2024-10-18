@@ -12,9 +12,9 @@ execute:
   
 website:
   title: "JP Bastos"
-  #favicon: address
+  favicon: images/favicon.png
   search: false
-  sidebar:
+  sidebar:   
     tools:
       - icon: envelope
         href: mailto:Joao-Pedro.Bastos@ttu.edu
@@ -26,7 +26,7 @@ website:
         href: https://github.com/jpmvbastos
       - icon: google
         href: https://scholar.google.com/citations?user=N4T1TYIAAAAJ&hl=en
-    
+
     contents:
       - text: "Home"
         href: index.qmd
@@ -39,13 +39,15 @@ website:
       - text: "CV"
         href: files/Job_Market_CV___JP_Bastos.pdf
 
-    open-graph: true #see: https://ogp.me
+    #logo: images/JP Headshot.png 
 
   page-footer:
       border: false
       left: © 2024 JP Bastos
       right: Powered by [{{< fa brands r-project >}}](https://cran.r-project.org/) and [Quarto](https://quarto.org/)
   
+  open-graph: true #see: https://ogp.me
+
 format:
   html:
     theme: 

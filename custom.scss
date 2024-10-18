@@ -22,6 +22,22 @@ $font-size-base:              1.1rem !default;
 $headings-font-weight:        700 !default;
 $sidebar-font-size: 1.2rem;
 
+// Make JP Bastos bold
+.bold {
+    font-weight: 700;  // Bold
+  }
+  
+  // Make Welcome normal weight
+  .not-bold {
+    font-weight: 400;  // Normal
+  }
 
+/* Custom styles for the sidebar logo */
+.sidebar img {
+    border-radius: 50%; /* Makes the image round */
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
 
 

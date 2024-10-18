@@ -1,10 +1,15 @@
 ---
-title: "Welcome"
+title: "<span class='bold'>JP Bastos</span>  <span class='not-bold'>| Welcome</span>"
 page-layout: full
 ---
 
-:::{.grid}
-::: {.g-col-7}
+<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
+  <img src="images/JP Headshot.png" alt="JP Bastos" style="width: 250px; border-radius: 50%;">
+</div>
+
+<div style="text-align: center; margin-top: 30px; margin-top: 20px;">
+  <a href="cv.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
+</div>
 
 I am a PhD student at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University.  
 
@@ -12,16 +17,5 @@ My research is aimed at the political economy of development, with special empha
 
 I have also worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), one of the most popular media outlets in Brazil.
 
-I am originally from Caxias do Sul, a city in the mountains of Brazil's southern-most state.
+I am originally from Caxias do Sul, a city in the mountains of Brazil's southern-most state. 
 
-<div style="margin-top: 20px;">
-  <a href="files/Job_Market_CV___JP_Bastos.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
-</div>
-
-:::
-::: {.g-col-5}
-<div style="text-align: center;">
-  <img src="images/JP Headshot.png" alt="My Photo" style="width: 400px">
-</div>
-:::
-:::
