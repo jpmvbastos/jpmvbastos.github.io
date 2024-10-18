@@ -778,7 +778,6 @@ url("./bootstrap-icons.woff?2820a3852bdb9a5832199cc61cec4e65") format("woff");
 .bi-globe::before { content: "\f3ee"; }
 .bi-globe2::before { content: "\f3ef"; }
 .bi-google::before { content: "\f3f0"; }
-.bi-google-scholar { content: "\e63b"; }
 .bi-graph-down::before { content: "\f3f1"; }
 .bi-graph-up::before { content: "\f3f2"; }
 .bi-grid-1x2-fill::before { content: "\f3f3"; }
