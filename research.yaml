@@ -9,7 +9,8 @@
   date: 2019-10-02
   year: 2016
   journal: "<em>MISES: Interdisciplinary Journal of Philosophy, Law and Economics</em> (in Portuguese)"
-  pdf: "..files/research/Gender_and_Regulation.pdf"
+  pdf: "..files/research/competicao-monopolio.pdf"
+  pubopen: "https://misesjournal.org.br/misesjournal/article/view/137"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
 - title: "<b>Economics Against Tyranny: A Reassessment of the Liberal Order of Mises and Hayek.</b>"
@@ -17,7 +18,8 @@
   date: 2019-10-02
   year: 2019
   journal: "<em>MISES: Interdisciplinary Journal of Philosophy, Law and Economics</em>"
-  pdf: "..files/research/Gender_and_Regulation.pdf"
+  pdf: "..files/research/economics-tyranny.pdf"
+  pubopen: "https://misesjournal.org.br/misesjournal/article/view/1205"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
 - title: "<b>Female Ownership of Firms and Regulation Experience</b>"
