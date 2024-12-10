@@ -29,11 +29,10 @@ website:
       - text: "Home"
         href: index.qmd
       - research.qmd
-      #- teaching.qmd
-      #- text: "Policy Work"
-      #  href: policy.qmd
+      - teaching.qmd
+      - policy.qmd
       #- text: "Media"
-        #href: media.qmd
+      #  href: media.qmd
       - text: "CV"
         href: files/Job_Market_CV___JP_Bastos.pdf
 

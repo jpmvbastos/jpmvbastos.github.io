@@ -1,0 +1,24 @@
+# Newer entries on top
+# Frequent fontawesome expressions
+# {{< fa globe >}}
+# {{< fa file-lines >}}
+# Copy paste level button
+# Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+- title: "<b>Avaliando a PEC do Quiquênio</b>"
+  type: "policy"
+  with: "Evaluates a proposal of salary increases for federal judges."
+  date: 2024-10-02
+  year: 2024
+  journal: "<em>Revista Notas</em> (in Portuguese)"
+  pdf: "..files/research/competicao-monopolio.pdf"
+  pubopen: "https://misesjournal.org.br/misesjournal/article/view/137"
+  #appendix: "../files/research/gender_performance_appendix.pdf"
+
+- title: "Municipal Bill of Economic Freedom"
+  date: 2022-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Law: "Law "
+  Effect: "Exempts low risk business from licensing"
+  Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
+  type: "reforms"
+  

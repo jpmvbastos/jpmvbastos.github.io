@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – JP Bastos</title>
+<title>Teaching – JP Bastos </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -41,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -66,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Term','listing-Level','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
     };
@@ -96,11 +99,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-Term","listing-Level","listing-Institution","listing-Links","listing-type"],
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-previous'] = new List('listing-previous', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ta .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-Term','listing-Institution',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ta'] = new List('listing-ta', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -144,6 +175,8 @@ window.Quarto = {
 };
 </script>
 
+<meta property="og:title" content="Teaching – JP Bastos ">
+<meta property="og:site_name" content="JP Bastos </br>[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en)">
 </head>
 
 <body class="nav-sidebar floating">
@@ -167,12 +200,12 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">JP Bastos</a> 
+      <a href="./">JP Bastos <br><a href="https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar"></i></a></a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="mailto:Joao-Pedro.Bastos@ttu.edu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://x.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
     <a href="https://github.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-google"></i></a>
+    <a href="https://www.linkedin.com/in/jpmvbastos/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://x.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter-x"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -199,8 +232,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talk.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Talks</span></a>
+  <a href="./policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Policy Work</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -251,7 +284,7 @@ Title
 Term
 </th>
 <th>
-Level
+Institution
 </th>
 <th>
 Links
@@ -259,60 +292,18 @@ Links
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1725166800000" data-listing-title-sort="Probability and Statistics">
+<tr data-index="0" data-listing-date-sort="1725166800000" data-listing-title-sort="Agricultural Statistics">
 <td>
-<span class="listing-title">Probability and Statistics</span>
+<span class="listing-title">Agricultural Statistics</span>
 </td>
 <td>
-<span class="listing-Term">2024 Fall</span>
+<span class="listing-Term">Spring 2025</span>
 </td>
 <td>
-<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>G</b></button></span>
+<span class="listing-Institution">Texas Tech University</span>
 </td>
 <td>
 <span class="listing-Links"><a href="files/teaching/prob_stats.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1725166800000" data-listing-title-sort="R Workshop">
-<td>
-<span class="listing-title">R Workshop</span>
-</td>
-<td>
-<span class="listing-Term">2024-2025 AY</span>
-</td>
-<td>
-<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>G</b></button></span>
-</td>
-<td>
-<span class="listing-Links"><a href="files/teaching/rworkshop.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1735711200000" data-listing-title-sort="Introduction to Empirical Methods in Political Science">
-<td>
-<span class="listing-title">Introduction to Empirical Methods in Political Science</span>
-</td>
-<td>
-<span class="listing-Term">2025 Winter</span>
-</td>
-<td>
-<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>U</b></button></span>
-</td>
-<td>
-<span class="listing-Links">TBD</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1743483600000" data-listing-title-sort="Evidence-Informed Decision-Making">
-<td>
-<span class="listing-title">Evidence-Informed Decision-Making</span>
-</td>
-<td>
-<span class="listing-Term">2025 Spring</span>
-</td>
-<td>
-<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>U/G</b></button></span>
-</td>
-<td>
-<span class="listing-Links">TBD</span>
 </td>
 </tr>
 </tbody>
@@ -343,74 +334,79 @@ Links
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1722488400000" data-listing-title-sort="Social Science Math Camp">
+<tr data-index="0" data-listing-date-sort="1704088800000" data-listing-title-sort="Development Economics (in Spanish)">
 <td>
-<span class="listing-title">Social Science Math Camp</span>
+<span class="listing-title">Development Economics (in Spanish)</span>
 </td>
 <td>
-<span class="listing-Term">2024 Summer</span>
+<span class="listing-Term">Fall 2024</span>
 </td>
 <td>
-<span class="listing-Institution">Northwestern University</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://gustavodiaz.org/NUmathcamp"><i class="fa-solid fa-globe" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1704088800000" data-listing-title-sort="Research Design for Public Opinion and Policy">
-<td>
-<span class="listing-title">Research Design for Public Opinion and Policy</span>
-</td>
-<td>
-<span class="listing-Term">2024 Winter</span>
-</td>
-<td>
-<span class="listing-Institution">McMaster University</span>
+<span class="listing-Institution">Universidad Francisco Marroquín (Guatemala)</span>
 </td>
 <td>
 <span class="listing-Links"><a href="https://popw24.gustavodiaz.org/"><i class="fa-solid fa-globe" aria-hidden="true"></i></a> <a href="files/teaching/rdpp_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1641016800000" data-listing-title-sort="Politics of Developing Democracies">
+<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Applied Busines Economics">
 <td>
-<span class="listing-title">Politics of Developing Democracies</span>
+<span class="listing-title">Applied Busines Economics</span>
 </td>
 <td>
-<span class="listing-Term">2022 Spring</span>
+<span class="listing-Term">Fall 2023</span>
 </td>
 <td>
-<span class="listing-Institution">Tulane University</span>
+<span class="listing-Institution">Texas Tech University</span>
 </td>
 <td>
 <span class="listing-Links"><a href="files/teaching/ddem_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
 </td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1609480800000" data-listing-title-sort="Comparative Politics">
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="teaching-assistant-for" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-assistant-for">Teaching Assistant for:</h2>
+<div id="listing-ta" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Term
+</th>
+<th>
+Institution
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1717218000000" data-listing-title-sort="Fundamentals of Agricultural and Applied Economics">
 <td>
-<span class="listing-title">Comparative Politics</span>
+<span class="listing-title">Fundamentals of Agricultural and Applied Economics</span>
 </td>
 <td>
-<span class="listing-Term">2021 Fall</span>
+<span class="listing-Term">Fall 2023</span>
 </td>
 <td>
-<span class="listing-Institution">Tulane University</span>
-</td>
-<td>
-<span class="listing-Links"><a href="files/teaching/introcp_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+<span class="listing-Institution">Texas Tech University</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1546322400000" data-listing-title-sort="Comparative Politics of Developing Nations">
+<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Agricultural Price Theory">
 <td>
-<span class="listing-title">Comparative Politics of Developing Nations</span>
+<span class="listing-title">Agricultural Price Theory</span>
 </td>
 <td>
-<span class="listing-Term">2019 Summer</span>
+<span class="listing-Term">2022-2023</span>
 </td>
 <td>
-<span class="listing-Institution">University of Illinois</span>
-</td>
-<td>
-<span class="listing-Links"><a href="files/teaching/cpdev_online_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+<span class="listing-Institution">Texas Tech University</span>
 </td>
 </tr>
 </tbody>

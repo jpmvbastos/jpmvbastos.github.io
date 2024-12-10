@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>JP Bastos | Welcome – JP Bastos &lt;/br&gt;[{{&lt; ai google-scholar &gt;}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en)</title>
+<title>Policy Work – JP Bastos </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,6 +26,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -57,14 +59,99 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-policy-papers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="JP Bastos | Welcome – JP Bastos ">
-<meta property="og:description" content="">
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-with','listing-date','listing-year','listing-journal','listing-pdf','listing-pubopen',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-with","listing-date","listing-year","listing-journal","listing-pdf","listing-pubopen"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-policy-papers'] = new List('listing-policy-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-reforms .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-Law','listing-Effect','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Law","listing-Effect","listing-Links","listing-type"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-reforms'] = new List('listing-reforms', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Policy Work – JP Bastos ">
 <meta property="og:site_name" content="JP Bastos </br>[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en)">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -73,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./policy.html">Policy Work</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -99,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -117,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./policy.html" class="sidebar-item-text sidebar-link">
+  <a href="./policy.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Policy Work</span></a>
   </div>
 </li>
@@ -134,16 +221,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="bold">JP Bastos</span> <span class="not-bold">| Welcome</span></h1>
+<h1 class="title">Policy Work</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -155,18 +242,146 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
-<p><img src="images/JP Headshot.png" alt="JP Bastos" style="width: 250px; border-radius: 50%;"></p>
+<!-- See about omitting columns by table -->
+<!-- I have worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I also discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), one of the most popular media outlets in Brazil." -->
+<section id="policy-papers" class="level2">
+<h2 class="anchored" data-anchor-id="policy-papers">Policy Papers</h2>
+<div id="listing-policy-papers" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1727841600000">
+      <b>Avaliando a PEC do Quiquênio</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Evaluates a proposal of salary increases for federal judges.
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+        <br>
+        <a role="button" href="..files/research/competicao-monopolio.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
+      
+      
+      
+        <a role="button" href="https://misesjournal.org.br/misesjournal/article/view/137" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
 </div>
-<div style="text-align: center; margin-top: 30px; margin-top: 20px;">
-<p><a href="cv.pdf" class="btn btn-primary" role="button" download="">Download my CV</a></p>
 </div>
-<p>I am a PhD student at the Department of Agricultural &amp; Applied Economics, and a Research Assistant at the <a href="https://www.depts.ttu.edu/freemarketinstitute/">Free Market Institute</a>, both at Texas Tech University.</p>
-<p>My research is aimed at the political economy of development, with special emphasis on the institutional environment of Latin America and the impact of populism and corruption on institutions.</p>
-<p>I have also worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I discuss policy issues as a regular contributor to <a href="https://exame.com/autor/joao-pedro-bastos/">Exame</a>, one of the most popular media outlets in Brazil.</p>
-<p>I am originally from Caxias do Sul, a city in the mountains of Brazil’s southern-most state.</p>
+</section>
+<section id="policy-reforms" class="level2">
+<h2 class="anchored" data-anchor-id="policy-reforms">Policy Reforms</h2>
+<div id="listing-reforms" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Law
+</th>
+<th>
+Effect
+</th>
+<th>
+Links
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1641013200000" data-listing-title-sort="Municipal Bill of Economic Freedom">
+<td>
+<span class="listing-title">Municipal Bill of Economic Freedom</span>
+</td>
+<td>
+<span class="listing-Law">Law </span>
+</td>
+<td>
+<span class="listing-Effect">Exempts low risk business from licensing</span>
+</td>
+<td>
+<span class="listing-Links"><a href="files/teaching/ddem_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
