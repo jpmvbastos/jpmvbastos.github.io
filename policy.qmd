@@ -25,7 +25,9 @@ listing:
 
 <!-- See about omitting columns by table -->
 
-<!-- I have worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I also discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), one of the most popular media outlets in Brazil." -->
+I have worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. 
+
+I also discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), one of the most popular media outlets in Brazil.
 
 ## Policy Papers
 
