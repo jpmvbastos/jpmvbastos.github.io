@@ -15,7 +15,7 @@
 <a href='https://jornaldebrasilia.com.br/noticias/politica-e-poder/juiz-ganha-quase-o-dobro-do-que-recebe-advogado-com-doutorado/'>Jornal de Brasília</a>.</em>"
   date: 2024-10-02
   year: 2024
-  journal: "<em>Revista Notas</em> (in Portuguese)"
+  with: "for <em>Revista Notas</em>, <a href='https://www.institutoliberal.org.br'>Instituto Liberal<a/>"
   pdf: "https://institutomillenium.org.br/wp-content/uploads/2025/02/02LO_NOTA_TECNICA.pdf"
   pubopen: "https://www.institutoliberal.org.br/revista-notas/revista-notas-da-pec-do-quinquenio/"
   #appendix: "../files/research/gender_performance_appendix.pdf"
@@ -28,7 +28,7 @@
 <a href='https://revistaoeste.com/politica/aumento-do-numero-de-deputados-custaria-r-462-milhoes-por-ano-diz-estudo/'>Revista Oeste</a>, \
 <a href='https://www.osul.com.br/aumento-do-numero-de-deputados-como-quer-o-presidente-da-camara-custaria-r-46-milhoes-por-ano-mostra-estudo/'>O Sul</a>, </em>"
   type: "policy"
-  with: "with <a href='https://www.linkedin.com/in/mariana-piaia-abreu-57745725/'>Mariana Piaia Abreu</a>"
+  with: "with <a href='https://www.linkedin.com/in/mariana-piaia-abreu-57745725/'>Mariana Piaia Abreu</a>, for <a href='https://institutomillenium.org.br/'>Instituto Millenium<a/>"
   date: 2025-04-02
   year: 2024
   journal: "<em>Technical Note 001/25, Instituto Millenium</em> (in Portuguese)"
