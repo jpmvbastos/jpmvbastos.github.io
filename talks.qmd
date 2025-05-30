@@ -1,0 +1,25 @@
+---
+title: "Presentations and Media"
+description: "" 
+listing:
+- id: presentations
+  contents: 
+    - talks.yaml
+  sort: "date desc"
+  type: table
+- id: media
+  contents: 
+    - talks.yaml
+  sort: "date desc"
+  type: table
+page-layout: full
+---
+## Talks & Presentations
+
+:::{listings}
+:::
+
+## Media
+
+:::{media}
+:::

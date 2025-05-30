@@ -31,10 +31,9 @@ website:
       - research.qmd
       - teaching.qmd
       - policy.qmd
-      - projects.qmd
       #- media.qmd
-      #- text: "Media"
-      #  href: media.qmd
+      #- text: "Presentations & Media"
+      #  href: talks.qmd
       - text: "CV"
         href: files/Job_Market_CV___JP_Bastos.pdf
 
