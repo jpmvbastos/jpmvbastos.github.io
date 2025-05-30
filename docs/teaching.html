@@ -62,34 +62,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current'] = new List('listing-current', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-previous .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -271,48 +243,10 @@ window.Quarto = {
 
 
 <!-- See about omitting columns by table -->
-<section id="current-and-upcoming" class="level2">
-<h2 class="anchored" data-anchor-id="current-and-upcoming">Current and upcoming</h2>
-<div id="listing-current" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Term
-</th>
-<th>
-Institution
-</th>
-<th>
-Links
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1725166800000" data-listing-title-sort="Agricultural Statistics">
-<td>
-<span class="listing-title">Agricultural Statistics</span>
-</td>
-<td>
-<span class="listing-Term">Spring 2025</span>
-</td>
-<td>
-<span class="listing-Institution">Texas Tech University</span>
-</td>
-<td>
-<span class="listing-Links"><a href="files/teaching/prob_stats.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
+<!--## Current and upcoming
+
+:::{#current}
+::: -->
 <section id="previously-taught" class="level2">
 <h2 class="anchored" data-anchor-id="previously-taught">Previously taught</h2>
 <div id="listing-previous" class="quarto-listing quarto-listing-container-table">
@@ -334,7 +268,7 @@ Links
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1704088800000" data-listing-title-sort="Development Economics (in Spanish)">
+<tr data-index="0" data-listing-date-sort="1704085200000" data-listing-title-sort="Development Economics (in Spanish)">
 <td>
 <span class="listing-title">Development Economics (in Spanish)</span>
 </td>
@@ -348,7 +282,7 @@ Links
 <span class="listing-Links"><a href="https://popw24.gustavodiaz.org/"><i class="fa-solid fa-globe" aria-hidden="true"></i></a> <a href="files/teaching/rdpp_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Applied Busines Economics">
+<tr data-index="1" data-listing-date-sort="1641013200000" data-listing-title-sort="Applied Busines Economics">
 <td>
 <span class="listing-title">Applied Busines Economics</span>
 </td>
@@ -387,20 +321,20 @@ Institution
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1717218000000" data-listing-title-sort="Fundamentals of Agricultural and Applied Economics">
+<tr data-index="0" data-listing-date-sort="1717214400000" data-listing-title-sort="Fundamentals of Agricultural and Applied Economics (2 sections)">
 <td>
-<span class="listing-title">Fundamentals of Agricultural and Applied Economics</span>
+<span class="listing-title">Fundamentals of Agricultural and Applied Economics (2 sections)</span>
 </td>
 <td>
-<span class="listing-Term">Fall 2023</span>
+<span class="listing-Term">2024-2025</span>
 </td>
 <td>
 <span class="listing-Institution">Texas Tech University</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Agricultural Price Theory">
+<tr data-index="1" data-listing-date-sort="1641013200000" data-listing-title-sort="Agricultural Price Theory (2 sections)">
 <td>
-<span class="listing-title">Agricultural Price Theory</span>
+<span class="listing-title">Agricultural Price Theory (2 sections)</span>
 </td>
 <td>
 <span class="listing-Term">2022-2023</span>
@@ -415,9 +349,18 @@ Institution
 No matching items
 </div>
 </div>
+<section id="selected-student-evaluations" class="level3">
+<h3 class="anchored" data-anchor-id="selected-student-evaluations">Selected Student Evaluations</h3>
+<p>“Professor was great for it being his first time teaching ever. I really enjoyed his lectures and the helpfulness he provided to us students! 1000000% recommend.”</p>
+<p>“He lays the material out very well and teaches it in a way that translates well to the tests”</p>
+<p>“Fantastic class with an amazing instructor. Very clear and concise”</p>
+<p>“Very good, i wish there were more teachers like this one. He kept us pretty on course and made the course digestible and tried his best to give us a great semester.”</p>
+<p>“JP was awesome. He pointed out being new to teaching, but the concepts in this class were made so simple and easy because of him. Ive ended the semester with the necessary knowledge and had almost no struggle throughout because of JP.”</p>
+<p>“The class can be a little slow at times, but he did his best to make it engaging by connecting the learning to real life situations, which was very helpful. This was his first year teaching and, for future students sake, I hope he keeps teaching”</p>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

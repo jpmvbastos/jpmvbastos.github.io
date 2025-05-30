@@ -4,13 +4,14 @@
 # {{< fa file-lines >}}
 # Copy paste level button
 # Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-- title: 'Agricultural Statistics'
-  date: 2024-09-01
-  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "Spring 2025"
-  Institution: "Texas Tech University"
-  Links: "[{{< fa file-lines >}}](files/teaching/prob_stats.pdf)"
-  type: "current"
+
+#- title: 'Agricultural Statistics'
+#  date: 2024-09-01
+#  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+#  Term: "Spring 2025"
+#  Institution: "Texas Tech University"
+#  Links: "[{{< fa file-lines >}}](files/teaching/prob_stats.pdf)"
+#  type: "current"
 
 - title: "Development Economics (in Spanish)"
   date: 2024-01-01
@@ -28,15 +29,15 @@
   Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
   type: "previous"
 
-- title: "Fundamentals of Agricultural and Applied Economics"
+- title: "Fundamentals of Agricultural and Applied Economics (2 sections)"
   date: 2024-06-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-  Term: "Fall 2023"
+  Term: "2024-2025"
   Institution: "Texas Tech University"
   Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
   type: "ta"
 
-- title: "Agricultural Price Theory"
+- title: "Agricultural Price Theory (2 sections)"
   date: 2022-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2022-2023"

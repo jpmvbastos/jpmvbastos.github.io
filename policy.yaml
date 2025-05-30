@@ -4,21 +4,65 @@
 # {{< fa file-lines >}}
 # Copy paste level button
 # Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+
 - title: "<b>Avaliando a PEC do Quiquênio</b>"
   type: "policy"
-  with: "Evaluates a proposal of salary increases for federal judges."
+  note: "Evaluates a proposal of salary increases for federal judges. <br> Featured in: <em> \
+<a href='https://www.estadao.com.br/politica/pec-do-quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo/'>Estadão</a>, \
+<a href='https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2024/05/14/quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo.htm'>UOL Notícias</a>, \
+<a href='https://istoedinheiro.com.br/quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo/'>Istoé Dinheiro</a>, \
+<a href='https://revistaoeste.com/brasil/estudo-mostra-que-juizes-ganham-quase-o-dobro-de-advogados-com-doutorado/'>Revista Oeste</a>, \
+<a href='https://jornaldebrasilia.com.br/noticias/politica-e-poder/juiz-ganha-quase-o-dobro-do-que-recebe-advogado-com-doutorado/'>Jornal de Brasília</a>.</em>"
   date: 2024-10-02
   year: 2024
   journal: "<em>Revista Notas</em> (in Portuguese)"
-  pdf: "..files/research/competicao-monopolio.pdf"
-  pubopen: "https://misesjournal.org.br/misesjournal/article/view/137"
+  pdf: "https://institutomillenium.org.br/wp-content/uploads/2025/02/02LO_NOTA_TECNICA.pdf"
+  pubopen: "https://www.institutoliberal.org.br/revista-notas/revista-notas-da-pec-do-quinquenio/"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
+- title: "<b>Quanto custa um deputado?</b>"
+  note: "Evaluates a proposal to increase the size of federal congress. <br> Featured in: <em> \
+<a href='https://www.estadao.com.br/politica/aumento-do-numero-de-deputados-como-quer-hugo-motta-custaria-r-462-milhoes-por-ano-mostra-estudo/'>Estadão</a> , \
+<a href='https://www.youtube.com/watch?v=f5pcJ7gFAS8'>CNN Brasil</a>, \ 
+<a href='https://gauchazh.clicrbs.com.br/colunistas/rosane-de-oliveira/noticia/2025/02/aumento-do-numero-de-deputados-de-513-para-527-custaria-r-462-milhoes-por-ano-cm7meeb1c00f101dmcg4of5fs.html'>Zero Hora</a>, \
+<a href='https://revistaoeste.com/politica/aumento-do-numero-de-deputados-custaria-r-462-milhoes-por-ano-diz-estudo/'>Revista Oeste</a>, \
+<a href='https://www.osul.com.br/aumento-do-numero-de-deputados-como-quer-o-presidente-da-camara-custaria-r-46-milhoes-por-ano-mostra-estudo/'>O Sul</a>, </em>"
+  type: "policy"
+  with: "with <a href='https://www.linkedin.com/in/mariana-piaia-abreu-57745725/'>Mariana Piaia Abreu</a>"
+  date: 2025-04-02
+  year: 2024
+  journal: "<em>Technical Note 001/25, Instituto Millenium</em> (in Portuguese)"
+  pdf: "https://nyc3.digitaloceanspaces.com/institutoliberal/2024/05/Revista-Notas-132-F.pdf"
+  pubopen: "https://institutomillenium.org.br/notas-tecnicas/quanto-custa-um-deputado-estimando-os-custos-de-14-novos-deputados/"
+
 - title: "Municipal Bill of Economic Freedom"
-  date: 2022-01-01
+  date: 2020-03-03
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-  Law: "Law "
+  Law: "Supplemental Law nº 876/2020"
   Effect: "Exempts low risk business from licensing"
-  Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
+  Links: "[{{< fa file-lines >}}](http://leismunicipa.is/wrpjx)"
   type: "reforms"
-  
+
+- title: "End of Monopoly for City Tour Bus Routes"
+  date: 2020-03-03
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Law: "Law nº 12,713/2020"
+  Effect: "Private companies can operate freely, deciding their own routes"
+  Links: "[{{< fa file-lines >}}](http://leismunicipa.is/bqlpy)"
+  type: "reforms"
+
+- title: "Reduction of Bureaucracy (1)"
+  date: 2018-05-16
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Law: "Law nº 12,411/2018"
+  Effect: "Exempts citizens from providing notarized copies and proof of address in public services"
+  Links: "[{{< fa file-lines >}}](http://leismunicipa.is/dwlge)"
+  type: "reforms"
+
+- title: "Reduction of Bureaucracy (2)"
+  date: 2020-07-10
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Law: "Law nº 12,713/2020"
+  Effect: "Establishes tax-payer number as a single document in public services"
+  Links: "[{{< fa file-lines >}}](http://leismunicipa.is/yblqp)"
+  type: "reforms"

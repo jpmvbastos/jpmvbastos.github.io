@@ -4,7 +4,7 @@
 
 ######### PUBLISHED PAPERS
 
-- title: "<b> Competição e Monopólio: o mainstream e a Escola Austríaca</b>"
+- title: "<b>[1] Competição e Monopólio: o mainstream e a Escola Austríaca</b>"
   type: "Published"
   date: 2016-10-02
   year: 2016
@@ -13,7 +13,7 @@
   pubopen: "https://misesjournal.org.br/misesjournal/article/view/137"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
-- title: "<b>Economics Against Tyranny: A Reassessment of the Liberal Order of Mises and Hayek.</b>"
+- title: "<b>[2] Economics Against Tyranny: A Reassessment of the Liberal Order of Mises and Hayek.</b>"
   type: "Published"
   date: 2019-10-02
   year: 2019
@@ -22,7 +22,7 @@
   pubopen: "https://misesjournal.org.br/misesjournal/article/view/1205"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
-- title: "<b>Female Ownership of Firms and Regulation Experience</b>"
+- title: "<b>[3] Female Ownership of Firms and Regulation Experience</b>"
   type: "Published"
   with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   date: 2024-10-03
@@ -32,49 +32,79 @@
   pubclosed: "https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2348552"
   #appendix: "../files/research/gender_performance_appendix.pdf"
 
-- title: "<b>Gender and Corruption in Firms: The Importance of Regional Context</b>"
+- title: "<b>[4] Gender and Corruption in Firms: The Importance of Regional Context</b>"
   type: "Published"
   with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
-  date: 2024-10-02
+  date: 2024-10-05
   year: 2024
   journal: "<em>Review of Development Economics</em>"
   pdf: "..files/research/Is_Corruption_More_Harmful_to_Women_.pdf"
   pubclosed: "https://onlinelibrary.wiley.com/doi/10.1111/rode.13146"
   #appendix: "../files/research/gender_performance_appendix.pdf"
-####### REVISE AND RESUBMIT
-- title: "<b>The Institutional Impact of Left-Leaning Populism in Latin America</b>"
-  type: "R&R"
-  date: 2024-08-07
-  status: "Revise and Resubmit"
+
+- title: "<b>[5] The Institutional Impact of Left-Leaning Populism in Latin America</b>"
+  type: "Published"
+  date: 2025-01-01
+  year: 2025
   with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a>, <a href='https://www.alexandrepadilla.com'>Alexandre Padilla</a>, and <a href='https://www.linkedin.com/in/karlahernandez321/'>Karla C. Hernández</a>"
   journal: "<em>European Journal of Political Economy</em>"
   pdf: "../files/research/Populism_and_Institutions-Final.pdf"
+  pubclosed: "https://doi.org/10.1016/j.ejpoleco.2024.102629"
   #appendix: "../files/research/precision_retention_appendix.pdf"
 
-- title: "<b>Colonial Rule and Economic Freedom</b>"
+- title: "<b>[6] The Political Economy of Populism Regime Length</b>"
+  type: "Published"
+  year: 2025
+  journal: "<em>Constitutional Political Economy</em>"
+  pubopen: "https://link.springer.com/article/10.1007/s10602-025-09465-4"
+  pdf: "..files/research/The Political Economy of Populist Regime Length.pdf"
+  date: 2025-02-02
+  with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a> and Tomás Faintich"
+
+- title: "<b>[7] The politics of lockdown policies: Evidence from Brazilian states</b>"
+  type: "Published"
+  year: 2025
+  date: 2025-03-01
+  journal: "<em>Economic Affairs</em>"
+  pubclosed: "https://onlinelibrary.wiley.com/doi/10.1111/ecaf.12702"
+  pdf: "..files/research/Bastos Miozzi 2025 - Covid Brazil.pdf"
+  with: "with <a href='https://www.vincentmiozzi.com'>Vincent Miozzi</a>"
+
+- title: "<b>[8] Colonial Rule and Economic Freedom</b>"
+  type: "Published"
+  date: 2025-03-03
+  year: 2025
+  journal: "<em>Public Choice</em> (forthcoming)"
+  pdf: "../files/research/Bastos 2025 - Colonial Rule and Economic Freedom.pdf"
+
+####### REVISE AND RESUBMIT
+- title: "<b>Does corruption deter female leadership in firms?</b>"
   type: "R&R"
-  #with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a>, <a href='https://www.alexandrepadilla.com'>Alexandre Padilla</a>, and <a href='https://www.linkedin.com/in/karlahernandez321/'>Karla C. Hernández</a>"
-  date: 2024-08-07
-  status: "Revise and Resubmit"
-  journal: "<em>Public Choice</em>"
-  pdf: "../files/research/Colonial_Rule_and_Economic_Freedom-4.pdf"
+  journal: "<em>Journal of Institutional Economics</em>"
+  date: 2025-03-01
+  with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
 
 ######## UNDER REVIEW
-- title: "<b>The Political Economy of Populism Regime Length</b>"
+- title: "<b> The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo</b>"
   type: "Under Review"
-  date: 2022-09-02
-  with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a> and Tomás Faintich"
+  pubopen: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912"
+  pdf: "..files/research/Bastos Geloso Pavlik 2025 - Forsaken Road.pdf"
+  blog: "https://thedailyeconomy.org/article/socialism-not-the-embargo-explains-nearly-all-of-cubas-poverty/"
+  date: 2025-05-07
+  with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
+
+- title: "<b> Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador</b>"
+  type: "Under Review"
+  pdf: "..files/research/Bastos Cachanosky Callais 2025 - Environmental Constitution Ecuador.pdf"
+  date: 2025-05-01
+  with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a> and <a href='https://www.justincallais.com'>Justin T. Callais</a>"
 
 - title: "<b>Corruption and Political Allocation of Entrepreneurs</b>"
   type: "Under Review"
-  date: 2022-09-01
+  date: 2025-01-15
   with: "with <a href='https://www.justincallais.com'>Justin T. Callais</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   
 ######## WORKING PAPERS
-- title: "<b> The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo</b>"
-  type: "Progress"
-  date: 2022-11-01
-  with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
 
 - title: "<b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b>"
   type: "Progress"
@@ -89,11 +119,6 @@
   type: "Progress"
   date: 2022-08-01
   with: "with Silvio Simonetti"
-
-- title: "<b>Political Determinants of Lockdown Policy and State Economic Freedom in Brazil</b>"
-  type: "Progress"
-  date: 2022-10-01
-  with: "with <a href='https://www.vincentmiozzi.com'>Vincent Miozzi</a>"
 
 
 

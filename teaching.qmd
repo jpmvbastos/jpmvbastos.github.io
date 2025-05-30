@@ -2,15 +2,15 @@
 title: "Teaching"
 description: "" 
 listing:
-- id: current
-  include: 
-    type: "current"
-  contents: teaching.yaml
-  type: table
-  fields: [title, Term, Institution, Links]
-  filter-ui: false
-  sort: "date"
-  sort-ui: false
+#- id: current
+#  include: 
+#    type: "current"
+#  contents: teaching.yaml
+#  type: table
+#  fields: [title, Term, Institution, Links]
+#  filter-ui: false
+#  sort: "date"
+#  sort-ui: false
   #categories: true
 - id: previous
   include: 
@@ -38,10 +38,11 @@ page-layout: full
 
 <!-- See about omitting columns by table -->
 
-## Current and upcoming
+<!--## Current and upcoming
 
 :::{#current}
-:::
+::: -->
+
 
 ## Previously taught
 
@@ -51,4 +52,18 @@ page-layout: full
 ## Teaching Assistant for:
 
 :::{#ta}
-::: 
+:::
+
+### Selected Student Evaluations
+
+"Professor was great for it being his first time teaching ever. I really enjoyed his lectures and the helpfulness he provided to us students! 1000000% recommend."
+
+"He lays the material out very well and teaches it in a way that translates well to the tests"
+
+"Fantastic class with an amazing instructor. Very clear and concise"
+
+"Very good, i wish there were more teachers like this one. He kept us pretty on course and made the course digestible and tried his best to give us a great semester."
+
+"JP was awesome. He pointed out being new to teaching, but the concepts in this class were made so simple and easy because of him. Ive ended the semester with the necessary knowledge and had almost no struggle throughout because of JP."
+
+"The class can be a little slow at times, but he did his best to make it engaging by connecting the learning to real life situations, which was very helpful. This was his first year teaching and, for future students sake, I hope he keeps teaching"
