@@ -31,6 +31,8 @@ website:
       - research.qmd
       - teaching.qmd
       - policy.qmd
+      - projects.qmd
+      #- media.qmd
       #- text: "Media"
       #  href: media.qmd
       - text: "CV"
