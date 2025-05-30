@@ -46,6 +46,15 @@ listing:
     sort: "date desc"
     sort-ui: false
     #categories: true
+  - id: books
+    include: 
+      type: "Books"
+    contents: research.yaml
+    template: research.ejs
+    #filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true
 toc: false    
 page-layout: full
 ---
@@ -68,6 +77,11 @@ page-layout: full
 ## Working Papers
 
 :::{#working-papers}
+:::
+
+## Edited Books and Book Chapters
+
+:::{#books}
 :::
 
 

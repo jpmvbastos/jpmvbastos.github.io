@@ -69,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-with"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -97,9 +97,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-with"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -188,6 +188,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-review'] = new List('listing-review', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-with','listing-type','listing-date','listing-year','listing-publisher','listing-note',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-with","listing-type","listing-date","listing-year","listing-publisher","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books'] = new List('listing-books', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -362,6 +390,8 @@ window.Quarto = {
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -430,6 +460,8 @@ window.Quarto = {
         </small>
       
       
+      
+       
       
 
       <!-- paper info for R&R -->
@@ -504,6 +536,8 @@ window.Quarto = {
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -576,6 +610,8 @@ window.Quarto = {
         </small>
       
       
+      
+       
       
 
       <!-- paper info for R&R -->
@@ -650,6 +686,8 @@ window.Quarto = {
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -723,6 +761,8 @@ window.Quarto = {
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -791,6 +831,8 @@ window.Quarto = {
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -858,6 +900,8 @@ window.Quarto = {
         </small>
       
       
+      
+       
       
 
       <!-- paper info for R&R -->
@@ -952,6 +996,8 @@ No matching items
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -1041,6 +1087,8 @@ No matching items
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -1114,6 +1162,8 @@ No matching items
       
       
       
+       
+      
 
       <!-- paper info for R&R -->
       
@@ -1178,6 +1228,8 @@ No matching items
       <!-- paper info for published work -->
       
       
+      
+       
       
 
       <!-- paper info for R&R -->
@@ -1246,7 +1298,594 @@ No matching items
 
 <ul class="list">
   
-</ul>
+    <data-index='0' data-listing-date-sort="1730433600000">
+      <b>Does Fighting Corruption Reduce the Private Gains from Political Office? Evidence from Brazilian Mayoral Elections</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1725163200000">
+      <b>The Causal Effects of Infrastructure-Led Development: Evidence from Iceland's “Beloved War”</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with Rafael Dal Molin
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1701406800000">
+      <b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1680321600000">
+      <b>Does joining the OECD improve economic performance?</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='4' data-listing-date-sort="1659326400000">
+      <b>The Economic Consequences of 'Plano Real': A Synthetic Control Approach</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with Silvio Simonetti
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='5' data-listing-date-sort="1646110800000">
+      <b>Can the FIFA World Cup increase economic activity? Evidence from labor markets in the 2014 Brazil edition</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+      <br>
+       <small class="text-muted">
+          
+        </small>
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='5'></data-index='4'></data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="edited-books-and-book-chapters" class="level2">
+<h2 class="anchored" data-anchor-id="edited-books-and-book-chapters">Edited Books and Book Chapters</h2>
+<div id="listing-books" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1740805200000">
+      <b>Conhecimento e Coordenação Social</b> (Série Fundamentos da Liberdade, vol. 1) 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with Gustavo Inácio de Moraes
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+      <br>
+       <small class="text-muted">
+          2018. <em>Instituto Atlantos</em> (in Portuguese)
+        </small>
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1738386000000">
+      <b>Brazil</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">Chapter under contract in <i>International Handbook on Occupational Licensing</i></span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1735707600000">
+      <b>Fighting Corruption in Latin America</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">Chapter under review</span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='2'></data-index='1'></data-index='0'></ul>
 
 <div class="listing-no-matching d-none">
 No matching items
@@ -1273,171 +1912,7 @@ No matching items
 
 <ul class="list">
   
-    <data-index='0' data-listing-date-sort="1664596800000">
-      <b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      
-      <!-- paper info for working papers -->
-      
-
-      <!-- paper info for published work -->
-      
-      
-      
-
-      <!-- paper info for R&R -->
-      
-
-      <!-- paper info for working papers -->
-      
-      
-      
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='1' data-listing-date-sort="1662004800000">
-      <b>Does joining the OECD improve economic performance?</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      
-      <!-- paper info for working papers -->
-      
-
-      <!-- paper info for published work -->
-      
-      
-      
-
-      <!-- paper info for R&R -->
-      
-
-      <!-- paper info for working papers -->
-      
-      
-      
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-    <data-index='2' data-listing-date-sort="1659326400000">
-      <b>The Economic Consequences of ’Plano Real’: A Synthetic Control Approach</b> 
-      
-      <!-- coauthor info if needed -->
-      
-      <br>
-        <small class="text-muted">
-          with Silvio Simonetti
-        </small>
-      
-      
-      <!-- paper info for working papers -->
-      
-
-      <!-- paper info for published work -->
-      
-      
-      
-
-      <!-- paper info for R&R -->
-      
-
-      <!-- paper info for working papers -->
-      
-      
-      
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      <p></p>
-      <hr>
-    
-  
-</data-index='2'></data-index='1'></data-index='0'></ul>
+</ul>
 
 <div class="listing-no-matching d-none">
 No matching items

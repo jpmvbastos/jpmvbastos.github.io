@@ -47,6 +47,13 @@
           <%= item.editor %>
         </small>
       <% } %>
+       
+      <% if (item.type === 'Books' && item.publisher) { %>
+      <br/>
+       <small class="text-muted">
+          <%= item.year %>. <%= item.publisher %>
+        </small>
+      <% } %>
 
       <!-- paper info for R&R -->
       <% if (item.type === 'R&R') { %>

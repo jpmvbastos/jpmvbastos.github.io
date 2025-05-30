@@ -106,21 +106,50 @@
   
 ######## WORKING PAPERS
 
-- title: "<b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b>"
-  type: "Progress"
-  date: 2022-10-01
-  #with: "with <a href='http://www.jakebowers.org/'>Jake Bowers</a> and <a href='https://publish.illinois.edu/cdgrady2/'>Christopher Grady</a> <br/>"
-  
-- title: "<b>Does joining the OECD improve economic performance?</b>"
-  type: "Progress"
-  date: 2022-09-01
+- title: "<b>Does Fighting Corruption Reduce the Private Gains from Political Office? Evidence from Brazilian Mayoral Elections</b>"
+  type: "Working"
+  date: 2024-11-01
 
-- title: "<b>The Economic Consequences of ’Plano Real’: A Synthetic Control Approach</b>"
-  type: "Progress"
+- title: "<b>The Causal Effects of Infrastructure-Led Development: Evidence from Iceland's “Beloved War”</b>"
+  type: "Working"
+  date: 2024-09-01
+  with: "with Rafael Dal Molin"
+
+- title: "<b>Corruption and Unproductive Entrepreneurship: Evidence from Brazil</b>"
+  type: "Working"
+  date: 2023-12-01
+
+- title: "<b>The Economic Consequences of 'Plano Real': A Synthetic Control Approach</b>"
+  type: "Working"
   date: 2022-08-01
   with: "with Silvio Simonetti"
 
+- title: "<b>Does joining the OECD improve economic performance?</b>"
+  type: "Working"
+  date: 2023-04-01
 
+- title: "<b>Can the FIFA World Cup increase economic activity? Evidence from labor markets in the 2014 Brazil edition</b>"
+  type: "Working"
+  date: 2022-03-01
+
+######## BOOKS
+
+- title: "<b>Conhecimento e Coordenação Social</b> (Série Fundamentos da Liberdade, vol. 1)"
+  with: "with Gustavo Inácio de Moraes"
+  type: "Books"
+  date: 2025-03-01
+  year: 2018
+  publisher: "<em>Instituto Atlantos</em> (in Portuguese)"
+
+- title: "<b>Brazil</b>"
+  type: "Books"
+  date: 2025-02-01
+  note: "Chapter under contract in <i>International Handbook on Occupational Licensing</i>"
+
+- title: "<b>Fighting Corruption in Latin America</b>"
+  type: "Books"
+  date: 2025-01-01
+  note: "Chapter under review"
 
 
 #### OTHER OPTIONS
