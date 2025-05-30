@@ -55,6 +55,24 @@ listing:
     sort: "date desc"
     sort-ui: false
     #categories: true
+  - id: book-reviews
+    include: 
+      type: "Book Review"
+    contents: research.yaml
+    template: research.ejs
+    #filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true
+  - id: policy
+    include: 
+      type: "policy"
+    contents: policy.yaml
+    template: research.ejs
+    #filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    #categories: true
 toc: false    
 page-layout: full
 ---
@@ -82,6 +100,16 @@ page-layout: full
 ## Edited Books and Book Chapters
 
 :::{#books}
+:::
+
+## Book Reviews
+
+:::{#book-reviews}
+:::
+
+## Policy Reports
+
+:::{#policy}
 :::
 
 

@@ -69,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-pdf','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-with"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-pdf","listing-with"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -125,9 +125,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-journal','listing-pdf','listing-pubopen','listing-with','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-appendix','listing-github','listing-journal','listing-pdf','listing-pubclosed','listing-with','listing-pubopen',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-journal","listing-pdf","listing-pubopen","listing-with","listing-pubclosed"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-appendix","listing-github","listing-journal","listing-pdf","listing-pubclosed","listing-with","listing-pubopen"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -216,6 +216,62 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-books'] = new List('listing-books', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-book-reviews .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-date','listing-note',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-date","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-book-reviews'] = new List('listing-book-reviews', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-policy .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-note','listing-date','listing-year','listing-with','listing-pdf','listing-pubopen','listing-journal',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-note","listing-date","listing-year","listing-with","listing-pdf","listing-pubopen","listing-journal"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-policy'] = new List('listing-policy', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -400,13 +456,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="../files/research/Bastos 2025 - Colonial Rule and Economic Freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-2025-colonial-rule-economic-freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -420,11 +471,19 @@ window.Quarto = {
       
       
       
+        <a role="button" href="../files/research/Appendix - Colonial Rule and Economic Freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
+        </a>
       
       
       
       
       
+      
+      
+        <a role="button" href="https://github.com/jpmvbastos/colonial-rule" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
       
       
       
@@ -471,13 +530,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/Bastos Miozzi 2025 - Covid Brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-miozzi-2025-politics-lockdown-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -520,7 +574,7 @@ window.Quarto = {
       
       <br>
         <small class="text-muted">
-          with <a href="https://www.ncachanosky.com">Nicolás Cachanosky</a> and Tomás Faintich
+          with <a href="https://www.ncachanosky.com">Nicolás Cachanosky</a> and <a href="https://www.linkedin.com/in/tomasfaintich/">Tomás Faintich</a>
         </small>
       
       
@@ -546,13 +600,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/The Political Economy of Populist Regime Length.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-cachanosky-faintich-2025-populism-regime-length.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -621,13 +670,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="../files/research/Populism_and_Institutions-Final.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/cachanosky-et-al-2025-populism-institutions-latam.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -681,7 +725,7 @@ window.Quarto = {
       
       <br>
        <small class="text-muted">
-          2024. <em>Review of Development Economics</em>
+          2025. <em>Review of Development Economics</em>
         </small>
       
       
@@ -696,13 +740,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/Is_Corruption_More_Harmful_to_Women_.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-pavlik-2025-corruption-harmful-women.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -771,13 +810,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/Populism_and_Institutions-Final.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-pavlik-2024-female-ownership-regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -841,13 +875,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/economics-tyranny.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-2019-economics-tyranny.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -911,13 +940,8 @@ window.Quarto = {
       
       
       
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/competicao-monopolio.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-2016-competicao-monopolio.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -1012,11 +1036,6 @@ No matching items
       
       
       
-
-      
-      
-      
-      
       
       
       
@@ -1097,14 +1116,8 @@ No matching items
       
       
       
-      
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/Bastos Geloso Pavlik 2025 - Forsaken Road.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-geloso-pavlik-forsaken-road.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -1172,14 +1185,8 @@ No matching items
       
       
       
-      
-      
-
-      
-      
-      
         <br>
-        <a role="button" href="..files/research/Bastos Cachanosky Callais 2025 - Environmental Constitution Ecuador.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+        <a role="button" href="../files/research/bastos-cachanosky-callais-2025-environmental-constitution-ecuador.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
       
@@ -1239,11 +1246,10 @@ No matching items
       
       
       
-      
-      
-
-      
-      
+        <br>
+        <a role="button" href="../files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
       
       
       
@@ -1306,11 +1312,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1326,10 +1327,10 @@ No matching items
       
       
       
-      
-
-      
-      
+        <br>
+        <a role="button" href="../files/research/bastos-2025-corruption-private-gains-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
       
       
       
@@ -1372,11 +1373,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1389,11 +1385,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1433,11 +1424,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1450,11 +1436,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1494,11 +1475,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1511,11 +1487,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1560,11 +1531,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1577,11 +1543,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1621,11 +1582,6 @@ No matching items
       
       <!-- paper info for working papers -->
       
-      <br>
-       <small class="text-muted">
-          
-        </small>
-      
 
       <!-- paper info for published work -->
       
@@ -1638,11 +1594,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1706,7 +1657,7 @@ No matching items
       
       <br>
         <small class="text-muted">
-          with Gustavo Inácio de Moraes
+          with <a href="https://www.pucrs.br/pesquisadores/gustavo-inacio-de-moraes/">Gustavo Inácio de Moraes</a>
         </small>
       
       
@@ -1729,11 +1680,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1785,11 +1731,6 @@ No matching items
       
 
       <!-- paper info for working papers -->
-      
-      
-      
-      
-
       
       
       
@@ -1849,11 +1790,6 @@ No matching items
       
       
       
-
-      
-      
-      
-      
       
       
       
@@ -1886,6 +1822,249 @@ No matching items
     
   
 </data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="book-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="book-reviews">Book Reviews</h2>
+<div id="listing-book-reviews" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1646110800000">
+      <b>Review of David Skarbek's <i>The Puzzle of Prison Order: Why Life Behind Bars Varies Around the World</i> (2020)</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">2022. <em>The Independent Review</em></span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="policy-reports" class="level2">
+<h2 class="anchored" data-anchor-id="policy-reports">Policy Reports</h2>
+<div id="listing-policy" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1743566400000">
+      <b>Quanto custa um deputado?</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="https://www.linkedin.com/in/mariana-piaia-abreu-57745725/">Mariana Piaia Abreu</a>, for <a href="https://institutomillenium.org.br/">Instituto Millenium</a><a>
+        </a></small><a>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+        <br>
+        </a><a role="button" href="https://nyc3.digitaloceanspaces.com/institutoliberal/2024/05/Revista-Notas-132-F.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
+      
+      
+      
+        <a role="button" href="https://institutomillenium.org.br/notas-tecnicas/quanto-custa-um-deputado-estimando-os-custos-de-14-novos-deputados/" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">Evaluates a proposal to increase the size of federal congress. <br> Featured in: <em> <a href="https://www.estadao.com.br/politica/aumento-do-numero-de-deputados-como-quer-hugo-motta-custaria-r-462-milhoes-por-ano-mostra-estudo/">Estadão</a> , <a href="https://www.youtube.com/watch?v=f5pcJ7gFAS8">CNN Brasil</a>,   <a href="https://gauchazh.clicrbs.com.br/colunistas/rosane-de-oliveira/noticia/2025/02/aumento-do-numero-de-deputados-de-513-para-527-custaria-r-462-milhoes-por-ano-cm7meeb1c00f101dmcg4of5fs.html">Zero Hora</a>, <a href="https://revistaoeste.com/politica/aumento-do-numero-de-deputados-custaria-r-462-milhoes-por-ano-diz-estudo/">Revista Oeste</a>, <a href="https://www.osul.com.br/aumento-do-numero-de-deputados-como-quer-o-presidente-da-camara-custaria-r-46-milhoes-por-ano-mostra-estudo/">O Sul</a>, </em></span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1727841600000">
+      <b>Avaliando a PEC do Quiquênio</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          for <em>Revista Notas</em>, <a href="https://www.institutoliberal.org.br">Instituto Liberal</a><a>
+        </a></small><a>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+        <br>
+        </a><a role="button" href="https://institutomillenium.org.br/wp-content/uploads/2025/02/02LO_NOTA_TECNICA.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
+      
+      
+      
+        <a role="button" href="https://www.institutoliberal.org.br/revista-notas/revista-notas-da-pec-do-quinquenio/" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">Evaluates a proposal of salary increases for federal judges. <br> Featured in: <em> <a href="https://www.estadao.com.br/politica/pec-do-quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo/">Estadão</a>, <a href="https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2024/05/14/quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo.htm">UOL Notícias</a>, <a href="https://istoedinheiro.com.br/quinquenio-magistrados-ganham-quase-o-dobro-do-salario-de-advogado-com-doutorado-diz-estudo/">Istoé Dinheiro</a>, <a href="https://revistaoeste.com/brasil/estudo-mostra-que-juizes-ganham-quase-o-dobro-de-advogados-com-doutorado/">Revista Oeste</a>, <a href="https://jornaldebrasilia.com.br/noticias/politica-e-poder/juiz-ganha-quase-o-dobro-do-que-recebe-advogado-com-doutorado/">Jornal de Brasília</a>.</em></span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='1'></data-index='0'></ul>
 
 <div class="listing-no-matching d-none">
 No matching items

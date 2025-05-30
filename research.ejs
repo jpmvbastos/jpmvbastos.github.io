@@ -26,7 +26,7 @@
       <% } %>
       
       <!-- paper info for working papers -->
-      <% if (item.type === 'Working') { %>
+      <% if (item.type === 'Working' && item.status) { %>
       <br/>
        <small class="text-muted">
           <%= item.status %>
@@ -64,12 +64,6 @@
       <% } %>
 
       <!-- paper info for working papers -->
-      <% if (item.type === 'Under Review') { %>
-      <% } %>
-      
-      <% if (item.type !== 'Progress') { %>
-      <% } %>
-
       <% if (item.errata) { %>
         <a role="button" href="<%= item.errata %>" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-exclamation-diamond ai-lg"></i> Errata
