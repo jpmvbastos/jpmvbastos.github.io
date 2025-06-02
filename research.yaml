@@ -156,9 +156,10 @@
 
 ######## BOOK REVIEWS
 - title: "<b>Review of David Skarbek's <i>The Puzzle of Prison Order: Why Life Behind Bars Varies Around the World</i> (2020)</b>"
+  with: "2022. <em>The Independent Review</em>"
   type: "Book Review"
   date: 2022-03-01
-  note: "2022. <em>The Independent Review</em>"
+  pubopen: "https://www.independent.org/tir/2022-summer/the-puzzle-of-prison-order/"
 
 
 
