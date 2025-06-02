@@ -39,6 +39,7 @@
   journal: "<em>European Journal of Political Economy</em>"
   pdf: "../files/research/cachanosky-et-al-2025-populism-institutions-latam.pdf"
   pubclosed: "https://doi.org/10.1016/j.ejpoleco.2024.102629"
+  github: "https://github.com/jpmvbastos/populism-sca"
   #appendix: "../files/research/precision_retention_appendix.pdf"
 
 - title: "<b>[4] Gender and Corruption in Firms: The Importance of Regional Context</b>"

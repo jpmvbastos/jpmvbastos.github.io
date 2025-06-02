@@ -1,0 +1,44 @@
+# Newer entries on top
+# Frequent fontawesome expressions
+# {{< fa globe >}}
+# {{< fa file-lines >}}
+# Copy paste level button
+# Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+
+- title: "<b>Public Choice in Latin America</b>"
+  type: "project"
+  note: "A new Substack to understand Latin American politics with insights from academic research, with regular newsletters with opportunities for students and researchers."
+  date: 2025-03-01
+  with: "with <a href='www.ncachanosky.com'>Nicolás Cachanosky</a>"
+  substack: "https://publicchoicelatinamerica.substack.com"
+
+- title: "<b>Latin America Left-Leaning Populism Index</b>"
+  type: "project"
+  note: "A new index that captures populism while separating rhetoric from practice, and economic from political populism."
+  date: 2025-04-01
+  with: "with <a href='www.ncachanosky.com'>Nicolás Cachanosky</a> and <a href='https://www.alexandrepadilla.com'>Alex Padilla</a>"
+  website: "https://lallpi.netlify.app"
+  github: "https://github.com/ncachanosky/populism-index"
+  substack: "https://publicchoicelatinamerica.substack.com/p/the-latin-american-left-leaning-populism"
+
+- title: "<b>Occupational Licensing in Brazil</b>"
+  type: "project"
+  note: "A new dataset surveying all 84 regulated and licensed occupations and accompanying code to match them to specific occupational codes in the Brazilian Census and other labor market surveys (e.g. PNAD)."
+  date: 2023-01-01
+  github: "https://github.com/jpmvbastos/OccupationalLicensingBR"
+
+- title: "<b>RevealedPreference</b>"
+  type: "project"
+  note: "A simple Python package to analyze data on observed choices made by individuals"
+  date: 2023-01-01
+  github: "https://github.com/jpmvbastos/RevealedPreference"
+
+
+  
+#### OTHER OPTIONS
+#  pubopen: "https://doi.org/10.1017/XPS.2023.24"
+#  appendix: "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S2052263023000246/resource/name/S2052263023000246sup001.pdf"
+#  dataverse: "https://doi.org/10.7910/DVN/SUV8DK"
+#  book: "https://www.e-elgar.com/shop/usd/handbook-on-gender-and-corruption-in-democracies-9781803923239.html"
+#  editor: "Edited by Emily Beaulieu Bacchus and Tiffany Barnes"
+#  blog: "https://egap.org/resource/sd-block-rand/"
