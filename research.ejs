@@ -64,6 +64,9 @@
       <% } %>
 
       <!-- paper info for working papers -->
+
+      <br/>
+      
       <% if (item.errata) { %>
         <a role="button" href="<%= item.errata %>" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-exclamation-diamond ai-lg"></i> Errata
@@ -71,7 +74,6 @@
       <% } %>
       
       <% if (item.pdf) { %>
-        <br/>
         <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
@@ -119,12 +121,6 @@
         </a>
       <% } %>
       
-      <% if (item.github) { %>
-        <a role="button" href="<%= item.github %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-github ai-lg"></i> GitHub 
-        </a>
-      <% } %>
-      
       <% if (item.prereg) { %>
         <a role="button" href="<%= item.prereg %>" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-preregistered ai-lg"></i> Preregistration 
@@ -136,7 +132,43 @@
           <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post 
         </a>
       <% } %>
-      
+
+      <% if (item.website) { %>
+        <a role="button" href="<%= item.website %>" type="button" class="btn btn-outline-secondary btn-xs">
+          <i class="bi bi-globe ai-lg"></i> Website
+        </a>
+      <% } %>
+
+      <% if (item.news) { %>
+        <a role="button" href="<%= item.news %>" type="button" class="btn btn-outline-secondary btn-xs">
+          <i class="bi bi-newspaper ai-lg"></i> In the News
+        </a>
+      <% } %>
+
+      <% if (item.github) { %>
+        <a role="button" href="<%= item.github %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
+      <% } %>
+
+      <% if (item.substack) { %>
+        <a role="button" href="<%= item.substack %>" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-substack"></i></i> Substack
+        </a>
+      <% } %>
+
+      <% if (item.spotify) { %>
+        <a role="button" href="<%= item.spotify %>" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-spotify"></i></i> Spotify
+        </a>
+      <% } %>
+
+      <% if (item.youtube) { %>
+        <a role="button" href="<%= item.youtube %>" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-youtube"></i></i> YouTube
+        </a>
+      <% } %>
+
       <br/>
       
       <% if (item.note) { %>
