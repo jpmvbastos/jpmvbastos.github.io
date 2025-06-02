@@ -125,9 +125,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-appendix','listing-github','listing-journal','listing-pdf','listing-pubclosed','listing-with','listing-pubopen',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-year','listing-appendix','listing-github','listing-journal','listing-pdf','listing-pubopen','listing-pubclosed','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-appendix","listing-github","listing-journal","listing-pdf","listing-pubclosed","listing-with","listing-pubopen"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-year","listing-appendix","listing-github","listing-journal","listing-pdf","listing-pubopen","listing-pubclosed","listing-with"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -441,7 +441,7 @@ window.Quarto = {
       
       <br>
        <small class="text-muted">
-          2025. <em>Public Choice</em> (forthcoming)
+          2025. <em>Public Choice</em>
         </small>
       
       
@@ -463,6 +463,9 @@ window.Quarto = {
       
       
       
+        <a role="button" href="https://doi.org/10.1007/s11127-025-01282-5" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
       
       
       
@@ -471,7 +474,8 @@ window.Quarto = {
       
       
       
-        <a role="button" href="../files/research/Appendix - Colonial Rule and Economic Freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+      
+        <a role="button" href="../files/research/appendix-colonial-rule-economic-freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
         </a>
       

@@ -7,10 +7,11 @@
   type: "Published"
   date: 2025-03-03
   year: 2025
-  appendix: "../files/research/Appendix - Colonial Rule and Economic Freedom.pdf"
+  appendix: "../files/research/appendix-colonial-rule-economic-freedom.pdf"
   github: "https://github.com/jpmvbastos/colonial-rule"
-  journal: "<em>Public Choice</em> (forthcoming)"
+  journal: "<em>Public Choice</em>"
   pdf: "../files/research/bastos-2025-colonial-rule-economic-freedom.pdf"
+  pubopen: "https://doi.org/10.1007/s11127-025-01282-5"
 
 - title: "<b>[7] The politics of lockdown policies: Evidence from Brazilian states</b>"
   type: "Published"
