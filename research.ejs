@@ -64,118 +64,108 @@
       <% } %>
 
       <!-- paper info for working papers -->
-
+      
+      <% if (
+  item.errata || item.pdf || item.pubopen || item.pubclosed ||
+  item.book || item.preprint || item.appendix || item.dataverse ||
+  item.osf || item.prereg || item.blog || item.website || item.news ||
+  item.github || item.substack || item.spotify || item.youtube
+) { %>
       <br/>
+      <div class="buttons">
+        <% if (item.errata) { %>
+          <a role="button" href="<%= item.errata %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-exclamation-diamond ai-lg"></i> Errata
+          </a>
+        <% } %>
+        <% if (item.pdf) { %>
+          <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF
+          </a>
+        <% } %>
+        <% if (item.pubopen) { %>
+          <a role="button" href="<%= item.pubopen %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-open-access ai-lg"></i> Article
+          </a>
+        <% } %>
+        <% if (item.pubclosed) { %>
+          <a role="button" href="<%= item.pubclosed %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-closed-access ai-lg"></i> Article
+          </a>
+        <% } %>
+        <% if (item.book) { %>
+          <a role="button" href="<%= item.book %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-book ai-lg"></i> Book
+          </a>
+        <% } %>
+        <% if (item.preprint) { %>
+          <a role="button" href="<%= item.preprint %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-doi ai-lg"></i> Preprint
+          </a>
+        <% } %>
+        <% if (item.appendix) { %>
+          <a role="button" href="<%= item.appendix %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix
+          </a>
+        <% } %>
+        <% if (item.dataverse) { %>
+          <a role="button" href="<%= item.dataverse %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-dataverse ai-lg"></i> Dataverse
+          </a>
+        <% } %>
+        <% if (item.osf) { %>
+          <a role="button" href="<%= item.osf %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-osf ai-lg"></i> OSF
+          </a>
+        <% } %>
+        <% if (item.prereg) { %>
+          <a role="button" href="<%= item.prereg %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-preregistered ai-lg"></i> Preregistration
+          </a>
+        <% } %>
+        <% if (item.blog) { %>
+          <a role="button" href="<%= item.blog %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post
+          </a>
+        <% } %>
+        <% if (item.website) { %>
+          <a role="button" href="<%= item.website %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-globe ai-lg"></i> Website
+          </a>
+        <% } %>
+        <% if (item.news) { %>
+          <a role="button" href="<%= item.news %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-newspaper ai-lg"></i> In the News
+          </a>
+        <% } %>
+        <% if (item.github) { %>
+          <a role="button" href="<%= item.github %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-github ai-lg"></i> GitHub
+          </a>
+        <% } %>
+        <% if (item.substack) { %>
+          <a role="button" href="<%= item.substack %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-substack"></i> Substack
+          </a>
+        <% } %>
+        <% if (item.spotify) { %>
+          <a role="button" href="<%= item.spotify %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-spotify"></i> Spotify
+          </a>
+        <% } %>
+        <% if (item.youtube) { %>
+          <a role="button" href="<%= item.youtube %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-youtube"></i> YouTube
+          </a>
+        <% } %>
+      </div>
+    <% } %>
       
-      <% if (item.errata) { %>
-        <a role="button" href="<%= item.errata %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-exclamation-diamond ai-lg"></i> Errata
-        </a> 
-      <% } %>
-      
-      <% if (item.pdf) { %>
-        <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
-        </a> 
-      <% } %>
-      
-      <% if (item.pubopen) { %>
-        <a role="button" href="<%= item.pubopen %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-open-access ai-lg"></i> Article
-        </a>
-      <% } %>
-      
-      <% if (item.pubclosed) { %>
-        <a role="button" href="<%= item.pubclosed %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-closed-access ai-lg"></i> Article
-        </a>
-      <% } %>
-      
-      <% if (item.book) { %>
-        <a role="button" href="<%= item.book %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-book ai-lg"></i> Book 
-        </a>
-      <% } %>
-      
-      <% if (item.preprint) { %>
-        <a role="button" href="<%= item.preprint %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-doi ai-lg"></i> Preprint 
-        </a> 
-      <% } %>
-      
-      <% if (item.appendix) { %>
-        <a role="button" href="<%= item.appendix %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
-        </a>
-      <% } %>
-      
-      <% if (item.dataverse) { %>
-        <a role="button" href="<%= item.dataverse %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-dataverse ai-lg"></i> Dataverse 
-        </a>
-      <% } %>
-      
-      <% if (item.osf) { %>
-        <a role="button" href="<%= item.osf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-osf ai-lg"></i> OSF 
-        </a>
-      <% } %>
-      
-      <% if (item.prereg) { %>
-        <a role="button" href="<%= item.prereg %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-preregistered ai-lg"></i> Preregistration 
-        </a> 
-      <% } %>
-      
-      <% if (item.blog) { %>
-        <a role="button" href="<%= item.blog %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post 
-        </a>
-      <% } %>
-
-      <% if (item.website) { %>
-        <a role="button" href="<%= item.website %>" type="button" class="btn btn-outline-secondary btn-xs">
-          <i class="bi bi-globe ai-lg"></i> Website
-        </a>
-      <% } %>
-
-      <% if (item.news) { %>
-        <a role="button" href="<%= item.news %>" type="button" class="btn btn-outline-secondary btn-xs">
-          <i class="bi bi-newspaper ai-lg"></i> In the News
-        </a>
-      <% } %>
-
-      <% if (item.github) { %>
-        <a role="button" href="<%= item.github %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="bi bi-github ai-lg"></i> GitHub 
-        </a>
-      <% } %>
-
-      <% if (item.substack) { %>
-        <a role="button" href="<%= item.substack %>" type="button" class="btn btn-outline-secondary btn-xs">
-             <i class="bi bi-substack"></i></i> Substack
-        </a>
-      <% } %>
-
-      <% if (item.spotify) { %>
-        <a role="button" href="<%= item.spotify %>" type="button" class="btn btn-outline-secondary btn-xs">
-             <i class="bi bi-spotify"></i></i> Spotify
-        </a>
-      <% } %>
-
-      <% if (item.youtube) { %>
-        <a role="button" href="<%= item.youtube %>" type="button" class="btn btn-outline-secondary btn-xs">
-             <i class="bi bi-youtube"></i></i> YouTube
-        </a>
-      <% } %>
-
-      <br/>
-      
-      <% if (item.note) { %>
-        <small class="text-muted">
-          <span class="note"><%= item.note %></span>    
-        </small>
-      <% } %>
+    <% if (item.note) { %>
+      <small class="text-muted">
+        <span class="note"><%= item.note %></span>    
+      </small>
+    <% } %>
       </p>
       <hr>
     </li>
