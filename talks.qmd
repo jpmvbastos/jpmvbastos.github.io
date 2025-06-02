@@ -2,24 +2,35 @@
 title: "Presentations and Media"
 description: "" 
 listing:
-- id: presentations
-  contents: 
-    - talks.yaml
-  sort: "date desc"
-  type: table
 - id: media
-  contents: 
-    - talks.yaml
+  include: 
+    type: "media"
+  contents: talks.yaml
+  template: research.ejs
+  filter-ui: false
   sort: "date desc"
-  type: table
-page-layout: full
+  sort-ui: false
+  #categories: true
+- id: presentations
+  include: 
+    type: "presentations"
+  contents: talks.yaml
+  template: research.ejs
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
+  #categories: true
 ---
+
+<!-- See about omitting columns by table -->
+
+
+## Popular Articles, Podcasts, and Media Appearances
+
+:::{#media}
+:::
+
 ## Talks & Presentations
 
-:::{listings}
-:::
-
-## Media
-
-:::{media}
-:::
+:::{#presentations}
+::: 

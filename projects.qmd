@@ -1,0 +1,32 @@
+---
+title: "Projects and Datasets"
+description: "" 
+listing:
+- id: projects
+  include: 
+    type: "project"
+  contents: projects.yaml
+  template: research.ejs
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
+  #categories: true
+#- id: reforms
+#  include: 
+#    type: "reforms"
+#  contents: projects.yaml
+#  type: table
+#  fields: [title, Law, Effect, Links]
+#  filter-ui: false
+#  sort: "date desc"
+#  sort-ui: false
+#  #categories: true
+---
+
+<!-- See about omitting columns by table -->
+
+Some of my ongoing projects, including GitHub repositories, datasets, and outreach.
+
+:::{#projects}
+:::
+
