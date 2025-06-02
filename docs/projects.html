@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – JP Bastos</title>
+<title>Projects and Datasets – JP Bastos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,8 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -60,48 +58,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-previous .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-note','listing-date','listing-with','listing-substack','listing-website','listing-github',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
+      searchColumns: ["listing-title","listing-type","listing-note","listing-date","listing-with","listing-substack","listing-website","listing-github"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-previous'] = new List('listing-previous', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ta .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-Term','listing-Institution',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ta'] = new List('listing-ta', options);
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -145,11 +115,12 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Teaching – JP Bastos">
+<meta property="og:title" content="Projects and Datasets – JP Bastos">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="JP Bastos">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,14 +129,14 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./teaching.html">Teaching</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects.html">Projects and Datasets</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -202,7 +173,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link active">
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching</span></a>
   </div>
 </li>
@@ -214,7 +185,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">
+  <a href="./projects.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Projects and Datasets</span></a>
   </div>
 </li>
@@ -231,16 +202,16 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">Projects and Datasets</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -253,125 +224,314 @@ window.Quarto = {
 
 
 <!-- See about omitting columns by table -->
-<!--## Current and upcoming
+<p>Some of my ongoing projects, including GitHub repositories, datasets, and outreach.</p>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-custom">
 
-:::{#current}
-::: -->
-<section id="previously-taught" class="level2">
-<h2 class="anchored" data-anchor-id="previously-taught">Previously taught</h2>
-<div id="listing-previous" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Term
-</th>
-<th>
-Institution
-</th>
-<th>
-Links
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1704085200000" data-listing-title-sort="Development Economics (in Spanish)">
-<td>
-<span class="listing-title">Development Economics (in Spanish)</span>
-</td>
-<td>
-<span class="listing-Term">Fall 2024</span>
-</td>
-<td>
-<span class="listing-Institution">Universidad Francisco Marroquín (Guatemala)</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://popw24.gustavodiaz.org/"><i class="fa-solid fa-globe" aria-hidden="true"></i></a> <a href="files/teaching/rdpp_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1641013200000" data-listing-title-sort="Applied Busines Economics">
-<td>
-<span class="listing-title">Applied Busines Economics</span>
-</td>
-<td>
-<span class="listing-Term">Fall 2023</span>
-</td>
-<td>
-<span class="listing-Institution">Texas Tech University</span>
-</td>
-<td>
-<span class="listing-Links"><a href="files/teaching/ddem_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-</tbody>
-</table>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1743480000000">
+      <b>Latin America Left-Leaning Populism Index</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="www.ncachanosky.com">Nicolás Cachanosky</a> and <a href="https://www.alexandrepadilla.com">Alex Padilla</a>
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+        <a role="button" href="https://lallpi.netlify.app" type="button" class="btn btn-outline-secondary btn-xs">
+          <i class="bi bi-globe ai-lg"></i> Website
+        </a>
+      
+
+      
+        <a role="button" href="https://github.com/ncachanosky/populism-index" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
+      
+
+      
+        <a role="button" href="https://lallpi.netlify.app" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-substack"></i> Substack
+        </a>
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">A new index that captures populism while separating rhetoric from practice, and economic from political populism.</span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1740805200000">
+      <b>Public Choice in Latin America</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="www.ncachanosky.com">Nicolás Cachanosky</a>
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+        <a role="button" href="" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-substack"></i> Substack
+        </a>
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">A new Substack to understand Latin American politics with insights from academic research, with regular newsletters with opportunities for students and researchers.</span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1672549200000">
+      <b>Occupational Licensing in Brazil</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+        <a role="button" href="https://github.com/jpmvbastos/OccupationalLicensingBR" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
+      
+
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">A new dataset surveying all 84 regulated and licensed occupations and accompanying code to match them to specific occupational codes in the Brazilian Census and other labor market surveys (e.g. PNAD).</span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1672549200000">
+      <b>RevealedPreference</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+        <a role="button" href="https://github.com/jpmvbastos/RevealedPreference" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
+      
+
+      
+      
+      <br>
+      
+      
+        <small class="text-muted">
+          <span class="note">A simple Python package to analyze data on observed choices made by individuals</span>    
+        </small>
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-</section>
-<section id="teaching-assistant-for" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-assistant-for">Teaching Assistant for:</h2>
-<div id="listing-ta" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Term
-</th>
-<th>
-Institution
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1717214400000" data-listing-title-sort="Fundamentals of Agricultural and Applied Economics (2 sections)">
-<td>
-<span class="listing-title">Fundamentals of Agricultural and Applied Economics (2 sections)</span>
-</td>
-<td>
-<span class="listing-Term">2024-2025</span>
-</td>
-<td>
-<span class="listing-Institution">Texas Tech University</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1641013200000" data-listing-title-sort="Agricultural Price Theory (2 sections)">
-<td>
-<span class="listing-title">Agricultural Price Theory (2 sections)</span>
-</td>
-<td>
-<span class="listing-Term">2022-2023</span>
-</td>
-<td>
-<span class="listing-Institution">Texas Tech University</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="selected-student-evaluations" class="level3">
-<h3 class="anchored" data-anchor-id="selected-student-evaluations">Selected Student Evaluations</h3>
-<p>“Professor was great for it being his first time teaching ever. I really enjoyed his lectures and the helpfulness he provided to us students! 1000000% recommend.”</p>
-<p>“He lays the material out very well and teaches it in a way that translates well to the tests”</p>
-<p>“Fantastic class with an amazing instructor. Very clear and concise”</p>
-<p>“Very good, i wish there were more teachers like this one. He kept us pretty on course and made the course digestible and tried his best to give us a great semester.”</p>
-<p>“JP was awesome. He pointed out being new to teaching, but the concepts in this class were made so simple and easy because of him. Ive ended the semester with the necessary knowledge and had almost no struggle throughout because of JP.”</p>
-<p>“The class can be a little slow at times, but he did his best to make it engaging by connecting the learning to real life situations, which was very helpful. This was his first year teaching and, for future students sake, I hope he keeps teaching”</p>
 
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

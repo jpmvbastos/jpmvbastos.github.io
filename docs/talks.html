@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Presentations and Media – JP Bastos </title>
+<title>Presentations and Media – JP Bastos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,10 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -62,20 +58,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
+    const listingTargetEl = window.document.querySelector('#listing-media .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-Venue','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-type','listing-title','listing-with','listing-pubopen','listing-news','listing-spotify','listing-youtube',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-Venue","listing-Links"],
+      searchColumns: ["listing-date","listing-type","listing-title","listing-with","listing-pubopen","listing-news","listing-spotify","listing-youtube"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
+    window['quarto-listings']['listing-media'] = new List('listing-media', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -90,20 +86,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-media .list');
+    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-Venue','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-type','listing-title','listing-with','listing-pdf','listing-youtube',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-Venue","listing-Links"],
+      searchColumns: ["listing-date","listing-type","listing-title","listing-with","listing-pdf","listing-youtube"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-media'] = new List('listing-media', options);
+    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -147,11 +143,11 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Presentations and Media – JP Bastos ">
-<meta property="og:site_name" content="JP Bastos </br>[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en)">
+<meta property="og:title" content="Presentations and Media – JP Bastos">
+<meta property="og:site_name" content="JP Bastos">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -160,21 +156,19 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      JP Bastos &lt;/br&gt;[{{&lt; ai google-scholar &gt;}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en)
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./talks.html">Presentations and Media</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">JP Bastos <br><a href="https://scholar.google.com/citations?user=N4T1TYIAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar"></i></a></a> 
+      <a href="./">JP Bastos</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="mailto:Joao-Pedro.Bastos@ttu.edu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://github.com/jpmvbastos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
@@ -190,6 +184,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./files/Job_Market_CV___JP_Bastos.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CV</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -212,8 +212,14 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./files/Job_Market_CV___JP_Bastos.pdf" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CV</span></a>
+  <a href="./projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects and Datasets</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./talks.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Presentations and Media</span></a>
   </div>
 </li>
     </ul>
@@ -223,7 +229,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -232,7 +238,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -244,211 +250,796 @@ window.Quarto = {
 </header>
 
 
+<!-- See about omitting columns by table -->
+<section id="popular-articles-podcasts-and-media-appearances" class="level2">
+<h2 class="anchored" data-anchor-id="popular-articles-podcasts-and-media-appearances">Popular Articles, Podcasts, and Media Appearances</h2>
+<div id="listing-media" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1745812800000">
+      How Brazil’s X ban signals growing control over online free speech 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with <a href="https://x.com/ivanildoiii">Ivanildo Terceiro</a> and <a href="https://x.com/MariiFTrujillo">Mariana Trujillo</a>, for <a href="https://reason.org/">Reason Foundation</a>, Apr. 28, 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+        <a role="button" href="https://reason.org/commentary/how-brazils-x-ban-signals-growing-control-over-online-free-speech/" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1741665600000">
+      Quem poderia ser contra ajudar os países mais pobres? 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          <em>Revista Exame</em>, Mar. 11, 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+        <a role="button" href="https://exame.com/colunistas/instituto-millenium/quem-poderia-ser-contra-ajudar-os-paises-mais-pobres/" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1740459600000">
+      Interview on the cost of Brazil's federal congress 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          <em>Estadão</em>, Feb. 25, 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+        <a role="button" href="https://www.estadao.com.br/politica/aumento-do-numero-de-deputados-como-quer-hugo-motta-custaria-r-462-milhoes-por-ano-mostra-estudo/" type="button" class="btn btn-outline-secondary btn-xs">
+          <i class="bi bi-newspaper ai-lg"></i> In the News
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1725336000000">
+      Uma nova chance para a energia nuclear? 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          <em>Revista Exame</em>, Sep. 3, 2024
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+        <a role="button" href="https://exame.com/colunistas/instituto-millenium/uma-nova-chance-para-a-energia-nuclear/" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Article
+        </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='4' data-listing-date-sort="1716264000000">
+      Interview on capitalism and the environment 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          <em>Gazeta do Povo</em>, May 21, 2024
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+        <a role="button" href="https://www.gazetadopovo.com.br/vida-e-cidadania/capitalismo-e-meio-ambiente-entrevista-com-joao-pedro-bastos/" type="button" class="btn btn-outline-secondary btn-xs">
+          <i class="bi bi-newspaper ai-lg"></i> In the News
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='5' data-listing-date-sort="1610168400000">
+      Friedrich Hayek, Vida e Obra 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Podcast Tapa da Mão Invisível, Jan. 9, 2021
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <a role="button" href="https://open.spotify.com/episode/0b1d6c2k3X9Z5a4m7Q8g1E?si=3f0e2f8b4c5e4d6a" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-spotify"></i> Spotify
+        </a>
+      
+
+      
+        <a role="button" href="https://www.youtube.com/watch?v=CKxu5GBaqnE&amp;list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&amp;index=3" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-youtube"></i> YouTube
+        </a>
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='5'></data-index='4'></data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="talks-presentations" class="level2">
 <h2 class="anchored" data-anchor-id="talks-presentations">Talks &amp; Presentations</h2>
-<div class="{listings}">
+<div id="listing-presentations" class="quarto-listing quarto-listing-container-custom">
 
-</div>
-</section>
-<section id="media" class="level2">
-<h2 class="anchored" data-anchor-id="media">Media</h2>
-<div class="{media}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
 
-</div>
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
 
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1728014400000">
+      The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Center for Free Enterprise, University of Texas at El Paso, Oct. 4, 2024
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
 
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
 
-</section>
+      <!-- paper info for R&R -->
+      
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-presentations">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-presentations-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-presentations'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-Venue" data-direction="asc">
-          Venue
-        </option>
-         <option value="listing-Links" data-direction="asc">
-          Links
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-Venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-Links" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Links</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1728014400000" data-listing-title-sort="The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo">
-<td>
-<span class="listing-date">Oct 4, 2024</span>
-</td>
-<td>
-<span class="listing-title">The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo</span>
-</td>
-<td>
-<span class="listing-Venue">Center for Free Enterprise, University of Texas at El Paso</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912"><i class="fa-solid fa-newspaper" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1669179600000" data-listing-title-sort="The Geopolitics of Food and Freedom in the World">
-<td>
-<span class="listing-date">Nov 23, 2022</span>
-</td>
-<td>
-<span class="listing-title">The Geopolitics of Food and Freedom in the World</span>
-</td>
-<td>
-<span class="listing-Venue">SFL &amp; United Nations Development Programme (UNDP)</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://youtu.be/fSXVZXhJcjc"><i class="fa-solid fa-tv" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1610168400000" data-listing-title-sort="Friedrich Hayek, Vida e Obra">
-<td>
-<span class="listing-date">Jan 9, 2021</span>
-</td>
-<td>
-<span class="listing-title">Friedrich Hayek, Vida e Obra</span>
-</td>
-<td>
-<span class="listing-Venue">Podcast Tapa da Mão Invisível</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://open.spotify.com/episode/0b1d6c2k3X9Z5a4m7Q8g1E?si=3f0e2f8b4c5e4d6a"><i class="fa-solid fa-podcast" aria-hidden="true"></i></a> <a href="https://www.youtube.com/watch?v=CKxu5GBaqnE&amp;list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&amp;index=3"><i class="fa-solid fa-tv" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-</tbody>
-</table>
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+        <a role="button" href="../files/research/bastos-geloso-pavlik-forsaken-road.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+        </a> 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1669179600000">
+      The Geopolitics of Food and Freedom in the World 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          SFL &amp; United Nations Development Programme (UNDP), Nov. 23, 2022
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <a role="button" href="https://youtu.be/fSXVZXhJcjc" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-youtube"></i> YouTube
+        </a>
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1557374400000">
+      Economics Against Tyranny 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          VI Conferência de Escola Austríaca, São Paulo, Brazil. May 9, 2019
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <a role="button" href="https://www.youtube.com/watch?v=PWACSsm_6qM&amp;list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&amp;index=2" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-youtube"></i> YouTube
+        </a>
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1537329600000">
+      Corruption as an Entrepreneurial Activity 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          VII Congreso Internacional 'La Escuela Austríaca de Economía en el Siglo XXI', Rosario, Argentina. Sep. 19, 2018
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+
+      <br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <a role="button" href="https://www.youtube.com/watch?v=oDzSf8SnspQ&amp;list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&amp;index=7" type="button" class="btn btn-outline-secondary btn-xs">
+             <i class="bi bi-youtube"></i> YouTube
+        </a>
+      
+
+      <br>
+      
+      
+      <p></p>
+      <hr>
+    
+  
+</data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><div class="quarto-listing quarto-listing-container-table" id="listing-media">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-media-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-media'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-Venue" data-direction="asc">
-          Venue
-        </option>
-         <option value="listing-Links" data-direction="asc">
-          Links
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-Venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-Links" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Links</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1728014400000" data-listing-title-sort="The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo">
-<td>
-<span class="listing-date">Oct 4, 2024</span>
-</td>
-<td>
-<span class="listing-title">The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo</span>
-</td>
-<td>
-<span class="listing-Venue">Center for Free Enterprise, University of Texas at El Paso</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912"><i class="fa-solid fa-newspaper" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1669179600000" data-listing-title-sort="The Geopolitics of Food and Freedom in the World">
-<td>
-<span class="listing-date">Nov 23, 2022</span>
-</td>
-<td>
-<span class="listing-title">The Geopolitics of Food and Freedom in the World</span>
-</td>
-<td>
-<span class="listing-Venue">SFL &amp; United Nations Development Programme (UNDP)</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://youtu.be/fSXVZXhJcjc"><i class="fa-solid fa-tv" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1610168400000" data-listing-title-sort="Friedrich Hayek, Vida e Obra">
-<td>
-<span class="listing-date">Jan 9, 2021</span>
-</td>
-<td>
-<span class="listing-title">Friedrich Hayek, Vida e Obra</span>
-</td>
-<td>
-<span class="listing-Venue">Podcast Tapa da Mão Invisível</span>
-</td>
-<td>
-<span class="listing-Links"><a href="https://open.spotify.com/episode/0b1d6c2k3X9Z5a4m7Q8g1E?si=3f0e2f8b4c5e4d6a"><i class="fa-solid fa-podcast" aria-hidden="true"></i></a> <a href="https://www.youtube.com/watch?v=CKxu5GBaqnE&amp;list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&amp;index=3"><i class="fa-solid fa-tv" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1017,13 +1608,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 JP Bastos</p>
+<p>© 2025 JP Bastos</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Powered by <a href="https://cran.r-project.org/"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> and <a href="https://quarto.org/">Quarto</a></p>
+<p>Powered by <a href="https://quarto.org/">Quarto</a></p>
 </div>
   </div>
 </footer>
