@@ -9,9 +9,10 @@ project:
 # freezing seems to bork font size
 execute:
   freeze: auto  # Re-render only when source changes
-  
+
+# </br>[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&hl=en)
 website:
-  title: "JP Bastos </br>[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=N4T1TYIAAAAJ&hl=en)"
+  title: "JP Bastos"
   favicon: images/favicon.png
   search: false
   sidebar:   
@@ -28,21 +29,18 @@ website:
     contents:
       - text: "Home"
         href: index.qmd
+      - text: "CV"
+        href: files/Job_Market_CV___JP_Bastos.pdf 
       - research.qmd
       - teaching.qmd
       - policy.qmd
-      #- media.qmd
-      #- text: "Presentations & Media"
-      #  href: talks.qmd
-      - text: "CV"
-        href: files/Job_Market_CV___JP_Bastos.pdf
-
-    #logo: images/JP Headshot.png 
+      - projects.qmd
+      - talks.qmd
 
   page-footer:
       border: false
-      left: © 2024 JP Bastos
-      right: Powered by [{{< fa brands r-project >}}](https://cran.r-project.org/) and [Quarto](https://quarto.org/)
+      left: © 2025 JP Bastos
+      right: Powered by [Quarto](https://quarto.org/)
   
   open-graph: true #see: https://ogp.me
 
@@ -51,4 +49,3 @@ format:
     theme: 
       light: [flatly, custom.scss]
       dark: [darkly, custom_dark.scss]
-
