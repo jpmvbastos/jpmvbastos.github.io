@@ -21,10 +21,23 @@
   github: "https://github.com/ncachanosky/populism-index"
   substack: "https://publicchoicelatinamerica.substack.com/p/the-latin-american-left-leaning-populism"
 
+- title: "<b>Political Violence in Latin America</b> | <em>Coming soon...</em>"
+  type: "project"
+  note: "A new geocoded dataset of political violence covering more than 12,500 victims who disappeared under right-wing military dictatorships in Argentina, Brazil, Chile, Paraguay, and Uruguay between 1954 and 1990."
+  date: 2025-03-01
+
+- title: "<b>Revised State-Level Economic Freedom Scores for Brazil during the COVID-19 pandemic</b>"
+  type: "project"
+  note: "We provide revised economic freedom scores for Brazilian states, following the methodology of <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ajes.12512'> Miozzi and Powell (2023)</a>."
+  with: "with <a href='https://www.vincentmiozzi.com'>Vincent Miozzi</a>"
+  date: 2024-08-01
+  github: "https://github.com/jpmvbastos/COVIDBR"
+  pubclosed: "https://onlinelibrary.wiley.com/doi/10.1111/ecaf.12702"
+
 - title: "<b>Occupational Licensing in Brazil</b>"
   type: "project"
   note: "A new dataset surveying all 84 regulated and licensed occupations and accompanying code to match them to specific occupational codes in the Brazilian Census and other labor market surveys (e.g. PNAD)."
-  date: 2023-01-01
+  date: 2024-08-01
   github: "https://github.com/jpmvbastos/OccupationalLicensingBR"
 
 - title: "<b>RevealedPreference</b>"

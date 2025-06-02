@@ -20,6 +20,7 @@
   journal: "<em>Economic Affairs</em>"
   pubclosed: "https://onlinelibrary.wiley.com/doi/10.1111/ecaf.12702"
   pdf: "../files/research/bastos-miozzi-2025-politics-lockdown-brazil.pdf"
+  github: "https://github.com/jpmvbastos/COVIDBR/"
   with: "with <a href='https://www.vincentmiozzi.com'>Vincent Miozzi</a>"
 
 - title: "<b>[6] The Political Economy of Populism Regime Length</b>"
