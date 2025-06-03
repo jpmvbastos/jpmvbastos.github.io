@@ -8,7 +8,7 @@ page-layout: full
 </div>
 
 <div style="text-align: center; margin-top: 30px; margin-top: 20px;">
-  <a href="cv.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
+  <a href="../files/Job_Market_CV___JP_Bastos.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
 </div>
 
 I am a PhD student at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University.  

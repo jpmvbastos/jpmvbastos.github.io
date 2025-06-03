@@ -30,7 +30,7 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "CV"
-        href: files/Job_Market_CV___JP_Bastos.pdf 
+        href: ../files/Job_Market_CV___JP_Bastos.pdf 
       - research.qmd
       - teaching.qmd
       - policy.qmd
