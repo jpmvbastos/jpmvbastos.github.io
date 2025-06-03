@@ -49,3 +49,15 @@ format:
     theme: 
       light: [flatly, custom.scss]
       dark: [darkly, custom_dark.scss]
+    meta:
+      title: "JP Bastos | Political Economy & Public Choice"
+      description: "Researcher in political economy, development, and Latin American institutions. PhD candidate at Texas Tech University."
+      author: "JP Bastos"
+      image: "images/JP Headshot.png"
+      twitter:card: "summary_large_image"
+      twitter:title: "JP Bastos"
+      twitter:description: "Political economy & public choice in Latin America"
+      twitter:image: "https://jpmvbastos.com/images/JP%20Headshot.png"
+      og:title: "JP Bastos"
+      og:description: "PhD in Agricultural Economics, political economy & Latin America"
+      og:image: "https://jpmvbastos.com/images/JP%20Headshot.png"
