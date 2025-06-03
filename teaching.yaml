@@ -18,7 +18,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Fall 2024"
   Institution: "Universidad Francisco Marroquín (Guatemala)"
-  Links: "[{{< fa globe >}}](https://popw24.gustavodiaz.org/) [{{< fa file-lines >}}](files/teaching/rdpp_syllabus.pdf)"
+  Links: "[{{< fa file-lines >}}](../files/teaching/rdpp_syllabus.pdf)"
   type: "previous"
   
 - title: "Applied Busines Economics"
@@ -26,7 +26,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Fall 2023"
   Institution: "Texas Tech University"
-  Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
+  Links: "[{{< fa file-lines >}}](../files/teaching/BECO_3310___Syllabus.pdf)"
   type: "previous"
 
 - title: "Fundamentals of Agricultural and Applied Economics (2 sections)"
