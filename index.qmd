@@ -18,3 +18,7 @@ My research is aimed at the political economy of development, with special empha
 I have also worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), and my policy papers have been featured in some of the most popular media outlets in Brazil.
 
 I also run the [Public Choice in Latin America](https://publicchoicelatinamerica.substack.com/) project, with Nicolás Cachanosky.
+
+<div style="text-align: center; margin: 30px 0;">
+  <iframe src="https://publicchoicelatinamerica.substack.com/embed" width="350" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</div>

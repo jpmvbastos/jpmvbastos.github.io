@@ -18,7 +18,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Fall 2024"
   Institution: "Universidad Francisco Marroquín (Guatemala)"
-  Links: "[{{< fa file-lines >}}](../files/teaching/rdpp_syllabus.pdf)"
+  Links: "[{{< fa file-lines >}}]()"
   type: "previous"
   
 - title: "Applied Busines Economics"
