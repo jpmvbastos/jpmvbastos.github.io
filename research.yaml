@@ -79,6 +79,15 @@
   pubopen: "https://misesjournal.org.br/misesjournal/article/view/137"
 
 ####### REVISE AND RESUBMIT
+- title: "<b> The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo</b>"
+  type: "R&R"
+  pubopen: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912"
+  pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
+  blog: "https://thedailyeconomy.org/article/socialism-not-the-embargo-explains-nearly-all-of-cubas-poverty/"
+  date: 2025-08-04
+  journal: "<em>Journal of Development Economics</em>"
+  with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
+
 - title: "<b>Does corruption deter female leadership in firms?</b>"
   type: "R&R"
   journal: "<em>Journal of Institutional Economics</em>"
@@ -92,13 +101,6 @@
   with: "with <a href='https://www.justincallais.com'>Justin T. Callais</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
 
 ######## UNDER REVIEW
-- title: "<b> The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo</b>"
-  type: "Under Review"
-  pubopen: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912"
-  pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
-  blog: "https://thedailyeconomy.org/article/socialism-not-the-embargo-explains-nearly-all-of-cubas-poverty/"
-  date: 2025-05-07
-  with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
 
 - title: "<b> Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador</b>"
   type: "Under Review"
