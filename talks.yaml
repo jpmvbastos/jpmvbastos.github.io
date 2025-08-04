@@ -4,6 +4,11 @@
 # {{< fa file-lines >}}
 
 ### Presentations
+- date: 2025-07-10
+  type: "presentations"
+  title: "The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo"
+  with: "Universidad del CEMA, Buenos Aires, Argentina, July 10, 2025"
+  pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
 
 - date: 2024-10-04
   type: "presentations"
@@ -31,6 +36,12 @@
 
 
 ### ARTICLES AND MEDIA
+- date: 2025-07-15
+  type: "media"
+  title: "O Brasil aposta em um modelo sindical falido"
+  with: "<em>Revista Exame</em>, July 15, 2025"
+  pubopen: "https://exame.com/colunistas/instituto-millenium/o-brasil-aposta-em-um-modelo-sindical-falido/"
+  
 - date: 2025-05-29
   type: "media"
   title: "O pior dos aumentos de impostos"
