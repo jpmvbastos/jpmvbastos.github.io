@@ -77,14 +77,13 @@ toc: false
 page-layout: full
 ---
 
-## Peer-Reviewed Publications
-
-:::{#published-papers}
-:::
-
 ## Revise and Resubmit
 
 :::{#revise-resubmit}
+:::
+
+## Peer-Reviewed Publications
+:::{#published-papers}
 :::
 
 ## Under Review
