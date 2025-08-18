@@ -13,7 +13,7 @@ page-layout: full
 
 I am a PhD student at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University.  
 
-My research focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions in development within the Latin American context, using modern causal inference techniques.
+My research focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions for development within the Latin American context, using modern causal inference techniques.
 
 I have also worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), and my policy papers have been featured in some of the most popular media outlets in Brazil.
 
