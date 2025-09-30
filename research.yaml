@@ -3,6 +3,15 @@
 # <a href='website'>name</a>
 
 ######### PUBLISHED PAPERS
+- title: "<b>[9] Does corruption deter female leadership in firms?</b>"
+  type: "Published"
+  journal: "<em>Journal of Institutional Economics</em> (forthcoming)"
+  pdf: "../files/research/bastos-pavlik-2025-corruption-female-leadership.pdf"
+  appendix: "../files/research/appendix-corruption-female-leadership.pdf"
+  date: 2025-10-01
+  year: 2025
+  with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
+
 - title: "<b>[8] Colonial Rule and Economic Freedom</b>"
   type: "Published"
   date: 2025-03-03
@@ -87,13 +96,6 @@
   date: 2025-08-04
   journal: "<em>Journal of Development Economics</em>"
   with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
-
-- title: "<b>Does corruption deter female leadership in firms?</b>"
-  type: "R&R"
-  journal: "<em>Journal of Institutional Economics</em>"
-  pdf: "../files/research/bastos-pavlik-2025-corruption-female-leadership.pdf"
-  date: 2025-03-01
-  with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
 
 - title: "<b>Corruption and the Allocation of Business Activity in Brazil</b>"
   type: "R&R"

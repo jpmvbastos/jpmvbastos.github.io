@@ -13,7 +13,7 @@ page-layout: full
 
 I am a PhD candidate at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University.  
 
-My research focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions for development within the Latin American context, using modern causal inference techniques.
+My [research](https://jpmvbastos.com/research.html) focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions for development within the Latin American context, using modern causal inference techniques.
 
 My [Job Market Paper]("../files/research/Job Market Paper - JP Bastos.pdf") investigates the private returns to political office for Brazilian mayors, using a regression discountinuity design around close election races. 
 
