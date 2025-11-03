@@ -11,7 +11,9 @@ page-layout: full
   <a href="../files/Job_Market_CV___JP_Bastos.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
 </div>
 
-I am a PhD candidate at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University.  
+I am a PhD candidate at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University. 
+
+<b>I am on the 2025-26 Academic Job Market.</b>
 
 My [research](https://jpmvbastos.com/research.html) focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions for development within the Latin American context, using modern causal inference techniques.
 
