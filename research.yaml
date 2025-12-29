@@ -116,8 +116,13 @@
 ######## WORKING PAPERS
 - title: "<b>The Private Gains from Political Office: Evidence from Close Mayoral Elections in Brazil</b> | Job Market Paper"
   type: "Working"
-  date: 2025-08-15
+  date: 2026-01-01
   pdf: "../files/research/Job Market Paper - JP Bastos.pdf"
+
+- title: "<b>Regulation and Firms: Evidence from Brazil</b>"
+  type: "Working"
+  date: 2025-12-01
+  with: "with Rafael Dal Molin and Jamie Bologna Pavlik"
 
 - title: "<b>Does Fighting Corruption Reduce the Private Gains from Political Office? Evidence from Brazilian Mayoral Elections</b>"
   type: "Working"
@@ -171,6 +176,14 @@
   type: "Book Review"
   date: 2022-03-01
   pubopen: "https://www.independent.org/tir/2022-summer/the-puzzle-of-prison-order/"
+
+- title: "<b>Review of Sebastian Edwards's <i>The Chile Project: The Story of the Chicago Boys and the Downfall of Neoliberalism</i> (2023)</b>"
+  with: "2025. <em>Econlib</em>"
+  type: "Book Review"
+  date: 2025-12-01
+  pubopen: "https://www.econlib.org/library/columns/y2025/bastoschileproject"
+
+
 
 
 
