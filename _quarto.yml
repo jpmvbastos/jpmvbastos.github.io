@@ -1,8 +1,10 @@
 project:
   type: website
   output-dir: docs
-  # render:
-  #   - "!files/"
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+    - "!CV-PIPELINE.md"
   resources:
     - "files/"
     - "llms.txt"

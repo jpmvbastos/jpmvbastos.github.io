@@ -8,3 +8,7 @@
 .DS_Store
 
 /.luarc.json
+
+# Private project notes — not for public repo
+CLAUDE.md
+CV-PIPELINE.md

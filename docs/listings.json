@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/talks.html",
-    "items": []
-  },
-  {
     "listing": "/teaching.html",
     "items": []
   },
@@ -17,6 +9,14 @@
   },
   {
     "listing": "/policy.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/talks.html",
     "items": []
   }
 ]
