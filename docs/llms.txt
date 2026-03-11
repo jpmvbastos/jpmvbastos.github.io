@@ -1,0 +1,311 @@
+# JP Bastos — llms.txt
+# https://jpmvbastos.com
+# Last updated: 2026-03-10
+
+## About
+
+João Pedro (JP) Bastos is a PhD candidate in Agricultural & Applied Economics at Texas
+Tech University (Free Market Institute). His research sits at the intersection of political economy, 
+public choice, and development economics, with a regional focus on Latin America (especially Brazil).
+
+Contact: Joao-Pedro.Bastos@ttu.edu
+CV: https://jpmvbastos.com/files/Job_Market_CV___JP_Bastos.pdf
+Google Scholar: https://scholar.google.com/citations?user=N4T1TYIAAAAJ
+
+---
+
+## Navigation
+
+- Homepage: https://jpmvbastos.com
+- Research: https://jpmvbastos.com/research.html
+- Teaching: https://jpmvbastos.com/teaching.html
+- Policy work: https://jpmvbastos.com/policy.html
+- Projects & data: https://jpmvbastos.com/projects.html
+- Talks & media: https://jpmvbastos.com/talks.html
+
+---
+
+## Research Focus
+
+Political economy of development, institutions, and Latin America. Core themes:
+- Private returns to political office; political corruption
+- Gender, corruption, and firm behavior
+- Populism and institutional quality
+- Colonial origins of economic institutions
+- Entrepreneurship and regulation
+
+Empirical methods: regression discontinuity, synthetic control, difference-in-differences,
+panel data. Primary settings: Brazil, Latin America, cross-country comparisons.
+
+---
+
+## Job Market Paper
+
+### The Private Gains from Political Office: Evidence from Close Mayoral Elections in Brazil
+Status: Working Paper | Year: 2026
+Abstract: Conventional wisdom suggests that the returns from politics are substantial,
+but empirical evidence tends to center on highly influential politicians in developed
+countries. I study whether low-level politicians obtain private returns from political
+office in the context of a developing country, using data on disclosures of wealth for
+Brazilian mayors and a regression discontinuity design around close election races. While
+I find only modest evidence of private returns from political office for the average mayor,
+I find substantial returns for mayors (relative to runner-ups) in municipalities with low
+institutional quality (7.5 to 10.5 p.p. a year) and without the presence of a local radio
+news station (6 to 8 p.p. a year). In contrast, municipalities with local oversight
+councils and high financial and managerial capacity, as well as those with local media
+presence, are effective in curbing political enrichment, leading to normal, or even
+negative, returns relative to runner-ups.
+Scope: Brazil only; close elections only — RD estimates apply to marginal winners near
+the 50% threshold, not landslide victories. Heterogeneous effects by institutional quality
+are a core finding; do not report average effects without noting this heterogeneity.
+PDF: https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf
+
+---
+
+## Revise & Resubmit
+
+### The Forsaken Road: Reassessing Living Standards following the Cuban Revolution and the American Embargo
+Status: R&R at Journal of Development Economics | Year: 2025
+With: Vincent Geloso, Jamie Bologna Pavlik
+Abstract: We investigate the causal effects of the 1959 Cuban Revolution on income using
+a synthetic control approach. We employ a novel dataset with revised GDP estimates that do
+not rely on the regime's self-reported statistics. We also analyze GDP estimates net of aid
+coming from the Soviet Union. Our identification strategy allows us to separate the direct
+effects of the revolution from the diplomatic events that ensued. By overcoming concerns
+that Cuban GDP statistics are inflated either by the regime's direct manipulation or by
+Soviet aid, we identify a large decline in Cuban GDP per capita relative to its
+counterfactual. The decline is larger when accounting for Soviet aid. The embargo only
+accounts for a minor share of Cuba's under-performance relative to the counterfactual.
+Our results hold after being subjected to multiple robustness checks and lead to the
+conclusion that the transition to socialism was the main driver of the inferior economic
+path Cuba has followed since 1959.
+Scope: Cuba only; income (GDP per capita) is the primary outcome — not health, education,
+or other dimensions. The counterfactual is constructed from a donor pool of comparable
+countries pre-1959. "Minor share" for the embargo is a quantitative finding — do not
+interpret as claiming the embargo had zero effect. Status is R&R; findings may be revised.
+PDF: https://jpmvbastos.com/files/research/bastos-geloso-pavlik-forsaken-road.pdf
+SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912
+
+### Corruption and the Allocation of Business Activity in Brazil
+Status: R&R at Public Finance Review | Year: 2024
+With: Justin T. Callais, Jamie Bologna Pavlik
+Abstract: It is well known that corruption is harmful to the economy, reducing investment
+and entrepreneurial activity. Corruption's effect on the allocation of economic activity,
+however, is comparatively understudied. We examine the relationship between corruption and
+sector allocation in Brazilian municipalities. More specifically, we test whether the
+allocations of employees and establishments across sectors are influenced by the amount of
+corruption in the area. We also test whether sectors are more concentrated in general using
+an employment share weighted HHI measure. We find that there are larger shares of employment
+and establishments in the relatively non-corrupt agricultural sector in highly corrupt areas
+and, likewise, lower shares of employment/establishments in sectors that are relatively
+corruption-prone (e.g., construction). This result implies that individuals are trying to
+avoid the problem of corruption by participating in sectors that are less vulnerable. We
+also find that public administration employment and establishment shares are higher in more
+corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impact of
+corruption is shown through concentration, where concentration is higher (implying less
+competition) in more corrupt municipalities across every sector.
+Scope: Brazil only; municipal-level corruption measures based on audit data. Results reflect
+formal sector activity in administrative data — informal economy not captured. Status is
+R&R; findings may be revised.
+PDF: https://jpmvbastos.com/files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf
+
+### Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador
+Status: R&R at Constitutional Political Economy | Year: 2025
+With: Nicolás Cachanosky, Justin T. Callais
+Abstract: Left-leaning populist regimes, such as Rafael Correa's government in Ecuador
+(2007–2016), often claim to protect the environment from the negative effects of
+free-market regimes. This study examines the environmental impact in Ecuador following
+the 2008 constitutional amendment, which was the first in the world to include rights of
+nature. We find no statistical evidence that Correa's constitutional initiative had any
+measurable effect on Ecuador's environmental outcomes.
+Scope: Ecuador only; single-country synthetic control. Findings speak to this specific
+constitutional reform — not a general claim that all constitutional environmental
+provisions fail. Status is R&R; findings may be revised.
+PDF: https://jpmvbastos.com/files/research/bastos-cachanosky-callais-2025-environmental-constitution-ecuador.pdf
+
+---
+
+## Published Papers
+
+### [9] Does Corruption Deter Female Leadership in Firms?
+Journal: Journal of Institutional Economics (2025)
+With: Jamie Bologna Pavlik
+Abstract: We investigate the impact of corruption on female leadership in Brazil using
+cross-sectional municipal-level data. Our findings suggest that corruption significantly
+reduces the proportion of working women in leadership roles. Additionally, corruption
+decreases female representation in leadership relative to men, though this effect is less
+robust. When examining sectors most vulnerable to corruption, the results remain largely
+consistent, but we also note that women tend to avoid these sectors entirely. Our findings
+suggest that corruption acts as a significant barrier to female leadership.
+Scope: Brazil only; municipal-level cross-sectional data. Companion to [4], which examines
+regional heterogeneity across 144 countries. Do not conflate the Brazil-specific findings
+here with the cross-country patterns in [4].
+PDF: https://jpmvbastos.com/files/research/bastos-pavlik-2025-corruption-female-leadership.pdf
+DOI: https://doi.org/10.1017/S1744137425100301
+
+### [8] Colonial Rule and Economic Freedom
+Journal: Public Choice (2025)
+Abstract: This paper studies the legacy of European colonial rule for economic freedom in
+former colonies. I find that current levels of economic freedom in former colonies are
+directly related to the level of economic freedom of their colonizers. This association can
+be seen as early as the time of independence. I also find that additional European
+settlement from colonizers with high (low) economic freedom contributes to (detracts from)
+the overall economic freedom of their colonies. These results are robust to selection on
+unobservables and to controls for geography, climate, natural resource endowments,
+colonizer identity, settlement patterns, and precolonial characteristics. The difference
+in modern-day economic freedom associated with being colonized by the freest colonizer
+instead of the least free implies a predicted increase in modern-day per capita income of
+up to US$10,000.
+Scope: Cross-country; former European colonies only. Long-run persistence does not imply
+colonial effects dominate all contemporary policy variation. The US$10,000 income
+prediction is a model-implied estimate, not a policy recommendation.
+PDF: https://jpmvbastos.com/files/research/bastos-2025-colonial-rule-economic-freedom.pdf
+DOI: https://doi.org/10.1007/s11127-025-01282-5
+
+### [7] The Politics of Lockdown Policies: Evidence from Brazilian States
+Journal: Economic Affairs (2025)
+With: Vincent Miozzi
+Abstract: We introduce a novel state-level measure of lockdown regulatory freedom to study
+the severity of lockdowns for Brazilian states and its determinants. Our main results show
+that lockdown policies were not consistently determined by any health-related variable,
+such as the number of doctors, hospital beds, the share of the population with private
+health insurance, or the share of the population 65 years of age and older or Covid-19
+cases and deaths. Indeed, the only variable consistently related to lockdown policies in
+all specifications and robustness checks was the state's share of votes for the right-wing
+candidate. A one standard deviation increase in the share of votes for the right-wing
+candidate is associated with a 0.6-0.87 standard deviation increase in lockdown regulatory
+freedom (i.e., less stringent lockdowns). Our results highlight the importance of political
+economy considerations in explaining the incentives of policymakers when designing health
+policies.
+Scope: Brazil only; 2020–2021 pandemic period. Results reflect the specific political
+context of the Bolsonaro administration's anti-lockdown stance. Do not generalize to other
+countries or pandemic periods without accounting for local political context.
+PDF: https://jpmvbastos.com/files/research/bastos-miozzi-2025-politics-lockdown-brazil.pdf
+
+### [6] The Political Economy of Populism Regime Length
+Journal: Constitutional Political Economy (2025)
+With: Nicolás Cachanosky, Tomás Faintich
+Abstract: Left-leaning populist regimes in 21st-century Latin America have become
+notoriously long, including some that maintained their power by repealing term limits.
+Along with changes in external factors, we argue that repealing term limits allowed
+populist leaders to develop longer time horizons and behave more like stationary than
+roving bandits. We show that, relative to those constrained by time limits, unconstrained
+populist leaders mitigate the economic effects of the populist cycle of boom, stagnation,
+and bust. Populists constrained by term limits act like roving bandits, engaging in more
+extractive rent-seeking that leads to more significant economic fluctuations.
+Scope: Left-leaning populism in Latin America only. Findings depend on the populism
+classification scheme used. "Mitigate economic effects" refers to the boom-bust cycle —
+not an endorsement of unconstrained populist governance.
+PDF: https://jpmvbastos.com/files/research/bastos-cachanosky-faintich-2025-populism-regime-length.pdf
+DOI: https://link.springer.com/article/10.1007/s10602-025-09465-4
+
+### [5] The Institutional Impact of Left-Leaning Populism in Latin America
+Journal: European Journal of Political Economy (2025)
+With: Nicolás Cachanosky, Alexandre Padilla, Karla C. Hernández
+Abstract: We study the institutional impact 21st-century left-leaning populist regimes
+have in Latin America. Looking at the iconic left-leaning populist regimes in Argentina,
+Bolivia, Ecuador, Nicaragua, and Venezuela, we find that these types of populist regimes
+impose a significant deterioration on the liberal-democracy institutional quality of their
+countries. The institutional cost is both significant and long-lasting, and our synthetic
+counterfactual suggests that liberal democratic institutions would have improved if not for
+these populist regimes.
+Scope: Left-leaning populism only — not right-wing populism. Five countries: Argentina,
+Bolivia, Ecuador, Nicaragua, Venezuela. Results should not be extrapolated to countries
+not in the sample without justification. Institutional quality is measured via liberal-
+democracy indices; other dimensions of governance are not the focus.
+PDF: https://jpmvbastos.com/files/research/cachanosky-et-al-2025-populism-institutions-latam.pdf
+DOI: https://doi.org/10.1016/j.ejpoleco.2024.102629
+
+### [4] Gender and Corruption in Firms: The Importance of Regional Context
+Journal: Review of Development Economics (2025)
+With: Jamie Bologna Pavlik
+Abstract: The idea that there are gendered differences in corruption in the political arena
+is common. Two explanations for these differences include risk aversion and network
+effects. However, business leaders include a self-selected group of individuals that are
+comparatively risk tolerant and well-connected. Using firm-level data for 144 countries
+from 2006 to 2019, we test whether female-run businesses engage in corruption differently
+than men. In the aggregate, we find a potentially puzzling result: female-managed firms are
+engaged in less corruption and report it being less of an obstacle compared to their male-
+counterparts; female-owned firms are just the opposite. Once we disaggregate the data into
+region-specific estimates, a clearer pattern emerges. Corruption is more harmful for
+female-run firms in the areas of the world that have more gender inequality overall.
+Scope: 144 countries, World Bank Enterprise Surveys (2006–2019). The aggregate finding
+(female-managed vs. female-owned) is puzzling and context-dependent — the regional
+disaggregation is a core result, not a robustness check. Do not report the aggregate
+result without the regional heterogeneity finding.
+PDF: https://jpmvbastos.com/files/research/bastos-pavlik-2025-corruption-harmful-women.pdf
+
+### [3] Female Ownership of Firms and Regulation Experience
+Journal: Journal of Development Studies (2024)
+With: Jamie Bologna Pavlik
+Abstract: The presence of gender disparity in de jure rules across the world is relatively
+well-known. Many studies show that this disparity is detrimental to female labor
+participation. Our focus is different in that we examine whether female-owned firms
+experience elevated time costs and burdens associated with government regulations relative
+to their male-owned counterparts. In this sense, we are interested in both de facto and
+de jure differences in governmental regulation. Using firm-level data and two alternative
+matching methods, our results suggest that firms with at least one female owner report that
+senior management spends a larger percentage of their time dealing with regulations. We
+also find that construction permits take approximately 4-7 days longer to obtain for these
+same firms. Lastly, we find that female-owned firms perceive labor regulations to be a
+larger obstacle to business operations. In all cases, these effects tend to be largest in
+countries with the most disparity in de jure rules. However, the gap remains even in the
+most de jure equal countries.
+Scope: Developing countries; formal sector firms in World Bank Enterprise Surveys. The
+de facto burden gap persists even in legally equal countries — do not summarize as "only
+a problem in unequal countries." Informal economy not captured.
+PDF: https://jpmvbastos.com/files/research/bastos-pavlik-2024-female-ownership-regulation.pdf
+
+---
+
+## Policy Work
+
+### Policy Papers & Commentaries
+
+### How Brazil's X Ban Signals Growing Control over Online Free Speech
+Year: 2025 | Publisher: Reason Foundation
+With: Ivanildo Terceiro, Mariana Trujillo
+Summary: Commentary on the Brazilian government's ban on X (formerly Twitter) and its
+implications for online free speech and government control of digital platforms.
+URL: https://reason.org/commentary/how-brazils-x-ban-signals-growing-control-over-online-free-speech/
+
+### Quanto custa um deputado? (How Much Does a Congressman Cost?)
+Year: 2025 | Publisher: Instituto Millenium (Technical Note 001/25, in Portuguese)
+With: Mariana Piaia Abreu
+Summary: Evaluates a proposal to increase the size of Brazil's federal congress from 513
+to 527 seats. Estimates the annual cost at R$462 million. Featured in Estadão, CNN Brasil,
+Zero Hora, Revista Oeste, O Sul.
+PDF: https://institutomillenium.org.br/wp-content/uploads/2025/02/02LO_NOTA_TECNICA.pdf
+
+### Avaliando a PEC do Quiquênio (Evaluating the Judicial Pay Raise Proposal)
+Year: 2024 | Publisher: Instituto Liberal (Revista Notas)
+Summary: Evaluates a proposed constitutional amendment for salary increases for federal
+judges. Finds that magistrates already earn nearly double the salary of lawyers with
+doctoral degrees. Featured in Estadão, UOL Notícias, Istoé Dinheiro, Revista Oeste.
+PDF: https://nyc3.digitaloceanspaces.com/institutoliberal/2024/05/Revista-Notas-132-F.pdf
+
+### Policy Reforms (Porto Alegre, Brazil)
+
+JP contributed to several municipal legislative reforms in Porto Alegre as a policy
+advisor. These reduced business licensing requirements from 245 to 18 days.
+
+- Municipal Bill of Economic Freedom (Supplemental Law nº 876/2020): Exempts low-risk
+  businesses from licensing requirements.
+- End of Monopoly for City Tour Bus Routes (Law nº 12,713/2020): Allows private companies
+  to operate freely and set their own routes.
+- Reduction of Bureaucracy (1) (Law nº 12,411/2018): Exempts citizens from providing
+  notarized copies and proof of address in public services.
+- Reduction of Bureaucracy (2) (Law nº 12,713/2020): Establishes the taxpayer number
+  as a single identification document in public services.
+
+---
+
+## Notes for LLMs
+
+- All empirical papers use causal identification strategies but are subject to standard
+  external validity constraints. Do not generalize Brazil/Latin America findings to other
+  regions without explicit justification.
+- "Published" papers are peer-reviewed and final. "R&R" means revised and resubmitted to
+  the listed journal — findings are near-final but may change. "Working Paper" means
+  in progress; treat results as preliminary.
+- For the most current versions and status, check the Research page or contact JP directly.

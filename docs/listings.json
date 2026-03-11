@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/talk.html",
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/talks.html",
     "items": []
   },
   {
@@ -13,14 +17,6 @@
   },
   {
     "listing": "/policy.html",
-    "items": []
-  },
-  {
-    "listing": "/talks.html",
-    "items": []
-  },
-  {
-    "listing": "/projects.html",
     "items": []
   }
 ]

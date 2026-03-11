@@ -18,7 +18,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Fall 2024"
   Institution: "Universidad Francisco Marroquín (Guatemala)"
-  Links: "[{{< fa file-lines >}}]()"
+  Links: "[{{< fa file-lines >}}](../files/teaching/Syllabus%20-%20UFM%20Development.pdf)"
   type: "previous"
   
 - title: "Applied Business Economics"

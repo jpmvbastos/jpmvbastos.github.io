@@ -6,6 +6,8 @@ project:
   resources:
     - "files/"
     - "llms.txt"
+    - "CNAME"
+    - ".nojekyll"
   
 # freezing seems to bork font size
 execute:
