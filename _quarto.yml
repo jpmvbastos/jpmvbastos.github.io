@@ -5,6 +5,7 @@ project:
   #   - "!files/"
   resources:
     - "files/"
+    - "llms.txt"
   
 # freezing seems to bork font size
 execute:
