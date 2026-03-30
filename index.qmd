@@ -13,7 +13,7 @@ page-layout: full
 
 I am a PhD candidate at the Department of Agricultural & Applied Economics, and a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), both at Texas Tech University. 
 
-My [research](https://jpmvbastos.com/research.html) focuses on the political economy of development. I am particularly interested in answering empirical questions about the role of economic and political institutions for development within the Latin American context, using modern causal inference techniques.
+My [research](https://jpmvbastos.com/research.html) uses modern causal inference techniques to answer empirical questions on political economy and economic development, particularly in Latin America. At Texas Tech, I received the Davis College Outstanding Graduate Researcher Award and the Graduate School's Horn Distinguished Professors Graduate Achievement Award for Outstanding Research. 
 
 My [Job Market Paper](https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf) investigates the private returns to political office for Brazilian mayors, using a regression discontinuity design around close election races. It was awarded the [2026 Elinor and Vincent Ostrom Prize](https://www.publicchoicesociety.org/the-elinor-vincent-ostrom-prize/) for best paper by a graduate student at the Annual Meetings of the Public Choice Society.
 
