@@ -159,12 +159,20 @@
 
 ######## BOOKS
 
-- title: "<b>Conhecimento e Coordenação Social</b> (Série Fundamentos da Liberdade, vol. 1)"
+- title: "<b>Latin American Left-Leaning Populism: A Composite Index</b>"
+  type: "Books"
+  date: 2026-01-01
+  year: "Forthcoming"
+  with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a> and <a href='https://www.alexandrepadilla.com'>Alexandre Padilla</a>"
+  journal: "Chapter in <em>Handbook of Research on Economic Populism: A Political Economy Perspective of Populism's Approach to Economics, Business, and Finance</em>, edited by Martin Rode, Christopher A. Hartwell, and Sebastian Stöckl. Elsevier"
+
+- title: "<b><i>Conhecimento e Coordenação Social</i></b> (Série Fundamentos da Liberdade, vol. 1)"
   with: "with <a href='https://www.pucrs.br/pesquisadores/gustavo-inacio-de-moraes/'>Gustavo Inácio de Moraes</a>"
   type: "Books"
   date: 2025-03-01
   year: 2018
   publisher: "<em>Instituto Atlantos</em> (in Portuguese)"
+  pdf: "../files/research/moraes-bastos-2018-conhecimento-coordenacao-social.pdf"
 
 - title: "<b>Brazil</b>"
   type: "Books"

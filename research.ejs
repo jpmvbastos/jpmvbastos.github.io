@@ -48,6 +48,13 @@
         </small>
       <% } %>
        
+      <% if (item.type === 'Books' && item.journal) { %>
+      <br/>
+       <small class="text-muted">
+          <%= item.journal %>
+        </small>
+      <% } %>
+
       <% if (item.type === 'Books' && item.publisher) { %>
       <br/>
        <small class="text-muted">
@@ -163,7 +170,7 @@
       
     <% if (item.note) { %>
       <small class="text-muted">
-        <span class="note"><%= item.note %></span>    
+        <span class="note"><%= item.note %></span>
       </small>
     <% } %>
       </p>
