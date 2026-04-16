@@ -4,17 +4,16 @@
 # {{< fa file-lines >}}
 
 ### Presentations
+- date: 2026-04-20
+  type: "presentations"
+  title: "The U.S. Embargo: Myths, Real Effects, and Political Uses"
+  with: "<em>Cuba's Path to Freedom</em> Conference. Independent Institute and Florida Atlantic University, Apr. 20, 2026"
+
 - date: 2025-07-10
   type: "presentations"
   title: "The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo"
-  with: "Universidad del CEMA, Buenos Aires, Argentina, July 10, 2025"
   pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
-
-- date: 2024-10-04
-  type: "presentations"
-  title: "The Forsaken Road: Reassessing Living Standards Following the Cuban Revolution and the American Embargo"
-  with: "Center for Free Enterprise, University of Texas at El Paso, Oct. 4, 2024"
-  pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
+  note: "University of Houston-Downtown (Apr. 2, 2026)<br/>Universidad del CEMA, Buenos Aires, Argentina (July 10, 2025)<br/>Center for Free Enterprise, University of Texas at El Paso (Oct. 4, 2024)"
 
 - date: 2022-11-23
   title: "The Geopolitics of Food and Freedom in the World"
