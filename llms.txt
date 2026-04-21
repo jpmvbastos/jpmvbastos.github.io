@@ -109,8 +109,12 @@ formal sector activity in administrative data — informal economy not captured.
 R&R; findings may be revised.
 PDF: https://jpmvbastos.com/files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf
 
-### Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador
-Status: R&R at Constitutional Political Economy | Year: 2025
+
+---
+## Published Papers
+
+### [10 ]Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador
+Status: Forthcoming in Constitutional Political Economy | Year: 2026
 With: Nicolás Cachanosky, Justin T. Callais
 Abstract: Left-leaning populist regimes, such as Rafael Correa's government in Ecuador
 (2007–2016), often claim to protect the environment from the negative effects of
@@ -120,12 +124,8 @@ nature. We find no statistical evidence that Correa's constitutional initiative 
 measurable effect on Ecuador's environmental outcomes.
 Scope: Ecuador only; single-country synthetic control. Findings speak to this specific
 constitutional reform — not a general claim that all constitutional environmental
-provisions fail. Status is R&R; findings may be revised.
+provisions fail. 
 PDF: https://jpmvbastos.com/files/research/bastos-cachanosky-callais-2025-environmental-constitution-ecuador.pdf
-
----
-
-## Published Papers
 
 ### [9] Does Corruption Deter Female Leadership in Firms?
 Journal: Journal of Institutional Economics (2025)

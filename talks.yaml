@@ -34,7 +34,13 @@
   youtube: "https://www.youtube.com/watch?v=oDzSf8SnspQ&list=PLQvCWqtguPcqNu6hw8-odP0nEJtSQkXM1&index=7"
 
 
-### ARTICLES AND MEDIA
+### ARTICLES AND MEDIA (YYYY-MM-DD)
+- date: 2026-04-20
+  type: "media"
+  title: "Privatizar a saúde salva vidas"
+  with: "<em>Revista Exame</em>, April 20, 2026"
+  pubopen: "https://exame.com/colunistas/instituto-millenium/privatizar-a-saude-salva-vidas/"
+
 - date: 2025-07-15
   type: "media"
   title: "O Brasil aposta em um modelo sindical falido"
