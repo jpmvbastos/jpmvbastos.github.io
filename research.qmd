@@ -77,11 +77,6 @@ toc: false
 page-layout: full
 ---
 
-## Revise and Resubmit
-
-:::{#revise-resubmit}
-:::
-
 ## Peer-Reviewed Publications
 :::{#published-papers}
 :::
@@ -89,7 +84,14 @@ page-layout: full
 <!-- ## Under Review
 
 :::{#review}
-::: -->
+::: 
+
+## Revise and Resubmit
+
+:::{#revise-resubmit}
+:::
+
+-->
 
 ## Working Papers
 

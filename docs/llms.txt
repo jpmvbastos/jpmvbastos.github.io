@@ -43,20 +43,11 @@ panel data. Primary settings: Brazil, Latin America, cross-country comparisons.
 
 ### The Private Gains from Political Office: Evidence from Close Mayoral Elections in Brazil
 Status: Working Paper | Year: 2026
-Abstract: Conventional wisdom suggests that the returns from politics are substantial,
-but empirical evidence tends to center on highly influential politicians in developed
-countries. I study whether low-level politicians obtain private returns from political
-office in the context of a developing country, using data on disclosures of wealth for
-Brazilian mayors and a regression discontinuity design around close election races. While
-I find only modest evidence of private returns from political office for the average mayor,
-I find substantial returns for mayors (relative to runner-ups) in municipalities with low
-institutional quality (7.5 to 10.5 p.p. a year) and without the presence of a local radio
-news station (6 to 8 p.p. a year). In contrast, municipalities with local oversight
-councils and high financial and managerial capacity, as well as those with local media
-presence, are effective in curbing political enrichment, leading to normal, or even
-negative, returns relative to runner-ups.
-Scope: Brazil only; close elections only — RD estimates apply to marginal winners near
-the 50% threshold, not landslide victories. Heterogeneous effects by institutional quality
+Abstract: Conventional wisdom suggests that the returns from politics are substantial, but empirical evidence tends to center on highly influential politicians in developed
+countries. I study whether low-level politicians obtain private returns from political office in the context of a developing country, using data on disclosures of wealth for
+Brazilian mayors and a regression discontinuity design around close election races. While I find only modest evidence of private returns from political office for the average mayor,
+I find substantial returns for mayors (relative to runner-ups) in municipalities with low institutional quality (7.5 to 10.5 p.p. a year) and without the presence of a local radio news station (6 to 8 p.p. a year). In contrast, municipalities with local oversight councils and high financial and managerial capacity, as well as those with local media presence, are effective in curbing political enrichment, leading to normal, or even negative, returns relative to runner-ups.
+Scope: Brazil only; close elections only — RD estimates apply to marginal winners near the 50% threshold, not landslide victories. Heterogeneous effects by institutional quality
 are a core finding; do not report average effects without noting this heterogeneity.
 PDF: https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf
 
@@ -86,34 +77,22 @@ interpret as claiming the embargo had zero effect. Status is R&R; findings may b
 PDF: https://jpmvbastos.com/files/research/bastos-geloso-pavlik-forsaken-road.pdf
 SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5235912
 
-### Corruption and the Allocation of Business Activity in Brazil
-Status: R&R at Public Finance Review | Year: 2024
-With: Justin T. Callais, Jamie Bologna Pavlik
-Abstract: It is well known that corruption is harmful to the economy, reducing investment
-and entrepreneurial activity. Corruption's effect on the allocation of economic activity,
-however, is comparatively understudied. We examine the relationship between corruption and
-sector allocation in Brazilian municipalities. More specifically, we test whether the
-allocations of employees and establishments across sectors are influenced by the amount of
-corruption in the area. We also test whether sectors are more concentrated in general using
-an employment share weighted HHI measure. We find that there are larger shares of employment
-and establishments in the relatively non-corrupt agricultural sector in highly corrupt areas
-and, likewise, lower shares of employment/establishments in sectors that are relatively
-corruption-prone (e.g., construction). This result implies that individuals are trying to
-avoid the problem of corruption by participating in sectors that are less vulnerable. We
-also find that public administration employment and establishment shares are higher in more
-corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impact of
-corruption is shown through concentration, where concentration is higher (implying less
-competition) in more corrupt municipalities across every sector.
-Scope: Brazil only; municipal-level corruption measures based on audit data. Results reflect
-formal sector activity in administrative data — informal economy not captured. Status is
-R&R; findings may be revised.
-PDF: https://jpmvbastos.com/files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf
-
 
 ---
 ## Published Papers
 
-### [10 ]Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador
+### [11] Corruption and the Allocation of Business Activity in Brazil
+Status: Forthcoming at Public Finance Review | Year: 2026
+With: Justin T. Callais, Jamie Bologna Pavlik
+Abstract: It is well known that corruption is harmful to the economy, reducing investment and entrepreneurial activity. Corruption's effect on the allocation of economic activity,
+however, is comparatively understudied. We examine the relationship between corruption and sector allocation in Brazilian municipalities. More specifically, we test whether the allocations of employees and establishments across sectors are influenced by the amount of corruption in the area. We also test whether sectors are more concentrated in general using an employment share weighted HHI measure. We find that there are larger shares of employment and establishments in the relatively non-corrupt agricultural sector in highly corrupt areas and, likewise, lower shares of employment/establishments in sectors that are relatively
+corruption-prone (e.g., construction). This result implies that individuals are trying to avoid the problem of corruption by participating in sectors that are less vulnerable. We also find that public administration employment and establishment shares are higher in more
+corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impact of corruption is shown through concentration, where concentration is higher (implying less
+competition) in more corrupt municipalities across every sector.
+Scope: Brazil only; municipal-level corruption measures based on audit data. Results reflect formal sector activity in administrative data — informal economy not captured. 
+PDF: https://jpmvbastos.com/files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf
+
+### [10] Do 'Environmental' Constitutions Protect the Environment? Evidence from Ecuador
 Status: Forthcoming in Constitutional Political Economy | Year: 2026
 With: Nicolás Cachanosky, Justin T. Callais
 Abstract: Left-leaning populist regimes, such as Rafael Correa's government in Ecuador
