@@ -76,16 +76,15 @@ listing:
 toc: false    
 page-layout: full
 ---
+## Under Review
+:::{#review}
+:::
 
 ## Peer-Reviewed Publications
 :::{#published-papers}
 :::
 
-<!-- ## Under Review
-
-:::{#review}
-::: 
-
+<!--
 ## Revise and Resubmit
 
 :::{#revise-resubmit}
