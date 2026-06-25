@@ -75,7 +75,7 @@
       <% if (
   item.errata || item.pdf || item.pubopen || item.pubclosed ||
   item.book || item.preprint || item.appendix || item.dataverse ||
-  item.osf || item.prereg || item.blog || item.website || item.news ||
+  item.replication || item.osf || item.prereg || item.blog || item.website || item.news ||
   item.github || item.substack || item.spotify || item.youtube
 ) { %>
       <br/>
@@ -120,6 +120,11 @@
             <i class="ai ai-dataverse ai-lg"></i> Dataverse
           </a>
         <% } %>
+        <% if (item.replication) { %>
+          <a role="button" href="<%= item.replication %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-database ai-lg"></i> Replication
+          </a>
+        <% } %>
         <% if (item.osf) { %>
           <a role="button" href="<%= item.osf %>" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-osf ai-lg"></i> OSF
@@ -128,11 +133,6 @@
         <% if (item.prereg) { %>
           <a role="button" href="<%= item.prereg %>" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-preregistered ai-lg"></i> Preregistration
-          </a>
-        <% } %>
-        <% if (item.blog) { %>
-          <a role="button" href="<%= item.blog %>" type="button" class="btn btn-outline-secondary btn-xs">
-            <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post
           </a>
         <% } %>
         <% if (item.website) { %>
@@ -163,6 +163,11 @@
         <% if (item.youtube) { %>
           <a role="button" href="<%= item.youtube %>" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="bi bi-youtube"></i> YouTube
+          </a>
+        <% } %>
+        <% if (item.blog) { %>
+          <a role="button" href="<%= item.blog %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-file-earmark-plus ai-lg"></i> Blog post
           </a>
         <% } %>
       </div>
