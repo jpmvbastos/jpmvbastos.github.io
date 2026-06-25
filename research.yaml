@@ -7,7 +7,7 @@
   type: "Published"
   pubopen: "https://doi.org/10.1016/j.jdeveco.2026.103831"
   pdf: "../files/research/bastos-geloso-pavlik-forsaken-road.pdf"
-  replication: "../files/research/cuba-replication.zip"
+  replication: "https://github.com/jpmvbastos/jpmvbastos.github.io/raw/main/files/research/cuba-replication.zip"
   github: "https://github.com/jpmvbastos/cuba-forsaken-road/tree/main"
   blog: "https://thedailyeconomy.org/article/socialism-not-the-embargo-explains-nearly-all-of-cubas-poverty/"
   date: 2026-05-19
