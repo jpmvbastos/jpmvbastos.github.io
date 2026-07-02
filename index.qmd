@@ -11,11 +11,9 @@ page-layout: full
   <a href="../files/Job_Market_CV___JP_Bastos.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
 </div>
 
-I recently completed my PhD in Agricultural & Applied Economics at Texas Tech University. I am currently a Research Assistant at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/), and will be joining the [University of Austin (UATX)](https://www.uaustin.org/) as an Assistant Professor of Economics in the Center for Economics, Politics, and History in Fall 2026.
+I am an Assistant Professor of Economics at the [University of Austin (UATX)](https://www.uaustin.org/). My [research](https://jpmvbastos.com/research.html) uses modern causal inference techniques to answer empirical questions on political economy and economic development, particularly in Latin America.
 
-My [research](https://jpmvbastos.com/research.html) uses modern causal inference techniques to answer empirical questions on political economy and economic development, particularly in Latin America. At Texas Tech, I received the Davis College Outstanding Graduate Researcher Award and the Graduate School's Horn Distinguished Professors Graduate Achievement Award for Outstanding Research. 
-
-My [Job Market Paper](https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf) investigates the private returns to political office for Brazilian mayors, using a regression discontinuity design around close election races. It was awarded the [2026 Elinor and Vincent Ostrom Prize](https://www.publicchoicesociety.org/the-elinor-vincent-ostrom-prize/) for best paper by a graduate student at the Annual Meetings of the Public Choice Society.
+I got my PhD in Agricultural & Applied Economics at Texas Tech University, where I was a fellow at the [Free Market Institute](https://www.depts.ttu.edu/freemarketinstitute/). At TTU, I received the Davis College Outstanding Graduate Researcher Award and the Graduate School's Horn Distinguished Professors Graduate Achievement Award for Outstanding Research. My [Job Market Paper](https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf) received the [2026 Elinor and Vincent Ostrom Prize](https://www.publicchoicesociety.org/the-elinor-vincent-ostrom-prize/) for best paper by a graduate student at the Annual Meetings of the Public Choice Society.
 
 I have worked as a policy analyst in the Executive and Legislative branches of City of Porto Alegre, Brazil, where I got to work on important economic reforms. I discuss policy issues as a regular contributor to [Exame](https://exame.com/autor/joao-pedro-bastos/), and my policy papers have been featured in some of the most popular media outlets in Brazil.
 
