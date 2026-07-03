@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-previous .list');
+    const listingTargetEl = window.document.querySelector('#listing-current .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -69,11 +69,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-previous'] = new List('listing-previous', options);
+    window['quarto-listings']['listing-current'] = new List('listing-current', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -88,20 +88,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ta .list');
+    const listingTargetEl = window.document.querySelector('#listing-previous .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Term','listing-Institution',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ta'] = new List('listing-ta', options);
+    window['quarto-listings']['listing-previous'] = new List('listing-previous', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -146,6 +146,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Teaching – JP Bastos">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="JP Bastos">
 </head>
 
@@ -253,10 +254,66 @@ window.Quarto = {
 
 
 <!-- See about omitting columns by table -->
-<!--## Current and upcoming
-
-:::{#current}
-::: -->
+<section id="teaching-resources" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-resources">Teaching Resources</h2>
+<p><a href="../files/teaching/bastos-price-theory-guide.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a> <a href="../files/teaching/bastos-price-theory-guide.pdf">Price Theory: A Reading Guide</a></p>
+</section>
+<section id="currently-teaching" class="level2">
+<h2 class="anchored" data-anchor-id="currently-teaching">Currently Teaching</h2>
+<div id="listing-current" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Term
+</th>
+<th>
+Institution
+</th>
+<th>
+Links
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1767247200000" data-listing-title-sort="EPH 1100: Analytical Tools for Economics &amp; Political Science">
+<td>
+<span class="listing-title">EPH 1100: Analytical Tools for Economics &amp; Political Science</span>
+</td>
+<td>
+<span class="listing-Term">Fall 2026</span>
+</td>
+<td>
+<span class="listing-Institution">University of Austin (UATX)</span>
+</td>
+<td>
+<span class="listing-Links">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1767247200000" data-listing-title-sort="EPH 3010: Intermediate Microeconomics">
+<td>
+<span class="listing-title">EPH 3010: Intermediate Microeconomics</span>
+</td>
+<td>
+<span class="listing-Term">Fall 2026</span>
+</td>
+<td>
+<span class="listing-Institution">University of Austin (UATX)</span>
+</td>
+<td>
+<span class="listing-Links">&nbsp;</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="previously-taught" class="level2">
 <h2 class="anchored" data-anchor-id="previously-taught">Previously taught</h2>
 <div id="listing-previous" class="quarto-listing quarto-listing-container-table">
@@ -278,7 +335,35 @@ Links
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1704088800000" data-listing-title-sort="Development Economics (in Spanish)">
+<tr data-index="0" data-listing-date-sort="1754024400000" data-listing-title-sort="POLS 5385: Causal Inference | **TA**">
+<td>
+<span class="listing-title">POLS 5385: Causal Inference | <strong>TA</strong></span>
+</td>
+<td>
+<span class="listing-Term">Fall 2025</span>
+</td>
+<td>
+<span class="listing-Institution">Texas Tech University</span>
+</td>
+<td>
+<span class="listing-Links">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1717218000000" data-listing-title-sort="AAEC 2305: Fundamentals of Ag, &amp; Applied Economics (2 sections) | **TA**">
+<td>
+<span class="listing-title">AAEC 2305: Fundamentals of Ag, &amp; Applied Economics (2 sections) | <strong>TA</strong></span>
+</td>
+<td>
+<span class="listing-Term">2024-2025</span>
+</td>
+<td>
+<span class="listing-Institution">Texas Tech University</span>
+</td>
+<td>
+<span class="listing-Links"><a href="files/teaching/ddem_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1704088800000" data-listing-title-sort="Development Economics (in Spanish)">
 <td>
 <span class="listing-title">Development Economics (in Spanish)</span>
 </td>
@@ -292,9 +377,9 @@ Links
 <span class="listing-Links"><a href="../files/teaching/Syllabus - UFM Development.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Applied Business Economics">
+<tr data-index="3" data-listing-date-sort="1641016800000" data-listing-title-sort="BECO 3310: Applied Business Economics">
 <td>
-<span class="listing-title">Applied Business Economics</span>
+<span class="listing-title">BECO 3310: Applied Business Economics</span>
 </td>
 <td>
 <span class="listing-Term">Fall 2023</span>
@@ -306,45 +391,9 @@ Links
 <span class="listing-Links"><a href="../files/teaching/BECO_3310___Syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
 </td>
 </tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="teaching-assistant-for" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-assistant-for">Teaching Assistant for:</h2>
-<div id="listing-ta" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Term
-</th>
-<th>
-Institution
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1717218000000" data-listing-title-sort="Fundamentals of Agricultural and Applied Economics (2 sections)">
+<tr data-index="4" data-listing-date-sort="1641016800000" data-listing-title-sort="AAEC 3315: Agricultural Price Theory (2 sections) | **TA**">
 <td>
-<span class="listing-title">Fundamentals of Agricultural and Applied Economics (2 sections)</span>
-</td>
-<td>
-<span class="listing-Term">2024-2025</span>
-</td>
-<td>
-<span class="listing-Institution">Texas Tech University</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1641016800000" data-listing-title-sort="Agricultural Price Theory (2 sections)">
-<td>
-<span class="listing-title">Agricultural Price Theory (2 sections)</span>
+<span class="listing-title">AAEC 3315: Agricultural Price Theory (2 sections) | <strong>TA</strong></span>
 </td>
 <td>
 <span class="listing-Term">2022-2023</span>
@@ -352,6 +401,9 @@ Institution
 <td>
 <span class="listing-Institution">Texas Tech University</span>
 </td>
+<td>
+<span class="listing-Links"><a href="files/teaching/ddem_syllabus.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+</td>
 </tr>
 </tbody>
 </table>
@@ -359,18 +411,27 @@ Institution
 No matching items
 </div>
 </div>
-<section id="selected-student-evaluations" class="level3">
-<h3 class="anchored" data-anchor-id="selected-student-evaluations">Selected Student Evaluations</h3>
-<p>“Professor was great for it being his first time teaching ever. I really enjoyed his lectures and the helpfulness he provided to us students! 1000000% recommend.”</p>
-<p>“He lays the material out very well and teaches it in a way that translates well to the tests”</p>
-<p>“Fantastic class with an amazing instructor. Very clear and concise”</p>
-<p>“Very good, i wish there were more teachers like this one. He kept us pretty on course and made the course digestible and tried his best to give us a great semester.”</p>
-<p>“JP was awesome. He pointed out being new to teaching, but the concepts in this class were made so simple and easy because of him. Ive ended the semester with the necessary knowledge and had almost no struggle throughout because of JP.”</p>
-<p>“The class can be a little slow at times, but he did his best to make it engaging by connecting the learning to real life situations, which was very helpful. This was his first year teaching and, for future students sake, I hope he keeps teaching”</p>
+<p style="margin-top: -27px; font-size: 0.85em;">
+<strong>TA</strong>: Teaching Assistant for.
+</p>
+<!--
+### Selected Student Evaluations
+
+"Professor was great for it being his first time teaching ever. I really enjoyed his lectures and the helpfulness he provided to us students! 1000000% recommend."
+
+"He lays the material out very well and teaches it in a way that translates well to the tests"
+
+"Fantastic class with an amazing instructor. Very clear and concise"
+
+"Very good, i wish there were more teachers like this one. He kept us pretty on course and made the course digestible and tried his best to give us a great semester."
+
+"JP was awesome. He pointed out being new to teaching, but the concepts in this class were made so simple and easy because of him. Ive ended the semester with the necessary knowledge and had almost no struggle throughout because of JP."
+
+"The class can be a little slow at times, but he did his best to make it engaging by connecting the learning to real life situations, which was very helpful. This was his first year teaching and, for future students sake, I hope he keeps teaching"
+-->
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

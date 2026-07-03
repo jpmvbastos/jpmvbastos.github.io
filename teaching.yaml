@@ -13,6 +13,20 @@
 #  Links: "[{{< fa file-lines >}}](files/teaching/prob_stats.pdf)"
 #  type: "current"
 
+- title: "EPH 1100: Analytical Tools for Economics & Political Science"
+  date: 2026-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2026"
+  Institution: "University of Austin (UATX)"
+  type: "current"
+
+- title: "EPH 3010: Intermediate Microeconomics"
+  date: 2026-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2026"
+  Institution: "University of Austin (UATX)"
+  type: "current"
+
 - title: "Development Economics (in Spanish)"
   date: 2024-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
@@ -20,8 +34,8 @@
   Institution: "Universidad Francisco Marroquín (Guatemala)"
   Links: "[{{< fa file-lines >}}](../files/teaching/Syllabus%20-%20UFM%20Development.pdf)"
   type: "previous"
-  
-- title: "Applied Business Economics"
+
+- title: "BECO 3310: Applied Business Economics"
   date: 2022-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Fall 2023"
@@ -29,20 +43,27 @@
   Links: "[{{< fa file-lines >}}](../files/teaching/BECO_3310___Syllabus.pdf)"
   type: "previous"
 
-- title: "Fundamentals of Agricultural and Applied Economics (2 sections)"
+- title: "POLS 5385: Causal Inference | **TA**"
+  date: 2025-08-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2025"
+  Institution: "Texas Tech University"
+  type: "previous"
+
+- title: "AAEC 2305: Fundamentals of Ag, & Applied Economics (2 sections) | **TA**"
   date: 2024-06-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2024-2025"
   Institution: "Texas Tech University"
   Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
-  type: "ta"
+  type: "previous"
 
-- title: "Agricultural Price Theory (2 sections)"
+- title: "AAEC 3315: Agricultural Price Theory (2 sections) | **TA**"
   date: 2022-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2022-2023"
   Institution: "Texas Tech University"
   Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
-  type: "ta"
+  type: "previous"
 
-  
+
