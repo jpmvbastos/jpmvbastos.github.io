@@ -14,12 +14,13 @@
 
 - title: "<b>Latin America Left-Leaning Populism Index</b>"
   type: "project"
-  note: "A new index that captures populism while separating rhetoric from practice, and economic from political populism."
+  note: "A new index that captures populism while separating rhetoric from policy, and economic from political populism."
   date: 2025-04-01
   with: "with <a href='www.ncachanosky.com'>Nicolás Cachanosky</a> and <a href='https://www.alexandrepadilla.com'>Alex Padilla</a>"
   website: "https://lallpi.netlify.app"
   github: "https://github.com/ncachanosky/populism-index"
   substack: "https://publicchoicelatinamerica.substack.com/p/the-latin-american-left-leaning-populism"
+  dataverse: "https://doi.org/10.7910/DVN/KEJ9VF"
 
 - title: "<b>Political Violence in Latin America</b> | <em>Coming soon...</em>"
   type: "project"
