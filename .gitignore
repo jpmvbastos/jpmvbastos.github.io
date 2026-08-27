@@ -13,3 +13,5 @@
 CLAUDE.md
 CV-PIPELINE.md
 .claude/
+
+**/*.quarto_ipynb
