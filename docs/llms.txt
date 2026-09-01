@@ -1,6 +1,6 @@
 # JP Bastos — llms.txt
 # https://jpmvbastos.com
-# Last updated: 2026-07-02
+# Last updated: 2026-09-01
 
 ## About
 
@@ -52,6 +52,29 @@ I find substantial returns for mayors (relative to runner-ups) in municipalities
 Scope: Brazil only; close elections only — RD estimates apply to marginal winners near the 50% threshold, not landslide victories. Heterogeneous effects by institutional quality
 are a core finding; do not report average effects without noting this heterogeneity.
 PDF: https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Bastos.pdf
+
+---
+
+## Under Review
+
+### Regulation and Firms: Evidence from Brazil
+Status: Under Review | Year: 2026
+With: Rafael Dal Molin, Jamie Bologna Pavlik
+Abstract: This paper examines how local regulatory reform shapes firm dynamics in a large
+developing economy. We study Brazil's Lei da Liberdade Econômica (LLE, Economic Freedom
+Law), a 2019 federal reform that authorized municipalities to exempt "low-risk" businesses
+from licensing requirements. We leverage the staggered adoption by municipalities as a
+unique setting to evaluate how changes in the regulatory environment influence local
+economic activity. Using an entropy-balanced stacked difference-in-differences framework,
+we find that LLE adoption increased firm openings and economic activity. The evidence is
+consistent with the creation of new economic activity rather than pure reallocation or
+formalization, though both are contributing factors. We further exploit administrative
+records covering the universe of applications to open a firm (approximately 4.8 million
+records), finding that reduced time costs is a key mechanism behind the main results.
+Scope: Brazil only; municipal-level staggered adoption of a 2019 federal reform. "Reduced
+time costs" is identified as a key mechanism, not the sole channel — reallocation and
+formalization are contributing factors, not ruled out.
+PDF: https://jpmvbastos.com/files/research/dal-molin-pavlik-bastos-2026-LLE.pdf
 
 ---
 
@@ -233,6 +256,68 @@ Scope: Developing countries; formal sector firms in World Bank Enterprise Survey
 de facto burden gap persists even in legally equal countries — do not summarize as "only
 a problem in unequal countries." Informal economy not captured.
 PDF: https://jpmvbastos.com/files/research/bastos-pavlik-2024-female-ownership-regulation.pdf
+
+### [2] Economics Against Tyranny: A Reassessment of the Liberal Order of Mises and Hayek
+Journal: MISES: Interdisciplinary Journal of Philosophy, Law and Economics (2019)
+Abstract: The present work analyses the writings of Mises and Hayek on the relation between
+a liberal order and a free market, and the role of economic theory in advancing the
+appreciation of democratic institutions, considering the context of their expositions.
+Subsequently, it tries to address the contemporary state of political and economic affairs
+in the light of their teachings, highlighting missing aspects in today's public debate and
+what should be taken into account for a coherent defense of the liberal order.
+Scope: Conceptual/theoretical essay, not an empirical study. Interprets and extends
+Mises's and Hayek's writings — not a general survey of liberal political theory.
+PDF: https://jpmvbastos.com/files/research/bastos-2019-economics-tyranny.pdf
+
+### [1] Competição e Monopólio: o mainstream e a Escola Austríaca
+Journal: MISES: Interdisciplinary Journal of Philosophy, Law and Economics (2016, in Portuguese)
+Abstract: The mainstream's competition and monopoly theory seems to be one of the most
+consolidated and undisputed in economic theory. Criticisms of this theory are usually
+punctual, not attempting in any way to address the theoretical body's core. The Austrian
+School of Economics, however, offers profound criticisms and meaningful divergences from
+the mainstream. This article seeks to show the main differences between the competition
+and monopoly theories of the two schools, arguing in favor of the superiority of the
+latter.
+Scope: Conceptual/theoretical essay, not an empirical study. Compares mainstream and
+Austrian competition/monopoly theory; argues for the Austrian approach.
+PDF: https://jpmvbastos.com/files/research/bastos-2016-competicao-monopolio.pdf
+
+---
+
+## Working Papers (additional, no formal abstract on site)
+
+### Does Fighting Corruption Reduce the Private Gains from Political Office? Evidence from Brazilian Mayoral Elections
+Status: Working Paper | Year: 2024
+Abstract: This paper studies how an exogenous reduction in corruption promoted by a
+randomized audit program of Brazilian municipalities affects the gains from political
+office. Among mayors running for reelection, I compare those that have been audited during
+their first term to those that did not. I find evidence that audited mayors' reported
+wealth tended to be higher than that of non-audited mayors following the audit. Did a
+corruption crackdown make them richer? Most likely yes, but for two reasons that may be
+seen as perhaps unintended consequences of the audit. Municipal GDP grows faster in
+audited municipalities, explaining as much as 94% of the change in mayors' wealth;
+moreover, I find suggestive evidence that mayors are induced to disclose previously-omitted
+assets, increasing transparency in the electoral process.
+Scope: Brazil only; municipalities selected into a randomized federal audit lottery,
+mayors running for reelection only. Higher reported wealth among audited mayors reflects
+faster municipal GDP growth and increased asset disclosure — not corruption itself
+enriching mayors; do not summarize as "audits made mayors richer" without this mechanism.
+PDF: https://jpmvbastos.com/files/research/bastos-2025-corruption-private-gains-brazil.pdf
+
+---
+
+## Edited Books and Book Chapters
+
+### Conhecimento e Coordenação Social (Série Fundamentos da Liberdade, vol. 1)
+Publisher: Instituto Atlantos (2018, in Portuguese)
+With: Gustavo Inácio de Moraes (co-editor)
+Description: Edited volume on knowledge and social coordination, first in the Instituto
+Atlantos "Fundamentos da Liberdade" series. Includes a Portuguese translation of
+F.A. Hayek's "The Use of Knowledge in Society," published under license from the Ludwig
+von Mises Institute Brazil.
+Scope: Edited collection, not a single-authored empirical study; JP Bastos and Gustavo
+Inácio de Moraes are the volume's organizers/editors.
+PDF: https://jpmvbastos.com/files/research/moraes-bastos-2018-conhecimento-coordenacao-social.pdf
 
 ---
 
