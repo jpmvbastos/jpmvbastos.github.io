@@ -69,6 +69,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-scheduled .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-type"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-scheduled'] = new List('listing-scheduled', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-current .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -485,6 +513,70 @@ Links
 </td>
 <td>
 <span class="listing-Links"><a href="../files/teaching/EPH_3010___Foundations_of_Microeconomics_II.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a></span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="scheduled" class="level2">
+<h2 class="anchored" data-anchor-id="scheduled">Scheduled</h2>
+<div id="listing-scheduled" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Title
+</th>
+
+<th>
+Term
+</th>
+
+<th>
+Institution
+</th>
+
+<th>
+Links
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1798783200000" data-listing-title-sort="ECON 203: Microeconomic Theory II">
+<td>
+<span class="listing-title">ECON 203: Microeconomic Theory II</span>
+</td>
+<td>
+<span class="listing-Term">Winter 2027</span>
+</td>
+<td>
+<span class="listing-Institution">University of Austin (UATX)</span>
+</td>
+<td>
+<span class="listing-Links">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1798783200000" data-listing-title-sort="ECON 421: Causality">
+<td>
+<span class="listing-title">ECON 421: Causality</span>
+</td>
+<td>
+<span class="listing-Term">Winter 2027</span>
+</td>
+<td>
+<span class="listing-Institution">University of Austin (UATX)</span>
+</td>
+<td>
+<span class="listing-Links">&nbsp;</span>
 </td>
 
 </tr>
