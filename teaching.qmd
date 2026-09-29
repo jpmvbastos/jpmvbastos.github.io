@@ -2,6 +2,15 @@
 title: "Teaching"
 description: "" 
 listing:
+- id: scheduled
+  include:
+    type: "scheduled"
+  contents: teaching.yaml
+  type: table
+  fields: [title, Term, Institution, Links]
+  filter-ui: false
+  sort: "title"
+  sort-ui: false
 - id: current
   include:
     type: "current"
@@ -34,6 +43,11 @@ page-layout: full
 ## Currently Teaching
 
 :::{#current}
+:::
+
+## Scheduled
+
+:::{#scheduled}
 :::
 
 ## Previously taught
