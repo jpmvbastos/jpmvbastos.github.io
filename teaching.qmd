@@ -6,8 +6,7 @@ listing:
   include:
     type: "scheduled"
   contents: teaching.yaml
-  type: table
-  fields: [title, Term, Institution, Links]
+  template: teaching.ejs
   filter-ui: false
   sort: "title"
   sort-ui: false
@@ -15,8 +14,7 @@ listing:
   include:
     type: "current"
   contents: teaching.yaml
-  type: table
-  fields: [title, Term, Institution, Links]
+  template: teaching.ejs
   filter-ui: false
   sort: "date desc"
   sort-ui: false
@@ -24,8 +22,7 @@ listing:
   include: 
     type: "previous"
   contents: teaching.yaml
-  type: table
-  fields: [title, Term, Institution, Links]
+  template: teaching.ejs
   filter-ui: false
   sort: "date desc"
   sort-ui: false
@@ -38,7 +35,7 @@ page-layout: full
 
 ## Teaching Resources
 
-[{{< fa file-lines >}}](../files/teaching/bastos-price-theory-guide.pdf) [Price Theory: A Reading Guide](../files/teaching/bastos-price-theory-guide.pdf)
+[{{< fa file-pdf >}}](../files/teaching/bastos-price-theory-guide.pdf) [Price Theory: A Reading Guide](../files/teaching/bastos-price-theory-guide.pdf)
 
 ## Currently Teaching
 

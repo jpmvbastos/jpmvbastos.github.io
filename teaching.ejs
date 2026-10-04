@@ -1,0 +1,90 @@
+```{=html}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;
+  }
+</style>
+
+<ul class="list">
+  <% for (const item of items) { %>
+    <<%= metadataAttrs(item) %>>
+      <% if (item.page) { %>
+      <b><a href="<%= item.page %>"><%= item.title %></a></b>
+      <% } else { %>
+      <b><%= item.title %></b>
+      <% } %>
+      <% if (item.role) { %> | <b><%= item.role %></b><% } %>
+
+      <% if (item.Term || item.Institution) { %>
+      <br/>
+        <small class="text-muted">
+          <%= [item.Term, item.Institution].filter(Boolean).join(". ") %>
+        </small>
+      <% } %>
+
+      <% if (item.description) { %>
+      <br/>
+        <small class="text-muted">
+          <%= item.description %>
+        </small>
+      <% } %>
+
+      <% if (item.page || item.syllabus || item.slides || item.problemsets || item.materials || item.website || item.github) { %>
+      <br/>
+      <div class="buttons">
+        <% if (item.page) { %>
+          <a role="button" href="<%= item.page %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-journal-text ai-lg"></i> Course Page
+          </a>
+        <% } %>
+        <% if (item.syllabus) { %>
+          <a role="button" href="<%= item.syllabus %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="fa-solid fa-file-pdf ai-lg"></i> Syllabus
+          </a>
+        <% } %>
+        <% if (item.slides) { %>
+          <a role="button" href="<%= item.slides %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-easel ai-lg"></i> Slides
+          </a>
+        <% } %>
+        <% if (item.problemsets) { %>
+          <a role="button" href="<%= item.problemsets %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-pencil-square ai-lg"></i> Problem Sets
+          </a>
+        <% } %>
+        <% if (item.materials) { %>
+          <a role="button" href="<%= item.materials %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-folder2-open ai-lg"></i> Course Materials
+          </a>
+        <% } %>
+        <% if (item.website) { %>
+          <a role="button" href="<%= item.website %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-globe ai-lg"></i> Website
+          </a>
+        <% } %>
+        <% if (item.github) { %>
+          <a role="button" href="<%= item.github %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-github ai-lg"></i> GitHub
+          </a>
+        <% } %>
+      </div>
+      <% } %>
+
+      <% if (item.note) { %>
+      <small class="text-muted">
+        <span class="note"><%= item.note %></span>
+      </small>
+      <% } %>
+      <hr>
+    </li>
+  <% } %>
+</ul>
+
+```

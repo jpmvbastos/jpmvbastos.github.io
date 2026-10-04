@@ -1,0 +1,41 @@
+---
+title: "EPH 1100: Analytical Tools for Economics & Political Science"
+subtitle: "Fall 2026 · University of Austin (UATX)"
+toc: true
+---
+
+[{{< fa file-pdf >}} Syllabus](../../files/teaching/EPH_1100___Analytical_Tools.pdf){.btn .btn-outline-secondary .btn-sm}
+
+## Course Description
+
+This course introduces the mathematical tools used throughout the economics and political science courses offered by the Center for Economics, Politics and History: functions, derivatives, optimization, linear algebra, multivariable and constrained optimization, comparative statics, and integration. Each tool is applied to an economic or political problem.
+
+The primary reading is the class notes, one set per session. Each set of notes references the relevant chapters in Hoy et al. (2022), *Mathematics for Economics* (optional).
+
+## Schedule & Readings
+
+| Date | Topic | Readings |
+|------|-------|----------|
+| Sep. 1 | 1. Introduction to Analytical Tools | [{{< fa file-pdf >}} Notes](notes/01-introduction.pdf) · Hoy et al., Ch. 1.1–2.2 |
+| Sep. 3 | 2. Functions and Economic Relationships | [{{< fa file-pdf >}} Notes](notes/02-functions.pdf) · Hoy et al., §2.4 |
+| Sep. 8 | 3. Limits, Continuity, and Tangent Lines | [{{< fa file-pdf >}} Notes](notes/03-limits-continuity.pdf) · Hoy et al., §4.1–4.2, §5.1 |
+| Sep. 10 | 4. Derivatives and Differentiation Rules | [{{< fa file-pdf >}} Notes](notes/04-derivatives.pdf) · Hoy et al., §5.2–5.4 |
+| Sep. 15 | 5. Differentials and Basic Applications of Derivatives | [{{< fa file-pdf >}} Notes](notes/05-differentials.pdf) · Hoy et al., §5.2, §5.4 |
+| Sep. 17 | 6. Second Derivatives, Concavity, and Convexity | [{{< fa file-pdf >}} Notes](notes/06-second-derivatives.pdf) · Hoy et al., §5.5 |
+| Sep. 22 | 7. Optimization: Finding Maxima and Minima | [{{< fa file-pdf >}} Notes](notes/07-optimization.pdf) · Hoy et al., §6.1–6.2 |
+| Sep. 24 | Review |  |
+| Sep. 29 | **Midterm Exam** |  |
+| Oct. 1 | 8. Linear Algebra: Vectors and Matrices | [{{< fa file-pdf >}} Notes](notes/08-vectors-matrices.pdf) · Hoy et al., §7.3, §8.1–8.2 |
+| Oct. 6 | 9. Linear Algebra: Solving Systems and Determinants | [{{< fa file-pdf >}} Notes](notes/09-systems-determinants.pdf) · Hoy et al., §7.1, §9.1 |
+| Oct. 8 | 10. Multivariable Functions: Partial Derivatives and the Total Differential | [{{< fa file-pdf >}} Notes](notes/10-partial-derivatives.pdf) · Hoy et al., §11.1–11.3 |
+| Oct. 13 | 11. Unconstrained Optimization: First-Order Conditions | [{{< fa file-pdf >}} Notes](notes/11-unconstrained-foc.pdf) · Hoy et al., §12.1 |
+| Oct. 15 | 12. Unconstrained Optimization: Second-Order Conditions and the Hessian | [{{< fa file-pdf >}} Notes](notes/12-unconstrained-soc.pdf) · Hoy et al., §11.5, §12.2 |
+| Oct. 20 | 13. Constrained Optimization: The Lagrangian Method | [{{< fa file-pdf >}} Notes](notes/13-lagrangian.pdf) · Hoy et al., §13.1–13.2 |
+| Oct. 22 | 14. Constrained Optimization: Applications | *Notes forthcoming* |
+| Oct. 29 | 15. Comparative Statics and the Implicit Function Theorem | *Notes forthcoming* |
+| Nov. 3 | 16. The Envelope Theorem | *Notes forthcoming* |
+| Nov. 5 | 17. Integration | *Notes forthcoming* |
+| Nov. 10 | Review |  |
+| TBD | **Final Exam** |  |
+
+: {tbl-colwidths="[11,52,37]"}

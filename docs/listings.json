@@ -1,14 +1,6 @@
 [
   {
-    "listing": "/teaching.html",
-    "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
-    "listing": "/policy.html",
+    "listing": "/talks.html",
     "items": []
   },
   {
@@ -16,7 +8,15 @@
     "items": []
   },
   {
-    "listing": "/talks.html",
+    "listing": "/policy.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/teaching.html",
     "items": []
   }
 ]
