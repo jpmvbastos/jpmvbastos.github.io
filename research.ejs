@@ -75,7 +75,7 @@
       <!-- paper info for working papers -->
       
       <% if (
-  item.errata || item.pdf || item.pubopen || item.pubclosed ||
+  item.errata || item.pdf || item.slides || item.pubopen || item.pubclosed ||
   item.book || item.preprint || item.appendix || item.dataverse ||
   item.replication || item.osf || item.prereg || item.blog || item.website || item.news ||
   item.github || item.substack || item.spotify || item.youtube
@@ -90,6 +90,11 @@
         <% if (item.pdf) { %>
           <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
+          </a>
+        <% } %>
+        <% if (item.slides) { %>
+          <a role="button" href="<%= item.slides %>" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="bi bi-easel ai-lg"></i> Slides
           </a>
         <% } %>
         <% if (item.pubopen) { %>
