@@ -12,6 +12,12 @@
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
   }
+  .ai-xl {
+    font-size: 2.2em;
+    line-height: 1;
+    vertical-align: middle;
+    margin: -0.25em 0;
+  }
 </style>
 
 <ul class="list">
@@ -76,7 +82,7 @@
       
       <% if (
   item.errata || item.pdf || item.slides || item.pubopen || item.pubclosed ||
-  item.book || item.preprint || item.appendix || item.dataverse ||
+  item.book || item.preprint || item.ssrn || item.appendix || item.dataverse ||
   item.replication || item.osf || item.prereg || item.blog || item.website || item.news ||
   item.github || item.substack || item.spotify || item.youtube
 ) { %>
@@ -105,6 +111,11 @@
         <% if (item.pubclosed) { %>
           <a role="button" href="<%= item.pubclosed %>" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-closed-access ai-lg"></i> Article
+          </a>
+        <% } %>
+        <% if (item.ssrn) { %>
+          <a role="button" href="<%= item.ssrn %>" type="button" class="btn btn-outline-secondary btn-xs" title="SSRN" aria-label="SSRN">
+            <i class="ai ai-ssrn ai-xl"></i>
           </a>
         <% } %>
         <% if (item.book) { %>
