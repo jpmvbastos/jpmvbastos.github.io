@@ -9,6 +9,12 @@
 #   page (course landing page, e.g. "teaching/eph1100/"), syllabus, slides, problemsets, materials, website, github
 # Other optional fields: role (e.g. "TA"), description, note
 
+- title: "ECON 102: Applied Issues and Perspectives in Economics II"
+  date: 2027-01-01
+  Term: "Winter 2027"
+  Institution: "University of Austin (UATX)"
+  type: "scheduled"
+
 - title: "ECON 203: Microeconomic Theory II"
   date: 2027-01-01
   Term: "Winter 2027"

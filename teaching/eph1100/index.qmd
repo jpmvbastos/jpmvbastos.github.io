@@ -31,9 +31,9 @@ The primary reading is the class notes, one set per session. Each set of notes r
 | 13 | Unconstrained Optimization: First-Order Conditions | [{{< fa file-pdf >}} Notes](notes/11-unconstrained-foc.pdf) · Hoy et al., §12.1 |
 | 14 | Unconstrained Optimization: Second-Order Conditions and the Hessian | [{{< fa file-pdf >}} Notes](notes/12-unconstrained-soc.pdf) · Hoy et al., §11.5, §12.2 |
 | 15 | Constrained Optimization: The Lagrangian Method | [{{< fa file-pdf >}} Notes](notes/13-lagrangian.pdf) · Hoy et al., §13.1–13.2 |
-| 16 | Constrained Optimization: Applications | *Notes forthcoming* |
-| 17 | Comparative Statics and the Implicit Function Theorem | *Notes forthcoming* |
-| 18 | The Envelope Theorem | *Notes forthcoming* |
+| 16 | Constrained Optimization: Applications | [{{< fa file-pdf >}} Notes](notes/14-lagrangian-applications.pdf) · Hoy et al., §13.1, §13.4 |
+| 17 | Comparative Statics and the Implicit Function Theorem | [{{< fa file-pdf >}} Notes](notes/15-comparative-statics.pdf) · Hoy et al., §11.4, §14.1–14.2 |
+| 18 | The Envelope Theorem | [{{< fa file-pdf >}} Notes](notes/16-envelope-theorem.pdf) · Hoy et al., §14.2–14.3 |
 | 19 | Integration | *Notes forthcoming* |
 | 20 | Review | |
 | 21 | **Final Exam** | |
