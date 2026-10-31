@@ -34,7 +34,7 @@ The primary reading is the class notes, one set per session. Each set of notes r
 | 16 | Constrained Optimization: Applications | [{{< fa file-pdf >}} Notes](notes/14-lagrangian-applications.pdf) · Hoy et al., §13.1, §13.4 |
 | 17 | Comparative Statics and the Implicit Function Theorem | [{{< fa file-pdf >}} Notes](notes/15-comparative-statics.pdf) · Hoy et al., §11.4, §14.1–14.2 |
 | 18 | The Envelope Theorem | [{{< fa file-pdf >}} Notes](notes/16-envelope-theorem.pdf) · Hoy et al., §14.2–14.3 |
-| 19 | Integration | *Notes forthcoming* |
+| 19 | Integration | [{{< fa file-pdf >}} Notes](notes/17-integration.pdf) · Hoy et al., §16.1–16.3 |
 | 20 | Review | |
 | 21 | **Final Exam** | |
 
