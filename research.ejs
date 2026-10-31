@@ -70,6 +70,14 @@
         </small>
       <% } %>
 
+      <!-- status line for papers under review (e.g., R&R at a journal) -->
+      <% if (item.type === 'Under Review' && item.journal) { %>
+        <br/>
+         <small class="text-muted">
+            <%= item.journal %>
+          </small>
+      <% } %>
+
       <!-- paper info for R&R -->
       <% if (item.type === 'R&R') { %>
         <br/>
