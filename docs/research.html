@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-pdf','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-abstract','listing-date','listing-pdf','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-pdf","listing-with"],
+      searchColumns: ["listing-title","listing-type","listing-abstract","listing-date","listing-pdf","listing-with"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,9 +130,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-pubopen','listing-ssrn','listing-pdf','listing-replication','listing-github','listing-blog','listing-date','listing-year','listing-journal','listing-with','listing-note','listing-appendix','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-pubopen','listing-ssrn','listing-pdf','listing-replication','listing-github','listing-blog','listing-date','listing-year','listing-journal','listing-with','listing-abstract','listing-note','listing-pubclosed','listing-appendix',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-pubopen","listing-ssrn","listing-pdf","listing-replication","listing-github","listing-blog","listing-date","listing-year","listing-journal","listing-with","listing-note","listing-appendix","listing-pubclosed"],
+      searchColumns: ["listing-title","listing-type","listing-pubopen","listing-ssrn","listing-pdf","listing-replication","listing-github","listing-blog","listing-date","listing-year","listing-journal","listing-with","listing-abstract","listing-note","listing-pubclosed","listing-appendix"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -186,9 +186,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-with','listing-journal','listing-pdf','listing-ssrn',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-abstract','listing-date','listing-with','listing-journal','listing-pdf','listing-ssrn',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-with","listing-journal","listing-pdf","listing-ssrn"],
+      searchColumns: ["listing-title","listing-type","listing-abstract","listing-date","listing-with","listing-journal","listing-pdf","listing-ssrn"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -606,6 +606,21 @@ window.Quarto = {
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
   }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
   .ai-xl {
     font-size: 2.2em;
     line-height: 1;
@@ -651,6 +666,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/callais-pavlik-bastos-2026-cccp.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -675,6 +695,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">Many countries have attempted to fight corruption by writing an anti-corruption commission directly into their constitution, yet there is little systematic evidence on whether this is effective. We study eighteen cases in which a country adopted, or substantially redesigned, a constitutionally backed counter-corruption commission, either through amendment of an existing constitution or as part of a new one. Using the Synthetic Control Method within an event-time framework, we compare each adopting country to a weighted combination of countries that similarly underwent constitutional change without adopting such a commission. We find little evidence that constitutional counter-corruption commissions systematically reduce corruption. Most estimated effects on V-Dem’s Political Corruption Index are statistically insignificant, and the few significant effects are modest, sensitive to the choice of donor pool, and point in opposing directions. Effects on investment per capita are similarly mixed. These conclusions hold across alternative donor pools, predictor sets, donor selection based on constitutional characteristics, and a pooled average treatment effect. Constitutional entrenchment alone does not appear to make anti-corruption commissions more effective.</div>
+      
     
       
     
@@ -722,6 +745,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/regalado-bastos-powell-ideology-economic-freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -750,6 +778,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">We revisit the proposition that right-wing governments tend to promote free markets while left-wing governments constrain them, providing the first causal estimates of the effect of government leaders’ ideology on economic freedom. Using a doubly-robust stacked difference-in-differences approach that accounts for staggered treatment timing, we identify clean ideological transitions following a stable pre-treatment period in a sample of 153 countries between 2000 and 2023 using Economic Freedom of the World (EFW) as the main outcome, and for a sample of 21 OECD countries extending as far back as 1870 using the Historical Index of Economic Liberty (HIEL). For the Global-EFW sample, we find no significant effects following transitions to either a left or a right-wing government. For the OECD sample, we find no evidence that a transition to a right-wing government affects economic freedom. Our two most robust findings are a negative, but small, effect on economic freedom following a transition to a left government among OECD countries, driven by a larger size of government, and a small, positive, and significant impact on economic freedom following a transition to the right among non-OECD countries.</div>
+      
     
       
     
@@ -792,6 +823,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/dal-molin-pavlik-bastos-2026-LLE.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -820,6 +856,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">This paper examines how local regulatory reform shapes firm dynamics in a large developing economy. We study Brazil’s Lei da Liberdade Econômica (LLE, Economic Freedom Law), a 2019 federal reform that authorized municipalities to exempt “low-risk” businesses from licensing requirements. We leverage the staggered adoption by municipalities as a unique setting to evaluate how changes in the regulatory environment influence local economic activity. Using an entropy-balanced stacked difference-in-differences framework, we find that LLE adoption increased firm openings and economic activity. The evidence is consistent with the creation of new economic activity rather than pure reallocation or formalization, though both are contributing factors. We further exploit administrative records covering the universe of applications to open a firm (approximately 4.8 million records), finding that reduced time costs is a key mechanism behind the main results.</div>
+      
     
       
     
@@ -847,6 +886,21 @@ window.Quarto = {
   }
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
+  }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
   .ai-xl {
     font-size: 2.2em;
@@ -898,6 +952,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-geloso-pavlik-forsaken-road.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -942,6 +1001,9 @@ window.Quarto = {
           </a>
         
       </div>
+      
+      <div class="abstract-text" hidden="">We investigate the causal effects of the 1959 Cuban Revolution on income using a synthetic control approach. We employ a novel dataset with revised GDP estimates that do not rely on the regime’s self-reported statistics. We also analyze GDP estimates net of aid coming from the Soviet Union. Our identification strategy allows us to separate the direct effects of the revolution from the diplomatic events that ensued. By overcoming concerns that Cuban GDP statistics are inflated either by the regime’s direct manipulation or by Soviet aid, we identify a large decline in Cuban GDP per capita relative to its counterfactual. The decline is larger when accounting for Soviet aid. The embargo only accounts for a minor share of Cuba’s under-performance relative to the counterfactual. Our results hold after being subjected to multiple robustness checks and lead to the conclusion that the transition to socialism was the main driver of the inferior economic path Cuba has followed since 1959.</div>
+      
     
       
     
@@ -994,9 +1056,21 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
+          </a>
+        
+        
+        
+        
+          <a role="button" href="https://journals.sagepub.com/doi/abs/10.1177/10911421261456494" type="button" class="btn btn-outline-secondary btn-xs">
+            <i class="ai ai-closed-access ai-lg"></i> Article
           </a>
         
         
@@ -1014,10 +1088,10 @@ window.Quarto = {
         
         
         
-        
-        
-        
       </div>
+      
+      <div class="abstract-text" hidden="">It is well known that corruption is harmful to the economy, reducing investment and entrepreneurial activity. Corruption’s effect on the allocation of economic activity, however, is comparatively understudied. We examine the relationship between corruption and sector allocation in Brazilian municipalities. More specifically, we test whether the allocations of employees and establishments across sectors are influenced by the amount of corruption in the area. We also test whether sectors are more concentrated in general using an employment share weighted HHI measure. We find that there are larger shares of employment and establishments in the relatively non-corrupt agricultural sector in highly corrupt areas and, likewise, lower shares of employment/establishments in sectors that are relatively corruption-prone (e.g., construction). This result implies that individuals are trying to avoid the problem of corruption by participating in sectors that are less vulnerable. We also find that public administration employment and establishment shares are higher in more corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impact of corruption is shown through concentration, where concentration is higher (implying less competition) in more corrupt municipalities across every sector.</div>
+      
     
       
     
@@ -1065,6 +1139,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-cachanosky-callais-2026-rights-of-nature.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1097,6 +1176,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">Left-leaning populist regimes, such as Rafael Correa’s government in Ecuador (2007–2016), often claim to protect the environment from the negative effects of free-market regimes. This study examines the environmental impact in Ecuador following the 2008 Constitution, which was the first in the world to include rights of nature. We find no statistical evidence that Correa’s constitutional change had any measurable effect on Ecuador’s macro-level environmental outcomes, as captured by forest cover, greenhouse gas emissions, renewable energy output, and carbon intensity of GDP.</div>
+      
     
       
     
@@ -1144,6 +1226,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-pavlik-2025-corruption-female-leadership.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1176,6 +1263,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">We investigate the impact of corruption on female leadership in Brazil using cross-sectional municipal-level data. Our findings suggest that corruption significantly reduces the proportion of working women in leadership roles. Additionally, corruption decreases female representation in leadership relative to men, though this effect is less robust. When examining sectors most vulnerable to corruption, the results remain largely consistent, but we also note that women tend to avoid these sectors entirely. Our findings suggest that corruption acts as a significant barrier to female leadership.</div>
+      
     
       
     
@@ -1218,6 +1308,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-2025-colonial-rule-economic-freedom.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1258,6 +1353,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">This paper studies the legacy of European colonial rule for economic freedom in former colonies. I find that current levels of economic freedom in former colonies are directly related to the level of economic freedom of their colonizers. This association can be seen as early as the time of independence. I also find that additional European settlement from colonizers with high (low) economic freedom contributes to (detracts from) the overall economic freedom of their colonies. These results are robust to selection on unobservables and to controls for geography, climate, natural resource endowments, colonizer identity, settlement patterns, and precolonial characteristics. The difference in modern-day economic freedom associated with being colonized by the freest colonizer instead of the least free implies a predicted increase in modern-day per capita income of up to US$10,000.</div>
+      
     
       
     
@@ -1305,6 +1403,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-miozzi-2025-politics-lockdown-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1337,6 +1440,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">We introduce a novel state-level measure of lockdown regulatory freedom to study the severity of lockdowns for Brazilian states and its determinants. Our main results show that lockdown policies were not consistently determined by any health-related variable, such as the number of doctors, hospital beds, the share of the population with private health insurance, or the share of the population 65 years of age and older or Covid-19 cases and deaths. Indeed, the only variable consistently related to lockdown policies in all specifications and robustness checks was the state’s share of votes for the right-wing candidate. A one standard deviation increase in the share of votes for the right-wing candidate is associated with a 0.6-0.87 standard deviation increase in lockdown stringency. Our results highlight the importance of political economy considerations in explaining the incentives of policymakers when designing health policies.</div>
+      
     
       
     
@@ -1384,6 +1490,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-cachanosky-faintich-2025-populism-regime-length.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1416,6 +1527,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">Left-leaning populist regimes in 21st-century Latin America have become notoriously long, including some that maintained their power by repealing term limits. Along with changes in external factors, we argue that repealing term limits allowed populist leaders to develop longer time horizons and behave more like stationary than roving bandits. We show that, relative to those constrained by time limits, unconstrained populist leaders mitigate the economic effects of the populist cycle of boom, stagnation, and bust. Populists constrained by term limits act like roving bandits, engaging in more extractive rent-seeking that leads to more significant economic fluctuations.</div>
+      
     
       
     
@@ -1463,6 +1577,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/cachanosky-et-al-2025-populism-institutions-latam.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1499,6 +1618,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">We study the institutional impact 21st-century left-leaning populist regimes have in Latin America. Looking at the iconic left-leaning populist regimes in Argentina, Bolivia, Ecuador, Nicaragua, and Venezuela, we find that these types of populist regimes impose a significant deterioration on the liberal-democracy institutional quality of their countries. The institutional cost is both significant and long-lasting, and our synthetic counterfactual suggests that liberal democratic institutions would have improved if not for these populist regimes.</div>
+      
     
       
     
@@ -1546,6 +1668,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-pavlik-2025-corruption-harmful-women.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1578,6 +1705,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">The idea that there are gendered differences in corruption in the political arena is common. Two explanations for these differences include risk aversion and network effects. However, business leaders include a self-selected group of individuals that are comparatively risk tolerant and well-connected. Using firm-level data for 144 countries from 2006 to 2019, we test whether female-run businesses engage in corruption differently than men. In the aggregate, we find a potentially puzzling result: female-managed firms are engaged in less corruption and report it being less of an obstacle compared to their male-counterparts; female-owned firms are just the opposite. Once we disaggregate the data into region specific estimates, a clearer pattern emerges. Corruption is more harmful for female-run firms in the areas of the world that have more gender inequality overall.</div>
+      
     
       
     
@@ -1625,6 +1755,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-pavlik-2024-female-ownership-regulation.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1657,6 +1792,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">The presence of gender disparity in de jure rules across the world is relatively well-known. Many studies show that this disparity is detrimental to female labor participation. Our focus is different in that we examine whether female-owned firms experience elevated time costs and burdens associated with government regulations relative to their male-owned counterparts. In this sense, we are interested in both de facto and de jure differences in governmental regulation. Using firm-level data and two alternative matching methods, our results suggest that firms with at least one female owner report that senior management spends a larger percentage of their time dealing with regulations. We also find that construction permits take approximately 4-7 days longer to obtain for these same firms. Lastly, we find that female-owned firms perceive labor regulations to be a larger obstacle to business operations. In all cases, these effects tend to be largest in countries with the most disparity in de jure rules. However, the gap remains even in the most de jure equal countries.</div>
+      
     
       
     
@@ -1700,6 +1838,7 @@ window.Quarto = {
       <div class="buttons">
         
         
+        
           <a role="button" href="../files/research/bastos-2019-economics-tyranny.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
           </a>
@@ -1727,6 +1866,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -1770,6 +1910,7 @@ window.Quarto = {
       <div class="buttons">
         
         
+        
           <a role="button" href="../files/research/bastos-2016-competicao-monopolio.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
           </a>
@@ -1797,6 +1938,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -1831,6 +1973,21 @@ window.Quarto = {
   }
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
+  }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
   .ai-xl {
     font-size: 2.2em;
@@ -1877,6 +2034,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/Job Market Paper - JP Bastos.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1901,6 +2063,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">Conventional wisdom suggests that the returns from politics are substantial, but empirical evidence tends to center on highly influential politicians in developed countries. I study whether low-level politicians obtain private returns from political office in the context of a developing country, using data on disclosures of wealth for Brazilian mayors and a regression discontinuity design around close election races. While I find only modest evidence of private returns from political office for the average mayor, I find substantial returns for mayors (relative to runner-ups) in municipalities with low institutional quality (7.5 to 10.5 p.p. a year) and without the presence of a local radio news station (6 to 8 p.p. a year). In contrast, municipalities with local oversight councils and high financial and managerial capacity, as well as those with local media presence, are effective in curbing political enrichment, leading to normal, or even negative, returns relative to runner-ups.</div>
+      
     
       
     
@@ -1938,6 +2103,11 @@ window.Quarto = {
       <br>
       <div class="buttons">
         
+          <button type="button" class="btn btn-secondary btn-xs abstract-toggle" aria-expanded="false" onclick="var a=this.closest('.buttons').nextElementSibling; var open=a.hasAttribute('hidden'); a.toggleAttribute('hidden'); this.setAttribute('aria-expanded', open);">
+            <i class="bi bi-text-paragraph ai-lg"></i> Abstract <i class="bi bi-chevron-down"></i>
+          </button>
+        
+        
         
           <a role="button" href="../files/research/bastos-2025-corruption-private-gains-brazil.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
@@ -1962,6 +2132,9 @@ window.Quarto = {
         
         
       </div>
+      
+      <div class="abstract-text" hidden="">This paper studies how an exogenous reduction in corruption promoted by a randomized audit program of Brazilian municipalities affects the gains from political office. Among mayors running for reelection, I compare those that have been audited during their first term to those that did not. I find evidence that audited mayors’ reported wealth tended to be higher than that of non-audited mayors following the audit. Did a corruption crackdown make them richer? Most likely yes, but for two reasons that may be seen as perhaps unintended consequences of the audit. Municipal GDP grows faster in audited municipalities, explaining as much as 94% of the change in mayors’ wealth; moreover, I find suggestive evidence that mayors are induced to disclose previously-omitted assets, increasing transparency in the electoral process.</div>
+      
     
       
     
@@ -2165,6 +2338,21 @@ window.Quarto = {
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
   }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
   .ai-xl {
     font-size: 2.2em;
     line-height: 1;
@@ -2259,6 +2447,7 @@ window.Quarto = {
       <div class="buttons">
         
         
+        
           <a role="button" href="../files/research/moraes-bastos-2018-conhecimento-coordenacao-social.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
           </a>
@@ -2282,6 +2471,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2384,6 +2574,21 @@ window.Quarto = {
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
   }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
   .ai-xl {
     font-size: 2.2em;
     line-height: 1;
@@ -2432,6 +2637,7 @@ window.Quarto = {
         
         
         
+        
           <a role="button" href="https://www.econlib.org/library/columns/y2025/bastoschileproject" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-open-access ai-lg"></i> Article
           </a>
@@ -2453,6 +2659,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2498,6 +2705,7 @@ window.Quarto = {
         
         
         
+        
           <a role="button" href="https://www.independent.org/tir/2022-summer/the-puzzle-of-prison-order/" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-open-access ai-lg"></i> Article
           </a>
@@ -2519,6 +2727,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2546,6 +2755,21 @@ window.Quarto = {
   }
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
+  }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
   .ai-xl {
     font-size: 2.2em;
@@ -2595,6 +2819,7 @@ window.Quarto = {
         
         
         
+        
           <a role="button" href="https://reason.org/commentary/how-brazils-x-ban-signals-growing-control-over-online-free-speech/" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="ai ai-open-access ai-lg"></i> Article
           </a>
@@ -2616,6 +2841,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2663,6 +2889,7 @@ window.Quarto = {
       </a><div class="buttons"><a>
         
         
+        
           </a><a role="button" href="https://institutomillenium.org.br/wp-content/uploads/2025/02/02LO_NOTA_TECNICA.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
           </a>
@@ -2690,6 +2917,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2737,6 +2965,7 @@ window.Quarto = {
       </a><div class="buttons"><a>
         
         
+        
           </a><a role="button" href="https://nyc3.digitaloceanspaces.com/institutoliberal/2024/05/Revista-Notas-132-F.pdf" type="button" class="btn btn-outline-secondary btn-xs">
             <i class="fa-solid fa-file-pdf ai-lg"></i> PDF
           </a>
@@ -2764,6 +2993,7 @@ window.Quarto = {
         
         
       </div>
+      
     
       
     
@@ -2798,6 +3028,21 @@ window.Quarto = {
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
   }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
   .ai-xl {
     font-size: 2.2em;
     line-height: 1;
@@ -2824,6 +3069,21 @@ window.Quarto = {
   }
   .ai-lg {
     font-size: 1.2em;  /* Adjust as needed */
+  }
+  .abstract-toggle .bi-chevron-down {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .abstract-toggle[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+  }
+  .abstract-text {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--bs-primary, #4E2A84);
+    background: rgba(127, 127, 127, 0.07);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
   .ai-xl {
     font-size: 2.2em;

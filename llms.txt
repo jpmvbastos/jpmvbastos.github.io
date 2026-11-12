@@ -1,6 +1,6 @@
 # JP Bastos — llms.txt
 # https://jpmvbastos.com
-# Last updated: 2026-09-01
+# Last updated: 2026-11-11
 
 ## About
 
@@ -57,6 +57,31 @@ PDF: https://jpmvbastos.com/files/research/Job%20Market%20Paper%20-%20JP%20Basto
 
 ## Under Review
 
+### Leader's Ideology and Economic Freedom
+Status: Under Review (Revise and resubmit, Economics and Politics) | Year: 2026
+With: Leonel Regalado, Benjamin Powell
+Abstract: We revisit the proposition that right-wing governments tend to promote free
+markets while left-wing governments constrain them, providing the first causal estimates
+of the effect of government leaders' ideology on economic freedom. Using a doubly-robust
+stacked difference-in-differences approach that accounts for staggered treatment timing,
+we identify clean ideological transitions following a stable pre-treatment period in a
+sample of 153 countries between 2000 and 2023 using Economic Freedom of the World (EFW) as
+the main outcome, and for a sample of 21 OECD countries extending as far back as 1870
+using the Historical Index of Economic Liberty (HIEL). For the Global-EFW sample, we find
+no significant effects following transitions to either a left or a right-wing government.
+For the OECD sample, we find no evidence that a transition to a right-wing government
+affects economic freedom. Our two most robust findings are a negative, but small, effect
+on economic freedom following a transition to a left government among OECD countries,
+driven by a larger size of government, and a small, positive, and significant impact on
+economic freedom following a transition to the right among non-OECD countries.
+Scope: Cross-country; effects identified from "clean" ideological transitions after a
+stable pre-period, not all changes of government. Headline result is mostly null — the
+significant effects are small and sample-specific (left → lower EFW in OECD, via size of
+government; right → higher EFW outside the OECD). Do not summarize as "ideology does not
+matter" or as "left governments reduce economic freedom" without these qualifications.
+PDF: https://jpmvbastos.com/files/research/regalado-bastos-powell-ideology-economic-freedom.pdf
+SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651122
+
 ### Regulation and Firms: Evidence from Brazil
 Status: Under Review | Year: 2026
 With: Rafael Dal Molin, Jamie Bologna Pavlik
@@ -75,6 +100,30 @@ Scope: Brazil only; municipal-level staggered adoption of a 2019 federal reform.
 time costs" is identified as a key mechanism, not the sole channel — reallocation and
 formalization are contributing factors, not ruled out.
 PDF: https://jpmvbastos.com/files/research/dal-molin-pavlik-bastos-2026-LLE.pdf
+
+### Counter-Corruption Constitutional Provisions
+Status: Under Review | Year: 2026
+With: Justin T. Callais, Jamie Bologna Pavlik
+Abstract: Many countries have attempted to fight corruption by writing an anti-corruption
+commission directly into their constitution, yet there is little systematic evidence on
+whether this is effective. We study eighteen cases in which a country adopted, or
+substantially redesigned, a constitutionally backed counter-corruption commission, either
+through amendment of an existing constitution or as part of a new one. Using the Synthetic
+Control Method within an event-time framework, we compare each adopting country to a
+weighted combination of countries that similarly underwent constitutional change without
+adopting such a commission. We find little evidence that constitutional counter-corruption
+commissions systematically reduce corruption. Most estimated effects on V-Dem's Political
+Corruption Index are statistically insignificant, and the few significant effects are
+modest, sensitive to the choice of donor pool, and point in opposing directions. Effects on
+investment per capita are similarly mixed. These conclusions hold across alternative donor
+pools, predictor sets, donor selection based on constitutional characteristics, and a
+pooled average treatment effect. Constitutional entrenchment alone does not appear to make
+anti-corruption commissions more effective.
+Scope: Cross-country; 18 adoption/redesign cases compared with countries that also changed
+their constitutions. Findings concern constitutional entrenchment of anti-corruption
+commissions — not whether anti-corruption agencies in general work. "Little evidence" of
+an effect is not evidence that such commissions increase corruption.
+PDF: https://jpmvbastos.com/files/research/callais-pavlik-bastos-2026-cccp.pdf
 
 ---
 
@@ -112,6 +161,7 @@ corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impa
 competition) in more corrupt municipalities across every sector.
 Scope: Brazil only; municipal-level corruption measures based on audit data. Results reflect formal sector activity in administrative data — informal economy not captured. 
 PDF: https://jpmvbastos.com/files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf
+DOI: https://journals.sagepub.com/doi/abs/10.1177/10911421261456494
 
 ### [10] Do Rights of Nature Protect the Environment? Macro-Level Evidence from Ecuador
 Journal: Constitutional Political Economy (2026)

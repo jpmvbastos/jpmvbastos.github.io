@@ -15,18 +15,22 @@
   year: "2026"
   journal: "<em>Journal of Development Economics</em>"
   with: "with <a href='https://vincentgeloso.com'>Vincent Geloso</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
+  abstract: "We investigate the causal effects of the 1959 Cuban Revolution on income using a synthetic control approach. We employ a novel dataset with revised GDP estimates that do not rely on the regime’s self-reported statistics. We also analyze GDP estimates net of aid coming from the Soviet Union. Our identification strategy allows us to separate the direct effects of the revolution from the diplomatic events that ensued. By overcoming concerns that Cuban GDP statistics are inflated either by the regime’s direct manipulation or by Soviet aid, we identify a large decline in Cuban GDP per capita relative to its counterfactual. The decline is larger when accounting for Soviet aid. The embargo only accounts for a minor share of Cuba’s under-performance relative to the counterfactual. Our results hold after being subjected to multiple robustness checks and lead to the conclusion that the transition to socialism was the main driver of the inferior economic path Cuba has followed since 1959."
   note: "Featured in: <em><a href='https://exame.com/colunistas/instituto-millenium/o-que-a-revolucao-cubana-nos-ensina-sobre-a-prosperidade-economica/'>Exame</a>, <a href='https://www.youtube.com/watch?v=YkYJ0q9RsM8'>VisualEconomik</a></em>. \n Spanish version <a href='../files/research/bastos-geloso-pavlik-forsaken-road.pdf'>here.</a>"
 
 - title: "<b>[11] Corruption and the Allocation of Business Activity in Brazil</b>"
   type: "Published"
+  abstract: "It is well known that corruption is harmful to the economy, reducing investment and entrepreneurial activity. Corruption’s effect on the allocation of economic activity, however, is comparatively understudied. We examine the relationship between corruption and sector allocation in Brazilian municipalities. More specifically, we test whether the allocations of employees and establishments across sectors are influenced by the amount of corruption in the area. We also test whether sectors are more concentrated in general using an employment share weighted HHI measure. We find that there are larger shares of employment and establishments in the relatively non-corrupt agricultural sector in highly corrupt areas and, likewise, lower shares of employment/establishments in sectors that are relatively corruption-prone (e.g., construction). This result implies that individuals are trying to avoid the problem of corruption by participating in sectors that are less vulnerable. We also find that public administration employment and establishment shares are higher in more corrupt areas, suggesting bureaucratic bloat. Our strongest evidence of the impact of corruption is shown through concentration, where concentration is higher (implying less competition) in more corrupt municipalities across every sector."
   date: 2026-05-15
   journal: "<em>Public Finance Review</em>"
+  pubclosed: "https://journals.sagepub.com/doi/abs/10.1177/10911421261456494"
   pdf: "../files/research/bastos-callais-pavlik-2025-corruption-entrepreneur-brazil.pdf"
   with: "with <a href='https://www.justincallais.com'>Justin T. Callais</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   year: "2026"
   
 - title: "<b>[10] Do Rights of Nature Protect the Environment? Macro-Level Evidence from Ecuador</b>"
   type: "Published"
+  abstract: "Left-leaning populist regimes, such as Rafael Correa’s government in Ecuador (2007–2016), often claim to protect the environment from the negative effects of free-market regimes. This study examines the environmental impact in Ecuador following the 2008 Constitution, which was the first in the world to include rights of nature. We find no statistical evidence that Correa’s constitutional change had any measurable effect on Ecuador’s macro-level environmental outcomes, as captured by forest cover, greenhouse gas emissions, renewable energy output, and carbon intensity of GDP."
   pdf: "../files/research/bastos-cachanosky-callais-2026-rights-of-nature.pdf"
   pubopen: "https://link.springer.com/article/10.1007/s10602-026-09514-6"
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5531461"
@@ -37,6 +41,7 @@
 
 - title: "<b>[9] Does corruption deter female leadership in firms?</b>"
   type: "Published"
+  abstract: "We investigate the impact of corruption on female leadership in Brazil using cross-sectional municipal-level data. Our findings suggest that corruption significantly reduces the proportion of working women in leadership roles. Additionally, corruption decreases female representation in leadership relative to men, though this effect is less robust. When examining sectors most vulnerable to corruption, the results remain largely consistent, but we also note that women tend to avoid these sectors entirely. Our findings suggest that corruption acts as a significant barrier to female leadership."
   journal: "<em>Journal of Institutional Economics</em>"
   pdf: "../files/research/bastos-pavlik-2025-corruption-female-leadership.pdf"
   appendix: "../files/research/appendix-corruption-female-leadership.pdf"
@@ -47,6 +52,7 @@
 
 - title: "<b>[8] Colonial Rule and Economic Freedom</b>"
   type: "Published"
+  abstract: "This paper studies the legacy of European colonial rule for economic freedom in former colonies. I find that current levels of economic freedom in former colonies are directly related to the level of economic freedom of their colonizers. This association can be seen as early as the time of independence. I also find that additional European settlement from colonizers with high (low) economic freedom contributes to (detracts from) the overall economic freedom of their colonies. These results are robust to selection on unobservables and to controls for geography, climate, natural resource endowments, colonizer identity, settlement patterns, and precolonial characteristics. The difference in modern-day economic freedom associated with being colonized by the freest colonizer instead of the least free implies a predicted increase in modern-day per capita income of up to US$10,000."
   date: 2025-03-03
   year: 2025
   appendix: "../files/research/appendix-colonial-rule-economic-freedom.pdf"
@@ -58,6 +64,7 @@
 
 - title: "<b>[7] The politics of lockdown policies: Evidence from Brazilian states</b>"
   type: "Published"
+  abstract: "We introduce a novel state-level measure of lockdown regulatory freedom to study the severity of lockdowns for Brazilian states and its determinants. Our main results show that lockdown policies were not consistently determined by any health-related variable, such as the number of doctors, hospital beds, the share of the population with private health insurance, or the share of the population 65 years of age and older or Covid-19 cases and deaths. Indeed, the only variable consistently related to lockdown policies in all specifications and robustness checks was the state’s share of votes for the right-wing candidate. A one standard deviation increase in the share of votes for the right-wing candidate is associated with a 0.6-0.87 standard deviation increase in lockdown stringency. Our results highlight the importance of political economy considerations in explaining the incentives of policymakers when designing health policies."
   year: 2025
   date: 2025-03-01
   journal: "<em>Economic Affairs</em>"
@@ -68,6 +75,7 @@
 
 - title: "<b>[6] The Political Economy of Populism Regime Length</b>"
   type: "Published"
+  abstract: "Left-leaning populist regimes in 21st-century Latin America have become notoriously long, including some that maintained their power by repealing term limits. Along with changes in external factors, we argue that repealing term limits allowed populist leaders to develop longer time horizons and behave more like stationary than roving bandits. We show that, relative to those constrained by time limits, unconstrained populist leaders mitigate the economic effects of the populist cycle of boom, stagnation, and bust. Populists constrained by term limits act like roving bandits, engaging in more extractive rent-seeking that leads to more significant economic fluctuations."
   year: 2025
   journal: "<em>Constitutional Political Economy</em>"
   pubopen: "https://link.springer.com/article/10.1007/s10602-025-09465-4"
@@ -78,6 +86,7 @@
 
 - title: "<b>[5] The Institutional Impact of Left-Leaning Populism in Latin America</b>"
   type: "Published"
+  abstract: "We study the institutional impact 21st-century left-leaning populist regimes have in Latin America. Looking at the iconic left-leaning populist regimes in Argentina, Bolivia, Ecuador, Nicaragua, and Venezuela, we find that these types of populist regimes impose a significant deterioration on the liberal-democracy institutional quality of their countries. The institutional cost is both significant and long-lasting, and our synthetic counterfactual suggests that liberal democratic institutions would have improved if not for these populist regimes."
   date: 2025-01-01
   year: 2025
   with: "with <a href='https://www.ncachanosky.com'>Nicolás Cachanosky</a>, <a href='https://www.alexandrepadilla.com'>Alexandre Padilla</a>, and <a href='https://www.linkedin.com/in/karlahernandez321/'>Karla C. Hernández</a>"
@@ -90,6 +99,7 @@
 
 - title: "<b>[4] Gender and Corruption in Firms: The Importance of Regional Context</b>"
   type: "Published"
+  abstract: "The idea that there are gendered differences in corruption in the political arena is common. Two explanations for these differences include risk aversion and network effects. However, business leaders include a self-selected group of individuals that are comparatively risk tolerant and well-connected. Using firm-level data for 144 countries from 2006 to 2019, we test whether female-run businesses engage in corruption differently than men. In the aggregate, we find a potentially puzzling result: female-managed firms are engaged in less corruption and report it being less of an obstacle compared to their male-counterparts; female-owned firms are just the opposite. Once we disaggregate the data into region specific estimates, a clearer pattern emerges. Corruption is more harmful for female-run firms in the areas of the world that have more gender inequality overall."
   with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   date: 2024-10-05
   year: 2025
@@ -101,6 +111,7 @@
 
 - title: "<b>[3] Female Ownership of Firms and Regulation Experience</b>"
   type: "Published"
+  abstract: "The presence of gender disparity in de jure rules across the world is relatively well-known. Many studies show that this disparity is detrimental to female labor participation. Our focus is different in that we examine whether female-owned firms experience elevated time costs and burdens associated with government regulations relative to their male-owned counterparts. In this sense, we are interested in both de facto and de jure differences in governmental regulation. Using firm-level data and two alternative matching methods, our results suggest that firms with at least one female owner report that senior management spends a larger percentage of their time dealing with regulations. We also find that construction permits take approximately 4-7 days longer to obtain for these same firms. Lastly, we find that female-owned firms perceive labor regulations to be a larger obstacle to business operations. In all cases, these effects tend to be largest in countries with the most disparity in de jure rules. However, the gap remains even in the most de jure equal countries."
   with: "with <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   date: 2024-10-03
   year: 2024
@@ -131,6 +142,7 @@
 ######## UNDER REVIEW
 - title: "<b>Leader's Ideology and Economic Freedom</b>"
   type: "Under Review"
+  abstract: "We revisit the proposition that right-wing governments tend to promote free markets while left-wing governments constrain them, providing the first causal estimates of the effect of government leaders’ ideology on economic freedom. Using a doubly-robust stacked difference-in-differences approach that accounts for staggered treatment timing, we identify clean ideological transitions following a stable pre-treatment period in a sample of 153 countries between 2000 and 2023 using Economic Freedom of the World (EFW) as the main outcome, and for a sample of 21 OECD countries extending as far back as 1870 using the Historical Index of Economic Liberty (HIEL). For the Global-EFW sample, we find no significant effects following transitions to either a left or a right-wing government. For the OECD sample, we find no evidence that a transition to a right-wing government affects economic freedom. Our two most robust findings are a negative, but small, effect on economic freedom following a transition to a left government among OECD countries, driven by a larger size of government, and a small, positive, and significant impact on economic freedom following a transition to the right among non-OECD countries."
   date: 2026-09-01
   with: "with <a href='https://leoregalado.com'>Leonel Regalado</a> and <a href='https://www.benjaminwpowell.com'>Benjamin Powell</a>"
   journal: "Revise and resubmit, <em>Economics and Politics</em>."
@@ -139,6 +151,7 @@
 
 - title: "<b>Regulation and Firms: Evidence from Brazil</b>"
   type: "Under Review"
+  abstract: "This paper examines how local regulatory reform shapes firm dynamics in a large developing economy. We study Brazil’s Lei da Liberdade Econômica (LLE, Economic Freedom Law), a 2019 federal reform that authorized municipalities to exempt “low-risk” businesses from licensing requirements. We leverage the staggered adoption by municipalities as a unique setting to evaluate how changes in the regulatory environment influence local economic activity. Using an entropy-balanced stacked difference-in-differences framework, we find that LLE adoption increased firm openings and economic activity. The evidence is consistent with the creation of new economic activity rather than pure reallocation or formalization, though both are contributing factors. We further exploit administrative records covering the universe of applications to open a firm (approximately 4.8 million records), finding that reduced time costs is a key mechanism behind the main results."
   date: 2026-06-12
   with: "with <a href='https://www.linkedin.com/in/rafaeldalmolin/'>Rafael Dal Molin</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>."
   pdf: "../files/research/dal-molin-pavlik-bastos-2026-LLE.pdf"
@@ -146,6 +159,7 @@
 
 - title: "<b>Counter-Corruption Constitutional Provisions</b>"
   type: "Under Review"
+  abstract: "Many countries have attempted to fight corruption by writing an anti-corruption commission directly into their constitution, yet there is little systematic evidence on whether this is effective. We study eighteen cases in which a country adopted, or substantially redesigned, a constitutionally backed counter-corruption commission, either through amendment of an existing constitution or as part of a new one. Using the Synthetic Control Method within an event-time framework, we compare each adopting country to a weighted combination of countries that similarly underwent constitutional change without adopting such a commission. We find little evidence that constitutional counter-corruption commissions systematically reduce corruption. Most estimated effects on V-Dem’s Political Corruption Index are statistically insignificant, and the few significant effects are modest, sensitive to the choice of donor pool, and point in opposing directions. Effects on investment per capita are similarly mixed. These conclusions hold across alternative donor pools, predictor sets, donor selection based on constitutional characteristics, and a pooled average treatment effect. Constitutional entrenchment alone does not appear to make anti-corruption commissions more effective."
   date: 2026-11-11
   with: "with <a href='https://www.justincallais.com'>Justin T. Callais</a> and <a href='https://sites.google.com/site/jlbologna/'>Jamie Bologna Pavlik</a>"
   pdf: "../files/research/callais-pavlik-bastos-2026-cccp.pdf"
@@ -153,12 +167,14 @@
 ######## WORKING PAPERS
 - title: "<b>The Private Gains from Political Office: Evidence from Close Mayoral Elections in Brazil</b> | Job Market Paper"
   type: "Working"
+  abstract: "Conventional wisdom suggests that the returns from politics are substantial, but empirical evidence tends to center on highly influential politicians in developed countries. I study whether low-level politicians obtain private returns from political office in the context of a developing country, using data on disclosures of wealth for Brazilian mayors and a regression discontinuity design around close election races. While I find only modest evidence of private returns from political office for the average mayor, I find substantial returns for mayors (relative to runner-ups) in municipalities with low institutional quality (7.5 to 10.5 p.p. a year) and without the presence of a local radio news station (6 to 8 p.p. a year). In contrast, municipalities with local oversight councils and high financial and managerial capacity, as well as those with local media presence, are effective in curbing political enrichment, leading to normal, or even negative, returns relative to runner-ups."
   date: 2026-01-01
   pdf: "../files/research/Job Market Paper - JP Bastos.pdf"
   with: "Recipient of <a href='https://www.publicchoicesociety.org/the-elinor-vincent-ostrom-prize/'>Public Choice Society's Elinor & Vincent Ostrom Prize</a> for Best Paper by a Graduate Student (2026)"
 
 - title: "<b>Does Fighting Corruption Reduce the Private Gains from Political Office? Evidence from Brazilian Mayoral Elections</b>"
   type: "Working"
+  abstract: "This paper studies how an exogenous reduction in corruption promoted by a randomized audit program of Brazilian municipalities affects the gains from political office. Among mayors running for reelection, I compare those that have been audited during their first term to those that did not. I find evidence that audited mayors’ reported wealth tended to be higher than that of non-audited mayors following the audit. Did a corruption crackdown make them richer? Most likely yes, but for two reasons that may be seen as perhaps unintended consequences of the audit. Municipal GDP grows faster in audited municipalities, explaining as much as 94% of the change in mayors’ wealth; moreover, I find suggestive evidence that mayors are induced to disclose previously-omitted assets, increasing transparency in the electoral process."
   date: 2024-11-01
   pdf: "../files/research/bastos-2025-corruption-private-gains-brazil.pdf"
 
